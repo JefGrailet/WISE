@@ -35,7 +35,7 @@ Here is the typical command you could use to generate figures for the ASes liste
 _Example\_ASes_ for the dates given in _Example\_dates_:
 
 ```sh
-./TrailFigures.sh Example\_ASes Example\_dates
+./TrailFigures.sh Example_ASes Example_dates
 ```
 
 ## Contact

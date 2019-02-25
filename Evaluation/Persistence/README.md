@@ -36,7 +36,7 @@ Here is the typical command you could use to generate figures for the ASes liste
 _Example\_ASes_ for the dates given in _Example\_dates_:
 
 ```sh
-./PersistenceFigures.sh Example\_ASes Example\_dates
+./PersistenceFigures.sh Example_ASes Example_dates
 ```
 
 Note that the reference dataset is, by default, the first dataset chronologically. In some 

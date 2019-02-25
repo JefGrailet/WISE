@@ -41,7 +41,7 @@ by `ExploreNET` will be in *My_data.xnet*. To run `SAGE` in background while out
 largest parts of the console output into external logs, one can use this command instead:
 
 ```sh
-sudo ./sage Targets.txt -l My\_data -j -k > My\_data.txt 2>&1 &
+sudo ./sage Targets.txt -l My_data -j -k > My_data.txt 2>&1 &
 ```
 
 You can get `SAGE` (source code, measurements, etc.) at the following URL:
