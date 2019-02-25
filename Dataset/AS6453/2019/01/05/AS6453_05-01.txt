@@ -1,0 +1,66 @@
+WISE (Wide and lInear Subnet inferencE) - Time at start: 05-01-2019 04:29:31
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 75213 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 133 additional responsive IPs.
+--- End of target pre-scanning (05-01-2019 09:39:08) ---
+Elapsed time: 5 hours 9 minutes 34 seconds
+Total amount of probes: 1238067
+Total amount of successful probes: 117770 (9.51241%)
+Total amount of discovered responsive IPs: 75346
+
+Filtered target IPs have been saved in an output file AS6453_05-01.ips (temporar).
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 257 threads will be scheduled (up to 294 target IPs per thread).
+14653 out of 74988 IPs with an estimated TTL (19.5405%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 152 threads will be scheduled (from 1 to 475 target IPs per thread).
+Updated IP dictionary has been saved in the output file AS6453_05-01.ips.
+
+There are flickering IPs that could lead to the discovery of 32 aliases.
+Now starting alias hints collection...
+Collecting hints for 41.206.174.1, 41.206.174.5... Done.
+Collecting hints for 63.243.128.26, 209.58.75.217... Done.
+Collecting hints for 63.243.205.12, 63.243.205.72, 63.243.205.74, 63.243.205.130... Done.
+Collecting hints for 64.86.76.131, 117.103.88.137... Done.
+Collecting hints for 64.86.140.4, 64.254.1.69, 66.110.6.4... Done.
+Collecting hints for 66.110.118.90, 66.110.118.246... Done.
+Collecting hints for 66.119.73.114, 208.91.192.242... Done.
+Collecting hints for 80.231.17.1, 80.231.17.9... Done.
+Collecting hints for 80.231.48.30, 80.231.130.2, 80.231.130.114, 80.231.130.130, 80.231.131.2, 80.231.139.41, 195.219.9.48, 195.219.10.37, 195.219.81.38, 195.219.81.42, 195.219.81.117... Done.
+Collecting hints for 80.231.130.47, 195.219.100.134... Done.
+Collecting hints for 80.231.153.49, 195.219.194.145... Done.
+Collecting hints for 80.231.154.38, 80.231.154.46... Done.
+Collecting hints for 80.231.154.143, 80.231.200.14... Done.
+Collecting hints for 80.231.199.2, 80.231.199.6... Done.
+Collecting hints for 80.231.217.2, 197.242.40.6... Done.
+Collecting hints for 83.88.19.129, 83.88.19.131... Done.
+Collecting hints for 116.0.67.87, 180.87.163.106... Done.
+Collecting hints for 116.0.71.193, 180.87.136.117... Done.
+Collecting hints for 116.0.82.62, 116.0.93.137, 116.0.93.145, 116.0.93.147, 116.0.93.149... Done.
+Collecting hints for 116.0.82.63, 116.0.93.155... Done.
+Collecting hints for 116.0.93.142, 116.0.93.146, 116.0.93.169, 180.87.12.1, 180.87.15.80, 180.87.36.5, 180.87.37.64, 180.87.38.1, 180.87.73.21, 180.87.96.21, 180.87.98.37... Done.
+Collecting hints for 120.29.195.97, 120.29.219.81, 180.87.181.133... Done.
+Collecting hints for 129.250.3.145, 129.250.3.159... Done.
+Collecting hints for 180.87.12.2, 180.87.12.78... Done.
+Collecting hints for 180.87.155.5, 180.87.181.72... Done.
+Collecting hints for 180.87.197.61, 180.87.197.65, 180.87.217.6... Done.
+Collecting hints for 180.87.217.149, 180.87.217.150... Done.
+Collecting hints for 185.18.196.2, 185.18.196.4, 185.18.196.50, 185.18.196.83, 185.18.196.118, 185.18.196.193, 185.18.196.222, 185.18.196.226, 185.45.72.22... Done.
+Collecting hints for 195.219.87.2, 195.219.156.132, 195.219.156.135... Done.
+Collecting hints for 195.219.87.18, 195.219.87.195... Done.
+Collecting hints for 209.58.75.6, 209.58.75.10... Done.
+Collecting hints for 216.6.87.201, 216.6.87.223... Done.
+Resolving... Done.
+Inferred subnets has been saved in the output file AS6453_05-01.subnets.
+--- End of target scanning (05-01-2019 15:08:22) ---
+Elapsed time: 5 hours 29 minutes 14 seconds
+Total amount of probes: 408230
+Total amount of successful probes: 295654 (72.4234%)
+Alias hints have been saved in an output file AS6453_05-01.hints.
+Fingerprints have been saved in an output file AS6453_05-01.fingerprints.
+Aliases discovered during subnet discovery have been written in AS6453_05-01.aliases-1.

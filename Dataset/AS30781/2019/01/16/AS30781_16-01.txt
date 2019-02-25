@@ -1,0 +1,41 @@
+WISE (Wide and lInear Subnet inferencE) - Time at start: 16-01-2019 13:55:34
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 9043 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 15 additional responsive IPs.
+--- End of target pre-scanning (16-01-2019 14:17:13) ---
+Elapsed time: 21 minutes 39 seconds
+Total amount of probes: 81581
+Total amount of successful probes: 13335 (16.3457%)
+Total amount of discovered responsive IPs: 9058
+
+Filtered target IPs have been saved in an output file AS30781_16-01.ips (temporar).
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 259 threads will be scheduled (up to 35 target IPs per thread).
+1491 out of 9052 IPs with an estimated TTL (16.4715%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 22 threads will be scheduled (from 5 to 502 target IPs per thread).
+Updated IP dictionary has been saved in the output file AS30781_16-01.ips.
+
+There are flickering IPs that could lead to the discovery of 7 aliases.
+Now starting alias hints collection...
+Collecting hints for 31.172.233.90, 77.246.83.238... Done.
+Collecting hints for 78.41.186.85, 78.41.187.53... Done.
+Collecting hints for 78.153.224.31, 78.153.231.39... Done.
+Collecting hints for 78.153.231.1, 85.31.194.117, 85.31.194.211... Done.
+Collecting hints for 78.153.247.1, 78.153.247.131... Done.
+Collecting hints for 83.167.34.181, 83.167.52.235... Done.
+Collecting hints for 85.31.194.27, 85.31.194.47, 85.31.194.51... Done.
+Resolving... Done.
+Inferred subnets has been saved in the output file AS30781_16-01.subnets.
+--- End of target scanning (16-01-2019 17:37:12) ---
+Elapsed time: 3 hours 19 minutes 59 seconds
+Total amount of probes: 53114
+Total amount of successful probes: 40630 (76.4958%)
+Alias hints have been saved in an output file AS30781_16-01.hints.
+Fingerprints have been saved in an output file AS30781_16-01.fingerprints.
+Aliases discovered during subnet discovery have been written in AS30781_16-01.aliases-1.

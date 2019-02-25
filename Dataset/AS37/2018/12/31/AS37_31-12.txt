@@ -1,0 +1,27 @@
+WISE (Wide and lInear Subnet inferencE) - Time at start: 31-12-2018 09:14:50
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 1703 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 8582 additional responsive IPs.
+--- End of target pre-scanning (31-12-2018 10:26:56) ---
+Elapsed time: 1 hour 12 minutes 6 seconds
+Total amount of probes: 279385
+Total amount of successful probes: 13856 (4.95946%)
+Total amount of discovered responsive IPs: 10285
+
+Filtered target IPs have been saved in an output file AS37_31-12.ips (temporar).
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 258 threads will be scheduled (up to 40 target IPs per thread).
+2598 out of 5150 IPs with an estimated TTL (50.4466%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 60 threads will be scheduled (from 2 to 102 target IPs per thread).
+Updated IP dictionary has been saved in the output file AS37_31-12.ips.
+Inferred subnets has been saved in the output file AS37_31-12.subnets.
+--- End of target scanning (31-12-2018 11:25:57) ---
+Elapsed time: 59 minutes 1 second
+Total amount of probes: 130682
+Total amount of successful probes: 43406 (33.215%)

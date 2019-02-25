@@ -1,0 +1,41 @@
+WISE (Wide and lInear Subnet inferencE) - Time at start: 15-01-2019 12:37:05
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 8131 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 40 additional responsive IPs.
+--- End of target pre-scanning (16-01-2019 02:11:38) ---
+Elapsed time: 13 hours 34 minutes 19 seconds
+Total amount of probes: 2762301
+Total amount of successful probes: 45914 (1.66216%)
+Total amount of discovered responsive IPs: 8171
+
+Filtered target IPs have been saved in an output file AS5400_15-01.ips (temporar).
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 256 threads will be scheduled (up to 32 target IPs per thread).
+1220 out of 7981 IPs with an estimated TTL (15.2863%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 30 threads will be scheduled (from 1 to 106 target IPs per thread).
+Updated IP dictionary has been saved in the output file AS5400_15-01.ips.
+
+There are flickering IPs that could lead to the discovery of 7 aliases.
+Now starting alias hints collection...
+Collecting hints for 62.102.105.225, 166.49.153.230... Done.
+Collecting hints for 62.134.39.75, 62.134.39.76... Done.
+Collecting hints for 166.49.134.17, 212.108.23.225... Done.
+Collecting hints for 166.49.159.90, 212.108.30.97... Done.
+Collecting hints for 166.49.164.8, 166.49.237.4... Done.
+Collecting hints for 166.49.172.142, 166.49.172.144... Done.
+Collecting hints for 166.49.251.134, 166.49.251.138... Done.
+Resolving... Done.
+Inferred subnets has been saved in the output file AS5400_15-01.subnets.
+--- End of target scanning (16-01-2019 02:44:44) ---
+Elapsed time: 33 minutes 5 seconds
+Total amount of probes: 41328
+Total amount of successful probes: 33520 (81.1072%)
+Alias hints have been saved in an output file AS5400_15-01.hints.
+Fingerprints have been saved in an output file AS5400_15-01.fingerprints.
+Aliases discovered during subnet discovery have been written in AS5400_15-01.aliases-1.

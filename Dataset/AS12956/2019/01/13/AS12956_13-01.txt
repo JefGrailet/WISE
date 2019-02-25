@@ -1,0 +1,52 @@
+WISE (Wide and lInear Subnet inferencE) - Time at start: 13-01-2019 12:42:35
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 117935 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 10 additional responsive IPs.
+--- End of target pre-scanning (13-01-2019 13:48:03) ---
+Elapsed time: 1 hour 5 minutes 28 seconds
+Total amount of probes: 301905
+Total amount of successful probes: 122624 (40.6168%)
+Total amount of discovered responsive IPs: 117945
+
+Filtered target IPs have been saved in an output file AS12956_13-01.ips (temporar).
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 257 threads will be scheduled (up to 460 target IPs per thread).
+2938 out of 117778 IPs with an estimated TTL (2.49452%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 64 threads will be scheduled (from 1 to 259 target IPs per thread).
+Updated IP dictionary has been saved in the output file AS12956_13-01.ips.
+
+There are flickering IPs that could lead to the discovery of 18 aliases.
+Now starting alias hints collection...
+Collecting hints for 5.53.3.18, 5.53.3.20, 5.53.4.28, 5.53.5.135, 5.53.5.201, 5.53.5.252, 5.53.6.145, 5.53.6.149, 5.53.6.182, 62.115.37.19, 94.142.98.4, 94.142.98.240, 94.142.117.72, 94.142.118.160, 94.142.125.120, 176.52.248.105, 176.52.250.201, 176.52.250.211, 176.52.254.1, 213.140.33.99, 213.140.35.25, 213.140.35.29, 213.140.35.119, 213.140.35.136, 213.140.35.202, 213.140.35.204, 213.140.35.206, 213.140.35.208, 213.140.35.210, 213.140.35.212, 213.140.35.214, 213.140.35.220, 213.140.36.1, 213.140.36.78, 213.140.36.95, 213.140.36.169, 213.140.36.174, 213.140.43.9, 213.140.43.213, 213.140.49.109... Done.
+Collecting hints for 5.53.3.54, 94.142.97.140... Done.
+Collecting hints for 5.53.3.104, 5.53.3.142, 5.53.3.144, 5.53.3.148, 5.53.3.246, 5.53.5.98, 5.53.5.114, 5.53.5.148, 5.53.5.162, 5.53.5.166, 84.16.15.64, 94.142.97.160, 94.142.97.162, 94.142.98.82, 94.142.98.96, 94.142.98.97, 94.142.98.154, 94.142.98.156, 94.142.98.158, 94.142.98.176, 94.142.98.178, 94.142.98.195, 94.142.98.217, 94.142.119.173, 176.52.248.101, 176.52.255.64, 176.52.255.68, 213.140.37.38, 213.140.43.157, 213.140.49.234... Done.
+Collecting hints for 5.53.3.164, 84.16.12.195, 94.142.99.40... Done.
+Collecting hints for 5.53.3.214, 94.142.120.68... Done.
+Collecting hints for 5.53.7.56, 84.16.12.3, 84.16.12.7, 94.142.99.5... Done.
+Collecting hints for 5.53.7.67, 94.142.117.60... Done.
+Collecting hints for 5.53.7.69, 5.53.7.204, 5.53.7.225, 84.16.14.193, 94.142.97.112, 94.142.97.114, 94.142.117.12, 94.142.117.41, 94.142.120.112, 94.142.123.10, 94.142.123.230, 94.142.125.8, 176.52.248.152, 213.140.33.96, 213.140.38.113... Done.
+Collecting hints for 5.53.7.171, 94.142.116.84, 94.142.122.30, 94.142.125.164, 176.52.248.54, 213.140.35.186, 213.140.35.190, 213.140.43.141... Done.
+Collecting hints for 84.16.11.63, 190.98.185.53, 190.98.185.69... Done.
+Collecting hints for 84.16.12.5, 94.142.99.7, 94.142.126.59... Done.
+Collecting hints for 84.16.13.20, 176.52.254.238... Done.
+Collecting hints for 84.16.13.30, 213.140.35.4... Done.
+Collecting hints for 84.16.14.38, 84.16.14.46, 94.142.125.38... Done.
+Collecting hints for 84.16.14.76, 213.140.33.100... Done.
+Collecting hints for 94.142.98.152, 94.142.98.170, 94.142.98.172... Done.
+Collecting hints for 94.142.117.200, 94.142.119.233... Done.
+Collecting hints for 172.40.2.34, 213.140.40.252... Done.
+Resolving... Done.
+Inferred subnets has been saved in the output file AS12956_13-01.subnets.
+--- End of target scanning (13-01-2019 15:40:10) ---
+Elapsed time: 1 hour 52 minutes 7 seconds
+Total amount of probes: 532885
+Total amount of successful probes: 516514 (96.9279%)
+Alias hints have been saved in an output file AS12956_13-01.hints.
+Fingerprints have been saved in an output file AS12956_13-01.fingerprints.
+Aliases discovered during subnet discovery have been written in AS12956_13-01.aliases-1.

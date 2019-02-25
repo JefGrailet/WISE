@@ -1,0 +1,41 @@
+128.59.99.128/26
+16 - 128.59.99.142 - [128.59.255.38 | 2] - Selected pivot
+15 - 128.59.99.179 - [128.59.255.42] - Contra-pivot
+Stop: discovered a sound contra-pivot IP.
+
+128.59.100.0/22
+17 - 128.59.100.206 - [128.59.100.206 | 1] - Contra-pivot
+18 - 128.59.103.217 - [132.65.240.1 | 15] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+128.59.104.252/31
+19 - 128.59.104.252 - [199.109.4.14 | 7] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (4) than pivot IPs.
+
+160.39.242.2/31
+15 - 160.39.242.2 - [128.59.255.13 | 1] - Selected pivot
+Stop: reached the maximum size allowed for a subnet.
+
+207.10.141.192/31
+14 - 207.10.141.193 - [199.109.4.14 | 2] - Selected pivot
+Stop: reached the maximum size allowed for a subnet.
+
+209.2.212.64/26
+16 - 209.2.212.64 - [128.59.255.10 | 3] - Rule 2
+16 - 209.2.212.96 - [209.2.212.96] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+209.2.215.92/31
+19 - 209.2.215.92 - [132.65.240.1 | 16] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+209.2.219.224/28
+19 - 209.2.219.225 - [62.40.125.65 | 11] - Rule 2
+19 - 209.2.219.233 - [128.59.255.78 | 5] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+209.2.220.0/22
+17 - 209.2.220.2 - [199.109.4.14 | 5] - Contra-pivot
+21 - 209.2.223.94 - [199.109.4.14 | 9] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+

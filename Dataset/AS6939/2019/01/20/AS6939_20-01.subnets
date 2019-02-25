@@ -1,0 +1,65 @@
+64.62.218.178/31
+13 - 64.62.218.178 - [184.105.65.214] - Selected pivot
+Stop: no more IPs to expand the subnet further.
+
+64.62.220.170/31
+16 - 64.62.220.171 - [132.65.240.1 | 13] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+64.62.221.0/25
+16 - 64.62.221.3 - [132.65.240.1 | 13] - Contra-pivot
+18 - 64.62.221.78 - [184.105.65.214 | 5] - Rule 2
+18 - 64.62.221.94 - [64.62.221.94 | 1] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+64.62.222.0/25
+20 - 64.62.222.6 - [132.65.240.1 | 17] - Contra-pivot
+21 - 64.62.222.123 - [132.65.240.1 | 18] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+64.62.222.162/31
+17 - 64.62.222.162 - [128.139.226.2 | 11] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+64.62.223.16/31
+26 - 64.62.223.16 - [132.65.240.1 | 23] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (3) than pivot IPs.
+
+64.71.135.182/31
+14 - 64.71.135.182 - [72.52.92.245 | 2] - Selected pivot
+Stop: reached the maximum size allowed for a subnet.
+
+65.19.187.36/31
+15 - 65.19.187.36 - [184.105.65.113 | 3] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+65.19.187.74/31
+15 - 65.19.187.74 - [72.52.92.117 | 3] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+65.19.190.0/26
+16 - 65.19.190.2 - [132.65.240.1 | 13] - Contra-pivot
+17 - 65.19.190.55 - [65.19.190.55 | 2] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+65.19.191.224/31
+20 - 65.19.191.224 - [83.97.88.93 | 12] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+65.49.8.0/23
+22 - 65.49.8.80 - [83.97.88.93 | 14] - Contra-pivot
+23 - 65.49.9.167 - [132.65.240.1 | 20] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+65.49.72.220/31
+13 - 65.49.72.220 - [184.105.222.98] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+65.49.73.92/31
+13 - 65.49.73.92 - [184.105.65.214] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+72.52.73.222/31
+12 - 72.52.73.222 - [72.52.92.57] - Selected pivot
+Stop: reached the maximum size allowed for a subnet.
+

@@ -1,0 +1,46 @@
+38.142.200.26 - Target scanning: 64 - 1;65050,54970,4;65168,33399,5;65224,69595,8;65396 | Yes
+38.142.200.66 - Target scanning: 64 - 2;37103,33906,3;37172,68893,6;37236,33570,7;37303 | Yes
+41.206.174.1 - Target scanning: 255 - ECHO,if-ge-9-3.mse1.klt-cape-town.as6453.net | Yes
+41.206.174.5 - Target scanning: 255 - ECHO,if-ge-9-4.mse1.klt-cape-town.as6453.net
+64.86.76.131 - Target scanning: 255 - ECHO,IP-64.86.76.131.dynamic.nta.mh | Yes
+64.86.252.2 - Target scanning: 64 - 25;53887,115316,30;54270,72204,31;54555,114381,36;54864,if-ae-13-33.tcore1.sqn-san-jose.as6453.net
+64.86.252.27 - Target scanning: 64 - 26;53940,93905,29;54254,94369,32;54592,92976,35;54847,if-ae-13-44.tcore1.sqn-san-jose.as6453.net
+64.86.252.35 - Target scanning: 64 - 27;53965,71577,28;54204,115710,33;54608,71121,34;54821,if-ae-13-55.tcore1.sqn-san-jose.as6453.net
+64.254.1.69 - Target scanning: 255 - ECHO | Yes
+66.110.6.4 - Target scanning: 255 - ECHO | Yes
+66.110.56.6 - Target scanning: 64 - 45;27578,55427,48;27674,37775,49;27719,58006,52;27817,if-ae-2-2.tcore2.dt8-dallas.as6453.net
+66.110.56.130 - Target scanning: 64 - 46;14478,34403,47;14513,59518,50;14559,33912,51;14582,if-ae-14-3.thar1.dt8-dallas.as6453.net
+66.110.118.90 - Target scanning: 255 - ECHO | Yes
+66.110.118.246 - Target scanning: 255 - ECHO
+66.119.73.114 - Target scanning
+80.231.17.1 - Target scanning: 64 - 67;56765,130733,70;56815,89090,71;56847,135055,74;56881,irb-900.core1.cdg1.bitgravity.com | Yes
+80.231.17.9 - Target scanning: 64 - 68;56771,109939,69;56811,118150,72;56856,98162,73;56870,ae8.core1.cdg1.bitgravity.com
+80.231.130.62 - Target scanning: 64 - 75;61469,107996,78;61517,77016,79;61563,98481,82;61612 | Yes
+80.231.130.111 - Target scanning: 64 - 76;18804,79165,77;18823,96670,80;18839,78498,81;18852 | Yes
+80.231.154.38 - Target scanning: 255 - ECHO,if-ge-10-0-0.core1.pye-paris.as6453.net | Yes
+80.231.154.46 - Target scanning: 255 - ECHO,if-ge-0-0-0-2.core1.pye-paris.as6453.net
+116.0.67.33 - Target scanning: 64 - 93;54723,248151,96;55532,218981,97;56346,247899,100;57191,if-ae-16-2.tcore1.hk2-hong-kong.as6453.net
+116.0.67.61 - Target scanning: 64 - 94;54771,226601,95;55491,240362,98;56393,226244,99;57188,if-ae-17-2.tcore1.hk2-hong-kong.as6453.net
+116.0.71.193 - Target scanning: 255 - ECHO,if-et-2-2.hcore1.ih4-singapore.as6453.net
+116.0.82.63 - Target scanning: 64 - 109;31337,317860,118;31580,221502,119;31871,316277,128;32349,if-ae-2-2.tcore2.hk2-hong-kong.as6453.net
+116.0.93.155 - Target scanning: 64 - 110;58702,296199,117;58759,255421,121;58790,280113,126;58849,if-ae-10-2.tcore1.yig-taipei.as6453.net
+117.103.88.137 - Target scanning: 255 - ECHO,core-majuro-R117.103.88.137.nta.mh
+120.29.217.66 - Target scanning: 64 - 129;39195,192891,132;39464,170402,133;39602,191567,136;39752,if-ae-21-2.tcore1.tv2-tokyo.as6453.net
+180.87.12.1 - Target scanning: 64 - 137;11566,259842,140;12581,238340,141;13313,269302,144;14141,if-ae-2-2.tcore1.svw-singapore.as6453.net
+180.87.12.78 - Target scanning: 255 - ECHO,if-ge-1-1-4-213.hcore1.ih4-singapore.as6453.net
+180.87.15.74 - Target scanning: 255 - ECHO,if-ge-1-1-2.hcore2.ih4-singapore.as6453.net
+180.87.162.13 - Target scanning: 64 - 111;26358,273838,116;26374,253456,120;26390,295539,127;26403 | Yes
+180.87.162.22 - Target scanning: 255 - ECHO
+180.87.162.26 - Target scanning: 64 - 113;61262,231023,114;61338,306912,123;61440,230707,124;61703,if-ae-28-2.thar1.h81-hong-kong.as6453.net
+180.87.180.1 - Target scanning: 64 - 130;39206,170614,131;39456,191513,134;39620,170638,135;39740,if-ae-2-2.tcore1.tv2-tokyo.as6453.net
+195.219.81.10 - Target scanning: 255 - ECHO
+195.219.81.58 - Target scanning: 255 - ECHO
+195.219.87.2 - Target scanning: 64 - 153;21667,140587,158;22059,93549,159;22256,141350,164;22520,if-ae-12-2.tcore1.fnm-frankfurt.as6453.net
+195.219.87.9 - Target scanning: if-ae-9-2.tcore2.fnm-frankfurt.as6453.net
+195.219.87.13 - Target scanning: if-ae-9-3.tcore2.fnm-frankfurt.as6453.net
+195.219.156.132 - Target scanning: 64 - 154;21689,120892,157;22028,114597,160;22271,120015,163;22489,if-ae-12-60.tcore1.fnm-frankfurt.as6453.net
+195.219.156.135 - Target scanning: 64 - 155;21725,99920,156;22001,135793,161;22283,99451,162;22440,if-ae-12-80.tcore1.fnm-frankfurt.as6453.net
+208.91.192.242 - Target scanning: 255 - ECHO | Yes
+216.6.87.43 - Target scanning: 64 - 169;52349,50180,174;52487,11675,175;52507,54609,180;52629,if-ae-12-2.tcore4.njy-newark.as6453.net
+216.6.87.201 - Target scanning: 64 - 170;52376,42570,173;52474,23441,176;52528,32783,179;52601,if-ae-12-3.tcore4.njy-newark.as6453.net
+216.6.87.223 - Target scanning: 64 - 171;52426,11157,172;52455,55010,177;52545,10756,178;52588,if-ae-12-4.tcore4.njy-newark.as6453.net

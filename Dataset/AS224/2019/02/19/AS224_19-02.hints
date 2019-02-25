@@ -1,0 +1,69 @@
+128.39.46.181 - Target scanning: 64 - 1;6744,74760,4;42314,54436,5;39430,74763,8;55948 | Yes
+128.39.103.46 - Target scanning: 64 - 9;38091,74607,12;38094,55158,13;38102,73734,16;38113 | Yes,128.39.103.46
+128.39.103.47 - Target scanning: 64 - 10;23052,54499,11;23055,74421,14;23067,54495,15;23079 | Yes,128.39.103.47
+128.39.230.27 - Target scanning
+128.39.254.145 - Target scanning
+129.177.1.152 - Target scanning
+129.177.1.154 - Target scanning: 255 - ECHO | 129.177.1.154
+129.177.1.160 - Target scanning
+129.177.1.162 - Target scanning
+129.240.25.154 - Target scanning: 255 - 31;49524,64070,34;49524,46922,35;49524,67170,38;49524 | 129.240.25.154
+129.240.100.58 - Target scanning: 255 - 39;33539,67155,42;33539,47063,43;33539,67356,46;33539 | 129.240.100.58
+129.240.100.66 - Target scanning: 255 - 40;33539,46924,41;33539,67258,44;33539,51459,45;33539 | 129.240.100.66
+129.240.100.93 - Target scanning: 255 - 32;49524,46915,33;49524,67334,36;49524,46929,37;49524 | 129.240.100.93
+129.241.1.3 - Target scanning: 255 - ECHO | 129.241.1.3
+129.241.1.4 - Target scanning: 255 - ECHO | 129.241.1.4
+129.241.1.129 - Target scanning: 255 - ECHO | 129.241.1.129
+129.241.1.131 - Target scanning: 255 - ECHO | 129.241.1.131
+129.241.1.133 - Target scanning: 255 - ECHO | 129.241.1.133
+129.241.1.135 - Target scanning: 255 - ECHO | 129.241.1.135
+129.241.1.137 - Target scanning: 255 - ECHO | 129.241.1.137
+129.241.1.147 - Target scanning: 255 - ECHO | 129.241.1.147
+129.241.1.149 - Target scanning: 255 - ECHO
+129.241.1.151 - Target scanning: 255 - ECHO | 129.241.1.151
+129.241.1.153 - Target scanning: 255 - ECHO | 129.241.1.153
+129.241.1.155 - Target scanning: 255 - ECHO | 129.241.1.155
+129.241.1.157 - Target scanning: 255 - ECHO | 129.241.1.157
+129.241.1.159 - Target scanning: 255 - ECHO | 129.241.1.159
+129.241.1.161 - Target scanning: 255 - ECHO | 129.241.1.161
+129.241.1.163 - Target scanning: 255 - ECHO | 129.241.1.163
+129.241.1.169 - Target scanning: 255 - ECHO | 129.241.1.169
+129.241.1.171 - Target scanning: 255 - ECHO | Yes,129.241.1.171
+129.241.1.173 - Target scanning: 255 - ECHO | Yes
+129.241.1.193 - Target scanning: 255 - ECHO | 129.241.1.193
+129.241.1.195 - Target scanning: 255 - ECHO | 129.241.1.195
+129.241.1.197 - Target scanning: 255 - ECHO | 129.241.1.197
+129.241.1.199 - Target scanning: 255 - ECHO | 129.241.1.199
+129.241.1.201 - Target scanning: 255 - ECHO | 129.241.1.201
+129.241.1.211 - Target scanning: 255 - ECHO | 129.241.1.211
+129.241.1.213 - Target scanning: 255 - ECHO | 129.241.1.213
+129.241.1.215 - Target scanning: 255 - ECHO | 129.241.1.215
+129.241.1.217 - Target scanning: 255 - ECHO | 129.241.1.217
+129.241.1.219 - Target scanning: 255 - ECHO | 129.241.1.219
+129.241.1.221 - Target scanning: 255 - ECHO | 129.241.1.221
+129.241.1.223 - Target scanning: 255 - ECHO | 129.241.1.223
+129.241.1.225 - Target scanning: 255 - ECHO | 129.241.1.225
+129.241.1.227 - Target scanning: 255 - ECHO | 129.241.1.227
+129.241.1.233 - Target scanning: 255 - ECHO | 129.241.1.233
+129.241.1.235 - Target scanning: 255 - ECHO | Yes,129.241.1.235
+129.241.1.237 - Target scanning: 255 - ECHO | Yes
+129.242.24.18 - Target scanning: 255 - ECHO | Yes,129.242.24.18
+129.242.24.74 - Target scanning: 255 - ECHO | Yes
+129.242.24.82 - Target scanning: 255 - ECHO | Yes
+129.242.24.110 - Target scanning: 255 - ECHO | Yes,129.242.24.110
+129.242.24.166 - Target scanning: 255 - ECHO | Yes,129.242.24.166
+129.242.24.185 - Target scanning: 255 - ECHO | 129.242.24.185
+129.242.24.189 - Target scanning: 255 - ECHO | Yes
+129.242.24.234 - Target scanning: 255 - ECHO | 129.242.24.234
+129.242.25.90 - Target scanning: 255 - ECHO | Yes
+129.242.25.110 - Target scanning: 255 - ECHO | Yes,129.242.25.110
+129.242.25.139 - Target scanning: 255 - ECHO | Yes
+129.242.25.154 - Target scanning: 255 - ECHO | Yes,129.242.25.154
+129.242.25.226 - Target scanning: 255 - ECHO | 129.242.25.226
+129.242.25.238 - Target scanning: 255 - ECHO | Yes,129.242.25.238
+129.242.214.146 - Target scanning: 255 - ECHO | Yes
+158.37.161.139 - Target scanning: 255 - 2;50553,54534,3;26482,74717,6;23624,54520,7;20229 | Yes,158.37.161.139
+158.39.9.234 - Target scanning: 255 - ECHO | Yes
+158.39.9.238 - Target scanning: 255 - ECHO | Yes
+193.156.24.65 - Target scanning: 64 - 259;62056,58851,262;62060,56201,263;62062,65793,266;62068 | Yes,193.156.24.65
+193.156.24.83 - Target scanning: 64 - 260;15662,47178,261;15666,67282,264;15671,47043,265;15678

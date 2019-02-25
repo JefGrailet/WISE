@@ -1,0 +1,45 @@
+WISE (Wide and lInear Subnet inferencE) - Time at start: 08-02-2019 10:25:15
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 35701 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 116 additional responsive IPs.
+--- End of target pre-scanning (08-02-2019 18:10:22) ---
+Elapsed time: 7 hours 45 minutes 0 second
+Total amount of probes: 1745547
+Total amount of successful probes: 76857 (4.40303%)
+Total amount of discovered responsive IPs: 35817
+
+Filtered target IPs have been saved in an output file AS8928_08-02.ips (temporar).
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 258 threads will be scheduled (up to 139 target IPs per thread).
+4880 out of 35495 IPs with an estimated TTL (13.7484%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 60 threads will be scheduled (from 2 to 272 target IPs per thread).
+Updated IP dictionary has been saved in the output file AS8928_08-02.ips.
+
+There are flickering IPs that could lead to the discovery of 11 aliases.
+Now starting alias hints collection...
+Collecting hints for 84.233.147.110, 195.81.54.10... Done.
+Collecting hints for 84.233.190.1, 84.233.207.86... Done.
+Collecting hints for 89.149.181.9, 89.149.183.213, 89.149.184.66... Done.
+Collecting hints for 91.221.13.142, 91.221.13.248... Done.
+Collecting hints for 139.4.75.166, 149.235.16.193, 149.235.16.241... Done.
+Collecting hints for 149.235.0.192, 149.235.0.229, 149.235.0.237, 158.43.6.146... Done.
+Collecting hints for 185.132.228.10, 185.132.228.30, 185.132.228.50, 185.132.228.74, 185.132.228.126, 185.132.228.194... Done.
+Collecting hints for 185.132.228.18, 185.132.228.62... Done.
+Collecting hints for 185.132.228.54, 185.132.228.106... Done.
+Collecting hints for 185.132.228.110, 185.132.228.218... Done.
+Collecting hints for 212.23.41.174, 212.23.41.177... Done.
+Resolving... Done.
+Inferred subnets has been saved in the output file AS8928_08-02.subnets.
+--- End of target scanning (08-02-2019 19:39:01) ---
+Elapsed time: 1 hour 28 minutes 38 seconds
+Total amount of probes: 178117
+Total amount of successful probes: 150022 (84.2267%)
+Alias hints have been saved in an output file AS8928_08-02.hints.
+Fingerprints have been saved in an output file AS8928_08-02.fingerprints.
+Aliases discovered during subnet discovery have been written in AS8928_08-02.aliases-1.

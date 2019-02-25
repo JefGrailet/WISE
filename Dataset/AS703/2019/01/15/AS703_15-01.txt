@@ -1,0 +1,43 @@
+WISE (Wide and lInear Subnet inferencE) - Time at start: 15-01-2019 12:36:51
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 5711 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 14 additional responsive IPs.
+--- End of target pre-scanning (15-01-2019 20:27:11) ---
+Elapsed time: 7 hours 50 minutes 15 seconds
+Total amount of probes: 1720753
+Total amount of successful probes: 16989 (0.9873%)
+Total amount of discovered responsive IPs: 5725
+
+Filtered target IPs have been saved in an output file AS703_15-01.ips (temporar).
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 179 threads will be scheduled (up to 32 target IPs per thread).
+1847 out of 5708 IPs with an estimated TTL (32.3581%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 40 threads will be scheduled (from 1 to 108 target IPs per thread).
+Updated IP dictionary has been saved in the output file AS703_15-01.ips.
+
+There are flickering IPs that could lead to the discovery of 9 aliases.
+Now starting alias hints collection...
+Collecting hints for 152.63.48.110, 152.63.48.114, 202.95.64.170, 202.130.160.202, 203.166.42.26, 210.80.33.102... Done.
+Collecting hints for 202.95.74.242, 202.95.74.252... Done.
+Collecting hints for 202.130.165.74, 203.193.31.67... Done.
+Collecting hints for 203.166.96.26, 203.166.99.162... Done.
+Collecting hints for 210.80.0.150, 210.80.33.106... Done.
+Collecting hints for 210.80.2.98, 210.80.2.102... Done.
+Collecting hints for 210.80.2.106, 210.80.2.110... Done.
+Collecting hints for 210.80.3.2, 210.80.3.22... Done.
+Collecting hints for 210.80.32.134, 210.80.33.110... Done.
+Resolving... Done.
+Inferred subnets has been saved in the output file AS703_15-01.subnets.
+--- End of target scanning (15-01-2019 20:57:24) ---
+Elapsed time: 30 minutes 13 seconds
+Total amount of probes: 38730
+Total amount of successful probes: 25763 (66.5195%)
+Alias hints have been saved in an output file AS703_15-01.hints.
+Fingerprints have been saved in an output file AS703_15-01.fingerprints.
+Aliases discovered during subnet discovery have been written in AS703_15-01.aliases-1.

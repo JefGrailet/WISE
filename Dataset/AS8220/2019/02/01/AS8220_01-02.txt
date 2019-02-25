@@ -1,0 +1,4 @@
+WISE (Wide and lInear Subnet inferencE) - Time at start: 01-02-2019 16:08:32
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... 

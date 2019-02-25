@@ -1,0 +1,40 @@
+WISE (Wide and lInear Subnet inferencE) - Time at start: 23-01-2019 17:34:52
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 3182 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 19 additional responsive IPs.
+--- End of target pre-scanning (23-01-2019 19:40:30) ---
+Elapsed time: 2 hours 5 minutes 38 seconds
+Total amount of probes: 499602
+Total amount of successful probes: 14192 (2.84066%)
+Total amount of discovered responsive IPs: 3201
+
+Filtered target IPs have been saved in an output file AS286_23-01.ips (temporar).
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 101 threads will be scheduled (up to 32 target IPs per thread).
+682 out of 3152 IPs with an estimated TTL (21.6371%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 17 threads will be scheduled (from 2 to 97 target IPs per thread).
+Updated IP dictionary has been saved in the output file AS286_23-01.ips.
+
+There are flickering IPs that could lead to the discovery of 6 aliases.
+Now starting alias hints collection...
+Collecting hints for 80.81.192.22, 134.222.48.12, 134.222.48.61, 134.222.48.69, 134.222.48.73, 134.222.48.159, 134.222.48.173, 134.222.48.176, 134.222.49.5, 188.1.145.229... Done.
+Collecting hints for 134.222.48.71, 134.222.48.231, 134.222.48.233... Done.
+Collecting hints for 134.222.48.92, 134.222.48.122, 134.222.48.194, 134.222.49.55... Done.
+Collecting hints for 134.222.48.126, 134.222.48.186... Done.
+Collecting hints for 134.222.48.164, 134.222.224.46... Done.
+Collecting hints for 212.165.108.166, 212.165.118.250... Done.
+Resolving... Done.
+Inferred subnets has been saved in the output file AS286_23-01.subnets.
+--- End of target scanning (23-01-2019 20:01:18) ---
+Elapsed time: 20 minutes 48 seconds
+Total amount of probes: 17753
+Total amount of successful probes: 13561 (76.3871%)
+Alias hints have been saved in an output file AS286_23-01.hints.
+Fingerprints have been saved in an output file AS286_23-01.fingerprints.
+Aliases discovered during subnet discovery have been written in AS286_23-01.aliases-1.

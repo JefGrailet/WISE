@@ -1,0 +1,8 @@
+81.52.200.173, 193.251.151.38 (group by echo IP-ID counter)
+154.54.30.54, 154.54.30.66 (group by echo IP-ID counter/DNS)
+157.197.66.150, 157.197.66.154 (group by echo IP-ID counter/DNS)
+193.251.128.12, 193.251.154.101 (Ally)
+193.251.128.86, 193.251.128.88 (group by echo IP-ID counter/DNS)
+193.251.128.127, 193.251.154.153 (group by echo IP-ID counter/DNS)
+23.51.72.1, 81.52.134.129, 104.76.152.1, 184.29.200.1 (group by echo IP-ID counter/DNS, 66.6667% of aliases)
+104.73.175.1, 104.74.17.1, 104.74.18.1, 104.74.19.1, 193.251.154.63, 193.251.154.119, 193.251.154.182 (group by echo IP-ID counter, 50% of aliases)

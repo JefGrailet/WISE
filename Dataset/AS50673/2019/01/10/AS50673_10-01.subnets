@@ -1,0 +1,30 @@
+5.255.79.34/31
+14 - 5.255.79.34 - [178.21.17.2 | 2] - Selected pivot
+Stop: no more IPs to expand the subnet further.
+
+5.255.80.4/31
+14 - 5.255.80.5 - [195.66.224.193 | 5] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+5.255.80.160/27
+14 - 5.255.80.166 - [87.245.246.61 | 3] - Contra-pivot
+16 - 5.255.80.180 - [5.255.80.180 | 4] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+5.255.80.196/31
+19 - 5.255.80.196 - [5.255.80.196 | 4] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+5.255.83.14/31
+20 - 5.255.83.14 - [5.255.83.14 | 2] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+5.255.83.106/31
+16 - 5.255.83.106 - [5.255.83.106 | 3] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+5.255.92.0/22
+13 - 5.255.93.14 - [87.245.246.61 | 2] - Rule 2
+13 - 5.255.94.50 - [185.8.179.25] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+

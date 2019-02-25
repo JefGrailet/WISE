@@ -1,0 +1,6 @@
+130.63.2.2 - Target scanning: 255 - ECHO | Yes
+130.63.2.62 - Target scanning: 255 - ECHO
+130.63.9.98 - Target scanning: 255 - ECHO,glendon-steacie.gw.yorku.ca
+130.63.9.101 - Target scanning: 255 - ECHO,steacie-nadal.gw.yorku.ca | Yes
+130.63.9.105 - Target scanning: 255 - ECHO,steacie-pdc.gw.yorku.ca
+130.63.27.17 - Target scanning: 255 - ECHO,core01-border.gw.yorku.ca

@@ -1,0 +1,39 @@
+WISE (Wide and lInear Subnet inferencE) - Time at start: 03-01-2019 05:58:13
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 1618 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 9315 additional responsive IPs.
+--- End of target pre-scanning (03-01-2019 07:09:54) ---
+Elapsed time: 1 hour 11 minutes 41 seconds
+Total amount of probes: 279470
+Total amount of successful probes: 14690 (5.25638%)
+Total amount of discovered responsive IPs: 10933
+
+Filtered target IPs have been saved in an output file AS37_03-01.ips (temporar).
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 261 threads will be scheduled (up to 42 target IPs per thread).
+2715 out of 5054 IPs with an estimated TTL (53.7198%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 70 threads will be scheduled (from 2 to 69 target IPs per thread).
+Updated IP dictionary has been saved in the output file AS37_03-01.ips.
+
+There are flickering IPs that could lead to the discovery of 5 aliases.
+Now starting alias hints collection...
+Collecting hints for 128.8.0.12, 128.8.0.157, 206.196.177.201... Done.
+Collecting hints for 128.8.0.193, 128.8.33.169... Done.
+Collecting hints for 128.8.117.84, 129.2.245.222, 206.196.191.19... Done.
+Collecting hints for 163.253.4.57, 206.196.177.155... Done.
+Collecting hints for 206.196.177.8, 206.196.177.9, 206.196.178.80... Done.
+Resolving... Done.
+Inferred subnets has been saved in the output file AS37_03-01.subnets.
+--- End of target scanning (03-01-2019 08:15:07) ---
+Elapsed time: 1 hour 5 minutes 13 seconds
+Total amount of probes: 146342
+Total amount of successful probes: 48551 (33.1764%)
+Alias hints have been saved in an output file AS37_03-01.hints.
+Fingerprints have been saved in an output file AS37_03-01.fingerprints.
+Aliases discovered during subnet discovery have been written in AS37_03-01.aliases-1.

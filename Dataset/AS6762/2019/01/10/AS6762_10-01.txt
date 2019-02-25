@@ -1,0 +1,73 @@
+WISE (Wide and lInear Subnet inferencE) - Time at start: 10-01-2019 20:58:38
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 79954 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 4842 additional responsive IPs.
+--- End of target pre-scanning (10-01-2019 21:40:48) ---
+Elapsed time: 42 minutes 10 seconds
+Total amount of probes: 194478
+Total amount of successful probes: 87102 (44.7876%)
+Total amount of discovered responsive IPs: 84796
+
+Filtered target IPs have been saved in an output file AS6762_10-01.ips (temporar).
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 257 threads will be scheduled (up to 331 target IPs per thread).
+7700 out of 84555 IPs with an estimated TTL (9.1065%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 96 threads will be scheduled (from 2 to 419 target IPs per thread).
+Updated IP dictionary has been saved in the output file AS6762_10-01.ips.
+
+There are flickering IPs that could lead to the discovery of 39 aliases.
+Now starting alias hints collection...
+Collecting hints for 5.178.44.66, 213.144.160.7... Done.
+Collecting hints for 5.178.46.204, 5.178.46.212, 195.22.219.31... Done.
+Collecting hints for 61.148.8.22, 104.76.208.191... Done.
+Collecting hints for 79.140.91.18, 93.186.129.31, 195.22.193.48... Done.
+Collecting hints for 79.140.91.20, 93.186.129.39, 213.144.178.22... Done.
+Collecting hints for 89.221.34.30, 195.22.211.55... Done.
+Collecting hints for 89.221.34.52, 195.22.211.207... Done.
+Collecting hints for 89.221.35.130, 89.221.35.144, 89.221.35.146, 89.221.35.149, 89.221.40.141... Done.
+Collecting hints for 89.221.35.131, 93.186.133.28... Done.
+Collecting hints for 89.221.42.12, 89.221.42.16... Done.
+Collecting hints for 89.221.43.30, 195.22.209.39... Done.
+Collecting hints for 89.221.43.58, 195.22.209.63, 195.22.209.236... Done.
+Collecting hints for 89.221.43.174, 195.22.209.61... Done.
+Collecting hints for 93.186.128.78, 93.186.128.106, 93.186.128.108, 93.186.129.21, 93.186.129.23, 93.186.129.149, 93.186.129.151, 93.186.129.161, 93.186.129.163, 129.250.3.166, 129.250.3.209, 195.22.196.212, 195.22.196.220, 195.22.199.28, 213.144.178.149, 213.144.178.151, 213.144.178.204, 213.144.178.206... Done.
+Collecting hints for 93.186.128.120, 93.186.128.122, 195.22.208.79... Done.
+Collecting hints for 93.186.128.133, 93.186.128.188, 195.22.196.143, 195.22.205.209... Done.
+Collecting hints for 93.186.132.28, 93.186.132.72, 93.186.132.74... Done.
+Collecting hints for 171.162.144.3, 208.78.38.129... Done.
+Collecting hints for 185.70.203.11, 185.70.203.59, 185.70.203.63, 195.22.220.7, 195.22.220.123, 195.22.220.233... Done.
+Collecting hints for 185.70.203.61, 185.70.203.65, 195.22.220.13, 195.22.220.15, 195.22.220.29, 195.22.220.31... Done.
+Collecting hints for 195.22.192.4, 195.22.192.6, 195.22.205.13... Done.
+Collecting hints for 195.22.192.191, 195.22.196.213... Done.
+Collecting hints for 195.22.206.185, 195.22.223.157... Done.
+Collecting hints for 195.22.209.211, 195.22.213.232... Done.
+Collecting hints for 195.22.209.217, 195.22.209.219, 195.22.214.17... Done.
+Collecting hints for 195.22.210.47, 213.144.173.172... Done.
+Collecting hints for 195.22.210.107, 195.22.210.195, 213.144.173.188... Done.
+Collecting hints for 195.22.211.127, 195.22.211.219, 195.22.214.23... Done.
+Collecting hints for 195.22.213.216, 195.22.213.218, 195.22.213.220, 195.22.213.222, 195.22.213.224, 195.22.213.226, 195.22.213.228, 195.22.213.233... Done.
+Collecting hints for 195.22.216.216, 195.22.216.238... Done.
+Collecting hints for 195.22.218.41, 195.22.218.49... Done.
+Collecting hints for 195.22.218.43, 195.22.218.51... Done.
+Collecting hints for 195.22.221.46, 195.22.221.191... Done.
+Collecting hints for 195.22.221.185, 195.22.221.189... Done.
+Collecting hints for 213.144.170.0, 213.144.176.138, 213.144.176.140, 213.144.176.142... Done.
+Collecting hints for 213.144.170.20, 213.144.183.47... Done.
+Collecting hints for 213.144.170.64, 213.144.176.129, 213.144.176.146... Done.
+Collecting hints for 213.144.177.174, 213.144.177.200, 213.144.177.202, 213.144.177.228, 213.144.177.230... Done.
+Collecting hints for 213.144.177.216, 213.144.177.218... Done.
+Resolving... Done.
+Inferred subnets has been saved in the output file AS6762_10-01.subnets.
+--- End of target scanning (10-01-2019 23:29:23) ---
+Elapsed time: 1 hour 48 minutes 35 seconds
+Total amount of probes: 395301
+Total amount of successful probes: 345412 (87.3795%)
+Alias hints have been saved in an output file AS6762_10-01.hints.
+Fingerprints have been saved in an output file AS6762_10-01.fingerprints.
+Aliases discovered during subnet discovery have been written in AS6762_10-01.aliases-1.

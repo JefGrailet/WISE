@@ -1,0 +1,446 @@
+58.138.80.162 - Target scanning: 64 - 1;25309,272335,4;25408,253317,5;25511,272562,8;25573,spr002bb11.IIJ.Net | Yes
+58.138.80.166 - Target scanning: 64 - 2;25313,252361,3;25405,273369,6;25514,252247,7;25570,spr002bb11.IIJ.Net
+58.138.80.186 - Target scanning: 64 - 9;42517,282584,16;42644,225383,17;42730,284490,24;42832,tky012agr10.IIJ.Net | Yes
+58.138.80.190 - Target scanning: 64 - 10;42520,263853,15;42638,243745,18;42735,266035,23;42828,tky012agr10.IIJ.Net
+58.138.80.210 - Target scanning: 64 - 12;42533,235770,14;42631,273948,20;42744,235850,22;42822,tky012agr10.IIJ.Net
+58.138.83.25 - Target scanning: 64 - 25;14884,271614,28;14988,249639,29;15152,271170,32;15282,snd003bb10.IIJ.Net | Yes
+58.138.83.29 - Target scanning: 64 - 26;14887,250924,27;14985,269924,30;15158,250908,31;15275,snd003bb10.IIJ.Net
+58.138.83.34 - Target scanning: 255 - ECHO,sjc002agr20.IIJ.Net | Yes
+58.138.83.42 - Target scanning: 255 - ECHO,sjc002agr20.IIJ.Net
+58.138.84.118 - Target scanning: 64 - 11;42527,235825,13;42628,273907,19;42741,235821,21;42817,tky012agr10.IIJ.Net
+58.138.85.153 - Target scanning: 64 - 69;53308,215126,74;53381,173587,76;53443,204192,80;53586,lax002bb12.IIJ.Net | Yes
+58.138.85.238 - Target scanning: 64 - 81;1159,273547,86;1283,263405,90;1460,263579,94;1876,osk005bb01.IIJ.Net | Yes
+58.138.88.121 - Target scanning: 255 - ECHO,osk004bb00.IIJ.Net
+58.138.88.125 - Target scanning: 255 - ECHO,osk004bb01.IIJ.Net
+58.138.88.145 - Target scanning: 64 - 109;100,251917,112;253,224912,113;412,251875,116;725,tky001bb10.IIJ.Net | Yes
+58.138.88.149 - Target scanning: 64 - 110;27005,231452,111;27098,245137,114;27286,231454,115;27491,tky001bb11.IIJ.Net
+58.138.88.201 - Target scanning: 255 - ECHO,sjc002bb12.IIJ.Net
+58.138.88.205 - Target scanning: 255 - ECHO,sjc002bb13.IIJ.Net
+58.138.88.253 - Target scanning: 255 - ECHO,tky009bb01.IIJ.Net
+58.138.89.1 - Target scanning: 255 - ECHO,tky009bb00.IIJ.Net
+58.138.89.37 - Target scanning: 64 - 99;35920,246658,100;36053,281722,105;36362,246540,106;36709,ngy006bb11.IIJ.Net | Yes
+58.138.89.129 - Target scanning: 255 - ECHO,fko004bb00.IIJ.Net
+58.138.89.133 - Target scanning: 255 - ECHO,fko004bb01.IIJ.Net
+58.138.100.54 - Target scanning: 255 - ECHO,tky001ix02.IIJ.Net
+58.138.100.58 - Target scanning: 255 - ECHO,tky001ix02.IIJ.Net
+58.138.100.62 - Target scanning: 255 - ECHO,tky001ix04.IIJ.Net
+58.138.100.66 - Target scanning: 255 - ECHO,tky001ix04.IIJ.Net
+58.138.100.178 - Target scanning: 64 - 149;23097,255404,151;23127,238620,153;23153,239343,155;23175,tky001agr22.IIJ.Net | Yes
+58.138.100.182 - Target scanning: 64 - 150;23104,234877,152;23130,238378,154;23156,239374,156;23178,tky001agr22.IIJ.Net
+58.138.102.86 - Target scanning: 64 - 82;19179,283608,88;19300,233214,89;19381,293878,96;19704,tky001ipgw00.IIJ.Net
+58.138.102.94 - Target scanning: 64 - 83;24080,264979,87;24212,262658,91;24351,262847,95;24785,tky001ipgw01.IIJ.Net
+58.138.102.230 - Target scanning: 64 - 84;24092,233232,85;24207,293790,92;24474,233264,93;24771,tky001ipgw01.IIJ.Net
+58.138.104.246 - Target scanning: 255 - ECHO,tky008ip31.IIJ.Net | Yes
+58.138.104.254 - Target scanning: 255 - ECHO,tky008ip31.IIJ.Net
+58.138.105.2 - Target scanning: 64 - 35;63076,342950,47;63134,228011,51;63180,363234,66;63233,tky008opsgw12.IIJ.Net
+58.138.105.6 - Target scanning: 64 - 36;63079,322998,46;63129,258262,53;63183,325111,64;63228,tky008opsgw12.IIJ.Net
+58.138.105.122 - Target scanning: 64 - 165;24178,331530,176;24368,226334,177;24505,334999,188;24615,tky008sdgw30.IIJ.Net | Yes
+58.138.105.186 - Target scanning: 64 - 166;24182,314053,175;24365,246505,178;24508,308594,187;24612,tky008sdgw30.IIJ.Net
+58.138.105.194 - Target scanning: 64 - 167;24187,291096,174;24360,266811,179;24511,288571,186;24608,tky008sdgw30.IIJ.Net
+58.138.105.198 - Target scanning: 64 - 168;24208,270865,173;24357,286941,180;24514,273588,185;24605,tky008sdgw30.IIJ.Net
+58.138.105.210 - Target scanning: 64 - 169;24217,250663,172;24347,307120,181;24517,253310,184;24595,tky008sdgw30.IIJ.Net
+58.138.105.214 - Target scanning: 64 - 170;24234,227651,171;24340,330188,182;24523,227700,183;24592,tky008sdgw30.IIJ.Net
+58.138.106.82 - Target scanning: 255 - ECHO,osk004opsgw12.IIJ.Net
+58.138.106.90 - Target scanning: 255 - ECHO,osk004opsgw12.IIJ.Net
+58.138.106.118 - Target scanning: 64 - 190;6830,248435,192;6999,251779,194;7216,251762,196;7432,osk004ix50.IIJ.Net | Yes
+58.138.106.122 - Target scanning: 64 - 189;6827,251743,191;6992,245166,193;7213,251737,195;7427,osk004ix50.IIJ.Net
+58.138.106.126 - Target scanning: 64 - 197;37827,278761,200;38091,241794,201;38343,263281,204;38561,osk004ix51.IIJ.Net | Yes
+58.138.106.130 - Target scanning: 64 - 198;37858,245021,199;38070,275201,202;38349,243325,203;38556,osk004ix51.IIJ.Net
+58.138.107.138 - Target scanning: 255 - ECHO,osk009agr20.IIJ.Net
+58.138.107.142 - Target scanning: 255 - ECHO,osk009agr20.IIJ.Net
+58.138.111.206 - Target scanning: 64 - 205;64649,284237,210;64739,245894,211;64776,282343,216;64813,osk005ip56.IIJ.Net | Yes
+58.138.111.210 - Target scanning: 64 - 206;64665,260547,209;64736,260626,212;64780,267575,215;64810,osk005ip56.IIJ.Net
+58.138.111.214 - Target scanning: 64 - 207;64668,243937,208;64733,280745,213;64783,240880,214;64807,osk005ip56.IIJ.Net
+58.138.111.234 - Target scanning: 255 - ECHO,osk005gate00a.IIJ.Net | Yes
+58.138.111.238 - Target scanning: 255 - ECHO,osk005gate00a.IIJ.Net
+58.138.112.114 - Target scanning: 255 - ECHO,tky009ipe00.IIJ.Net | Yes
+58.138.112.118 - Target scanning: 255 - ECHO,tky009ipe00.IIJ.Net
+58.138.112.138 - Target scanning: 255 - ECHO,tky009ix03.IIJ.Net
+58.138.112.142 - Target scanning: 255 - ECHO,tky009ix03.IIJ.Net
+58.138.112.242 - Target scanning: 255 - ECHO,tky009ip30.IIJ.Net | Yes
+58.138.112.246 - Target scanning: 255 - ECHO,tky009ip30.IIJ.Net
+58.138.113.34 - Target scanning: 255 - ECHO,ykh003ip30.IIJ.Net | Yes
+58.138.113.38 - Target scanning: 255 - ECHO,ykh003ip30.IIJ.Net
+58.138.114.34 - Target scanning: 255 - ECHO,tky009agr00.IIJ.Net | Yes
+58.138.114.42 - Target scanning: 255 - ECHO,tky009agr00.IIJ.Net
+58.138.114.66 - Target scanning: 255 - ECHO,tky009agr20.IIJ.Net | Yes
+58.138.114.70 - Target scanning: 255 - ECHO,tky009agr20.IIJ.Net
+58.138.114.114 - Target scanning: 255 - ECHO,tky009ix02.IIJ.Net
+58.138.114.118 - Target scanning: 255 - ECHO,tky009ix02.IIJ.Net
+58.138.114.130 - Target scanning: 255 - ECHO,tky009ix02.IIJ.Net
+58.138.115.22 - Target scanning: 255 - ECHO,tky013ip70.IIJ.Net | Yes
+58.138.115.30 - Target scanning: 255 - ECHO,tky013ip70.IIJ.Net
+58.138.119.34 - Target scanning: 255 - ECHO,fko004ip30.IIJ.Net | Yes
+58.138.119.42 - Target scanning: 255 - ECHO,fko004ip30.IIJ.Net
+58.138.120.130 - Target scanning: 255 - ECHO,ykh002gate02a.IIJ.Net | Yes
+58.138.120.134 - Target scanning: 255 - ECHO,ykh002gate02a.IIJ.Net
+58.138.120.210 - Target scanning: 255 - ECHO,ykh002gate01a.IIJ.Net | Yes
+58.138.120.214 - Target scanning: 255 - ECHO,ykh002gate01a.IIJ.Net
+61.211.119.2 - Target scanning: 255 - ECHO | Yes
+61.211.119.3 - Target scanning: 255 - ECHO
+61.211.119.18 - Target scanning: 255 - ECHO | Yes
+61.211.119.19 - Target scanning: 255 - ECHO
+61.211.119.34 - Target scanning: 255 - ECHO | Yes
+61.211.119.35 - Target scanning: 255 - ECHO
+160.13.52.242 - Target scanning: 255 - ECHO,tky008nasgw100.IIJ.Net | Yes
+160.13.52.246 - Target scanning: 255 - ECHO,tky008nasgw101.IIJ.Net
+160.13.134.122 - Target scanning: 255 - ECHO | Yes
+160.13.139.134 - Target scanning: 255 - ECHO,hyogo10-z01.flets.2iij.net | Yes
+160.13.139.142 - Target scanning: 255 - ECHO,hyogo10-z02.flets.2iij.net
+160.13.139.150 - Target scanning: 255 - ECHO,hyogo10-z03.flets.2iij.net
+160.13.139.158 - Target scanning: 255 - ECHO,hyogo10-z04.flets.2iij.net
+160.13.139.166 - Target scanning: 255 - ECHO,hyogo10-z05.flets.2iij.net
+160.13.139.174 - Target scanning: 255 - ECHO,hyogo10-z06.flets.2iij.net
+160.13.141.6 - Target scanning: 255 - ECHO,fukuoka01-z01.flets.2iij.net | Yes
+160.13.141.10 - Target scanning: 255 - ECHO,fukuoka01-z01.flets.2iij.net | Yes
+160.13.141.14 - Target scanning: 255 - ECHO,fukuoka01-z02.flets.2iij.net
+160.13.141.18 - Target scanning: 255 - ECHO,fukuoka01-z02.flets.2iij.net
+160.13.141.22 - Target scanning: 255 - ECHO,fukuoka01-z03.flets.2iij.net
+160.13.141.26 - Target scanning: 255 - ECHO,fukuoka01-z03.flets.2iij.net
+160.13.141.38 - Target scanning: 255 - ECHO,fukuoka01-z04.flets.2iij.net
+160.13.141.42 - Target scanning: 255 - ECHO,fukuoka01-z04.flets.2iij.net
+160.13.141.46 - Target scanning: 255 - ECHO,fukuoka01-z05.flets.2iij.net
+160.13.141.134 - Target scanning: 255 - ECHO,saitama01-z01.flets.2iij.net | Yes
+160.13.141.138 - Target scanning: 255 - ECHO,saitama01-z01.flets.2iij.net | Yes
+160.13.141.142 - Target scanning: 255 - ECHO,saitama01-z02.flets.2iij.net
+160.13.141.150 - Target scanning: 255 - ECHO,saitama01-z03.flets.2iij.net
+160.13.141.158 - Target scanning: 255 - ECHO,saitama01-z04.flets.2iij.net
+160.13.141.166 - Target scanning: 255 - ECHO,saitama01-z05.flets.2iij.net
+160.13.141.170 - Target scanning: 255 - ECHO,saitama01-z05.flets.2iij.net
+160.13.141.174 - Target scanning: 255 - ECHO,saitama01-z06.flets.2iij.net
+160.13.141.182 - Target scanning: 255 - ECHO,saitama01-z07.flets.2iij.net
+160.13.141.190 - Target scanning: 255 - ECHO,saitama01-z08.flets.2iij.net
+160.13.147.158 - Target scanning: 255 - ECHO,yamanashi01-n02.flets.2iij.net | Yes
+160.13.147.162 - Target scanning: 128 - ECHO,yamanashi01-n03.flets.2iij.net
+160.13.161.6 - Target scanning: 255 - ECHO,chiba01-z01.flets.2iij.net | Yes
+160.13.161.10 - Target scanning: 255 - ECHO,chiba01-z01.flets.2iij.net | Yes
+160.13.161.14 - Target scanning: 255 - ECHO,chiba01-z02.flets.2iij.net
+160.13.161.18 - Target scanning: 255 - ECHO,chiba01-z02.flets.2iij.net
+160.13.161.22 - Target scanning: 255 - ECHO,chiba01-z03.flets.2iij.net
+160.13.161.26 - Target scanning: 255 - ECHO,chiba01-z03.flets.2iij.net | Yes
+160.13.161.30 - Target scanning: 255 - ECHO,chiba01-z04.flets.2iij.net
+160.13.161.34 - Target scanning: 255 - ECHO,chiba01-z04.flets.2iij.net | Yes
+160.13.162.18 - Target scanning: 255 - ECHO,tokyo10-n440.flets.2iij.net | Yes
+160.13.162.34 - Target scanning: 255 - ECHO,tokyo10-n441.flets.2iij.net
+160.13.162.50 - Target scanning: 255 - ECHO,tokyo10-n442.flets.2iij.net
+160.13.162.66 - Target scanning: 255 - ECHO,tokyo10-n443.flets.2iij.net
+160.13.162.118 - Target scanning: 255 - ECHO,tokyo10-n446.flets.2iij.net | Yes
+160.13.162.130 - Target scanning: 255 - ECHO,tokyo10-n447.flets.2iij.net
+160.13.162.162 - Target scanning: 255 - ECHO,tokyo10-n449.flets.2iij.net
+160.13.162.178 - Target scanning: 255 - ECHO,tokyo10-n450.flets.2iij.net
+160.13.162.194 - Target scanning: 255 - ECHO,tokyo10-n451.flets.2iij.net
+160.13.162.210 - Target scanning: 255 - ECHO,tokyo10-k04.flets.2iij.net | Yes
+160.13.162.218 - Target scanning: 255 - ECHO,tokyo10-n452.flets.2iij.net
+160.13.162.234 - Target scanning: 255 - ECHO
+160.13.163.6 - Target scanning: 255 - ECHO,tottori01-z01.flets.2iij.net | Yes
+160.13.163.22 - Target scanning: 255 - ECHO,shimane01-n01.flets.2iij.net
+160.13.163.39 - Target scanning: 255 - ECHO,yamaguchi01-n01.flets.2iij.net
+160.13.163.150 - Target scanning: 255 - ECHO,tochigi01-n03.flets.2iij.net | Yes
+160.13.163.154 - Target scanning: 255 - ECHO,tochigi01-n04.flets.2iij.net
+160.13.163.210 - Target scanning: 255 - ECHO,nagano02-z01.flets.2iij.net | Yes
+160.13.163.214 - Target scanning: 255 - ECHO,nagano02-n03.flets.2iij.net
+160.13.165.19 - Target scanning: 255 - ECHO,wakayama01-n01.flets.2iij.net | Yes
+160.13.165.20 - Target scanning: 255 - ECHO,wakayama01-n02.flets.2iij.net
+160.13.165.35 - Target scanning: 255 - ECHO,kochi02-n02.flets.2iij.net | Yes
+160.13.165.106 - Target scanning: 255 - ECHO,tky001nas23.IIJ.Net | Yes
+160.13.165.110 - Target scanning: 255 - ECHO,tky001nas23.IIJ.Net
+160.13.165.134 - Target scanning: 255 - ECHO,kanagawa02-z01.flets.2iij.net | Yes
+160.13.165.142 - Target scanning: 255 - ECHO,kanagawa02-z02.flets.2iij.net
+160.13.165.150 - Target scanning: 255 - ECHO,kanagawa02-z03.flets.2iij.net
+160.13.165.154 - Target scanning: 255 - ECHO,kanagawa02-z03.flets.2iij.net | Yes
+160.13.167.18 - Target scanning: 255 - ECHO,fukushima01-n02.flets.2iij.net | Yes
+160.13.167.30 - Target scanning: 255 - ECHO,fukushima01-z01.flets.2iij.net
+160.13.167.38 - Target scanning: 128 - ECHO,hokkaido03-g02.flets.2iij.net
+160.13.167.46 - Target scanning: 255 - ECHO,hokkaido03-a03.flets.2iij.net | Yes
+160.13.167.50 - Target scanning: 255 - ECHO,hokkaido03-a04.flets.2iij.net
+160.13.167.58 - Target scanning: 255 - ECHO,hokkaido03-u02.flets.2iij.net | Yes
+160.13.167.134 - Target scanning: 255 - ECHO,hokkaido10-z01.flets.2iij.net
+160.13.167.138 - Target scanning: 255 - ECHO,hokkaido10-z01.flets.2iij.net | Yes
+160.13.167.142 - Target scanning: 255 - ECHO,hokkaido10-z02.flets.2iij.net
+160.13.167.146 - Target scanning: 255 - ECHO,hokkaido10-z02.flets.2iij.net | Yes
+160.13.167.150 - Target scanning: 255 - ECHO,hokkaido10-z03.flets.2iij.net
+160.13.167.154 - Target scanning: 255 - ECHO,hokkaido10-z03.flets.2iij.net
+160.13.167.158 - Target scanning: 255 - ECHO,hokkaido10-z04.flets.2iij.net
+160.13.167.162 - Target scanning: 255 - ECHO,hokkaido10-z04.flets.2iij.net
+160.13.167.166 - Target scanning: 255 - ECHO,hokkaido10-z05.flets.2iij.net
+160.13.167.170 - Target scanning: 255 - ECHO,hokkaido10-z05.flets.2iij.net
+160.13.167.174 - Target scanning: 255 - ECHO,hokkaido10-z06.flets.2iij.net
+160.13.167.178 - Target scanning: 255 - ECHO,hokkaido10-z06.flets.2iij.net
+160.13.167.182 - Target scanning: 255 - ECHO,hokkaido10-z07.flets.2iij.net
+160.13.167.186 - Target scanning: 255 - ECHO,hokkaido10-z07.flets.2iij.net
+160.13.167.190 - Target scanning: 255 - ECHO,hokkaido10-z08.flets.2iij.net
+160.13.169.14 - Target scanning: 255 - ECHO,aichi01-z11.flets.2iij.net | Yes
+160.13.169.18 - Target scanning: 255 - ECHO,aichi01-z11.flets.2iij.net | Yes
+160.13.169.22 - Target scanning: 255 - ECHO,aichi01-z12.flets.2iij.net
+160.13.169.26 - Target scanning: 255 - ECHO,aichi01-z12.flets.2iij.net
+160.13.169.30 - Target scanning: 255 - ECHO,aichi01-z13.flets.2iij.net
+160.13.169.34 - Target scanning: 255 - ECHO,aichi01-z13.flets.2iij.net
+160.13.169.38 - Target scanning: 255 - ECHO,aichi01-z14.flets.2iij.net
+160.13.169.42 - Target scanning: 255 - ECHO,aichi01-z14.flets.2iij.net
+160.13.169.46 - Target scanning: 255 - ECHO,aichi01-z15.flets.2iij.net
+160.13.169.50 - Target scanning: 255 - ECHO,aichi01-z15.flets.2iij.net
+160.13.169.54 - Target scanning: 255 - ECHO,aichi01-z16.flets.2iij.net
+160.13.169.62 - Target scanning: 255 - ECHO,aichi01-z17.flets.2iij.net
+160.13.169.162 - Target scanning: 255 - ECHO,mie01-a02.flets.2iij.net
+160.13.169.163 - Target scanning: 255 - ECHO,mie01-n02.flets.2iij.net
+168.143.229.26 - Target scanning: 64 - 1209;17361,193307,1212;17467,179631,1214;17676,161222,1215;17771,ae-0.iij.lsanca20.us.bb.gin.ntt.net | Yes
+168.143.229.30 - Target scanning: 64 - 1210;49681,172614,1211;49750,172599,1213;49917,188809,1216;50019,ae-1.iij.lsanca20.us.bb.gin.ntt.net
+192.70.131.2 - Target scanning: 255 - ECHO | Yes
+192.70.131.6 - Target scanning: 255 - ECHO | Yes
+192.70.131.50 - Target scanning: 255 - ECHO | Yes
+192.70.131.54 - Target scanning: 255 - ECHO
+202.32.116.166 - Target scanning: 255 - ECHO,osk009nas20.IIJ.Net | Yes
+202.32.116.174 - Target scanning: 255 - ECHO,osk009nas21.IIJ.Net
+202.32.186.77 - Target scanning: 64 - 1243;23718,380264,1258;23751,237717,1259;23760,359983,1272;23783 | Yes
+202.32.186.81 - Target scanning: 64 - 1244;23719,360231,1257;23750,257722,1260;23762,339894,1271;23782
+202.32.186.85 - Target scanning: 64 - 1245;23720,339935,1256;23749,278057,1261;23763,319617,1270;23781
+202.32.186.89 - Target scanning: 64 - 1246;23723,319499,1255;23748,298544,1262;23767,299152,1269;23780
+202.32.186.93 - Target scanning: 64 - 1247;23724,299526,1254;23747,318345,1263;23768,279346,1268;23777
+202.214.1.2 - Target scanning: 255 - ECHO,osaka02-n03.flets.2iij.net
+202.214.1.3 - Target scanning: 255 - ECHO,osaka02-n04.flets.2iij.net
+202.214.1.5 - Target scanning: 255 - ECHO,osaka02-a02.flets.2iij.net
+202.214.1.6 - Target scanning: 255 - ECHO,osaka02-a03.flets.2iij.net
+202.214.1.18 - Target scanning: 255 - ECHO,nagasaki01-a02.flets.2iij.net | Yes
+202.214.1.23 - Target scanning: 255 - ECHO,nagasaki01-n03.flets.2iij.net
+202.214.1.39 - Target scanning: 255 - ECHO,kumamoto01-n02.flets.2iij.net
+202.214.1.53 - Target scanning: 255 - ECHO,oita01-n03.flets.2iij.net
+202.214.1.82 - Target scanning: 255 - ECHO,kagoshima01-a02.flets.2iij.net
+202.214.1.134 - Target scanning: 255 - ECHO,osaka10-z01.flets.2iij.net
+202.214.1.138 - Target scanning: 255 - ECHO,osaka10-z01.flets.2iij.net | Yes
+202.214.1.142 - Target scanning: 255 - ECHO,osaka10-z02.flets.2iij.net
+202.214.1.146 - Target scanning: 255 - ECHO,osaka10-z02.flets.2iij.net | Yes
+202.214.1.150 - Target scanning: 255 - ECHO,osaka10-z03.flets.2iij.net
+202.214.1.154 - Target scanning: 255 - ECHO,osaka10-z03.flets.2iij.net
+202.214.1.158 - Target scanning: 255 - ECHO,osaka10-z04.flets.2iij.net
+202.214.1.166 - Target scanning: 255 - ECHO,osaka10-z05.flets.2iij.net
+202.214.1.170 - Target scanning: 255 - ECHO,osaka10-z05.flets.2iij.net
+202.214.1.174 - Target scanning: 255 - ECHO,osaka10-z06.flets.2iij.net
+202.214.1.178 - Target scanning: 255 - ECHO,osaka10-z06.flets.2iij.net | Yes
+202.214.1.182 - Target scanning: 128 - ECHO,osaka10-z07.flets.2iij.net
+202.214.1.186 - Target scanning: 128 - ECHO,osaka10-z07.flets.2iij.net
+202.214.41.50 - Target scanning: 255 - ECHO,miyazaki02-z01.flets.2iij.net | Yes
+202.214.41.54 - Target scanning: 255 - ECHO,oita02-z01.flets.2iij.net
+202.214.41.58 - Target scanning: 255 - ECHO,yamanashi02-z01.flets.2iij.net | Yes
+202.214.41.66 - Target scanning: 255 - ECHO,kyoto01-z02.flets.2iij.net
+202.214.41.74 - Target scanning: 255 - ECHO,kyoto03-z01.flets.2iij.net
+202.214.41.82 - Target scanning: 255 - ECHO,gunma02-z01.flets.2iij.net
+202.214.41.114 - Target scanning: 255 - ECHO,niigata04-z01.flets.2iij.net
+202.214.41.118 - Target scanning: 255 - ECHO,ibaraki04-z01.flets.2iij.net
+202.214.41.122 - Target scanning: 255 - ECHO,ibaraki01-z02.flets.2iij.net
+202.214.41.126 - Target scanning: 255 - ECHO,ibaraki03-z02.flets.2iij.net
+202.214.41.130 - Target scanning: 255 - ECHO,niigata02-z02.flets.2iij.net
+202.214.41.134 - Target scanning: 255 - ECHO,niigata03-z02.flets.2iij.net
+202.214.41.146 - Target scanning: 255 - ECHO,shimane02-z02.flets.2iij.net | Yes
+202.214.41.158 - Target scanning: 255 - ECHO,hiroshima01-z02.flets.2iij.net
+202.214.41.166 - Target scanning: 255 - ECHO,hiroshima03-z02.flets.2iij.net
+202.214.41.170 - Target scanning: 255 - ECHO,hiroshima04-z02.flets.2iij.net
+202.214.41.178 - Target scanning: 255 - ECHO,shiga03-z01.flets.2iij.net
+202.214.41.182 - Target scanning: 255 - ECHO,nagano01-z02.flets.2iij.net
+202.214.41.186 - Target scanning: 255 - ECHO,nagano03-z02.flets.2iij.net
+202.214.41.194 - Target scanning: 255 - ECHO,planetlab3.cesnet.cz
+202.214.41.218 - Target scanning: 255 - ECHO,tochigi02-z01.flets.2iij.net
+202.214.41.222 - Target scanning: 255 - ECHO,tochigi04-z01.flets.2iij.net
+202.214.41.226 - Target scanning: 255 - ECHO,nagano04-z01.flets.2iij.net
+202.214.41.234 - Target scanning: 255 - ECHO,ishikawa01-z02.flets.2iij.net
+202.214.41.242 - Target scanning: 255 - ECHO,planetlab3.cesnet.cz
+202.214.41.246 - Target scanning: 255 - ECHO,okayama01-z02.flets.2iij.net
+202.214.41.254 - Target scanning: 255 - ECHO,okayama03-z02.flets.2iij.net
+202.214.60.45 - Target scanning: 64 - 1248;23726,279108,1253;23746,338690,1264;23769,259220,1267;23776
+202.214.60.205 - Target scanning: 64 - 1249;23731,259033,1252;23745,358760,1265;23770,319800,1274;23786
+202.214.96.226 - Target scanning: 64 - 1250;23732,238832,1251;23743,379212,1266;23771,299290,1273;23785
+202.221.252.5 - Target scanning: 255 - ECHO,chiba10-a02.flets.2iij.net
+202.221.252.34 - Target scanning: 255 - ECHO,chiba10-z09.flets.2iij.net
+202.221.252.42 - Target scanning: 255 - ECHO,chiba10-z10.flets.2iij.net
+202.221.252.46 - Target scanning: 255 - ECHO,chiba10-z10.flets.2iij.net
+202.221.252.50 - Target scanning: 255 - ECHO,chiba10-z11.flets.2iij.net
+202.221.252.54 - Target scanning: 255 - ECHO,chiba10-z11.flets.2iij.net
+202.221.252.66 - Target scanning: 255 - ECHO,chiba10-z12.flets.2iij.net
+202.221.252.70 - Target scanning: 255 - ECHO,chiba10-z12.flets.2iij.net
+202.221.252.74 - Target scanning: 255 - ECHO,chiba10-z13.flets.2iij.net
+202.221.252.78 - Target scanning: 255 - ECHO,chiba10-z13.flets.2iij.net
+202.221.252.106 - Target scanning: 255 - ECHO,chiba10-z05.flets.2iij.net
+202.221.252.114 - Target scanning: 255 - ECHO,chiba10-z06.flets.2iij.net
+202.221.252.134 - Target scanning: 255 - ECHO,saitama10-a02.flets.2iij.net
+202.221.252.135 - Target scanning: 255 - ECHO,saitama10-a03.flets.2iij.net
+202.221.252.162 - Target scanning: 255 - ECHO,saitama10-z10.flets.2iij.net
+202.221.252.170 - Target scanning: 255 - ECHO,saitama10-z11.flets.2iij.net
+202.221.252.178 - Target scanning: 255 - ECHO,saitama10-z12.flets.2iij.net
+202.221.252.234 - Target scanning: 255 - ECHO,saitama10-z05.flets.2iij.net
+202.221.252.242 - Target scanning: 255 - ECHO,saitama10-z06.flets.2iij.net
+202.236.109.14 - Target scanning: 64 - 1423;1767,7577093,1430;6570,240115,1431;6588,276281,1436;6668
+202.236.109.19 - Target scanning: 64 - 1424;4697,7557081,1429;5200,260174,1432;5246,256127,1435;5287
+202.236.109.24 - Target scanning: 64 - 1425;50671,7536600,1428;56469,279953,1433;56640,236084,1434;56856
+202.236.110.1 - Target scanning
+203.180.8.70 - Target scanning: 255 - ECHO,aomori01-a01.flets.2iij.net | Yes
+203.180.8.82 - Target scanning: 255 - ECHO,aomori01-z01.flets.2iij.net
+203.180.8.98 - Target scanning: 255 - ECHO,aomori01-n01.flets.2iij.net
+203.180.8.134 - Target scanning: 255 - ECHO,iwate01-a01.flets.2iij.net | Yes
+203.180.8.162 - Target scanning: 255 - ECHO,iwate01-n01.flets.2iij.net
+203.180.8.174 - Target scanning: 255 - ECHO,iwate01-z03.flets.2iij.net
+203.180.10.34 - Target scanning: 255 - ECHO,akita01-n01.flets.2iij.net | Yes
+203.180.10.42 - Target scanning: 128 - ECHO,akita01-n02.flets.2iij.net
+203.180.10.98 - Target scanning: 255 - ECHO,yamagata01-n01.flets.2iij.net | Yes
+203.180.10.106 - Target scanning: 128 - ECHO,yamagata01-n02.flets.2iij.net
+203.180.20.130 - Target scanning: 255 - ECHO,tokyo10-n420.flets.2iij.net
+203.180.20.146 - Target scanning: 255 - ECHO,tokyo10-k07.flets.2iij.net
+203.180.20.162 - Target scanning: 255 - ECHO
+203.180.20.178 - Target scanning: 255 - ECHO,tokyo10-n423.flets.2iij.net
+203.180.20.194 - Target scanning: 255 - ECHO,tokyo10-n424.flets.2iij.net
+203.180.20.210 - Target scanning: 255 - ECHO,tokyo10-n425.flets.2iij.net
+203.180.20.226 - Target scanning: 255 - ECHO,tokyo10-n426.flets.2iij.net
+203.180.20.242 - Target scanning: 255 - ECHO,tokyo10-n427.flets.2iij.net
+203.180.43.42 - Target scanning: 255 - ECHO,ibaraki02-a01.flets.2iij.net | Yes
+203.180.43.46 - Target scanning: 255 - ECHO,ibaraki02-a02.flets.2iij.net
+203.180.58.74 - Target scanning: 255 - ECHO,chiba10-z07.flets.2iij.net
+203.180.58.138 - Target scanning: 255 - ECHO,saitama10-z07.flets.2iij.net
+203.180.58.146 - Target scanning: 255 - ECHO,saitama10-z08.flets.2iij.net
+203.180.58.170 - Target scanning: 255 - ECHO,saitama10-z13.flets.2iij.net
+203.180.58.194 - Target scanning: 255 - ECHO,kanagawa10-z08.flets.2iij.net
+203.180.58.198 - Target scanning: 255 - ECHO,kanagawa10-z08.flets.2iij.net | Yes
+203.180.58.202 - Target scanning: 255 - ECHO,kanagawa10-z09.flets.2iij.net
+203.180.58.210 - Target scanning: 255 - ECHO,kanagawa10-z10.flets.2iij.net
+203.180.58.214 - Target scanning: 255 - ECHO,kanagawa10-z10.flets.2iij.net
+203.180.58.234 - Target scanning: 255 - ECHO,kanagawa10-z12.flets.2iij.net
+203.180.58.242 - Target scanning: 255 - ECHO,kanagawa10-z13.flets.2iij.net
+203.180.73.210 - Target scanning: 255 - ECHO,miyagi02-z01.flets.2iij.net | Yes
+203.180.73.222 - Target scanning: 255 - ECHO,miyagi02-b01.flets.2iij.net
+203.180.167.66 - Target scanning: 255 - 1501;62301,264194,1503;39015,264512,1505;6342,264215,1507;52664,203x180x167x66.ap.38ns.net | Yes
+203.180.167.145 - Target scanning: 255 - 1502;37020,266659,1504;59336,264162,1506;24953,264499,1508;60438,203x180x167x145.ap.38ns.net
+203.180.195.2 - Target scanning: 255 - ECHO,yamaguchi03-z01.flets.2iij.net
+203.180.195.26 - Target scanning: 255 - ECHO,ehime03-z01.flets.2iij.net | Yes
+203.180.195.30 - Target scanning: 255 - ECHO,nagasaki03-z01.flets.2iij.net | Yes
+203.180.195.42 - Target scanning: 255 - ECHO,kumamoto02-z02.flets.2iij.net
+203.180.195.58 - Target scanning: 255 - ECHO,nagasaki02-z01.flets.2iij.net
+203.180.195.74 - Target scanning: 255 - ECHO,kumamoto03-z01.flets.2iij.net
+203.180.195.94 - Target scanning: 255 - ECHO,kochi01-z02.flets.2iij.net | Yes
+203.180.195.114 - Target scanning: 255 - ECHO,gunma03-z01.flets.2iij.net
+203.180.195.174 - Target scanning: 255 - ECHO,ehime02-z02.flets.2iij.net
+203.180.195.230 - Target scanning: 255 - ECHO,nara02-z02.flets.2iij.net
+203.180.195.242 - Target scanning: 255 - ECHO,kagawa02-z02.flets.2iij.net
+203.180.195.246 - Target scanning: 255 - ECHO,kagoshima02-z01.flets.2iij.net
+206.132.168.38 - Target scanning: 64 - 41;63691,291850,48;63828,298745,59;64054,302696,68;64174,ldn001bb11.IIJ.Net
+206.132.169.14 - Target scanning: 64 - 1557;743,201930,1559;771,182364,1561;894,170911,1563;1040,sjc002bb80.IIJ.net | Yes
+206.132.169.18 - Target scanning: 64 - 1558;746,181711,1560;774,181601,1562;899,191266,1564;1043,sjc002bb80.IIJ.net
+206.132.169.190 - Target scanning: 64 - 1565;49519,112831,1568;49537,96812,1569;49557,112778,1572;49561,nyc002bb80.IIJ.net | Yes
+206.132.169.194 - Target scanning: 64 - 1566;52972,92562,1567;52995,117046,1570;53007,92616,1571;53012,nyc002bb81.IIJ.net | Yes
+210.130.142.26 - Target scanning: 255 - ECHO,osk008agr00.IIJ.Net | Yes
+210.130.142.166 - Target scanning: 255 - ECHO,tky008agr02.IIJ.Net | Yes
+210.130.143.122 - Target scanning: 64 - 1574;30202,306107,1580;30699,247456,1582;31120,296031,1588;31612,tky012agr02.iij.net
+210.130.143.158 - Target scanning: 255 - ECHO,tky001agr02.iij.net
+210.130.145.106 - Target scanning: 255 - ECHO | Yes
+210.130.150.14 - Target scanning: 255 - ECHO
+210.130.150.150 - Target scanning: 255 - ECHO
+210.130.154.90 - Target scanning: 255 - ECHO | Yes
+210.130.161.5 - Target scanning
+210.130.161.37 - Target scanning
+210.130.172.86 - Target scanning: 255 - ECHO,yamanashi03-z01.flets.2iij.net
+210.130.172.94 - Target scanning: 255 - ECHO,gunma04-z01.flets.2iij.net
+210.130.182.229 - Target scanning: 255 - ECHO,toyama02-n01.flets.2iij.net
+210.130.183.10 - Target scanning: 255 - ECHO,ishikawa04-z01.flets.2iij.net
+210.130.183.14 - Target scanning: 255 - ECHO,kyoto04-z01.flets.2iij.net
+210.130.183.34 - Target scanning: 255 - ECHO,okayama04-z01.flets.2iij.net
+210.130.183.38 - Target scanning: 255 - ECHO,hiroshima05-z01.flets.2iij.net
+210.130.183.58 - Target scanning: 255 - ECHO,toyama03-z01.flets.2iij.net
+210.130.183.66 - Target scanning: 255 - ECHO,kagawa03-z01.flets.2iij.net
+210.130.183.82 - Target scanning: 255 - ECHO,mie03-z02.flets.2iij.net
+210.130.183.86 - Target scanning: 255 - ECHO,gifu01-z02.flets.2iij.net
+210.130.183.94 - Target scanning: 255 - ECHO,gifu03-z02.flets.2iij.net
+210.130.183.98 - Target scanning: 255 - ECHO,gifu04-z02.flets.2iij.net
+210.130.183.102 - Target scanning: 255 - ECHO,shizuoka01-z02.flets.2iij.net
+210.130.183.110 - Target scanning: 255 - ECHO,shizuoka03-z02.flets.2iij.net
+210.130.183.114 - Target scanning: 255 - ECHO,shizuoka04-z02.flets.2iij.net
+210.130.183.118 - Target scanning: 255 - ECHO,shizuoka05-z02.flets.2iij.net
+210.130.183.122 - Target scanning: 255 - ECHO,miyagi05-z01.flets.2iij.net | Yes
+210.130.183.130 - Target scanning: 255 - ECHO,aomori02-z02.flets.2iij.net
+210.130.183.134 - Target scanning: 128 - ECHO,iwate02-n02.flets.2iij.net
+210.130.183.138 - Target scanning: 255 - ECHO,miyagi01-z02.flets.2iij.net
+210.130.183.142 - Target scanning: 255 - ECHO,planetlab3.cesnet.cz
+210.130.183.146 - Target scanning: 255 - ECHO,miyagi04-z02.flets.2iij.net
+210.130.183.150 - Target scanning: 255 - ECHO,akita02-z02.flets.2iij.net
+210.130.183.154 - Target scanning: 255 - ECHO,yamagata02-z02.flets.2iij.net
+210.130.183.158 - Target scanning: 255 - ECHO,fukushima02-z02.flets.2iij.net
+210.130.183.162 - Target scanning: 255 - ECHO,fukushima03-z02.flets.2iij.net
+210.130.183.186 - Target scanning: 255 - ECHO,miyazaki03-z01.flets.2iij.net
+210.130.183.190 - Target scanning: 255 - ECHO,kagoshima03-z01.flets.2iij.net
+210.130.183.194 - Target scanning: 255 - ECHO,fukushima04-z01.flets.2iij.net
+210.130.183.198 - Target scanning: 255 - ECHO,niigata05-z01.flets.2iij.net
+210.130.214.10 - Target scanning: 255 - ECHO,toyama01-z01.flets.2iij.net
+210.130.214.133 - Target scanning: 255 - ECHO,kanagawa10-a01.flets.2iij.net
+210.130.214.134 - Target scanning: 255 - ECHO,kanagawa10-a02.flets.2iij.net
+210.130.214.135 - Target scanning: 255 - ECHO,kanagawa10-a03.flets.2iij.net
+210.130.214.136 - Target scanning: 255 - ECHO,kanagawa10-a04.flets.2iij.net
+210.130.214.142 - Target scanning: 255 - ECHO,kanagawa10-f27.flets.2iij.net
+210.130.214.143 - Target scanning: 255 - ECHO,kanagawa10-f28.flets.2iij.net
+210.130.214.226 - Target scanning: 255 - ECHO,kanagawa10-z14.flets.2iij.net
+210.130.214.234 - Target scanning: 255 - ECHO,kanagawa10-z06.flets.2iij.net
+210.130.214.242 - Target scanning: 255 - ECHO,kanagawa10-z07.flets.2iij.net
+210.130.214.246 - Target scanning: 255 - ECHO,kanagawa10-z07.flets.2iij.net
+210.138.9.146 - Target scanning: 255 - ECHO | Yes
+210.138.13.133 - Target scanning: 255 - ECHO
+210.138.32.2 - Target scanning: 255 - ECHO | Yes
+210.138.32.6 - Target scanning: 255 - ECHO
+210.138.32.14 - Target scanning: 255 - ECHO
+210.138.32.18 - Target scanning: 255 - ECHO
+210.138.32.22 - Target scanning: 255 - ECHO
+210.138.32.106 - Target scanning: 255 - ECHO
+210.138.78.54 - Target scanning: 255 - ECHO
+210.138.111.238 - Target scanning: 255 - ECHO,tky008nasgw102.IIJ.Net | Yes
+210.138.111.250 - Target scanning: 255 - ECHO,tky008nasgw103.IIJ.Net
+210.138.115.106 - Target scanning: 255 - ECHO,tky012agr00.IIJ.Net
+210.138.115.226 - Target scanning: 255 - ECHO,mte001agr02.IIJ.Net
+210.148.39.10 - Target scanning: 255 - ECHO,okinawa02-z01.flets.2iij.net | Yes
+210.148.147.6 - Target scanning: 255 - ECHO,kanagawa01-z01.flets.2iij.net
+210.148.147.14 - Target scanning: 255 - ECHO,kanagawa01-z02.flets.2iij.net
+210.148.147.22 - Target scanning: 255 - ECHO,kanagawa01-z03.flets.2iij.net
+210.148.147.30 - Target scanning: 255 - ECHO,kanagawa01-z04.flets.2iij.net
+210.148.147.38 - Target scanning: 255 - ECHO,kanagawa01-z05.flets.2iij.net
+210.148.147.46 - Target scanning: 255 - ECHO,kanagawa01-z06.flets.2iij.net
+210.148.147.54 - Target scanning: 255 - ECHO,kanagawa01-z07.flets.2iij.net
+210.148.147.62 - Target scanning: 255 - ECHO,kanagawa01-z08.flets.2iij.net
+210.148.147.70 - Target scanning: 255 - ECHO,kanagawa01-z09.flets.2iij.net
+210.148.147.78 - Target scanning: 255 - ECHO,kanagawa01-z10.flets.2iij.net
+210.148.147.130 - Target scanning: 255 - ECHO,tokyo10-n413.flets.2iij.net
+210.148.147.146 - Target scanning: 255 - ECHO,tokyo10-n414.flets.2iij.net
+210.148.147.162 - Target scanning: 255 - ECHO,tokyo10-n415.flets.2iij.net | Yes
+210.148.147.178 - Target scanning: 255 - ECHO,tokyo10-n416.flets.2iij.net
+210.148.147.210 - Target scanning: 255 - ECHO,tokyo10-n418.flets.2iij.net
+210.148.147.226 - Target scanning: 255 - ECHO,tokyo10-n419.flets.2iij.net
+210.148.147.242 - Target scanning: 255 - ECHO,tokyo10-k03.flets.2iij.net | Yes
+210.148.147.250 - Target scanning: 255 - ECHO,tokyo10-k05.flets.2iij.net
+210.148.159.10 - Target scanning: 255 - ECHO,tokyo10-a05.flets.2iij.net | Yes
+210.148.159.18 - Target scanning: 255 - ECHO,tokyo10-b05.flets.2iij.net | Yes
+210.148.159.22 - Target scanning: 255 - ECHO,tokyo10-b05.flets.2iij.net | Yes
+210.148.159.34 - Target scanning: 255 - ECHO,tokyo10-a06.flets.2iij.net
+210.148.159.42 - Target scanning: 255 - ECHO,tokyo10-b06.flets.2iij.net
+210.148.159.46 - Target scanning: 255 - ECHO,tokyo10-b06.flets.2iij.net
+210.148.159.50 - Target scanning: 255 - ECHO,tokyo10-k01.flets.2iij.net
+210.148.159.82 - Target scanning: 255 - ECHO,tokyo10-n402.flets.2iij.net
+210.148.159.114 - Target scanning: 255 - ECHO,tokyo10-n404.flets.2iij.net
+210.148.159.130 - Target scanning: 255 - ECHO,tokyo10-n405.flets.2iij.net
+210.148.159.146 - Target scanning: 255 - ECHO,tokyo10-n406.flets.2iij.net
+210.148.159.162 - Target scanning: 255 - ECHO,tokyo10-n407.flets.2iij.net
+210.148.159.178 - Target scanning: 255 - ECHO,tokyo10-n408.flets.2iij.net
+210.148.159.194 - Target scanning: 255 - ECHO,planetlab3.cesnet.cz
+210.148.159.210 - Target scanning: 255 - ECHO,tokyo10-n410.flets.2iij.net
+210.148.159.226 - Target scanning: 255 - ECHO,tokyo10-n411.flets.2iij.net
+210.148.159.242 - Target scanning: 255 - ECHO,tokyo10-n412.flets.2iij.net
+210.149.33.146 - Target scanning: 255 - ECHO,west-a01.flets.2iij.net | Yes
+210.149.33.147 - Target scanning: 255 - ECHO,west-a02.flets.2iij.net
+210.149.33.152 - Target scanning: 255 - ECHO,west-a03.flets.2iij.net
+210.149.33.153 - Target scanning: 255 - ECHO,west-a04.flets.2iij.net
+210.149.33.157 - Target scanning: 255 - ECHO,west-a05.flets.2iij.net
+210.149.33.158 - Target scanning: 255 - ECHO,west-a06.flets.2iij.net
+210.149.34.2 - Target scanning: 255 - ECHO,tokyo10-n428.flets.2iij.net
+210.149.34.6 - Target scanning: 255 - ECHO,tokyo10-n428.flets.2iij.net
+210.149.34.18 - Target scanning: 255 - ECHO,tokyo10-n429.flets.2iij.net
+210.149.34.34 - Target scanning: 255 - ECHO,tokyo10-n430.flets.2iij.net
+210.149.34.66 - Target scanning: 255 - ECHO,tokyo10-n454.flets.2iij.net
+210.149.34.130 - Target scanning: 255 - ECHO,tokyo10-n432.flets.2iij.net
+210.149.34.162 - Target scanning: 255 - ECHO,tokyo10-n434.flets.2iij.net
+210.149.34.178 - Target scanning: 255 - ECHO,tokyo10-n435.flets.2iij.net
+210.149.34.194 - Target scanning: 255 - ECHO,planetlab3.cesnet.cz
+210.149.34.210 - Target scanning: 255 - ECHO,tokyo10-n437.flets.2iij.net
+210.149.34.226 - Target scanning: 255 - ECHO,tokyo10-n438.flets.2iij.net
+210.149.116.132 - Target scanning: 64 - 1773;7567,266485,1776;7568,247614,1777;7569,266033,1780;7570,fw1.vio.jp
+210.149.116.254 - Target scanning: 64 - 1774;64370,246548,1775;64573,267079,1778;64574,246065,1779;64575,fw3.vio.jp
+219.119.225.85 - Target scanning: 64 - 1702;43678,271507,1703;43679,267474,1705;43680,286192,1708;43681,p225085.doubleroute.jp

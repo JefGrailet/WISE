@@ -1,0 +1,40 @@
+WISE (Wide and lInear Subnet inferencE) - Time at start: 24-01-2019 16:54:47
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 9055 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 10 additional responsive IPs.
+--- End of target pre-scanning (24-01-2019 17:16:37) ---
+Elapsed time: 21 minutes 50 seconds
+Total amount of probes: 81569
+Total amount of successful probes: 13495 (16.5443%)
+Total amount of discovered responsive IPs: 9065
+
+Filtered target IPs have been saved in an output file AS30781_24-01.ips (temporar).
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 259 threads will be scheduled (up to 35 target IPs per thread).
+1551 out of 9054 IPs with an estimated TTL (17.1306%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 22 threads will be scheduled (from 3 to 495 target IPs per thread).
+Updated IP dictionary has been saved in the output file AS30781_24-01.ips.
+
+There are flickering IPs that could lead to the discovery of 6 aliases.
+Now starting alias hints collection...
+Collecting hints for 31.172.233.90, 77.246.83.238... Done.
+Collecting hints for 37.110.195.2, 78.153.231.39, 78.153.240.211... Done.
+Collecting hints for 78.41.187.1, 185.68.230.3... Done.
+Collecting hints for 78.153.231.3, 85.31.192.36... Done.
+Collecting hints for 78.153.247.1, 78.153.247.131... Done.
+Collecting hints for 185.68.228.65, 185.68.228.72... Done.
+Resolving... Done.
+Inferred subnets has been saved in the output file AS30781_24-01.subnets.
+--- End of target scanning (24-01-2019 19:15:01) ---
+Elapsed time: 1 hour 58 minutes 23 seconds
+Total amount of probes: 51974
+Total amount of successful probes: 41541 (79.9265%)
+Alias hints have been saved in an output file AS30781_24-01.hints.
+Fingerprints have been saved in an output file AS30781_24-01.fingerprints.
+Aliases discovered during subnet discovery have been written in AS30781_24-01.aliases-1.

@@ -1,0 +1,66 @@
+WISE (Wide and lInear Subnet inferencE) - Time at start: 17-01-2019 13:16:36
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 74988 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 152 additional responsive IPs.
+--- End of target pre-scanning (17-01-2019 18:31:44) ---
+Elapsed time: 5 hours 15 minutes 4 seconds
+Total amount of probes: 1238292
+Total amount of successful probes: 140182 (11.3206%)
+Total amount of discovered responsive IPs: 75140
+
+Filtered target IPs have been saved in an output file AS6453_17-01.ips (temporar).
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 257 threads will be scheduled (up to 293 target IPs per thread).
+15995 out of 74680 IPs with an estimated TTL (21.4181%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 170 threads will be scheduled (from 1 to 450 target IPs per thread).
+Updated IP dictionary has been saved in the output file AS6453_17-01.ips.
+
+There are flickering IPs that could lead to the discovery of 32 aliases.
+Now starting alias hints collection...
+Collecting hints for 41.220.28.82, 197.221.232.4, 197.221.232.8... Done.
+Collecting hints for 63.243.128.29, 63.243.128.31... Done.
+Collecting hints for 63.243.205.2, 216.6.81.29, 216.6.115.89... Done.
+Collecting hints for 63.243.205.73, 63.243.205.131... Done.
+Collecting hints for 64.86.76.134, 117.103.88.140... Done.
+Collecting hints for 64.254.1.69, 66.110.6.4... Done.
+Collecting hints for 66.110.56.6, 66.110.56.130... Done.
+Collecting hints for 66.110.118.90, 66.110.118.246... Done.
+Collecting hints for 66.119.73.114, 208.91.192.242... Done.
+Collecting hints for 80.231.17.1, 80.231.17.9... Done.
+Collecting hints for 80.231.76.121, 80.231.131.118... Done.
+Collecting hints for 80.231.130.134, 80.231.131.160... Done.
+Collecting hints for 80.231.131.109, 80.231.229.9... Done.
+Collecting hints for 80.231.153.50, 80.231.217.1... Done.
+Collecting hints for 80.231.154.38, 80.231.154.46... Done.
+Collecting hints for 80.231.199.2, 80.231.199.6... Done.
+Collecting hints for 80.231.217.5, 80.231.217.30, 80.231.217.95, 80.231.217.111, 120.29.215.178, 180.87.12.78, 180.87.36.34, 180.87.37.9, 180.87.38.2, 180.87.38.117, 180.87.38.125, 180.87.39.159, 180.87.39.170, 180.87.96.21, 180.87.98.37, 180.87.136.18, 180.87.136.117, 180.87.176.1, 195.219.174.26... Done.
+Collecting hints for 104.44.236.138, 104.44.236.148... Done.
+Collecting hints for 116.0.67.87, 180.87.160.134... Done.
+Collecting hints for 116.0.71.192, 116.0.82.62, 116.0.93.137, 116.0.93.149, 180.87.12.2, 180.87.15.81, 180.87.98.10, 180.87.162.26... Done.
+Collecting hints for 129.250.3.145, 129.250.3.159... Done.
+Collecting hints for 180.87.180.2, 180.87.181.156... Done.
+Collecting hints for 180.87.194.77, 180.87.197.65, 180.87.217.6... Done.
+Collecting hints for 180.87.214.38, 180.87.215.17... Done.
+Collecting hints for 180.87.217.14, 180.87.217.77... Done.
+Collecting hints for 180.87.217.150, 180.87.225.25, 180.87.225.41... Done.
+Collecting hints for 184.105.55.198, 184.105.81.170... Done.
+Collecting hints for 185.18.196.4, 185.18.196.50, 185.18.196.83, 185.18.196.193... Done.
+Collecting hints for 185.18.196.226, 185.45.72.22... Done.
+Collecting hints for 195.219.81.10, 195.219.81.58... Done.
+Collecting hints for 209.58.75.6, 209.58.75.10... Done.
+Collecting hints for 216.6.87.42, 216.6.87.200, 216.6.87.222... Done.
+Resolving... Done.
+Inferred subnets has been saved in the output file AS6453_17-01.subnets.
+--- End of target scanning (17-01-2019 20:41:13) ---
+Elapsed time: 2 hours 9 minutes 29 seconds
+Total amount of probes: 390830
+Total amount of successful probes: 303479 (77.6499%)
+Alias hints have been saved in an output file AS6453_17-01.hints.
+Fingerprints have been saved in an output file AS6453_17-01.fingerprints.
+Aliases discovered during subnet discovery have been written in AS6453_17-01.aliases-1.

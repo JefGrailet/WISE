@@ -1,0 +1,39 @@
+WISE (Wide and lInear Subnet inferencE) - Time at start: 21-02-2019 13:15:36
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 22692 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 31 additional responsive IPs.
+--- End of target pre-scanning (21-02-2019 20:24:56) ---
+Elapsed time: 7 hours 9 minutes 14 seconds
+Total amount of probes: 1597788
+Total amount of successful probes: 26274 (1.6444%)
+Total amount of discovered responsive IPs: 22723
+
+Filtered target IPs have been saved in an output file AS5511_21-02.ips (temporar).
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 259 threads will be scheduled (up to 88 target IPs per thread).
+19502 out of 22258 IPs with an estimated TTL (87.6179%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 117 threads will be scheduled (from 2 to 270 target IPs per thread).
+Updated IP dictionary has been saved in the output file AS5511_21-02.ips.
+
+There are flickering IPs that could lead to the discovery of 5 aliases.
+Now starting alias hints collection...
+Collecting hints for 157.197.66.150, 157.197.66.154... Done.
+Collecting hints for 193.251.128.182, 193.251.154.118... Done.
+Collecting hints for 197.221.232.3, 197.221.232.8... Done.
+Collecting hints for 212.143.201.188, 212.143.201.190... Done.
+Collecting hints for 221.179.171.18, 221.183.25.113... Done.
+Resolving... Done.
+Inferred subnets has been saved in the output file AS5511_21-02.subnets.
+--- End of target scanning (21-02-2019 22:03:55) ---
+Elapsed time: 1 hour 38 minutes 59 seconds
+Total amount of probes: 232709
+Total amount of successful probes: 109580 (47.0889%)
+Alias hints have been saved in an output file AS5511_21-02.hints.
+Fingerprints have been saved in an output file AS5511_21-02.fingerprints.
+Aliases discovered during subnet discovery have been written in AS5511_21-02.aliases-1.

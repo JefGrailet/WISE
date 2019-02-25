@@ -1,0 +1,57 @@
+WISE (Wide and lInear Subnet inferencE) - Time at start: 05-01-2019 04:32:18
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 117929 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 23 additional responsive IPs.
+--- End of target pre-scanning (05-01-2019 05:39:30) ---
+Elapsed time: 1 hour 7 minutes 11 seconds
+Total amount of probes: 301911
+Total amount of successful probes: 122322 (40.5159%)
+Total amount of discovered responsive IPs: 117952
+
+Filtered target IPs have been saved in an output file AS12956_05-01.ips (temporar).
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 257 threads will be scheduled (up to 460 target IPs per thread).
+3188 out of 116904 IPs with an estimated TTL (2.72702%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 66 threads will be scheduled (from 1 to 197 target IPs per thread).
+Updated IP dictionary has been saved in the output file AS12956_05-01.ips.
+
+There are flickering IPs that could lead to the discovery of 23 aliases.
+Now starting alias hints collection...
+Collecting hints for 5.53.3.104, 5.53.3.142, 5.53.3.246, 5.53.5.98, 5.53.5.162, 5.53.5.166, 5.53.5.201, 5.53.5.203, 84.16.15.64, 94.142.97.160, 94.142.97.162, 94.142.98.82, 94.142.98.96, 94.142.98.97, 94.142.98.154, 94.142.98.156, 94.142.98.158, 94.142.98.176, 94.142.98.195, 94.142.98.217, 94.142.119.157, 94.142.124.62, 176.52.255.64, 176.52.255.68, 213.140.37.38, 213.140.38.66, 213.140.43.157... Done.
+Collecting hints for 5.53.3.146, 213.140.49.234... Done.
+Collecting hints for 5.53.3.164, 94.142.99.40... Done.
+Collecting hints for 5.53.5.114, 5.53.5.148... Done.
+Collecting hints for 5.53.5.133, 94.142.117.74, 176.52.250.211, 213.140.35.224, 213.140.36.169... Done.
+Collecting hints for 5.53.6.50, 94.142.98.152... Done.
+Collecting hints for 5.53.6.149, 94.142.117.228, 94.142.124.241... Done.
+Collecting hints for 5.53.7.21, 176.52.248.150... Done.
+Collecting hints for 5.53.7.56, 84.16.12.3, 84.16.12.7, 94.142.99.5... Done.
+Collecting hints for 5.53.7.171, 84.16.13.32, 94.142.122.30, 176.52.248.54, 190.98.156.198, 213.140.35.186, 213.140.35.190... Done.
+Collecting hints for 5.255.146.185, 94.142.97.138... Done.
+Collecting hints for 66.119.65.210, 216.177.198.78... Done.
+Collecting hints for 66.119.71.18, 216.177.198.51... Done.
+Collecting hints for 84.16.12.5, 94.142.99.7, 94.142.126.59, 176.52.255.30... Done.
+Collecting hints for 84.16.14.193, 94.142.97.114, 94.142.120.112... Done.
+Collecting hints for 94.142.97.112, 94.142.123.10, 94.142.123.230, 94.142.125.8... Done.
+Collecting hints for 94.142.117.230, 94.142.126.118... Done.
+Collecting hints for 94.142.118.5, 213.140.38.113... Done.
+Collecting hints for 94.142.119.35, 213.140.35.4... Done.
+Collecting hints for 94.142.119.155, 213.140.43.197... Done.
+Collecting hints for 94.142.126.162, 213.140.33.105... Done.
+Collecting hints for 213.140.35.98, 213.140.35.200... Done.
+Collecting hints for 213.140.35.142, 213.140.36.95... Done.
+Resolving... Done.
+Inferred subnets has been saved in the output file AS12956_05-01.subnets.
+--- End of target scanning (05-01-2019 07:48:56) ---
+Elapsed time: 2 hours 9 minutes 25 seconds
+Total amount of probes: 522751
+Total amount of successful probes: 482354 (92.2722%)
+Alias hints have been saved in an output file AS12956_05-01.hints.
+Fingerprints have been saved in an output file AS12956_05-01.fingerprints.
+Aliases discovered during subnet discovery have been written in AS12956_05-01.aliases-1.

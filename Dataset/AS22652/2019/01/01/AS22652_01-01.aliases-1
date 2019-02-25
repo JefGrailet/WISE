@@ -1,0 +1,5 @@
+192.252.138.81, 192.252.138.205 (group by echo IP-ID counter/DNS)
+192.252.143.66, 192.252.143.70 (group by echo IP-ID counter/DNS)
+192.252.143.141, 192.252.143.177 (group by echo IP-ID counter/DNS)
+192.252.143.150, 192.252.143.221 (group by echo IP-ID counter/DNS)
+68.67.63.81, 192.252.143.154, 192.252.143.186 (group by echo IP-ID counter/DNS)

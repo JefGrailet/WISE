@@ -1,0 +1,39 @@
+WISE (Wide and lInear Subnet inferencE) - Time at start: 16-01-2019 13:55:22
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 1024 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 51 additional responsive IPs.
+--- End of target pre-scanning (16-01-2019 14:07:23) ---
+Elapsed time: 12 minutes 1 second
+Total amount of probes: 33792
+Total amount of successful probes: 3935 (11.6448%)
+Total amount of discovered responsive IPs: 1075
+
+Filtered target IPs have been saved in an output file AS4711_16-01.ips (temporar).
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 34 threads will be scheduled (up to 32 target IPs per thread).
+25 out of 1075 IPs with an estimated TTL (2.32558%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 11 threads will be scheduled (from 1 to 6 target IPs per thread).
+Updated IP dictionary has been saved in the output file AS4711_16-01.ips.
+
+There are flickering IPs that could lead to the discovery of 5 aliases.
+Now starting alias hints collection...
+Collecting hints for 101.53.97.90, 101.53.112.22... Done.
+Collecting hints for 101.53.97.106, 101.53.120.22... Done.
+Collecting hints for 202.222.74.106, 202.222.74.238... Done.
+Collecting hints for 202.222.75.220, 202.222.75.221... Done.
+Collecting hints for 202.222.82.28, 202.222.82.29... Done.
+Resolving... Done.
+Inferred subnets has been saved in the output file AS4711_16-01.subnets.
+--- End of target scanning (16-01-2019 14:11:24) ---
+Elapsed time: 4 minutes 1 second
+Total amount of probes: 5177
+Total amount of successful probes: 4871 (94.0892%)
+Alias hints have been saved in an output file AS4711_16-01.hints.
+Fingerprints have been saved in an output file AS4711_16-01.fingerprints.
+Aliases discovered during subnet discovery have been written in AS4711_16-01.aliases-1.

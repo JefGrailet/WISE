@@ -1,0 +1,34 @@
+63.251.20.253 - Target scanning: inap-b1e1.e5.router.nyc.nfoservers.com
+63.251.32.14 - Target scanning: 64 - 9;37158,172165,12;37182,149792,14;37203,150107,16;37217
+64.94.164.228 - Target scanning: 255 - ECHO,cloudmark-24-25a.nyj003.pnap.net
+64.94.164.229 - Target scanning: 255 - ECHO,cloudmark-24-25b.nyj003.pnap.net
+64.94.177.70 - Target scanning: 255 - ECHO,integraldev-10.edge1.nyj001.pnap.net | Yes
+64.95.46.178 - Target scanning: 255 - 33;59368,116106,36;59369,91404,37;59370,116769,40;59376,edge1.audioaddict-1.nyj004.pnap.net | Yes
+64.95.46.182 - Target scanning: 255 - 34;43070,95480,35;43071,111998,38;43072,96026,39;43074,edge2.audioaddict-1.nyj004.pnap.net | Yes
+70.42.33.114 - Target scanning: 255 - 41;42720,115476,44;42723,91074,45;42724,115520,48;42727,applovin-1.edge1.nyj006.pnap.net
+70.42.35.114 - Target scanning: 255 - 42;42721,94988,43;42722,111488,46;42725,95076,47;42726,applovin-1.edge2.nyj004.pnap.net
+70.42.74.253 - Target scanning: inap-b2e2.e6.router.nyc.nfoservers.com
+72.26.212.10 - Target scanning: 64 - 49;3614,130956,52;3617,113855,53;3641,130402,56;3646,v505.po3.cr1.nyj004.us.voxel.net | Yes
+72.26.212.14 - Target scanning: 64 - 50;13122,109849,51;13136,134300,54;13163,109832,55;13189,v506.po3.cr2.nyj004.us.voxel.net
+74.201.53.90 - Target scanning: 64 - 10;19265,153482,11;19282,148653,13;19305,149913,15;19319,inapvoxcust-11.border1.dal006.pnap.net
+74.201.135.248 - Target scanning: 64 - 57;18796,102255,59;18880,102158,61;18892,102311,63;18976 | Yes
+74.201.198.2 - Target scanning: 255 - ECHO,avast-8.border2.nyj003.pnap.net | Yes
+74.201.198.6 - Target scanning: 255 - ECHO,avast-8.border1.nyj003.pnap.net | Yes
+74.201.252.6 - Target scanning: 255 - ECHO,integraldev-9.edge1.nyj001.pnap.net | Yes
+74.217.51.193 - Target scanning: 64 - ECHO
+75.98.32.8 - Target scanning: 64 - 73;9527,196412,77;9528,172659,79;9529,196166,83;9530,vps43.webhostserver.biz | Yes
+75.98.32.11 - Target scanning: 64 - 74;9155,196111,78;9156,172965,80;9157,196275,84;9158,shared10.webhostserver.biz
+75.98.33.42 - Target scanning: 64 - 75;21943,165434,76;21944,203712,81;21945,165967,82;21946,sourcerepo2.webhostserver.biz
+104.153.107.253 - Target scanning: inap-b1e3.e8.router.nyc.nfoservers.com
+162.248.95.253 - Target scanning: inap-b2e4.e9.router.nyc.nfoservers.com
+216.52.95.20 - Target scanning: 64 - 85;37411,152697,92;37688,91597,93;37815,152089,100;38027,border3-ae1-0.nym007.pnap.net
+216.52.95.23 - Target scanning: 64 - 86;54903,122506,90;55034,121345,94;55224,121846,98;55438,border4.ae1-0.nym007.pnap.net
+216.52.95.44 - Target scanning: 255 - ECHO,border7-po1-bbnet1.nym007.pnap.net | Yes
+216.52.95.45 - Target scanning: 255 - ECHO,border8-po1-bbnet1.nym007.pnap.net | Yes
+216.52.95.46 - Target scanning: 64 - 117;49339,132621,122;49421,95063,123;49478,133371,128;49540,border1-po1-bbnet1.nyj004.pnap.net
+216.52.95.47 - Target scanning: 64 - 118;12498,112356,121;12589,115601,124;12631,112768,127;12673,border2-po1-bbnet1.nyj004.pnap.net
+216.52.95.82 - Target scanning: 64 - 87;37438,121783,91;37671,122059,95;37844,121751,99;38019,border3-ae2-0.nym007.pnap.net
+216.52.95.86 - Target scanning: 64 - 88;54932,90974,89;55025,152848,96;55267,91015,97;55415,border4-ae2-0.nym007.pnap.net
+216.52.95.107 - Target scanning: 255 - ECHO,border7-po2-bbnet2.nym007.pnap.net | Yes
+216.52.95.108 - Target scanning: 255 - ECHO,border8-po2-bbnet2.nym007.pnap.net | Yes
+216.52.95.109 - Target scanning: 64 - 119;49346,91679,120;49411,136852,125;49492,91523,126;49528,border1-po2-bbnet2.nyj004.pnap.net

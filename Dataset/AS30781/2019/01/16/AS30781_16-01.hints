@@ -1,0 +1,16 @@
+31.172.233.90 - Target scanning: 64 - 1;7439,330557,4;7440,102959,5;7441,125163,8;7442,cpe-et001268.cust.jaguar-network.net
+77.246.83.238 - Target scanning: 128 - 2;20700,312358,3;20701,121408,6;20766,105193,7;20767,77-246-83-238.ppp.720.fr
+78.41.186.85 - Target scanning: 255 - ECHO,c7301-1.ge0-0-2003.gre01.phibee-telecom.net | Yes
+78.41.187.53 - Target scanning: 255 - ECHO,c7301-1.ge0-0-2008.gre01.phibee-telecom.net
+78.153.224.31 - Target scanning: 64 - 17;22119,2636292,20;22282,102452,21;22289,102940,22;22300,cpe-et005598.cust.jaguar-network.net | Yes
+78.153.231.1 - Target scanning: be1.hr01-corp.mar01.jaguar-network.net
+78.153.231.39 - Target scanning: be1.er02.mar02.jaguar-network.net
+78.153.247.1 - Target scanning: 64 - 29;11554,132421,32;11555,125423,34;11556,115445,35;11557 | Yes
+78.153.247.131 - Target scanning: 64 - 30;56529,112438,31;56530,125187,33;56531,135913,36;56532
+83.167.34.181 - Target scanning: 255 - ECHO,mailclub-gw2.tcr1.itx.mrs.cust.as8218.eu | Yes
+83.167.52.235 - Target scanning: 255 - ECHO,mailclub-gw3.tcr1.itx.mrs.cust.as8218.eu | Yes
+85.31.194.27 - Target scanning
+85.31.194.47 - Target scanning: ge0-0-0-11.lns01.par05.jaguar-network.net
+85.31.194.51 - Target scanning
+85.31.194.117 - Target scanning: ge2-1.hs01.lyo01.jaguar-network.net
+85.31.194.211 - Target scanning: be1.hr02-corp.par07.jaguar-network.net

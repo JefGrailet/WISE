@@ -1,0 +1,2268 @@
+101.53.96.0/28
+22 - 101.53.96.4 - [101.53.97.70] - Rule 1
+22 - 101.53.96.5 - [101.53.97.70] - Rule 1
+21 - 101.53.96.6 - [101.53.97.42] - Contra-pivot
+22 - 101.53.96.14 - [101.53.97.70] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.96.28/31
+21 - 101.53.96.28 - [101.53.97.42] - Contra-pivot
+22 - 101.53.96.29 - [101.53.97.70] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.96.30/31
+21 - 101.53.96.30 - [101.53.97.42] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+101.53.96.34/31
+21 - 101.53.96.34 - [101.53.97.42] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+101.53.96.44/31
+21 - 101.53.96.44 - [101.53.97.42] - Contra-pivot
+22 - 101.53.96.45 - [101.53.97.70] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.96.46/31
+21 - 101.53.96.46 - [101.53.97.42] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+101.53.96.60/31
+21 - 101.53.96.60 - [101.53.97.42] - Contra-pivot
+22 - 101.53.96.61 - [101.53.97.70] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.96.62/31
+21 - 101.53.96.62 - [101.53.97.42] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+101.53.96.94/31
+21 - 101.53.96.94 - [101.53.97.42] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+101.53.96.112/28
+22 - 101.53.96.118 - [101.53.97.70] - Rule 1
+22 - 101.53.96.119 - [101.53.97.70] - Selected pivot
+21 - 101.53.96.124 - [101.53.97.42] - Contra-pivot
+22 - 101.53.96.125 - [101.53.97.70] - Selected pivot
+Stop: merging of undergrown subnets 101.53.96.112/29, 101.53.96.124/31 (similar pivot).
+
+101.53.96.126/31
+21 - 101.53.96.126 - [101.53.97.42] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+101.53.96.134/31
+21 - 101.53.96.134 - [101.53.97.42] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+101.53.96.128/25
+22 - 101.53.96.182 - [101.53.97.70] - Selected pivot
+22 - 101.53.96.185 - [101.53.97.70] - Selected pivot
+21 - 101.53.96.186 - [101.53.97.42] - Contra-pivot
+22 - 101.53.96.193 - [101.53.97.70] - Selected pivot
+21 - 101.53.96.204 - [101.53.97.42] - Contra-pivot
+22 - 101.53.96.205 - [101.53.97.70] - Selected pivot
+Stop: merging of undergrown subnets 101.53.96.176/29, 101.53.96.184/30, 101.53.96.192/29, 101.53.96.204/31 (similar pivot).
+
+101.53.96.206/31
+21 - 101.53.96.206 - [101.53.97.42] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+101.53.97.0/30
+20 - 101.53.97.0 - [202.222.74.238] - Rule 1
+19 - 101.53.97.1 - [202.222.74.106] - Contra-pivot
+20 - 101.53.97.2 - [202.222.74.238] - Rule 1
+20 - 101.53.97.3 - [202.222.74.238] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.97.4/31
+21 - 101.53.97.4 - [101.53.97.42] - Rule 1
+21 - 101.53.97.5 - [101.53.97.42] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+101.53.97.6/31
+22 - 101.53.97.6 - [101.53.97.70] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+101.53.97.6/31
+20 - 101.53.97.7 - [202.222.74.238] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+101.53.97.8/31
+20 - 101.53.97.8 - [202.222.74.238] - Rule 1
+20 - 101.53.97.9 - [202.222.74.238] - Selected pivot
+Stop: next prefix length encompassed too many outliers (3 out of 7 IPs).
+
+101.53.97.20/30
+19 - 101.53.97.21 - [202.222.74.106] - Contra-pivot
+20 - 101.53.97.22 - [202.222.74.238] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.97.24/30
+19 - 101.53.97.25 - [202.222.74.106] - Contra-pivot
+20 - 101.53.97.26 - [202.222.74.238] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.97.28/30
+19 - 101.53.97.29 - [202.222.74.106] - Contra-pivot
+20 - 101.53.97.30 - [202.222.74.238] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.97.32/30
+20 - 101.53.97.33 - [202.222.74.238] - Selected pivot
+19 - 101.53.97.34 - [202.222.74.106] - Contra-pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.97.36/30
+20 - 101.53.97.37 - [202.222.74.238] - Contra-pivot
+21 - 101.53.97.38 - [101.53.97.33] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.97.40/30
+19 - 101.53.97.41 - [202.222.74.106] - Contra-pivot
+20 - 101.53.97.42 - [202.222.74.238] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.97.44/30
+20 - 101.53.97.45 - [202.222.74.238] - Contra-pivot
+21 - 101.53.97.46 - [101.53.97.30] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.97.48/30
+20 - 101.53.97.49 - [202.222.74.238] - Contra-pivot
+21 - 101.53.97.50 - [101.53.97.42] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.97.52/30
+20 - 101.53.97.53 - [202.222.74.238] - Contra-pivot
+21 - 101.53.97.54 - [101.53.97.30] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.97.56/29
+20 - 101.53.97.57 - [202.222.74.238] - Contra-pivot
+21 - 101.53.97.58 - [101.53.97.30] - Outlier
+21 - 101.53.97.62 - [101.53.97.209] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.97.64/30
+20 - 101.53.97.65 - [202.222.74.238] - Contra-pivot
+21 - 101.53.97.66 - [101.53.97.42] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.97.68/30
+20 - 101.53.97.69 - [202.222.74.238] - Contra-pivot
+21 - 101.53.97.70 - [101.53.97.42] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.97.72/30
+23 - 101.53.97.73 - [101.53.97.78] - Selected pivot
+22 - 101.53.97.74 - [101.53.97.70] - Contra-pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.97.76/30
+21 - 101.53.97.77 - [101.53.97.42] - Contra-pivot
+22 - 101.53.97.78 - [101.53.97.70] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.97.80/29
+20 - 101.53.97.81 - [202.222.74.238] - Contra-pivot
+21 - 101.53.97.85 - [101.53.97.42] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.97.88/30
+19 - 101.53.97.89 - [202.222.74.106] - Contra-pivot
+20 - 101.53.97.90 - [202.222.74.238] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.97.92/30
+20 - 101.53.97.93 - [202.222.74.238] - Contra-pivot
+21 - 101.53.97.94 - [101.53.97.30] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.97.96/29
+20 - 101.53.97.97 - [202.222.74.238] - Contra-pivot
+21 - 101.53.97.98 - [101.53.97.90] - Outlier
+21 - 101.53.97.102 - [101.53.97.209] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.97.104/30
+19 - 101.53.97.105 - [202.222.74.106] - Contra-pivot
+20 - 101.53.97.106 - [202.222.74.238] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.97.108/30
+20 - 101.53.97.109 - [202.222.74.238] - Contra-pivot
+21 - 101.53.97.110 - [101.53.97.30] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.97.112/30
+20 - 101.53.97.113 - [202.222.74.238] - Contra-pivot
+21 - 101.53.97.114 - [101.53.97.106] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.97.116/30
+20 - 101.53.97.117 - [202.222.74.238] - Selected pivot
+19 - 101.53.97.118 - [202.222.74.106] - Contra-pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.97.128/30
+22 - 101.53.97.129 - [101.53.97.70] - Selected pivot
+21 - 101.53.97.130 - [101.53.97.42] - Contra-pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.97.132/30
+23 - 101.53.97.133 - [101.53.97.78] - Selected pivot
+22 - 101.53.97.134 - [101.53.97.70] - Contra-pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.97.136/29
+22 - 101.53.97.136 - [101.53.97.70] - Rule 1
+22 - 101.53.97.137 - [101.53.97.70] - Rule 1
+22 - 101.53.97.138 - [101.53.97.70] - Selected pivot
+21 - 101.53.97.142 - [101.53.97.42] - Contra-pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.97.144/28
+22 - 101.53.97.145 - [101.53.97.70] - Rule 1
+21 - 101.53.97.148 - [101.53.97.42] - Contra-pivot
+21 - 101.53.97.150 - [101.53.97.42] - Contra-pivot
+22 - 101.53.97.158 - [101.53.97.70] - Selected pivot
+Stop: discovered 2 sound contra-pivot IPs.
+
+101.53.97.164/31
+22 - 101.53.97.165 - [101.53.97.70] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+101.53.97.168/30
+21 - 101.53.97.169 - [202.222.74.234] - Selected pivot
+20 - 101.53.97.170 - [202.222.74.98] - Contra-pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.97.172/30
+20 - 101.53.97.173 - [202.222.74.238] - Contra-pivot
+21 - 101.53.97.174 - [101.53.97.117] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.97.176/31
+21 - 101.53.97.177 - [101.53.97.209] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+101.53.97.200/29
+21 - 101.53.97.201 - [101.53.97.209] - Rule 1
+21 - 101.53.97.203 - [101.53.97.209] - Rule 1
+21 - 101.53.97.204 - [101.53.97.209] - Rule 1
+21 - 101.53.97.205 - [101.53.97.209] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+101.53.97.208/28
+19 - 101.53.97.212 - [202.222.74.106] - Contra-pivot
+20 - 101.53.97.213 - [202.222.74.238] - Rule 1
+19 - 101.53.97.214 - [202.222.74.106] - Contra-pivot
+20 - 101.53.97.222 - [202.222.74.238] - Selected pivot
+Stop: discovered 2 sound contra-pivot IPs.
+
+101.53.96.0/22
+22 - 101.53.97.225 - [101.53.97.70] - Rule 1
+22 - 101.53.97.226 - [101.53.97.70] - Rule 1
+22 - 101.53.97.227 - [101.53.97.70] - Rule 1
+22 - 101.53.97.228 - [101.53.97.70] - Selected pivot
+22 - 101.53.97.251 - [101.53.97.70] - Selected pivot
+22 - 101.53.97.252 - [101.53.97.70] - Selected pivot
+21 - 101.53.97.254 - [101.53.97.42] - Contra-pivot
+21 - 101.53.98.28 - [101.53.97.42] - Contra-pivot
+22 - 101.53.98.29 - [101.53.97.70] - Selected pivot
+Stop: merging of undergrown subnets 101.53.97.224/28, 101.53.97.248/30, 101.53.97.252/30, 101.53.98.28/31 (similar pivot).
+
+101.53.98.30/31
+21 - 101.53.98.30 - [101.53.97.42] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+101.53.99.44/31
+25 - 101.53.99.44 - [101.53.98.65 | 2] - Rule 1
+25 - 101.53.99.45 - [101.53.98.65 | 2] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (3) than pivot IPs.
+
+101.53.112.0/31
+20 - 101.53.112.0 - [202.222.74.238] - Contra-pivot
+21 - 101.53.112.1 - [101.53.97.90] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.112.2/31
+21 - 101.53.112.2 - [101.53.97.90] - Contra-pivot
+22 - 101.53.112.3 - [101.53.112.22] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.112.16/30
+20 - 101.53.112.17 - [202.222.74.238] - Contra-pivot
+21 - 101.53.112.18 - [101.53.97.90] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.112.20/30
+20 - 101.53.112.21 - [202.222.74.238] - Contra-pivot
+21 - 101.53.112.22 - [101.53.97.90] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.112.24/30
+23 - 101.53.112.25 - [101.53.112.30] - Selected pivot
+22 - 101.53.112.26 - [101.53.112.22] - Contra-pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.112.28/30
+21 - 101.53.112.29 - [101.53.97.90] - Contra-pivot
+22 - 101.53.112.30 - [101.53.112.22] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.112.32/29
+20 - 101.53.112.33 - [202.222.74.238] - Contra-pivot
+23 - 101.53.112.37 - [101.53.112.30] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.112.44/30
+21 - 101.53.112.45 - [101.53.97.90] - Selected pivot
+20 - 101.53.112.46 - [202.222.74.238] - Contra-pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.113.12/31
+21 - 101.53.113.12 - [101.53.97.90] - Rule 1
+21 - 101.53.113.13 - [101.53.97.90] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+101.53.113.14/31
+22 - 101.53.113.14 - [101.53.112.22] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+101.53.113.16/29
+22 - 101.53.113.17 - [101.53.112.22] - Selected pivot
+21 - 101.53.113.20 - [101.53.97.90] - Contra-pivot
+22 - 101.53.113.21 - [101.53.112.22] - Selected pivot
+Stop: merging of undergrown subnets 101.53.113.16/30, 101.53.113.20/31 (similar pivot).
+
+101.53.113.22/31
+21 - 101.53.113.22 - [101.53.97.90] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+101.53.113.28/31
+21 - 101.53.113.28 - [101.53.97.90] - Contra-pivot
+22 - 101.53.113.29 - [101.53.112.22] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.113.30/31
+21 - 101.53.113.30 - [101.53.97.90] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+101.53.113.46/31
+22 - 101.53.113.46 - [101.53.112.22] - Selected pivot
+Stop: next prefix length had too many hypothetical contra-pivot IPs (6).
+
+101.53.113.192/26
+21 - 101.53.113.220 - [101.53.97.90] - Rule 1
+22 - 101.53.113.221 - [101.53.112.22] - Outlier
+21 - 101.53.113.222 - [101.53.97.90] - Rule 1
+21 - 101.53.113.254 - [101.53.97.90] - Selected pivot
+Stop: next prefix length encompassed too many outliers (5 out of 11 IPs).
+
+101.53.114.0/25
+22 - 101.53.114.1 - [101.53.112.22] - Rule 1
+22 - 101.53.114.5 - [101.53.112.22] - Rule 1
+22 - 101.53.114.6 - [101.53.112.22] - Rule 1
+22 - 101.53.114.14 - [101.53.112.22] - Rule 1
+22 - 101.53.114.16 - [101.53.112.22] - Rule 1
+22 - 101.53.114.18 - [101.53.112.22] - Rule 1
+22 - 101.53.114.27 - [101.53.112.22] - Rule 1
+22 - 101.53.114.28 - [101.53.112.22] - Rule 1
+22 - 101.53.114.29 - [101.53.112.22] - Rule 1
+22 - 101.53.114.30 - [101.53.112.22] - Rule 1
+22 - 101.53.114.32 - [101.53.112.22] - Rule 1
+22 - 101.53.114.33 - [101.53.112.22] - Rule 1
+22 - 101.53.114.35 - [101.53.112.22] - Rule 1
+22 - 101.53.114.36 - [101.53.112.22] - Rule 1
+22 - 101.53.114.37 - [101.53.112.22] - Rule 1
+22 - 101.53.114.38 - [101.53.112.22] - Rule 1
+22 - 101.53.114.41 - [101.53.112.22] - Rule 1
+22 - 101.53.114.42 - [101.53.112.22] - Rule 1
+22 - 101.53.114.44 - [101.53.112.22] - Rule 1
+22 - 101.53.114.45 - [101.53.112.22] - Rule 1
+22 - 101.53.114.46 - [101.53.112.22] - Rule 1
+22 - 101.53.114.47 - [101.53.112.22] - Rule 1
+22 - 101.53.114.50 - [101.53.112.22] - Rule 1
+22 - 101.53.114.55 - [101.53.112.22] - Rule 1
+22 - 101.53.114.57 - [101.53.112.22] - Rule 1
+22 - 101.53.114.58 - [101.53.112.22] - Rule 1
+22 - 101.53.114.59 - [101.53.112.22] - Rule 1
+22 - 101.53.114.61 - [101.53.112.22] - Rule 1
+22 - 101.53.114.63 - [101.53.112.22] - Selected pivot
+22 - 101.53.114.65 - [101.53.112.22] - Rule 1
+22 - 101.53.114.67 - [101.53.112.22] - Rule 1
+22 - 101.53.114.71 - [101.53.112.22] - Rule 1
+22 - 101.53.114.72 - [101.53.112.22] - Rule 1
+22 - 101.53.114.73 - [101.53.112.22] - Rule 1
+22 - 101.53.114.77 - [101.53.112.22] - Rule 1
+22 - 101.53.114.78 - [101.53.112.22] - Rule 1
+22 - 101.53.114.81 - [101.53.112.22] - Rule 1
+22 - 101.53.114.82 - [101.53.112.22] - Rule 1
+22 - 101.53.114.84 - [101.53.112.22] - Rule 1
+22 - 101.53.114.86 - [101.53.112.22] - Rule 1
+22 - 101.53.114.87 - [101.53.112.22] - Rule 1
+22 - 101.53.114.93 - [101.53.112.22] - Rule 1
+22 - 101.53.114.94 - [101.53.112.22] - Rule 1
+22 - 101.53.114.95 - [101.53.112.22] - Selected pivot
+22 - 101.53.114.97 - [101.53.112.22] - Rule 1
+22 - 101.53.114.99 - [101.53.112.22] - Rule 1
+22 - 101.53.114.100 - [101.53.112.22] - Rule 1
+22 - 101.53.114.101 - [101.53.112.22] - Rule 1
+22 - 101.53.114.102 - [101.53.112.22] - Rule 1
+22 - 101.53.114.104 - [101.53.112.22] - Rule 1
+22 - 101.53.114.108 - [101.53.112.22] - Rule 1
+22 - 101.53.114.110 - [101.53.112.22] - Rule 1
+22 - 101.53.114.111 - [101.53.112.22] - Selected pivot
+Stop: merging of undergrown subnets 101.53.114.0/26, 101.53.114.64/27, 101.53.114.96/28 (similar pivot).
+
+101.53.114.112/29
+23 - 101.53.114.112 - [101.53.114.112] - Rule 3
+23 - 101.53.114.113 - [101.53.114.113] - Selected pivot
+22 - 101.53.114.117 - [101.53.112.22] - Contra-pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.114.120/29
+22 - 101.53.114.122 - [101.53.112.22] - Rule 1
+22 - 101.53.114.125 - [101.53.112.22] - Rule 1
+22 - 101.53.114.127 - [101.53.112.22] - Selected pivot
+Stop: next prefix length encompassed too many outliers (2 out of 3 IPs).
+
+101.53.114.128/26
+22 - 101.53.114.138 - [101.53.112.22] - Rule 1
+22 - 101.53.114.141 - [101.53.112.22] - Rule 1
+22 - 101.53.114.142 - [101.53.112.22] - Rule 1
+22 - 101.53.114.143 - [101.53.112.22] - Rule 1
+22 - 101.53.114.144 - [101.53.112.22] - Rule 1
+22 - 101.53.114.145 - [101.53.112.22] - Rule 1
+22 - 101.53.114.146 - [101.53.112.22] - Rule 1
+22 - 101.53.114.147 - [101.53.112.22] - Rule 1
+22 - 101.53.114.148 - [101.53.112.22] - Rule 1
+22 - 101.53.114.150 - [101.53.112.22] - Rule 1
+22 - 101.53.114.154 - [101.53.112.22] - Rule 1
+22 - 101.53.114.155 - [101.53.112.22] - Selected pivot
+22 - 101.53.114.160 - [101.53.112.22] - Rule 1
+22 - 101.53.114.167 - [101.53.112.22] - Rule 1
+22 - 101.53.114.168 - [101.53.112.22] - Rule 1
+22 - 101.53.114.169 - [101.53.112.22] - Rule 1
+22 - 101.53.114.171 - [101.53.112.22] - Rule 1
+22 - 101.53.114.172 - [101.53.112.22] - Rule 1
+22 - 101.53.114.173 - [101.53.112.22] - Rule 1
+22 - 101.53.114.174 - [101.53.112.22] - Rule 1
+22 - 101.53.114.175 - [101.53.112.22] - Selected pivot
+Stop: merging of undergrown subnets 101.53.114.128/27, 101.53.114.160/28 (similar pivot).
+
+101.53.114.176/28
+22 - 101.53.114.177 - [101.53.112.22] - Contra-pivot
+22 - 101.53.114.180 - [101.53.112.22] - Contra-pivot
+22 - 101.53.114.181 - [101.53.112.22] - Contra-pivot
+23 - 101.53.114.185 - [101.53.114.185] - Rule 3
+23 - 101.53.114.187 - [101.53.114.187] - Rule 3
+23 - 101.53.114.188 - [101.53.114.188] - Selected pivot
+Stop: discovered 3 sound contra-pivot IPs.
+
+101.53.114.192/26
+22 - 101.53.114.192 - [101.53.112.22] - Rule 1
+22 - 101.53.114.193 - [101.53.112.22] - Rule 1
+22 - 101.53.114.194 - [101.53.112.22] - Rule 1
+22 - 101.53.114.202 - [101.53.112.22] - Rule 1
+22 - 101.53.114.205 - [101.53.112.22] - Rule 1
+22 - 101.53.114.206 - [101.53.112.22] - Rule 1
+22 - 101.53.114.207 - [101.53.112.22] - Rule 1
+22 - 101.53.114.208 - [101.53.112.22] - Rule 1
+22 - 101.53.114.210 - [101.53.112.22] - Rule 1
+22 - 101.53.114.211 - [101.53.112.22] - Rule 1
+22 - 101.53.114.215 - [101.53.112.22] - Rule 1
+22 - 101.53.114.216 - [101.53.112.22] - Rule 1
+22 - 101.53.114.217 - [101.53.112.22] - Rule 1
+22 - 101.53.114.218 - [101.53.112.22] - Rule 1
+22 - 101.53.114.219 - [101.53.112.22] - Rule 1
+22 - 101.53.114.220 - [101.53.112.22] - Rule 1
+22 - 101.53.114.221 - [101.53.112.22] - Rule 1
+22 - 101.53.114.222 - [101.53.112.22] - Rule 1
+22 - 101.53.114.223 - [101.53.112.22] - Selected pivot
+22 - 101.53.114.225 - [101.53.112.22] - Rule 1
+22 - 101.53.114.226 - [101.53.112.22] - Rule 1
+22 - 101.53.114.227 - [101.53.112.22] - Rule 1
+22 - 101.53.114.233 - [101.53.112.22] - Rule 1
+22 - 101.53.114.235 - [101.53.112.22] - Rule 1
+22 - 101.53.114.237 - [101.53.112.22] - Rule 1
+22 - 101.53.114.238 - [101.53.112.22] - Selected pivot
+21 - 101.53.114.252 - [101.53.97.90] - Contra-pivot
+22 - 101.53.114.253 - [101.53.112.22] - Selected pivot
+Stop: merging of undergrown subnets 101.53.114.192/27, 101.53.114.224/28, 101.53.114.252/31 (similar pivot).
+
+101.53.114.254/31
+21 - 101.53.114.254 - [101.53.97.90] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+101.53.115.28/31
+21 - 101.53.115.28 - [101.53.97.90] - Contra-pivot
+22 - 101.53.115.29 - [101.53.112.22] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.115.30/31
+21 - 101.53.115.30 - [101.53.97.90] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+101.53.115.60/30
+22 - 101.53.115.60 - [101.53.112.22] - Selected pivot
+21 - 101.53.115.62 - [101.53.97.90] - Contra-pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.116.0/24
+22 - 101.53.116.3 - [101.53.112.22] - Rule 1
+22 - 101.53.116.4 - [101.53.112.22] - Rule 1
+22 - 101.53.116.7 - [101.53.112.22] - Rule 1
+22 - 101.53.116.8 - [101.53.112.22] - Rule 1
+22 - 101.53.116.9 - [101.53.112.22] - Rule 1
+22 - 101.53.116.10 - [101.53.112.22] - Rule 1
+22 - 101.53.116.11 - [101.53.112.22] - Rule 1
+22 - 101.53.116.21 - [101.53.112.22] - Rule 1
+22 - 101.53.116.22 - [101.53.112.22] - Rule 1
+22 - 101.53.116.23 - [101.53.112.22] - Rule 1
+22 - 101.53.116.24 - [101.53.112.22] - Rule 1
+22 - 101.53.116.25 - [101.53.112.22] - Rule 1
+22 - 101.53.116.28 - [101.53.112.22] - Rule 1
+22 - 101.53.116.29 - [101.53.112.22] - Rule 1
+22 - 101.53.116.34 - [101.53.112.22] - Rule 1
+22 - 101.53.116.35 - [101.53.112.22] - Rule 1
+22 - 101.53.116.36 - [101.53.112.22] - Rule 1
+22 - 101.53.116.37 - [101.53.112.22] - Rule 1
+22 - 101.53.116.38 - [101.53.112.22] - Rule 1
+22 - 101.53.116.40 - [101.53.112.22] - Rule 1
+22 - 101.53.116.41 - [101.53.112.22] - Rule 1
+22 - 101.53.116.47 - [101.53.112.22] - Rule 1
+22 - 101.53.116.49 - [101.53.112.22] - Rule 1
+22 - 101.53.116.57 - [101.53.112.22] - Rule 1
+23 - 101.53.116.58 - [101.53.116.58] - Outlier
+22 - 101.53.116.60 - [101.53.112.22] - Rule 1
+22 - 101.53.116.64 - [101.53.112.22] - Rule 1
+22 - 101.53.116.67 - [101.53.112.22] - Rule 1
+22 - 101.53.116.68 - [101.53.112.22] - Rule 1
+22 - 101.53.116.72 - [101.53.112.22] - Rule 1
+22 - 101.53.116.74 - [101.53.112.22] - Rule 1
+22 - 101.53.116.75 - [101.53.112.22] - Rule 1
+22 - 101.53.116.76 - [101.53.112.22] - Rule 1
+22 - 101.53.116.77 - [101.53.112.22] - Rule 1
+22 - 101.53.116.86 - [101.53.112.22] - Rule 1
+22 - 101.53.116.90 - [101.53.112.22] - Rule 1
+22 - 101.53.116.95 - [101.53.112.22] - Rule 1
+22 - 101.53.116.98 - [101.53.112.22] - Rule 1
+22 - 101.53.116.99 - [101.53.112.22] - Rule 1
+22 - 101.53.116.100 - [101.53.112.22] - Rule 1
+22 - 101.53.116.108 - [101.53.112.22] - Rule 1
+22 - 101.53.116.111 - [101.53.112.22] - Rule 1
+22 - 101.53.116.112 - [101.53.112.22] - Rule 1
+22 - 101.53.116.113 - [101.53.112.22] - Rule 1
+22 - 101.53.116.115 - [101.53.112.22] - Rule 1
+22 - 101.53.116.116 - [101.53.112.22] - Rule 1
+22 - 101.53.116.118 - [101.53.112.22] - Rule 1
+22 - 101.53.116.119 - [101.53.112.22] - Rule 1
+22 - 101.53.116.120 - [101.53.112.22] - Rule 1
+22 - 101.53.116.123 - [101.53.112.22] - Rule 1
+22 - 101.53.116.126 - [101.53.112.22] - Rule 1
+22 - 101.53.116.127 - [101.53.112.22] - Selected pivot
+22 - 101.53.116.128 - [101.53.112.22] - Rule 1
+22 - 101.53.116.129 - [101.53.112.22] - Rule 1
+22 - 101.53.116.130 - [101.53.112.22] - Rule 1
+22 - 101.53.116.132 - [101.53.112.22] - Rule 1
+22 - 101.53.116.133 - [101.53.112.22] - Rule 1
+22 - 101.53.116.134 - [101.53.112.22] - Rule 1
+22 - 101.53.116.136 - [101.53.112.22] - Rule 1
+22 - 101.53.116.137 - [101.53.112.22] - Rule 1
+22 - 101.53.116.138 - [101.53.112.22] - Rule 1
+22 - 101.53.116.139 - [101.53.112.22] - Rule 1
+22 - 101.53.116.140 - [101.53.112.22] - Rule 1
+22 - 101.53.116.141 - [101.53.112.22] - Rule 1
+22 - 101.53.116.142 - [101.53.112.22] - Rule 1
+22 - 101.53.116.145 - [101.53.112.22] - Rule 1
+22 - 101.53.116.146 - [101.53.112.22] - Rule 1
+22 - 101.53.116.147 - [101.53.112.22] - Rule 1
+22 - 101.53.116.148 - [101.53.112.22] - Rule 1
+22 - 101.53.116.149 - [101.53.112.22] - Rule 1
+22 - 101.53.116.150 - [101.53.112.22] - Rule 1
+22 - 101.53.116.151 - [101.53.112.22] - Selected pivot
+21 - 101.53.116.252 - [101.53.97.90] - Contra-pivot
+22 - 101.53.116.253 - [101.53.112.22] - Selected pivot
+Stop: merging of undergrown subnets 101.53.116.0/25, 101.53.116.128/26, 101.53.116.252/31 (similar pivot).
+
+101.53.116.254/31
+21 - 101.53.116.254 - [101.53.97.90] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+101.53.120.0/31
+20 - 101.53.120.0 - [202.222.74.238] - Contra-pivot
+21 - 101.53.120.1 - [101.53.97.106] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.120.2/31
+21 - 101.53.120.2 - [101.53.97.106] - Contra-pivot
+22 - 101.53.120.3 - [101.53.120.22] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.120.16/30
+20 - 101.53.120.17 - [202.222.74.238] - Contra-pivot
+21 - 101.53.120.18 - [101.53.97.106] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.120.20/30
+20 - 101.53.120.21 - [202.222.74.238] - Contra-pivot
+21 - 101.53.120.22 - [101.53.97.106] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.120.24/30
+23 - 101.53.120.25 - [101.53.120.30] - Selected pivot
+22 - 101.53.120.26 - [101.53.120.22] - Contra-pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.120.28/30
+21 - 101.53.120.29 - [101.53.97.106] - Contra-pivot
+22 - 101.53.120.30 - [101.53.120.22] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.120.32/28
+20 - 101.53.120.33 - [202.222.74.238] - Contra-pivot
+21 - 101.53.120.37 - [101.53.97.106] - Rule 1
+21 - 101.53.120.41 - [101.53.97.106] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.120.224/28
+23 - 101.53.120.225 - [101.53.120.241] - Rule 1
+23 - 101.53.120.229 - [101.53.120.241] - Rule 1
+23 - 101.53.120.233 - [101.53.120.241] - Rule 1
+23 - 101.53.120.234 - [101.53.120.241] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+101.53.120.244/31
+21 - 101.53.120.244 - [101.53.97.106] - Contra-pivot
+22 - 101.53.120.245 - [101.53.120.22] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.120.246/31
+21 - 101.53.120.246 - [101.53.97.106] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+101.53.120.252/31
+23 - 101.53.120.253 - [101.53.120.241] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (3) than pivot IPs.
+
+101.53.121.28/31
+21 - 101.53.121.28 - [101.53.97.106] - Contra-pivot
+22 - 101.53.121.29 - [101.53.120.22] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.121.30/31
+21 - 101.53.121.30 - [101.53.97.106] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+101.53.122.128/31
+24 - 101.53.122.128 - [101.53.121.126] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+101.53.122.128/31
+24 - 101.53.122.129 - [101.53.121.65] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+101.53.123.12/31
+21 - 101.53.123.12 - [101.53.97.106] - Contra-pivot
+22 - 101.53.123.13 - [101.53.120.22] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.123.14/31
+21 - 101.53.123.14 - [101.53.97.106] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+101.53.123.28/31
+21 - 101.53.123.28 - [101.53.97.106] - Contra-pivot
+22 - 101.53.123.29 - [101.53.120.22] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.123.30/31
+21 - 101.53.123.30 - [101.53.97.106] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+101.53.123.32/27
+22 - 101.53.123.33 - [101.53.120.22] - Rule 1
+22 - 101.53.123.35 - [101.53.120.22] - Rule 1
+23 - 101.53.123.36 - [101.53.123.34] - Outlier
+22 - 101.53.123.37 - [101.53.120.22] - Rule 1
+22 - 101.53.123.38 - [101.53.120.22] - Rule 1
+22 - 101.53.123.39 - [101.53.120.22] - Rule 1
+22 - 101.53.123.40 - [101.53.120.22] - Rule 1
+22 - 101.53.123.44 - [101.53.120.22] - Rule 1
+22 - 101.53.123.45 - [101.53.120.22] - Rule 1
+22 - 101.53.123.46 - [101.53.120.22] - Selected pivot
+22 - 101.53.123.48 - [101.53.120.22] - Rule 1
+22 - 101.53.123.49 - [101.53.120.22] - Selected pivot
+21 - 101.53.123.60 - [101.53.97.106] - Contra-pivot
+22 - 101.53.123.61 - [101.53.120.22] - Selected pivot
+Stop: merging of undergrown subnets 101.53.123.32/28, 101.53.123.48/29, 101.53.123.60/31 (similar pivot).
+
+101.53.123.62/31
+21 - 101.53.123.62 - [101.53.97.106] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+101.53.123.76/31
+21 - 101.53.123.76 - [101.53.97.106] - Contra-pivot
+22 - 101.53.123.77 - [101.53.120.22] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.123.78/31
+21 - 101.53.123.78 - [101.53.97.106] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+101.53.123.96/27
+22 - 101.53.123.97 - [101.53.120.22] - Selected pivot
+21 - 101.53.123.124 - [101.53.97.106] - Contra-pivot
+22 - 101.53.123.125 - [101.53.120.22] - Selected pivot
+Stop: merging of undergrown subnets 101.53.123.96/28, 101.53.123.124/31 (similar pivot).
+
+101.53.123.126/31
+21 - 101.53.123.126 - [101.53.97.106] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+101.53.124.252/31
+21 - 101.53.124.253 - [101.53.97.209] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+101.53.125.12/31
+21 - 101.53.125.12 - [101.53.97.42] - Contra-pivot
+22 - 101.53.125.13 - [101.53.97.70] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.125.14/31
+21 - 101.53.125.14 - [101.53.97.42] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+101.53.125.20/31
+21 - 101.53.125.20 - [101.53.97.42] - Contra-pivot
+22 - 101.53.125.21 - [101.53.97.70] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.125.22/31
+21 - 101.53.125.22 - [101.53.97.42] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+101.53.125.28/31
+21 - 101.53.125.28 - [101.53.97.42] - Contra-pivot
+22 - 101.53.125.29 - [101.53.97.70] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+101.53.125.30/31
+21 - 101.53.125.30 - [101.53.97.42] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+101.53.125.38/31
+22 - 101.53.125.38 - [101.53.97.70] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+101.53.125.44/30
+23 - 101.53.125.45 - [101.53.97.78] - Selected pivot
+22 - 101.53.125.46 - [101.53.97.70] - Contra-pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.64.0/29
+22 - 202.222.64.1 - [202.222.64.249] - Rule 1
+21 - 202.222.64.5 - [202.222.64.249] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.64.196/30
+21 - 202.222.64.197 - [202.222.74.98] - Contra-pivot
+22 - 202.222.64.198 - [202.222.74.234] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.64.200/31
+21 - 202.222.64.201 - [202.222.64.249] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.64.204/30
+20 - 202.222.64.205 - [202.222.74.106] - Contra-pivot
+21 - 202.222.64.206 - [202.222.74.98] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.64.208/29
+21 - 202.222.64.209 - [202.222.64.249] - Rule 1
+21 - 202.222.64.213 - [202.222.64.249] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.64.216/29
+20 - 202.222.64.217 - [202.222.74.106] - Contra-pivot
+21 - 202.222.64.221 - [202.222.74.98] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.64.252/31
+19 - 202.222.64.252 - [202.222.74.249] - Contra-pivot
+20 - 202.222.64.253 - [202.222.74.106] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.64.254/31
+19 - 202.222.64.254 - [202.222.74.249] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+202.222.65.0/29
+21 - 202.222.65.1 - [202.222.74.98] - Rule 1
+21 - 202.222.65.3 - [202.222.74.98] - Selected pivot
+20 - 202.222.65.4 - [202.222.74.106] - Contra-pivot
+21 - 202.222.65.5 - [202.222.74.98] - Selected pivot
+Stop: merging of undergrown subnets 202.222.65.0/30, 202.222.65.4/31 (similar pivot).
+
+202.222.65.6/31
+20 - 202.222.65.6 - [202.222.74.106] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+202.222.65.24/29
+23 - 202.222.65.24 - [202.222.64.198] - Selected pivot
+22 - 202.222.65.30 - [202.222.74.234] - Contra-pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.65.32/28
+21 - 202.222.65.33 - [202.222.74.98] - Contra-pivot
+22 - 202.222.65.34 - [202.222.64.218] - Rule 1
+22 - 202.222.65.37 - [202.222.64.218] - Rule 1
+22 - 202.222.65.40 - [202.222.64.218] - Rule 1
+22 - 202.222.65.43 - [202.222.64.218] - Rule 1
+22 - 202.222.65.44 - [202.222.64.218] - Rule 1
+22 - 202.222.65.45 - [202.222.64.218] - Rule 1
+22 - 202.222.65.46 - [202.222.64.218] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.65.48/28
+22 - 202.222.65.48 - [202.222.64.218] - Rule 1
+22 - 202.222.65.49 - [202.222.64.218] - Rule 1
+23 - 202.222.65.51 - [202.222.65.34] - Outlier
+22 - 202.222.65.52 - [202.222.64.218] - Rule 1
+22 - 202.222.65.53 - [202.222.64.218] - Selected pivot
+22 - 202.222.65.60 - [202.222.64.218] - Selected pivot
+21 - 202.222.65.62 - [202.222.74.98] - Contra-pivot
+Stop: merging of undergrown subnets 202.222.65.48/29, 202.222.65.60/30 (similar pivot).
+
+202.222.65.94/31
+23 - 202.222.65.94 - [202.222.64.198] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.65.96/31
+21 - 202.222.65.97 - [202.222.74.98] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.66.0/29
+21 - 202.222.66.1 - [202.222.64.249] - Rule 1
+21 - 202.222.66.5 - [202.222.64.249] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.66.8/29
+21 - 202.222.66.9 - [202.222.74.70] - Rule 1
+21 - 202.222.66.10 - [202.222.74.70] - Rule 1
+21 - 202.222.66.11 - [202.222.74.70] - Selected pivot
+20 - 202.222.66.12 - [202.222.74.106] - Contra-pivot
+21 - 202.222.66.13 - [202.222.74.70] - Selected pivot
+Stop: merging of undergrown subnets 202.222.66.8/30, 202.222.66.12/31 (similar pivot).
+
+202.222.66.14/31
+20 - 202.222.66.14 - [202.222.74.106] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+202.222.66.104/31
+21 - 202.222.66.105 - [202.222.64.249] - Selected pivot
+Stop: next prefix length encompassed too many outliers (4 out of 6 IPs).
+
+202.222.67.96/28
+21 - 202.222.67.97 - [202.222.74.70] - Selected pivot
+20 - 202.222.67.108 - [202.222.74.106] - Contra-pivot
+21 - 202.222.67.109 - [202.222.74.70] - Selected pivot
+Stop: merging of undergrown subnets 202.222.67.96/29, 202.222.67.108/31 (similar pivot).
+
+202.222.67.110/31
+20 - 202.222.67.110 - [202.222.74.106] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+202.222.70.224/27
+21 - 202.222.70.225 - [202.222.74.98] - Rule 1
+21 - 202.222.70.226 - [202.222.74.98] - Rule 1
+21 - 202.222.70.227 - [202.222.74.98] - Selected pivot
+21 - 202.222.70.250 - [202.222.74.98] - Rule 1
+21 - 202.222.70.251 - [202.222.74.98] - Selected pivot
+20 - 202.222.70.252 - [202.222.74.106] - Contra-pivot
+21 - 202.222.70.253 - [202.222.74.98] - Selected pivot
+Stop: merging of undergrown subnets 202.222.70.224/28, 202.222.70.248/30, 202.222.70.252/31 (similar pivot).
+
+202.222.70.254/31
+20 - 202.222.70.254 - [202.222.74.106] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+202.222.71.124/30
+21 - 202.222.71.124 - [202.222.74.70] - Rule 1
+21 - 202.222.71.125 - [202.222.74.70] - Rule 1
+21 - 202.222.71.126 - [202.222.74.70] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.73.0/28
+21 - 202.222.73.1 - [202.222.74.98] - Rule 1
+21 - 202.222.73.2 - [202.222.74.98] - Selected pivot
+20 - 202.222.73.12 - [202.222.74.106] - Contra-pivot
+21 - 202.222.73.13 - [202.222.74.98] - Selected pivot
+Stop: merging of undergrown subnets 202.222.73.0/29, 202.222.73.12/31 (similar pivot).
+
+202.222.73.14/31
+20 - 202.222.73.14 - [202.222.74.106] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+202.222.73.36/30
+21 - 202.222.73.37 - [202.222.74.98] - Selected pivot
+20 - 202.222.73.38 - [202.222.74.106] - Contra-pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.73.56/29
+21 - 202.222.73.58 - [202.222.74.98] - Rule 1
+21 - 202.222.73.59 - [202.222.74.98] - Selected pivot
+20 - 202.222.73.60 - [202.222.74.106] - Contra-pivot
+21 - 202.222.73.61 - [202.222.74.98] - Selected pivot
+Stop: merging of undergrown subnets 202.222.73.56/30, 202.222.73.60/31 (similar pivot).
+
+202.222.73.62/31
+20 - 202.222.73.62 - [202.222.74.106] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+202.222.73.124/31
+21 - 202.222.73.124 - [202.222.74.98] - Contra-pivot
+22 - 202.222.73.125 - [202.222.70.226] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.73.126/31
+21 - 202.222.73.126 - [202.222.74.98] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+202.222.73.240/30
+23 - 202.222.73.241 - [202.222.73.245] - Selected pivot
+22 - 202.222.73.242 - [202.222.74.234] - Contra-pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.73.244/30
+22 - 202.222.73.245 - [202.222.74.234] - Selected pivot
+21 - 202.222.73.246 - [202.222.74.98] - Contra-pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.73.254/31
+20 - 202.222.73.254 - [202.222.74.106] - Selected pivot
+Stop: next prefix length had several contra-pivot candidates (2) located at different distances.
+
+202.222.74.0/30
+21 - 202.222.74.1 - [202.222.74.70] - Selected pivot
+20 - 202.222.74.2 - [202.222.74.106] - Contra-pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.74.4/30
+22 - 202.222.74.5 - [202.222.74.254] - Selected pivot
+21 - 202.222.74.6 - [202.222.74.70] - Contra-pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.74.8/29
+21 - 202.222.74.8 - [202.222.74.70] - Rule 1
+21 - 202.222.74.9 - [202.222.74.70] - Rule 1
+21 - 202.222.74.10 - [202.222.74.70] - Selected pivot
+20 - 202.222.74.14 - [202.222.74.106] - Contra-pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.74.36/30
+19 - 202.222.74.37 - [202.222.74.249] - Contra-pivot
+20 - 202.222.74.38 - [202.222.74.106] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.74.40/30
+20 - 202.222.74.41 - [202.222.74.106] - Contra-pivot
+21 - 202.222.74.42 - [202.222.74.114] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.74.44/30
+19 - 202.222.74.45 - [202.222.74.249] - Contra-pivot
+20 - 202.222.74.46 - [202.222.74.106] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.74.48/30
+20 - 202.222.74.49 - [202.222.74.106] - Contra-pivot
+21 - 202.222.74.50 - [202.222.74.114] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.74.52/30
+20 - 202.222.74.53 - [202.222.74.106] - Contra-pivot
+21 - 202.222.74.54 - [202.222.74.114] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.74.60/31
+20 - 202.222.74.61 - [202.222.74.106] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (3) than pivot IPs.
+
+202.222.74.68/30
+19 - 202.222.74.69 - [202.222.74.249] - Contra-pivot
+20 - 202.222.74.70 - [202.222.74.106] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.74.72/30
+20 - 202.222.74.73 - [202.222.74.106] - Contra-pivot
+21 - 202.222.74.74 - [202.222.74.114] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.74.84/30
+19 - 202.222.74.85 - [202.222.74.249] - Contra-pivot
+20 - 202.222.74.86 - [202.222.74.106] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.74.88/30
+20 - 202.222.74.89 - [202.222.74.106] - Contra-pivot
+21 - 202.222.74.90 - [202.222.74.114] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.74.92/30
+20 - 202.222.74.93 - [202.222.74.106] - Contra-pivot
+21 - 202.222.74.94 - [202.222.74.86] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.74.96/30
+19 - 202.222.74.97 - [202.222.74.249] - Contra-pivot
+20 - 202.222.74.98 - [202.222.74.106] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.74.100/30
+20 - 202.222.74.101 - [202.222.74.106] - Contra-pivot
+21 - 202.222.74.102 - [202.222.74.114] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.74.104/30
+18 - 202.222.74.105 - [133.208.55.150] - Contra-pivot
+19 - 202.222.74.106 - [202.222.74.249] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.74.108/30
+18 - 202.222.74.109 - [133.208.55.150] - Contra-pivot
+19 - 202.222.74.110 - [202.222.74.221] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.74.112/30
+19 - 202.222.74.113 - [202.222.74.249] - Contra-pivot
+20 - 202.222.74.114 - [202.222.74.106] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.74.116/30
+19 - 202.222.74.117 - [202.222.74.249] - Contra-pivot
+20 - 202.222.74.118 - [202.222.74.106] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.74.120/30
+20 - 202.222.74.121 - [202.222.74.106] - Contra-pivot
+21 - 202.222.74.122 - [202.222.74.114] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.74.124/30
+20 - 202.222.74.125 - [202.222.74.106] - Contra-pivot
+21 - 202.222.74.126 - [202.222.74.118] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.74.128/30
+19 - 202.222.74.129 - [202.222.74.249] - Contra-pivot
+20 - 202.222.74.130 - [202.222.74.106] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.74.132/30
+20 - 202.222.74.133 - [202.222.74.106] - Contra-pivot
+21 - 202.222.74.134 - [202.222.74.114] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.74.136/30
+20 - 202.222.74.137 - [202.222.74.106] - Contra-pivot
+21 - 202.222.74.138 - [202.222.74.130] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.74.196/31
+19 - 202.222.74.197 - [202.222.74.221] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.74.198/31
+19 - 202.222.74.198 - [202.222.74.249] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.74.200/31
+20 - 202.222.74.200 - [202.222.74.106] - Rule 1
+20 - 202.222.74.201 - [202.222.74.106] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.74.202/31
+21 - 202.222.74.202 - [202.222.74.70] - Selected pivot
+20 - 202.222.74.203 - [202.222.74.106] - Contra-pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.74.204/31
+20 - 202.222.74.204 - [202.222.74.106] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.74.204/31
+17 - 202.222.74.205 - [125.29.26.58] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.74.208/31
+20 - 202.222.74.208 - [202.222.74.106] - Contra-pivot
+21 - 202.222.74.209 - [202.222.74.98] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.74.210/31
+20 - 202.222.74.210 - [202.222.74.106] - Contra-pivot
+21 - 202.222.74.211 - [202.222.74.118] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.74.212/31
+18 - 202.222.74.212 - [133.208.55.150] - Rule 1
+18 - 202.222.74.213 - [133.208.55.150] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.74.214/31
+19 - 202.222.74.214 - [202.222.74.249] - Contra-pivot
+20 - 202.222.74.215 - [202.222.74.106] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.74.216/31
+20 - 202.222.74.216 - [202.222.74.106] - Contra-pivot
+21 - 202.222.74.217 - [202.222.74.86] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.74.218/31
+20 - 202.222.74.218 - [202.222.74.106] - Contra-pivot
+21 - 202.222.74.219 - [202.222.74.130] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.74.220/30
+18 - 202.222.74.221 - [133.208.55.150] - Selected pivot
+17 - 202.222.74.222 - [125.29.26.58] - Contra-pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.74.224/29
+20 - 202.222.74.225 - [202.222.74.106] - Contra-pivot
+21 - 202.222.74.226 - [202.222.74.114] - Outlier
+21 - 202.222.74.230 - [202.222.64.249] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.74.232/30
+20 - 202.222.74.233 - [202.222.74.106] - Contra-pivot
+21 - 202.222.74.234 - [202.222.74.98] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.74.236/30
+19 - 202.222.74.237 - [202.222.74.249] - Contra-pivot
+20 - 202.222.74.238 - [202.222.74.106] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.74.240/30
+20 - 202.222.74.241 - [202.222.74.106] - Contra-pivot
+21 - 202.222.74.242 - [202.222.74.114] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.74.248/30
+18 - 202.222.74.249 - [133.208.55.150] - Selected pivot
+17 - 202.222.74.250 - [125.29.26.58] - Contra-pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.74.252/30
+20 - 202.222.74.253 - [202.222.74.106] - Contra-pivot
+21 - 202.222.74.254 - [202.222.74.70] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.75.28/31
+20 - 202.222.75.28 - [202.222.74.106] - Contra-pivot
+21 - 202.222.75.29 - [202.222.74.70] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.75.30/31
+20 - 202.222.75.30 - [202.222.74.106] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+202.222.75.54/31
+22 - 202.222.75.55 - [202.222.75.75] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (3) than pivot IPs.
+
+202.222.75.72/29
+21 - 202.222.75.75 - [202.222.74.70] - Selected pivot
+20 - 202.222.75.76 - [202.222.74.106] - Contra-pivot
+21 - 202.222.75.77 - [202.222.74.70] - Selected pivot
+Stop: merging of undergrown subnets 202.222.75.72/30, 202.222.75.76/31 (similar pivot).
+
+202.222.75.78/31
+20 - 202.222.75.78 - [202.222.74.106] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+202.222.75.80/29
+20 - 202.222.75.82 - [202.222.74.106] - Contra-pivot
+21 - 202.222.75.86 - [202.222.74.70] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.75.96/29
+21 - 202.222.75.97 - [202.222.74.70] - Selected pivot
+20 - 202.222.75.100 - [202.222.74.106] - Contra-pivot
+21 - 202.222.75.101 - [202.222.74.70] - Selected pivot
+Stop: merging of undergrown subnets 202.222.75.96/30, 202.222.75.100/31 (similar pivot).
+
+202.222.75.102/31
+20 - 202.222.75.102 - [202.222.74.106] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+202.222.75.118/31
+20 - 202.222.75.118 - [202.222.74.106] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.75.120/29
+22 - 202.222.75.121 - [202.222.74.254] - Selected pivot
+21 - 202.222.75.126 - [202.222.74.70] - Contra-pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.75.140/31
+20 - 202.222.75.140 - [202.222.74.106] - Contra-pivot
+21 - 202.222.75.141 - [202.222.74.70] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.75.142/31
+20 - 202.222.75.142 - [202.222.74.106] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+202.222.75.144/29
+21 - 202.222.75.145 - [202.222.74.86] - Rule 1
+21 - 202.222.75.150 - [202.222.74.86] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.75.156/30
+22 - 202.222.75.153 - [202.222.75.145] - Selected pivot
+22 - 202.222.75.156 - [202.222.75.145] - Selected pivot
+Stop: merging of undergrown subnets 202.222.75.152/30, 202.222.75.156/31 (similar pivot).
+
+202.222.75.158/31
+20 - 202.222.75.158 - [202.222.74.106] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.75.176/28
+20 - 202.222.75.178 - [202.222.74.106] - Rule 1
+21 - 202.222.75.181 - [202.222.74.118] - Outlier
+20 - 202.222.75.182 - [202.222.74.106] - Rule 1
+20 - 202.222.75.185 - [202.222.74.106] - Rule 1
+20 - 202.222.75.190 - [202.222.74.106] - Selected pivot
+Stop: next prefix length encompassed too many outliers (5 out of 8 IPs).
+
+202.222.75.192/26
+20 - 202.222.75.204 - [202.222.74.106] - Rule 1
+21 - 202.222.75.205 - [202.222.74.130] - Outlier
+20 - 202.222.75.206 - [202.222.74.106] - Rule 1
+20 - 202.222.75.236 - [202.222.74.106] - Rule 1
+20 - 202.222.75.238 - [202.222.74.106] - Selected pivot
+Stop: next prefix length encompassed too many outliers (6 out of 13 IPs).
+
+202.222.76.32/29
+21 - 202.222.76.33 - [202.222.74.98] - Rule 1
+21 - 202.222.76.35 - [202.222.74.98] - Rule 1
+21 - 202.222.76.39 - [202.222.74.98] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.76.40/31
+20 - 202.222.76.40 - [202.222.74.106] - Rule 1
+20 - 202.222.76.41 - [202.222.74.106] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.76.140/31
+20 - 202.222.76.140 - [202.222.74.106] - Contra-pivot
+21 - 202.222.76.141 - [202.222.74.98] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.76.158/31
+20 - 202.222.76.158 - [202.222.74.106] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+202.222.76.168/29
+21 - 202.222.76.170 - [202.222.74.98] - Rule 1
+21 - 202.222.76.171 - [202.222.74.98] - Selected pivot
+20 - 202.222.76.172 - [202.222.74.106] - Contra-pivot
+21 - 202.222.76.173 - [202.222.74.98] - Selected pivot
+Stop: merging of undergrown subnets 202.222.76.168/30, 202.222.76.172/31 (similar pivot).
+
+202.222.76.174/31
+20 - 202.222.76.174 - [202.222.74.106] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+202.222.76.186/31
+20 - 202.222.76.187 - [202.222.74.106] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.76.188/30
+21 - 202.222.76.188 - [202.222.74.70] - Rule 1
+21 - 202.222.76.189 - [202.222.74.70] - Selected pivot
+20 - 202.222.76.190 - [202.222.74.106] - Contra-pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.76.248/30
+20 - 202.222.76.249 - [202.222.74.106] - Contra-pivot
+21 - 202.222.76.250 - [202.222.74.98] - Rule 1
+21 - 202.222.76.251 - [202.222.74.98] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.76.252/30
+21 - 202.222.76.252 - [202.222.74.98] - Selected pivot
+20 - 202.222.76.254 - [202.222.74.106] - Contra-pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.77.0/24
+21 - 202.222.77.62 - [202.222.74.98] - Rule 1
+21 - 202.222.77.254 - [202.222.74.98] - Selected pivot
+Stop: next prefix length had too many hypothetical contra-pivot IPs (10).
+
+202.222.80.0/31
+23 - 202.222.80.1 - [202.222.75.220] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.80.2/31
+23 - 202.222.80.2 - [202.222.75.221] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.80.4/31
+23 - 202.222.80.4 - [202.222.75.221] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.80.6/31
+23 - 202.222.80.7 - [202.222.75.220] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.80.8/29
+23 - 202.222.80.9 - [202.222.75.220] - Rule 1
+23 - 202.222.80.15 - [202.222.75.220] - Selected pivot
+Stop: next prefix length encompassed too many outliers (2 out of 4 IPs).
+
+202.222.80.16/31
+23 - 202.222.80.16 - [202.222.75.221] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.80.16/31
+23 - 202.222.80.17 - [202.222.75.220] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.80.18/31
+23 - 202.222.80.18 - [202.222.75.221] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.80.18/31
+23 - 202.222.80.19 - [202.222.75.220] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.80.22/31
+23 - 202.222.80.20 - [202.222.75.221] - Selected pivot
+23 - 202.222.80.22 - [202.222.75.221] - Selected pivot
+Stop: merging of undergrown subnets 202.222.80.20/31, 202.222.80.22/32 (similar pivot).
+
+202.222.80.22/31
+23 - 202.222.80.23 - [202.222.75.220] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.80.24/31
+23 - 202.222.80.24 - [202.222.75.221] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.80.24/31
+23 - 202.222.80.25 - [202.222.75.220] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.80.26/31
+23 - 202.222.80.26 - [202.222.75.221] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.80.26/31
+23 - 202.222.80.27 - [202.222.75.220] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.80.30/31
+23 - 202.222.80.30 - [202.222.75.221] - Selected pivot
+Stop: next prefix length encompassed too many outliers (2 out of 4 IPs).
+
+202.222.80.32/31
+23 - 202.222.80.32 - [202.222.75.221] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.80.32/31
+23 - 202.222.80.33 - [202.222.75.220] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.80.34/31
+23 - 202.222.80.34 - [202.222.75.221] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.80.34/31
+23 - 202.222.80.35 - [202.222.75.220] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.80.36/31
+23 - 202.222.80.36 - [202.222.75.221] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.80.36/31
+23 - 202.222.80.37 - [202.222.75.220] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.80.38/31
+23 - 202.222.80.39 - [202.222.75.220] - Selected pivot
+Stop: next prefix length encompassed too many outliers (1 out of 2 IPs).
+
+202.222.80.46/31
+23 - 202.222.80.46 - [202.222.75.221] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.80.46/31
+23 - 202.222.80.47 - [202.222.75.220] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.80.48/30
+23 - 202.222.80.49 - [202.222.75.220] - Rule 1
+23 - 202.222.80.51 - [202.222.75.220] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.80.52/31
+23 - 202.222.80.52 - [202.222.75.221] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.80.52/31
+23 - 202.222.80.53 - [202.222.75.220] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.80.54/31
+23 - 202.222.80.54 - [202.222.75.221] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.80.54/31
+23 - 202.222.80.55 - [202.222.75.220] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.80.56/31
+23 - 202.222.80.56 - [202.222.75.221] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.80.56/31
+23 - 202.222.80.57 - [202.222.75.220] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.80.60/30
+23 - 202.222.80.61 - [202.222.75.220] - Rule 1
+23 - 202.222.80.63 - [202.222.75.220] - Selected pivot
+Stop: next prefix length encompassed too many outliers (1 out of 2 IPs).
+
+202.222.80.68/31
+23 - 202.222.80.69 - [202.222.75.220] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.80.70/31
+23 - 202.222.80.70 - [202.222.75.221] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.80.72/31
+23 - 202.222.80.72 - [202.222.75.221] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.80.72/31
+23 - 202.222.80.73 - [202.222.75.220] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.80.74/31
+23 - 202.222.80.74 - [202.222.75.221] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.80.74/31
+23 - 202.222.80.75 - [202.222.75.220] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.80.76/31
+23 - 202.222.80.76 - [202.222.75.221] - Selected pivot
+Stop: next prefix length encompassed too many outliers (2 out of 4 IPs).
+
+202.222.80.80/31
+23 - 202.222.80.81 - [202.222.75.220] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.80.82/31
+23 - 202.222.80.82 - [202.222.75.221] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.80.82/31
+23 - 202.222.80.83 - [202.222.75.220] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.80.84/31
+23 - 202.222.80.85 - [202.222.75.220] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.80.86/31
+23 - 202.222.80.86 - [202.222.75.221] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.80.94/31
+23 - 202.222.80.95 - [202.222.75.220] - Selected pivot
+Stop: next prefix length encompassed too many outliers (2 out of 5 IPs).
+
+202.222.80.96/31
+23 - 202.222.80.96 - [202.222.75.221] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.80.98/31
+23 - 202.222.80.99 - [202.222.75.220] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.80.100/31
+23 - 202.222.80.100 - [202.222.75.221] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.80.100/31
+23 - 202.222.80.101 - [202.222.75.220] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.80.104/31
+23 - 202.222.80.105 - [202.222.75.220] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.80.106/31
+24 - 202.222.80.106 - [202.222.80.106] - Selected pivot
+23 - 202.222.80.107 - [202.222.75.220] - Contra-pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.80.108/30
+23 - 202.222.80.108 - [202.222.75.221] - Rule 1
+23 - 202.222.80.110 - [202.222.75.221] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.80.112/31
+23 - 202.222.80.113 - [202.222.75.220] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.80.114/31
+23 - 202.222.80.114 - [202.222.75.221] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.80.122/31
+24 - 202.222.80.122 - [202.222.80.122] - Selected pivot
+23 - 202.222.80.123 - [202.222.75.220] - Contra-pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.80.124/30
+23 - 202.222.80.125 - [202.222.75.220] - Rule 1
+23 - 202.222.80.127 - [202.222.75.220] - Selected pivot
+Stop: next prefix length encompassed too many outliers (1 out of 2 IPs).
+
+202.222.80.128/27
+23 - 202.222.80.137 - [202.222.75.220] - Rule 1
+23 - 202.222.80.139 - [202.222.75.220] - Rule 1
+23 - 202.222.80.141 - [202.222.75.220] - Rule 1
+23 - 202.222.80.143 - [202.222.75.220] - Selected pivot
+23 - 202.222.80.147 - [202.222.75.220] - Rule 1
+23 - 202.222.80.149 - [202.222.75.220] - Rule 1
+23 - 202.222.80.151 - [202.222.75.220] - Selected pivot
+Stop: merging of undergrown subnets 202.222.80.128/28, 202.222.80.144/29 (similar pivot).
+
+202.222.80.152/31
+23 - 202.222.80.152 - [202.222.75.221] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.80.160/29
+23 - 202.222.80.163 - [202.222.75.220] - Selected pivot
+23 - 202.222.80.165 - [202.222.75.220] - Selected pivot
+Stop: merging of undergrown subnets 202.222.80.160/30, 202.222.80.164/31 (similar pivot).
+
+202.222.80.166/31
+23 - 202.222.80.166 - [202.222.75.221] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.80.170/31
+23 - 202.222.80.170 - [202.222.75.221] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.80.170/31
+23 - 202.222.80.171 - [202.222.75.220] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.80.174/31
+23 - 202.222.80.174 - [202.222.75.221] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.80.174/31
+23 - 202.222.80.175 - [202.222.75.220] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.80.176/31
+23 - 202.222.80.177 - [202.222.75.220] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.80.180/31
+23 - 202.222.80.180 - [202.222.75.221] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.80.188/30
+23 - 202.222.80.184 - [202.222.75.221] - Selected pivot
+23 - 202.222.80.188 - [202.222.75.221] - Selected pivot
+Stop: merging of undergrown subnets 202.222.80.184/30, 202.222.80.188/32 (similar pivot).
+
+202.222.80.188/31
+23 - 202.222.80.189 - [202.222.75.220] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.80.190/31
+23 - 202.222.80.191 - [202.222.75.220] - Selected pivot
+Stop: next prefix length encompassed too many outliers (1 out of 2 IPs).
+
+202.222.80.192/31
+23 - 202.222.80.192 - [202.222.75.221] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.80.194/31
+23 - 202.222.80.195 - [202.222.75.220] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.80.196/31
+23 - 202.222.80.196 - [202.222.75.221] - Selected pivot
+Stop: next prefix length encompassed too many outliers (1 out of 2 IPs).
+
+202.222.80.200/29
+23 - 202.222.80.200 - [202.222.75.221] - Rule 1
+23 - 202.222.80.202 - [202.222.75.221] - Selected pivot
+23 - 202.222.80.204 - [202.222.75.221] - Selected pivot
+23 - 202.222.80.206 - [202.222.75.221] - Selected pivot
+Stop: merging of undergrown subnets 202.222.80.200/30, 202.222.80.204/31, 202.222.80.206/32 (similar pivot).
+
+202.222.80.206/31
+23 - 202.222.80.207 - [202.222.75.220] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.80.208/31
+23 - 202.222.80.208 - [202.222.75.221] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.80.208/31
+23 - 202.222.80.209 - [202.222.75.220] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.80.210/31
+23 - 202.222.80.210 - [202.222.75.221] - Selected pivot
+Stop: next prefix length encompassed too many outliers (1 out of 2 IPs).
+
+202.222.80.212/31
+23 - 202.222.80.213 - [202.222.75.220] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.80.214/31
+23 - 202.222.80.214 - [202.222.75.221] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.80.214/31
+23 - 202.222.80.215 - [202.222.75.220] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.80.216/31
+23 - 202.222.80.216 - [202.222.75.221] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.80.216/31
+23 - 202.222.80.217 - [202.222.75.220] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.80.226/31
+23 - 202.222.80.227 - [202.222.75.220] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.80.236/30
+23 - 202.222.80.232 - [202.222.75.221] - Selected pivot
+23 - 202.222.80.236 - [202.222.75.221] - Selected pivot
+Stop: merging of undergrown subnets 202.222.80.232/30, 202.222.80.236/32 (similar pivot).
+
+202.222.80.236/31
+23 - 202.222.80.237 - [202.222.75.220] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.80.238/31
+23 - 202.222.80.239 - [202.222.75.220] - Selected pivot
+Stop: next prefix length encompassed too many outliers (1 out of 2 IPs).
+
+202.222.81.0/31
+23 - 202.222.81.1 - [202.222.82.28] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.81.2/31
+23 - 202.222.81.2 - [202.222.82.29] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.81.4/31
+23 - 202.222.81.5 - [202.222.82.28] - Selected pivot
+Stop: next prefix length encompassed too many outliers (1 out of 2 IPs).
+
+202.222.81.104/30
+23 - 202.222.81.105 - [202.222.82.28] - Rule 1
+23 - 202.222.81.107 - [202.222.82.28] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.81.108/31
+23 - 202.222.81.108 - [202.222.82.29] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.81.112/29
+23 - 202.222.81.115 - [202.222.82.28] - Rule 1
+23 - 202.222.81.117 - [202.222.82.28] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.81.120/29
+23 - 202.222.81.122 - [202.222.82.29] - Rule 1
+23 - 202.222.81.124 - [202.222.82.29] - Rule 1
+23 - 202.222.81.126 - [202.222.82.29] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.81.128/31
+23 - 202.222.81.128 - [202.222.82.29] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.81.128/31
+23 - 202.222.81.129 - [202.222.82.28] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.81.130/31
+23 - 202.222.81.130 - [202.222.82.29] - Selected pivot
+Stop: next prefix length encompassed too many outliers (1 out of 2 IPs).
+
+202.222.82.12/31
+20 - 202.222.82.12 - [202.222.74.106] - Contra-pivot
+21 - 202.222.82.13 - [202.222.74.70] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.82.14/31
+20 - 202.222.82.14 - [202.222.74.106] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+202.222.82.144/28
+21 - 202.222.82.150 - [202.222.74.86] - Selected pivot
+20 - 202.222.82.158 - [202.222.74.106] - Contra-pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.83.252/31
+20 - 202.222.83.252 - [202.222.74.106] - Contra-pivot
+21 - 202.222.83.253 - [202.222.74.98] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.83.254/31
+20 - 202.222.83.254 - [202.222.74.106] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+202.222.84.48/28
+20 - 202.222.84.49 - [202.222.74.106] - Contra-pivot
+20 - 202.222.84.50 - [202.222.74.106] - Contra-pivot
+21 - 202.222.84.51 - [202.222.74.98] - Rule 1
+21 - 202.222.84.58 - [202.222.74.98] - Rule 1
+21 - 202.222.84.59 - [202.222.74.98] - Selected pivot
+Stop: discovered 2 sound contra-pivot IPs.
+
+202.222.84.236/31
+20 - 202.222.84.236 - [202.222.74.106] - Contra-pivot
+21 - 202.222.84.237 - [202.222.74.98] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.84.238/31
+20 - 202.222.84.238 - [202.222.74.106] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+202.222.86.96/27
+21 - 202.222.86.106 - [202.222.74.86] - Selected pivot
+21 - 202.222.86.114 - [202.222.74.86] - Rule 1
+21 - 202.222.86.115 - [202.222.74.86] - Selected pivot
+Stop: merging of undergrown subnets 202.222.86.96/28, 202.222.86.112/30 (similar pivot).
+
+202.222.86.116/30
+21 - 202.222.86.116 - [202.222.74.86] - Contra-pivot
+21 - 202.222.86.117 - [202.222.74.86] - Contra-pivot
+22 - 202.222.86.118 - [202.222.86.117] - Rule 1
+22 - 202.222.86.119 - [202.222.86.117] - Selected pivot
+Stop: discovered 2 sound contra-pivot IPs.
+
+202.222.86.120/29
+22 - 202.222.86.120 - [202.222.86.117] - Rule 1
+21 - 202.222.86.121 - [202.222.74.86] - Contra-pivot
+21 - 202.222.86.123 - [202.222.74.86] - Contra-pivot
+22 - 202.222.86.126 - [202.222.86.117] - Selected pivot
+22 - 202.222.86.127 - [202.222.74.86 | 1] - Rule 2
+Stop: discovered 2 sound contra-pivot IPs.
+
+202.222.86.128/25
+21 - 202.222.86.159 - [202.222.74.86] - Rule 1
+21 - 202.222.86.165 - [202.222.74.86] - Rule 1
+21 - 202.222.86.166 - [202.222.74.86] - Rule 1
+21 - 202.222.86.167 - [202.222.74.86] - Rule 1
+21 - 202.222.86.176 - [202.222.74.86] - Rule 1
+21 - 202.222.86.177 - [202.222.74.86] - Rule 1
+21 - 202.222.86.178 - [202.222.74.86] - Rule 1
+21 - 202.222.86.181 - [202.222.74.86] - Rule 1
+21 - 202.222.86.182 - [202.222.74.86] - Rule 1
+21 - 202.222.86.183 - [202.222.74.86] - Rule 1
+21 - 202.222.86.185 - [202.222.74.86] - Rule 1
+21 - 202.222.86.186 - [202.222.74.86] - Rule 1
+21 - 202.222.86.187 - [202.222.74.86] - Selected pivot
+21 - 202.222.86.196 - [202.222.74.86] - Rule 1
+21 - 202.222.86.200 - [202.222.74.86] - Rule 1
+21 - 202.222.86.201 - [202.222.74.86] - Rule 1
+21 - 202.222.86.202 - [202.222.74.86] - Selected pivot
+21 - 202.222.86.238 - [202.222.74.86] - Rule 1
+21 - 202.222.86.239 - [202.222.74.86] - Selected pivot
+21 - 202.222.86.245 - [202.222.74.86] - Selected pivot
+20 - 202.222.86.252 - [202.222.74.106] - Contra-pivot
+21 - 202.222.86.253 - [202.222.74.86] - Selected pivot
+Stop: merging of undergrown subnets 202.222.86.128/26, 202.222.86.192/27, 202.222.86.224/28, 202.222.86.240/29, 202.222.86.252/31 (similar pivot).
+
+202.222.86.254/31
+20 - 202.222.86.254 - [202.222.74.106] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+202.222.87.0/28
+21 - 202.222.87.1 - [202.222.74.70] - Selected pivot
+20 - 202.222.87.12 - [202.222.74.106] - Contra-pivot
+21 - 202.222.87.13 - [202.222.74.70] - Selected pivot
+Stop: merging of undergrown subnets 202.222.87.0/29, 202.222.87.12/31 (similar pivot).
+
+202.222.87.14/31
+20 - 202.222.87.14 - [202.222.74.106] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+202.222.87.20/31
+20 - 202.222.87.20 - [202.222.74.106] - Contra-pivot
+21 - 202.222.87.21 - [202.222.74.118] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.87.22/31
+20 - 202.222.87.22 - [202.222.74.106] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+202.222.87.32/28
+21 - 202.222.87.33 - [202.222.74.130] - Rule 1
+21 - 202.222.87.34 - [202.222.74.130] - Rule 1
+21 - 202.222.87.35 - [202.222.74.130] - Rule 1
+21 - 202.222.87.36 - [202.222.74.130] - Rule 1
+21 - 202.222.87.37 - [202.222.74.130] - Rule 1
+21 - 202.222.87.38 - [202.222.74.130] - Selected pivot
+21 - 202.222.87.43 - [202.222.74.130] - Selected pivot
+20 - 202.222.87.44 - [202.222.74.106] - Contra-pivot
+21 - 202.222.87.45 - [202.222.74.130] - Selected pivot
+Stop: merging of undergrown subnets 202.222.87.32/29, 202.222.87.40/30, 202.222.87.44/31 (similar pivot).
+
+202.222.87.46/31
+20 - 202.222.87.46 - [202.222.74.106] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+202.222.87.48/30
+21 - 202.222.87.49 - [202.222.74.118] - Contra-pivot
+22 - 202.222.87.51 - [202.222.87.51] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.87.60/31
+20 - 202.222.87.60 - [202.222.74.106] - Contra-pivot
+21 - 202.222.87.61 - [202.222.74.118] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.87.62/31
+20 - 202.222.87.62 - [202.222.74.106] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+202.222.87.192/26
+21 - 202.222.87.195 - [202.222.74.70] - Rule 1
+21 - 202.222.87.196 - [202.222.74.70] - Rule 1
+21 - 202.222.87.197 - [202.222.74.70] - Rule 1
+21 - 202.222.87.198 - [202.222.74.70] - Rule 1
+21 - 202.222.87.199 - [202.222.74.70] - Rule 1
+21 - 202.222.87.200 - [202.222.74.70] - Rule 1
+21 - 202.222.87.201 - [202.222.74.70] - Rule 1
+21 - 202.222.87.202 - [202.222.74.70] - Rule 1
+21 - 202.222.87.203 - [202.222.74.70] - Rule 1
+21 - 202.222.87.204 - [202.222.74.70] - Rule 1
+21 - 202.222.87.205 - [202.222.74.70] - Rule 1
+21 - 202.222.87.206 - [202.222.74.70] - Rule 1
+21 - 202.222.87.207 - [202.222.74.70] - Rule 1
+21 - 202.222.87.208 - [202.222.74.70] - Rule 1
+21 - 202.222.87.209 - [202.222.74.70] - Rule 1
+21 - 202.222.87.210 - [202.222.74.70] - Rule 1
+21 - 202.222.87.211 - [202.222.74.70] - Rule 1
+21 - 202.222.87.212 - [202.222.74.70] - Rule 1
+21 - 202.222.87.213 - [202.222.74.70] - Rule 1
+21 - 202.222.87.214 - [202.222.74.70] - Rule 1
+21 - 202.222.87.215 - [202.222.74.70] - Rule 1
+21 - 202.222.87.216 - [202.222.74.70] - Rule 1
+21 - 202.222.87.217 - [202.222.74.70] - Rule 1
+21 - 202.222.87.218 - [202.222.74.70] - Rule 1
+21 - 202.222.87.219 - [202.222.74.70] - Rule 1
+21 - 202.222.87.220 - [202.222.74.70] - Rule 1
+21 - 202.222.87.221 - [202.222.74.70] - Rule 1
+21 - 202.222.87.222 - [202.222.74.70] - Rule 1
+21 - 202.222.87.223 - [202.222.74.70] - Selected pivot
+21 - 202.222.87.224 - [202.222.74.70] - Rule 1
+21 - 202.222.87.225 - [202.222.74.70] - Rule 1
+21 - 202.222.87.226 - [202.222.74.70] - Rule 1
+21 - 202.222.87.227 - [202.222.74.70] - Rule 1
+21 - 202.222.87.228 - [202.222.74.70] - Rule 1
+21 - 202.222.87.229 - [202.222.74.70] - Rule 1
+21 - 202.222.87.230 - [202.222.74.70] - Rule 1
+21 - 202.222.87.231 - [202.222.74.70] - Rule 1
+21 - 202.222.87.232 - [202.222.74.70] - Rule 1
+21 - 202.222.87.233 - [202.222.74.70] - Rule 1
+21 - 202.222.87.234 - [202.222.74.70] - Rule 1
+21 - 202.222.87.235 - [202.222.74.70] - Rule 1
+21 - 202.222.87.236 - [202.222.74.70] - Rule 1
+21 - 202.222.87.237 - [202.222.74.70] - Rule 1
+21 - 202.222.87.238 - [202.222.74.70] - Rule 1
+21 - 202.222.87.239 - [202.222.74.70] - Selected pivot
+21 - 202.222.87.240 - [202.222.74.70] - Rule 1
+21 - 202.222.87.241 - [202.222.74.70] - Rule 1
+21 - 202.222.87.242 - [202.222.74.70] - Rule 1
+21 - 202.222.87.243 - [202.222.74.70] - Rule 1
+21 - 202.222.87.244 - [202.222.74.70] - Rule 1
+21 - 202.222.87.245 - [202.222.74.70] - Rule 1
+21 - 202.222.87.246 - [202.222.74.70] - Rule 1
+21 - 202.222.87.247 - [202.222.74.70] - Selected pivot
+21 - 202.222.87.248 - [202.222.74.70] - Rule 1
+21 - 202.222.87.249 - [202.222.74.70] - Rule 1
+21 - 202.222.87.250 - [202.222.74.70] - Rule 1
+21 - 202.222.87.251 - [202.222.74.70] - Selected pivot
+20 - 202.222.87.252 - [202.222.74.106] - Contra-pivot
+21 - 202.222.87.253 - [202.222.74.70] - Selected pivot
+Stop: merging of undergrown subnets 202.222.87.192/27, 202.222.87.224/28, 202.222.87.240/29, 202.222.87.248/30, 202.222.87.252/31 (similar pivot).
+
+202.222.87.254/31
+20 - 202.222.87.254 - [202.222.74.106] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+202.222.94.16/28
+21 - 202.222.94.23 - [202.222.74.98] - Selected pivot
+21 - 202.222.94.24 - [202.222.74.98] - Selected pivot
+20 - 202.222.94.28 - [202.222.74.106] - Contra-pivot
+21 - 202.222.94.29 - [202.222.74.98] - Selected pivot
+Stop: merging of undergrown subnets 202.222.94.16/29, 202.222.94.24/30, 202.222.94.28/31 (similar pivot).
+
+202.222.94.30/31
+20 - 202.222.94.30 - [202.222.74.106] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+202.222.94.92/31
+20 - 202.222.94.92 - [202.222.74.106] - Contra-pivot
+21 - 202.222.94.93 - [202.222.74.98] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.94.94/31
+20 - 202.222.94.94 - [202.222.74.106] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+202.222.94.128/31
+20 - 202.222.94.129 - [202.222.74.106] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.94.130/31
+20 - 202.222.94.130 - [202.222.74.106] - Contra-pivot
+21 - 202.222.94.131 - [202.222.74.98] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.96.28/31
+20 - 202.222.96.28 - [202.222.74.106] - Contra-pivot
+21 - 202.222.96.29 - [202.222.74.70] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.96.30/31
+20 - 202.222.96.30 - [202.222.74.106] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+202.222.96.48/29
+21 - 202.222.96.49 - [202.222.74.70] - Rule 1
+21 - 202.222.96.50 - [202.222.74.70] - Selected pivot
+20 - 202.222.96.52 - [202.222.74.106] - Contra-pivot
+21 - 202.222.96.53 - [202.222.74.70] - Selected pivot
+Stop: merging of undergrown subnets 202.222.96.48/30, 202.222.96.52/31 (similar pivot).
+
+202.222.96.54/31
+20 - 202.222.96.54 - [202.222.74.106] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+202.222.96.56/30
+21 - 202.222.96.57 - [202.222.74.70] - Contra-pivot
+23 - 202.222.96.58 - [202.222.96.57 | 1] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.96.62/31
+20 - 202.222.96.62 - [202.222.74.106] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.96.104/29
+21 - 202.222.96.105 - [202.222.74.70] - Outlier
+20 - 202.222.96.106 - [202.222.74.106] - Contra-pivot
+21 - 202.222.96.110 - [202.222.74.86] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.96.164/31
+20 - 202.222.96.164 - [202.222.74.106] - Contra-pivot
+21 - 202.222.96.165 - [202.222.74.86] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.96.166/31
+20 - 202.222.96.166 - [202.222.74.106] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+202.222.96.168/29
+21 - 202.222.96.169 - [202.222.74.70] - Selected pivot
+20 - 202.222.96.172 - [202.222.74.106] - Contra-pivot
+21 - 202.222.96.173 - [202.222.74.70] - Selected pivot
+Stop: merging of undergrown subnets 202.222.96.168/30, 202.222.96.172/31 (similar pivot).
+
+202.222.96.174/31
+20 - 202.222.96.174 - [202.222.74.106] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+202.222.96.180/31
+20 - 202.222.96.180 - [202.222.74.106] - Contra-pivot
+21 - 202.222.96.181 - [202.222.74.70] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.96.182/31
+20 - 202.222.96.182 - [202.222.74.106] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+202.222.96.188/31
+20 - 202.222.96.188 - [202.222.74.106] - Contra-pivot
+21 - 202.222.96.189 - [202.222.74.70] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.96.190/31
+20 - 202.222.96.190 - [202.222.74.106] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+202.222.96.216/29
+21 - 202.222.96.218 - [202.222.74.130] - Rule 1
+21 - 202.222.96.219 - [202.222.74.130] - Selected pivot
+20 - 202.222.96.220 - [202.222.74.106] - Contra-pivot
+21 - 202.222.96.221 - [202.222.74.130] - Selected pivot
+Stop: merging of undergrown subnets 202.222.96.216/30, 202.222.96.220/31 (similar pivot).
+
+202.222.96.222/31
+20 - 202.222.96.222 - [202.222.74.106] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+202.222.96.224/30
+22 - 202.222.96.225 - [202.222.75.145] - Rule 1
+22 - 202.222.96.227 - [202.222.75.145] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.96.234/31
+25 - 202.222.96.234 - [202.222.75.145 | 3] - Rule 1
+25 - 202.222.96.235 - [202.222.75.145 | 3] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.96.236/30
+22 - 202.222.96.236 - [202.222.75.145] - Rule 1
+22 - 202.222.96.239 - [202.222.75.145] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+202.222.96.240/28
+22 - 202.222.96.244 - [202.222.75.145] - Rule 1
+22 - 202.222.96.245 - [202.222.75.145] - Selected pivot
+21 - 202.222.96.252 - [202.222.74.86] - Contra-pivot
+22 - 202.222.96.253 - [202.222.75.145] - Selected pivot
+Stop: merging of undergrown subnets 202.222.96.240/29, 202.222.96.252/31 (similar pivot).
+
+202.222.97.0/31
+21 - 202.222.97.1 - [202.222.64.249] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.97.136/29
+21 - 202.222.97.138 - [202.222.74.98] - Rule 1
+21 - 202.222.97.139 - [202.222.74.98] - Selected pivot
+20 - 202.222.97.140 - [202.222.74.106] - Contra-pivot
+21 - 202.222.97.141 - [202.222.74.98] - Selected pivot
+Stop: merging of undergrown subnets 202.222.97.136/30, 202.222.97.140/31 (similar pivot).
+
+202.222.97.142/31
+20 - 202.222.97.142 - [202.222.74.106] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+202.222.97.164/30
+22 - 202.222.97.165 - [202.222.74.234] - Selected pivot
+21 - 202.222.97.166 - [202.222.74.98] - Contra-pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.97.192/27
+21 - 202.222.97.206 - [202.222.74.98] - Selected pivot
+20 - 202.222.97.209 - [202.222.74.106] - Contra-pivot
+21 - 202.222.97.213 - [202.222.74.98] - Selected pivot
+Stop: merging of undergrown subnets 202.222.97.192/28, 202.222.97.208/29 (similar pivot).
+
+202.222.98.58/31
+20 - 202.222.98.59 - [202.222.74.106] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+202.222.98.60/30
+21 - 202.222.98.60 - [202.222.74.70] - Selected pivot
+20 - 202.222.98.62 - [202.222.74.106] - Contra-pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.98.92/31
+20 - 202.222.98.92 - [202.222.74.106] - Contra-pivot
+21 - 202.222.98.93 - [202.222.74.70] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.98.94/31
+20 - 202.222.98.94 - [202.222.74.106] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+202.222.98.96/27
+22 - 202.222.98.99 - [202.222.98.129] - Rule 1
+22 - 202.222.98.100 - [202.222.98.129] - Rule 1
+22 - 202.222.98.101 - [202.222.98.129] - Rule 1
+22 - 202.222.98.102 - [202.222.98.129] - Rule 1
+22 - 202.222.98.103 - [202.222.98.129] - Rule 1
+22 - 202.222.98.105 - [202.222.98.129] - Rule 1
+22 - 202.222.98.106 - [202.222.98.129] - Rule 1
+22 - 202.222.98.107 - [202.222.98.129] - Rule 1
+22 - 202.222.98.108 - [202.222.98.129] - Rule 1
+22 - 202.222.98.109 - [202.222.98.129] - Rule 1
+22 - 202.222.98.110 - [202.222.98.129] - Rule 1
+22 - 202.222.98.111 - [202.222.98.129] - Rule 1
+22 - 202.222.98.112 - [202.222.98.129] - Rule 1
+22 - 202.222.98.113 - [202.222.98.129] - Rule 1
+22 - 202.222.98.114 - [202.222.98.129] - Selected pivot
+Stop: next prefix length had several contra-pivot candidates (3) located at different distances.
+
+202.222.98.128/29
+21 - 202.222.98.129 - [202.222.74.70] - Selected pivot
+20 - 202.222.98.132 - [202.222.74.106] - Contra-pivot
+21 - 202.222.98.133 - [202.222.74.70] - Selected pivot
+Stop: merging of undergrown subnets 202.222.98.128/30, 202.222.98.132/31 (similar pivot).
+
+202.222.98.134/31
+20 - 202.222.98.134 - [202.222.74.106] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+202.222.98.136/29
+21 - 202.222.98.137 - [202.222.74.70] - Contra-pivot
+22 - 202.222.98.140 - [202.222.98.129] - Rule 1
+22 - 202.222.98.141 - [202.222.98.129] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.98.144/29
+20 - 202.222.98.145 - [202.222.74.106] - Rule 1
+20 - 202.222.98.150 - [202.222.74.106] - Selected pivot
+Stop: next prefix length encompassed too many outliers (5 out of 7 IPs).
+
+202.222.98.160/28
+21 - 202.222.98.161 - [202.222.74.70] - Selected pivot
+20 - 202.222.98.172 - [202.222.74.106] - Contra-pivot
+21 - 202.222.98.173 - [202.222.74.70] - Selected pivot
+Stop: merging of undergrown subnets 202.222.98.160/29, 202.222.98.172/31 (similar pivot).
+
+202.222.98.174/31
+20 - 202.222.98.174 - [202.222.74.106] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+202.222.98.192/26
+21 - 202.222.98.193 - [202.222.74.70] - Rule 1
+21 - 202.222.98.194 - [202.222.74.70] - Rule 1
+21 - 202.222.98.195 - [202.222.74.70] - Rule 1
+21 - 202.222.98.196 - [202.222.74.70] - Rule 1
+21 - 202.222.98.197 - [202.222.74.70] - Rule 1
+21 - 202.222.98.198 - [202.222.74.70] - Rule 1
+21 - 202.222.98.199 - [202.222.74.70] - Rule 1
+21 - 202.222.98.200 - [202.222.74.70] - Rule 1
+21 - 202.222.98.201 - [202.222.74.70] - Rule 1
+21 - 202.222.98.202 - [202.222.74.70] - Rule 1
+21 - 202.222.98.203 - [202.222.74.70] - Rule 1
+21 - 202.222.98.204 - [202.222.74.70] - Rule 1
+21 - 202.222.98.205 - [202.222.74.70] - Rule 1
+21 - 202.222.98.206 - [202.222.74.70] - Rule 1
+21 - 202.222.98.207 - [202.222.74.70] - Rule 1
+21 - 202.222.98.208 - [202.222.74.70] - Rule 1
+21 - 202.222.98.209 - [202.222.74.70] - Rule 1
+21 - 202.222.98.210 - [202.222.74.70] - Rule 1
+21 - 202.222.98.211 - [202.222.74.70] - Rule 1
+21 - 202.222.98.212 - [202.222.74.70] - Rule 1
+21 - 202.222.98.213 - [202.222.74.70] - Rule 1
+21 - 202.222.98.214 - [202.222.74.70] - Rule 1
+21 - 202.222.98.215 - [202.222.74.70] - Rule 1
+21 - 202.222.98.216 - [202.222.74.70] - Rule 1
+21 - 202.222.98.217 - [202.222.74.70] - Rule 1
+21 - 202.222.98.218 - [202.222.74.70] - Rule 1
+21 - 202.222.98.219 - [202.222.74.70] - Rule 1
+21 - 202.222.98.220 - [202.222.74.70] - Rule 1
+21 - 202.222.98.221 - [202.222.74.70] - Rule 1
+21 - 202.222.98.222 - [202.222.74.70] - Rule 1
+21 - 202.222.98.223 - [202.222.74.70] - Selected pivot
+21 - 202.222.98.224 - [202.222.74.70] - Rule 1
+21 - 202.222.98.225 - [202.222.74.70] - Rule 1
+21 - 202.222.98.226 - [202.222.74.70] - Rule 1
+21 - 202.222.98.227 - [202.222.74.70] - Rule 1
+21 - 202.222.98.228 - [202.222.74.70] - Rule 1
+21 - 202.222.98.229 - [202.222.74.70] - Rule 1
+21 - 202.222.98.230 - [202.222.74.70] - Rule 1
+21 - 202.222.98.231 - [202.222.74.70] - Rule 1
+21 - 202.222.98.232 - [202.222.74.70] - Rule 1
+21 - 202.222.98.233 - [202.222.74.70] - Rule 1
+21 - 202.222.98.234 - [202.222.74.70] - Rule 1
+21 - 202.222.98.235 - [202.222.74.70] - Rule 1
+21 - 202.222.98.236 - [202.222.74.70] - Rule 1
+21 - 202.222.98.237 - [202.222.74.70] - Rule 1
+21 - 202.222.98.238 - [202.222.74.70] - Rule 1
+21 - 202.222.98.239 - [202.222.74.70] - Selected pivot
+21 - 202.222.98.240 - [202.222.74.70] - Rule 1
+21 - 202.222.98.241 - [202.222.74.70] - Rule 1
+21 - 202.222.98.242 - [202.222.74.70] - Rule 1
+21 - 202.222.98.243 - [202.222.74.70] - Rule 1
+21 - 202.222.98.244 - [202.222.74.70] - Rule 1
+21 - 202.222.98.245 - [202.222.74.70] - Rule 1
+21 - 202.222.98.246 - [202.222.74.70] - Rule 1
+21 - 202.222.98.247 - [202.222.74.70] - Selected pivot
+21 - 202.222.98.248 - [202.222.74.70] - Rule 1
+21 - 202.222.98.249 - [202.222.74.70] - Selected pivot
+20 - 202.222.98.252 - [202.222.74.106] - Contra-pivot
+21 - 202.222.98.253 - [202.222.74.70] - Selected pivot
+Stop: merging of undergrown subnets 202.222.98.192/27, 202.222.98.224/28, 202.222.98.240/29, 202.222.98.248/30, 202.222.98.252/31 (similar pivot).
+
+202.222.98.254/31
+20 - 202.222.98.254 - [202.222.74.106] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+202.222.100.28/31
+20 - 202.222.100.28 - [202.222.74.106] - Contra-pivot
+21 - 202.222.100.29 - [202.222.74.70] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.100.30/31
+20 - 202.222.100.30 - [202.222.74.106] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+202.222.101.216/31
+24 - 202.222.101.216 - [202.222.100.118 | 1] - Rule 1
+24 - 202.222.101.217 - [202.222.100.118 | 1] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (3) than pivot IPs.
+
+202.222.102.0/23
+23 - 202.222.102.145 - [202.222.100.10] - Rule 1
+23 - 202.222.102.146 - [202.222.100.10] - Rule 1
+23 - 202.222.102.147 - [202.222.100.10] - Rule 1
+23 - 202.222.102.148 - [202.222.100.10] - Rule 1
+23 - 202.222.102.149 - [202.222.100.10] - Selected pivot
+22 - 202.222.103.33 - [202.222.96.161] - Contra-pivot
+Stop: discovered a sound contra-pivot IP.
+
+202.222.104.240/29
+21 - 202.222.104.242 - [202.222.74.98] - Rule 1
+21 - 202.222.104.243 - [202.222.74.98] - Selected pivot
+20 - 202.222.104.244 - [202.222.74.106] - Contra-pivot
+21 - 202.222.104.245 - [202.222.74.98] - Selected pivot
+Stop: merging of undergrown subnets 202.222.104.240/30, 202.222.104.244/31 (similar pivot).
+
+202.222.104.246/31
+20 - 202.222.104.246 - [202.222.74.106] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+202.222.107.0/26
+22 - 202.222.107.4 - [202.222.97.210] - Rule 1
+22 - 202.222.107.5 - [202.222.97.210] - Rule 1
+22 - 202.222.107.13 - [202.222.97.210] - Rule 1
+22 - 202.222.107.14 - [202.222.97.210] - Rule 1
+22 - 202.222.107.16 - [202.222.97.210] - Rule 1
+22 - 202.222.107.17 - [202.222.97.210] - Rule 1
+22 - 202.222.107.18 - [202.222.97.210] - Rule 1
+22 - 202.222.107.19 - [202.222.97.210] - Selected pivot
+22 - 202.222.107.59 - [202.222.97.210] - Selected pivot
+21 - 202.222.107.60 - [202.222.74.98] - Contra-pivot
+22 - 202.222.107.62 - [202.222.97.210] - Selected pivot
+Stop: merging of undergrown subnets 202.222.107.0/27, 202.222.107.56/30, 202.222.107.60/30 (similar pivot).
+

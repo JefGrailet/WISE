@@ -1,0 +1,120 @@
+62.134.187.174/31
+15 - 62.134.187.175 - [62.134.187.175 | 3] - Selected pivot
+Stop: no more IPs to expand the subnet further.
+
+62.134.232.0/24
+11 - 62.134.232.99 - [195.182.96.91] - Contra-pivot
+12 - 62.134.232.129 - [132.65.240.1 | 9] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+62.134.245.64/27
+15 - 62.134.245.72 - [132.64.252.25 | 11] - Contra-pivot
+17 - 62.134.245.89 - [166.49.195.38 | 6] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+62.134.245.132/31
+19 - 62.134.245.133 - [166.49.147.236 | 7] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+62.134.246.178/31
+20 - 62.134.246.178 - [132.65.240.1 | 17] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+62.134.247.224/31
+13 - 62.134.247.225 - [132.64.252.25 | 9] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+90.152.126.176/31
+11 - 90.152.126.177 - [212.74.66.185 | 1] - Selected pivot
+Stop: reached the maximum size allowed for a subnet.
+
+95.175.200.0/21
+13 - 95.175.202.2 - [80.169.88.25 | 1] - Contra-pivot
+14 - 95.175.205.102 - [83.97.88.93 | 6] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+95.175.210.46/31
+15 - 95.175.210.46 - [212.74.68.145 | 4] - Selected pivot
+Stop: reached the maximum size allowed for a subnet.
+
+166.49.179.212/31
+12 - 166.49.179.212 - [166.49.208.32 | 2] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+166.49.190.114/31
+13 - 166.49.190.114 - [166.49.195.183 | 2] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+166.49.191.128/25
+14 - 166.49.191.137 - [166.49.208.99 | 4] - Contra-pivot
+17 - 166.49.191.201 - [166.49.191.201 | 4] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+166.49.192.64/26
+18 - 166.49.192.65 - [166.49.208.95 | 8] - Rule 2
+18 - 166.49.192.104 - [166.49.192.104 | 1] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+166.49.195.32/27
+20 - 166.49.195.43 - [166.49.195.43 | 6] - Contra-pivot
+21 - 166.49.195.48 - [166.49.208.36 | 11] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+166.49.195.80/28
+19 - 166.49.195.81 - [166.49.195.81 | 7] - Contra-pivot
+25 - 166.49.195.88 - [132.65.240.1 | 22] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+166.49.195.178/31
+28 - 166.49.195.178 - [166.49.195.178 | 6] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (4) than pivot IPs.
+
+166.49.212.192/31
+10 - 166.49.212.192 - [83.97.88.93 | 2] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+166.49.217.200/30
+11 - 166.49.217.200 - [132.65.240.1 | 8] - Contra-pivot
+13 - 166.49.217.203 - [195.66.224.108 | 4] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+166.49.221.28/31
+14 - 166.49.221.29 - [195.66.224.108 | 5] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+166.49.221.40/31
+11 - 166.49.221.41 - [166.49.221.41] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+166.49.229.0/24
+10 - 166.49.229.33 - [195.66.224.108 | 1] - Selected pivot
+10 - 166.49.229.245 - [83.97.88.93 | 2] - Rule 2
+Stop: next prefix length overlapped previously inferred subnet.
+
+166.49.231.16/31
+12 - 166.49.231.17 - [128.139.233.1 | 5] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+166.49.232.64/26
+15 - 166.49.232.93 - [132.65.240.1 | 12] - Contra-pivot
+16 - 166.49.232.101 - [166.49.232.101 | 4] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+166.49.234.44/31
+17 - 166.49.234.45 - [166.49.234.45 | 4] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+166.49.236.244/31
+12 - 166.49.236.245 - [128.139.233.1 | 5] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+166.49.237.0/26
+18 - 166.49.237.17 - [166.49.237.17 | 7] - Contra-pivot
+19 - 166.49.237.35 - [166.49.237.35 | 2] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+166.49.240.0/20
+10 - 166.49.243.253 - [83.97.88.93 | 2] - Contra-pivot
+11 - 166.49.250.134 - [132.64.252.25 | 7] - Selected pivot
+Stop: reached the maximum size allowed for a subnet.
+

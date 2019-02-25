@@ -1,0 +1,39 @@
+WISE (Wide and lInear Subnet inferencE) - Time at start: 18-01-2019 15:20:47
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 3188 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 26 additional responsive IPs.
+--- End of target pre-scanning (18-01-2019 17:27:12) ---
+Elapsed time: 2 hours 6 minutes 24 seconds
+Total amount of probes: 499596
+Total amount of successful probes: 9561 (1.91375%)
+Total amount of discovered responsive IPs: 3214
+
+Filtered target IPs have been saved in an output file AS286_18-01.ips (temporar).
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 101 threads will be scheduled (up to 32 target IPs per thread).
+746 out of 3175 IPs with an estimated TTL (23.4961%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 20 threads will be scheduled (from 2 to 87 target IPs per thread).
+Updated IP dictionary has been saved in the output file AS286_18-01.ips.
+
+There are flickering IPs that could lead to the discovery of 5 aliases.
+Now starting alias hints collection...
+Collecting hints for 134.222.48.0, 134.222.48.2, 134.222.231.233... Done.
+Collecting hints for 134.222.48.1, 134.222.48.32... Done.
+Collecting hints for 134.222.48.23, 134.222.48.24... Done.
+Collecting hints for 134.222.48.253, 134.222.49.61... Done.
+Collecting hints for 212.165.108.166, 212.165.118.250... Done.
+Resolving... Done.
+Inferred subnets has been saved in the output file AS286_18-01.subnets.
+--- End of target scanning (18-01-2019 17:52:39) ---
+Elapsed time: 25 minutes 27 seconds
+Total amount of probes: 19329
+Total amount of successful probes: 13680 (70.7745%)
+Alias hints have been saved in an output file AS286_18-01.hints.
+Fingerprints have been saved in an output file AS286_18-01.fingerprints.
+Aliases discovered during subnet discovery have been written in AS286_18-01.aliases-1.

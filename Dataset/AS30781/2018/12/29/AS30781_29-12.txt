@@ -1,0 +1,40 @@
+WISE (Wide and lInear Subnet inferencE) - Time at start: 29-12-2018 06:20:18
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 8546 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 586 additional responsive IPs.
+--- End of target pre-scanning (29-12-2018 06:42:31) ---
+Elapsed time: 22 minutes 13 seconds
+Total amount of probes: 82078
+Total amount of successful probes: 13610 (16.5818%)
+Total amount of discovered responsive IPs: 9132
+
+Filtered target IPs have been saved in an output file AS30781_29-12.ips (temporar).
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 261 threads will be scheduled (up to 35 target IPs per thread).
+1237 out of 9128 IPs with an estimated TTL (13.5517%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 20 threads will be scheduled (from 6 to 177 target IPs per thread).
+Updated IP dictionary has been saved in the output file AS30781_29-12.ips.
+
+There are flickering IPs that could lead to the discovery of 6 aliases.
+Now starting alias hints collection...
+Collecting hints for 31.172.233.90, 77.246.83.238... Done.
+Collecting hints for 78.41.186.85, 78.41.187.53... Done.
+Collecting hints for 78.153.231.1, 85.31.194.117, 85.31.194.211... Done.
+Collecting hints for 78.153.247.1, 78.153.247.131... Done.
+Collecting hints for 85.31.194.27, 85.31.194.47, 85.31.194.51... Done.
+Collecting hints for 185.68.228.34, 185.68.228.36, 185.68.228.255... Done.
+Resolving... Done.
+Inferred subnets has been saved in the output file AS30781_29-12.subnets.
+--- End of target scanning (29-12-2018 07:37:48) ---
+Elapsed time: 55 minutes 17 seconds
+Total amount of probes: 49164
+Total amount of successful probes: 40234 (81.8363%)
+Alias hints have been saved in an output file AS30781_29-12.hints.
+Fingerprints have been saved in an output file AS30781_29-12.fingerprints.
+Aliases discovered during subnet discovery have been written in AS30781_29-12.aliases-1.

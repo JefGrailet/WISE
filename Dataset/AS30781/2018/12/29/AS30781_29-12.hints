@@ -1,0 +1,15 @@
+31.172.233.90 - Target scanning: 64 - 1;17200,248761,4;17201,232488,5;17202,248683,8;17203,cpe-et001268.cust.jaguar-network.net
+77.246.83.238 - Target scanning: 128 - 2;25113,228806,3;25114,252411,6;25115,228611,7;25116,77-246-83-238.ppp.720.fr
+78.41.186.85 - Target scanning: 255 - ECHO,c7301-1.ge0-0-2003.gre01.phibee-telecom.net | Yes
+78.41.187.53 - Target scanning: 255 - ECHO,c7301-1.ge0-0-2008.gre01.phibee-telecom.net
+78.153.231.1 - Target scanning: be1.hr01-corp.mar01.jaguar-network.net
+78.153.247.1 - Target scanning: 64 - 23;10203,261989,26;10204,244583,27;10205,261787,30;10206 | Yes
+78.153.247.131 - Target scanning: 64 - 24;1878,241126,25;1879,265670,28;1880,241167,29;1881
+85.31.194.27 - Target scanning
+85.31.194.47 - Target scanning: ge0-0-0-11.lns01.par05.jaguar-network.net
+85.31.194.51 - Target scanning
+85.31.194.117 - Target scanning: ge2-1.hs01.lyo01.jaguar-network.net
+85.31.194.211 - Target scanning: be1.hr02-corp.par07.jaguar-network.net
+185.68.228.34 - Target scanning: 255 - ECHO | Yes
+185.68.228.36 - Target scanning: 255 - ECHO
+185.68.228.255 - Target scanning: 255 - ECHO,t-connect2234.cust.liazo.net

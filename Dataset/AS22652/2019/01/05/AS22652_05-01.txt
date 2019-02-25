@@ -1,0 +1,39 @@
+WISE (Wide and lInear Subnet inferencE) - Time at start: 05-01-2019 04:33:09
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 13842 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 24 additional responsive IPs.
+--- End of target pre-scanning (05-01-2019 05:07:29) ---
+Elapsed time: 34 minutes 20 seconds
+Total amount of probes: 138734
+Total amount of successful probes: 22797 (16.4322%)
+Total amount of discovered responsive IPs: 13866
+
+Filtered target IPs have been saved in an output file AS22652_05-01.ips (temporar).
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 257 threads will be scheduled (up to 54 target IPs per thread).
+4407 out of 13837 IPs with an estimated TTL (31.8494%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 58 threads will be scheduled (from 1 to 229 target IPs per thread).
+Updated IP dictionary has been saved in the output file AS22652_05-01.ips.
+
+There are flickering IPs that could lead to the discovery of 5 aliases.
+Now starting alias hints collection...
+Collecting hints for 68.67.63.81, 192.252.143.154, 192.252.143.186... Done.
+Collecting hints for 192.252.138.81, 192.252.138.205... Done.
+Collecting hints for 192.252.143.66, 192.252.143.70... Done.
+Collecting hints for 192.252.143.141, 192.252.143.177... Done.
+Collecting hints for 192.252.143.150, 192.252.143.221... Done.
+Resolving... Done.
+Inferred subnets has been saved in the output file AS22652_05-01.subnets.
+--- End of target scanning (05-01-2019 06:04:41) ---
+Elapsed time: 57 minutes 12 seconds
+Total amount of probes: 75173
+Total amount of successful probes: 62173 (82.7066%)
+Alias hints have been saved in an output file AS22652_05-01.hints.
+Fingerprints have been saved in an output file AS22652_05-01.fingerprints.
+Aliases discovered during subnet discovery have been written in AS22652_05-01.aliases-1.

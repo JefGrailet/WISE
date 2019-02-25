@@ -1,0 +1,45 @@
+WISE (Wide and lInear Subnet inferencE) - Time at start: 17-01-2019 13:16:35
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 8113 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 50 additional responsive IPs.
+--- End of target pre-scanning (18-01-2019 02:18:31) ---
+Elapsed time: 13 hours 1 minute 45 seconds
+Total amount of probes: 2762319
+Total amount of successful probes: 46201 (1.67254%)
+Total amount of discovered responsive IPs: 8163
+
+Filtered target IPs have been saved in an output file AS5400_17-01.ips (temporar).
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 256 threads will be scheduled (up to 32 target IPs per thread).
+1230 out of 7979 IPs with an estimated TTL (15.4155%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 30 threads will be scheduled (from 1 to 97 target IPs per thread).
+Updated IP dictionary has been saved in the output file AS5400_17-01.ips.
+
+There are flickering IPs that could lead to the discovery of 11 aliases.
+Now starting alias hints collection...
+Collecting hints for 62.102.105.225, 166.49.153.230... Done.
+Collecting hints for 62.134.39.75, 62.134.39.76... Done.
+Collecting hints for 80.169.40.245, 90.152.5.28... Done.
+Collecting hints for 80.169.196.155, 90.152.2.66... Done.
+Collecting hints for 90.152.2.2, 217.111.187.53... Done.
+Collecting hints for 166.49.134.17, 212.108.23.225... Done.
+Collecting hints for 166.49.159.90, 212.108.30.97... Done.
+Collecting hints for 166.49.164.204, 166.49.237.4... Done.
+Collecting hints for 166.49.208.220, 166.49.208.222... Done.
+Collecting hints for 166.49.251.134, 166.49.251.138... Done.
+Collecting hints for 188.1.144.222, 188.1.145.229... Done.
+Resolving... Done.
+Inferred subnets has been saved in the output file AS5400_17-01.subnets.
+--- End of target scanning (18-01-2019 02:46:42) ---
+Elapsed time: 28 minutes 10 seconds
+Total amount of probes: 42800
+Total amount of successful probes: 33253 (77.6939%)
+Alias hints have been saved in an output file AS5400_17-01.hints.
+Fingerprints have been saved in an output file AS5400_17-01.fingerprints.
+Aliases discovered during subnet discovery have been written in AS5400_17-01.aliases-1.

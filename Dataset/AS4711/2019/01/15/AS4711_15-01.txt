@@ -1,0 +1,35 @@
+WISE (Wide and lInear Subnet inferencE) - Time at start: 15-01-2019 12:37:05
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 1026 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 51 additional responsive IPs.
+--- End of target pre-scanning (15-01-2019 12:49:02) ---
+Elapsed time: 11 minutes 57 seconds
+Total amount of probes: 33790
+Total amount of successful probes: 3977 (11.7698%)
+Total amount of discovered responsive IPs: 1077
+
+Filtered target IPs have been saved in an output file AS4711_15-01.ips (temporar).
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 34 threads will be scheduled (up to 32 target IPs per thread).
+25 out of 1077 IPs with an estimated TTL (2.32126%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 8 threads will be scheduled (from 1 to 6 target IPs per thread).
+Updated IP dictionary has been saved in the output file AS4711_15-01.ips.
+
+There are flickering IPs that could lead to the discovery of 2 aliases.
+Now starting alias hints collection...
+Collecting hints for 202.222.75.220, 202.222.75.221... Done.
+Collecting hints for 202.222.82.28, 202.222.82.29... Done.
+Resolving... Done.
+Inferred subnets has been saved in the output file AS4711_15-01.subnets.
+--- End of target scanning (15-01-2019 12:52:55) ---
+Elapsed time: 3 minutes 53 seconds
+Total amount of probes: 5256
+Total amount of successful probes: 4903 (93.2839%)
+Alias hints have been saved in an output file AS4711_15-01.hints.
+Fingerprints have been saved in an output file AS4711_15-01.fingerprints.

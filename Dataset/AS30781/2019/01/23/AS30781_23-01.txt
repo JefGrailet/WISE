@@ -1,0 +1,38 @@
+WISE (Wide and lInear Subnet inferencE) - Time at start: 23-01-2019 17:35:25
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 9043 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 7 additional responsive IPs.
+--- End of target pre-scanning (23-01-2019 17:57:06) ---
+Elapsed time: 21 minutes 41 seconds
+Total amount of probes: 81581
+Total amount of successful probes: 13572 (16.6362%)
+Total amount of discovered responsive IPs: 9050
+
+Filtered target IPs have been saved in an output file AS30781_23-01.ips (temporar).
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 259 threads will be scheduled (up to 35 target IPs per thread).
+1556 out of 9035 IPs with an estimated TTL (17.2219%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 25 threads will be scheduled (from 1 to 498 target IPs per thread).
+Updated IP dictionary has been saved in the output file AS30781_23-01.ips.
+
+There are flickering IPs that could lead to the discovery of 4 aliases.
+Now starting alias hints collection...
+Collecting hints for 78.153.230.34, 85.31.194.27, 85.31.194.51... Done.
+Collecting hints for 78.153.231.3, 85.31.192.36... Done.
+Collecting hints for 78.153.231.39, 78.153.235.40, 78.153.235.48, 78.153.240.137... Done.
+Collecting hints for 83.167.34.181, 83.167.52.235... Done.
+Resolving... Done.
+Inferred subnets has been saved in the output file AS30781_23-01.subnets.
+--- End of target scanning (23-01-2019 19:53:04) ---
+Elapsed time: 1 hour 55 minutes 58 seconds
+Total amount of probes: 51904
+Total amount of successful probes: 41432 (79.8243%)
+Alias hints have been saved in an output file AS30781_23-01.hints.
+Fingerprints have been saved in an output file AS30781_23-01.fingerprints.
+Aliases discovered during subnet discovery have been written in AS30781_23-01.aliases-1.

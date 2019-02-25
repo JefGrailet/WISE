@@ -1,0 +1,72 @@
+61.200.97.130 - Target scanning: 255 - ECHO,p130.net061200097.broadline.ne.jp | Yes
+61.200.97.134 - Target scanning: 255 - ECHO,p134.net061200097.broadline.ne.jp
+61.211.176.6 - Target scanning: 255 - ECHO,p006.net061211176.broadline.ne.jp
+61.211.176.49 - Target scanning: 255 - ECHO,p049.net061211176.broadline.ne.jp
+61.211.176.54 - Target scanning: 255 - ECHO,p054.net061211176.broadline.ne.jp
+61.211.190.14 - Target scanning: 255 - ECHO,14.net061211190.t-com.ne.jp | Yes
+61.211.190.18 - Target scanning: 255 - ECHO,18.net061211190.t-com.ne.jp
+61.211.190.66 - Target scanning: 255 - ECHO,66.net061211190.t-com.ne.jp | Yes
+61.211.190.86 - Target scanning: 255 - ECHO,86.net061211190.t-com.ne.jp | Yes
+61.211.190.90 - Target scanning: 255 - ECHO,90.net061211190.t-com.ne.jp | Yes
+61.211.190.94 - Target scanning: 255 - ECHO,94.net061211190.t-com.ne.jp
+61.211.190.98 - Target scanning: 255 - ECHO,98.net061211190.t-com.ne.jp | Yes
+61.211.190.114 - Target scanning: 255 - ECHO,114.net061211190.t-com.ne.jp | Yes
+61.211.190.118 - Target scanning: 255 - ECHO,118.net061211190.t-com.ne.jp | Yes
+61.211.190.134 - Target scanning: 255 - ECHO,134.net061211190.t-com.ne.jp | Yes
+61.211.190.186 - Target scanning: 255 - ECHO,186.net061211190.t-com.ne.jp | Yes
+61.211.190.190 - Target scanning: 255 - ECHO,190.net061211190.t-com.ne.jp | Yes
+61.211.191.50 - Target scanning: 255 - ECHO,50.net061211191.t-com.ne.jp | Yes
+61.211.191.54 - Target scanning: 255 - ECHO,54.net061211191.t-com.ne.jp
+180.233.108.2 - Target scanning: 255 - ECHO,p002.net180233108.tokai.or.jp | Yes
+180.233.108.6 - Target scanning: 255 - ECHO,p006.net180233108.tokai.or.jp
+180.233.108.78 - Target scanning: 64 - 97;27291,173215,101;27389,146569,106;27458,139603,110;27489,p078.net180233108.tokai.or.jp | Yes
+180.233.108.82 - Target scanning: 64 - 98;49686,193098,104;49758,96483,105;49837,180387,112;49923,p082.net180233108.tokai.or.jp
+180.233.108.86 - Target scanning: 64 - 99;49695,144670,102;49754,168237,108;49849,116524,109;49916,p086.net180233108.tokai.or.jp
+180.233.108.90 - Target scanning: 64 - 100;27321,141789,103;27394,137536,107;27463,160166,111;27499,p090.net180233108.tokai.or.jp
+182.21.110.26 - Target scanning: 255 - ECHO,p026.net182021110.broadline.ne.jp | Yes
+182.21.110.30 - Target scanning: 255 - ECHO,p030.net182021110.broadline.ne.jp | Yes
+182.21.110.34 - Target scanning: 255 - ECHO,p034.net182021110.broadline.ne.jp | Yes
+182.21.110.38 - Target scanning: 255 - ECHO,p038.net182021110.broadline.ne.jp
+182.21.110.42 - Target scanning: 255 - ECHO,p042.net182021110.broadline.ne.jp
+182.21.110.46 - Target scanning: 255 - ECHO,p046.net182021110.broadline.ne.jp
+210.130.134.26 - Target scanning: 255 - ECHO
+210.130.134.46 - Target scanning: 255 - ECHO
+210.146.127.158 - Target scanning: 255 - ECHO | Yes
+210.146.127.162 - Target scanning: 255 - ECHO
+211.7.70.30 - Target scanning: 64 - 153;26772,150669,155;27060,161562,158;27280,139382,160;27416,p030.net211007070.tokai.or.jp
+211.7.70.34 - Target scanning: 255 - ECHO,p034.net211007070.tokai.or.jp
+211.7.73.50 - Target scanning: 64 - 18;65514,143225,22;2,138741,26;11,144984,30;30,p050.net073.tokai.or.jp | Yes
+211.7.73.154 - Target scanning: 64 - 19;11600,144807,23;11609,137492,27;11611,147523,31;11616,p154.net073.tokai.or.jp
+211.7.73.174 - Target scanning: 64 - 20;37227,111608,21;37236,173299,28;37247,111546,29;37249,p174.net073.tokai.or.jp | Yes
+211.7.77.2 - Target scanning: 255 - ECHO,p002.net211007077.broadline.ne.jp | Yes
+211.7.77.6 - Target scanning: 255 - ECHO,p006.net077.tokai.or.jp
+211.7.77.114 - Target scanning: 64 - 169;26249,128155,173;26386,167251,179;26498,118216,181;26606,planetlab01.cs.washington.edu | Yes
+211.7.77.118 - Target scanning: 64 - 170;6709,162552,176;6813,92210,177;6883,178775,184;7052,p118.net077.tokai.or.jp
+211.7.77.122 - Target scanning: 64 - 171;6715,143867,175;6808,111142,178;6903,158372,183;7040,p122.net077.tokai.or.jp | Yes
+211.7.77.126 - Target scanning: 64 - 172;26288,111950,174;26391,142822,180;26504,138201,182;26619,p126.net077.tokai.or.jp | Yes
+211.7.77.158 - Target scanning: 128 - ECHO,p158.net211007077.broadline.ne.jp
+211.7.77.170 - Target scanning: 255 - ECHO,p170.net211007077.broadline.ne.jp
+211.7.77.202 - Target scanning: 255 - ECHO,p202.net211007077.broadline.ne.jp | Yes
+211.7.77.218 - Target scanning: 255 - ECHO,p218.net211007077.broadline.ne.jp
+211.7.93.166 - Target scanning: 128 - ECHO,p166.net093.tokai.or.jp
+211.7.94.82 - Target scanning: 255 - ECHO,p082.net094.tokai.or.jp | Yes
+211.7.94.86 - Target scanning: 255 - ECHO,p086.net094.tokai.or.jp
+211.7.94.90 - Target scanning: 128 - ECHO,p090.net094.tokai.or.jp
+211.7.95.218 - Target scanning: 255 - ECHO,p218.net095.tokai.or.jp | Yes
+211.7.95.222 - Target scanning: 255 - ECHO,p222.net095.tokai.or.jp
+218.219.13.202 - Target scanning: 255 - ECHO,p202.net218219013.biz.tokai.or.jp | Yes
+218.219.13.206 - Target scanning: 255 - ECHO,p206.net218219013.biz.tokai.or.jp
+218.219.62.109 - Target scanning: 64 - 233;28071,185156,236;28072,136686,238;28073,138039,240;28074 | Yes
+218.219.62.110 - Target scanning: 64 - 234;29830,137066,235;29831,137981,237;29832,137837,239;29833
+219.96.59.81 - Target scanning: 255 - ECHO | Yes
+219.96.59.82 - Target scanning: 255 - ECHO | Yes
+219.96.59.89 - Target scanning: 255 - ECHO | Yes
+219.96.59.90 - Target scanning: 255 - ECHO
+219.126.96.2 - Target scanning: 255 - ECHO,2.net219126096.t-com.ne.jp | Yes
+219.126.96.6 - Target scanning: 255 - ECHO,6.net219126096.t-com.ne.jp | Yes
+219.126.96.26 - Target scanning: 128 - ECHO,26.net219126096.t-com.ne.jp
+219.126.96.30 - Target scanning: 128 - ECHO,30.net219126096.t-com.ne.jp
+219.126.96.214 - Target scanning: 255 - ECHO,214.net219126096.t-com.ne.jp | Yes
+219.126.96.218 - Target scanning: 255 - ECHO,218.net219126096.t-com.ne.jp | Yes
+220.148.179.2 - Target scanning: 255 - ECHO,2.net220148179.t-com.ne.jp | Yes
+220.148.179.10 - Target scanning: 255 - ECHO,10.net220148179.t-com.ne.jp

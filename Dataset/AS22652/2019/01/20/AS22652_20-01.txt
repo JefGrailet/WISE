@@ -1,0 +1,38 @@
+WISE (Wide and lInear Subnet inferencE) - Time at start: 20-01-2019 15:15:51
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 13903 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 28 additional responsive IPs.
+--- End of target pre-scanning (20-01-2019 15:50:52) ---
+Elapsed time: 35 minutes 1 second
+Total amount of probes: 138673
+Total amount of successful probes: 19944 (14.382%)
+Total amount of discovered responsive IPs: 13931
+
+Filtered target IPs have been saved in an output file AS22652_20-01.ips (temporar).
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 258 threads will be scheduled (up to 54 target IPs per thread).
+3557 out of 13409 IPs with an estimated TTL (26.527%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 51 threads will be scheduled (from 1 to 228 target IPs per thread).
+Updated IP dictionary has been saved in the output file AS22652_20-01.ips.
+
+There are flickering IPs that could lead to the discovery of 4 aliases.
+Now starting alias hints collection...
+Collecting hints for 4.59.178.46, 68.67.63.82, 68.67.63.89, 107.161.3.35, 192.252.138.83, 192.252.138.207, 192.252.143.78, 192.252.143.122, 192.252.143.222... Done.
+Collecting hints for 68.67.63.81, 192.252.143.186... Done.
+Collecting hints for 68.67.63.94, 192.252.143.77... Done.
+Collecting hints for 192.252.138.206, 192.252.143.121, 192.252.143.181... Done.
+Resolving... Done.
+Inferred subnets has been saved in the output file AS22652_20-01.subnets.
+--- End of target scanning (20-01-2019 16:56:47) ---
+Elapsed time: 1 hour 5 minutes 55 seconds
+Total amount of probes: 80052
+Total amount of successful probes: 60339 (75.3748%)
+Alias hints have been saved in an output file AS22652_20-01.hints.
+Fingerprints have been saved in an output file AS22652_20-01.fingerprints.
+Aliases discovered during subnet discovery have been written in AS22652_20-01.aliases-1.

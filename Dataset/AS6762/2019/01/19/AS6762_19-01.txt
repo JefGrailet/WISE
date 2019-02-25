@@ -1,0 +1,36 @@
+WISE (Wide and lInear Subnet inferencE) - Time at start: 19-01-2019 14:04:37
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 83841 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 57 additional responsive IPs.
+--- End of target pre-scanning (19-01-2019 14:45:41) ---
+Elapsed time: 41 minutes 4 seconds
+Total amount of probes: 190591
+Total amount of successful probes: 86612 (45.4439%)
+Total amount of discovered responsive IPs: 83898
+
+Filtered target IPs have been saved in an output file AS6762_19-01.ips (temporar).
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 257 threads will be scheduled (up to 327 target IPs per thread).
+1030 out of 83743 IPs with an estimated TTL (1.22995%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 26 threads will be scheduled (from 1 to 76 target IPs per thread).
+Updated IP dictionary has been saved in the output file AS6762_19-01.ips.
+
+There are flickering IPs that could lead to the discovery of 2 aliases.
+Now starting alias hints collection...
+Collecting hints for 5.178.41.200, 169.61.118.159, 202.153.100.194... Done.
+Collecting hints for 5.178.43.128, 5.178.43.202, 5.178.43.204, 5.178.43.230, 79.140.83.49, 79.140.90.133, 79.140.90.138, 79.140.91.18, 89.221.32.33, 89.221.34.15, 89.221.37.130, 89.221.39.10, 89.221.40.0, 89.221.40.141, 89.221.41.161, 89.221.41.171, 89.221.41.181, 89.221.43.11, 93.186.128.69, 93.186.129.1, 93.186.129.21, 93.186.129.23, 93.186.129.29, 93.186.129.31, 93.186.129.89, 93.186.129.91, 93.186.129.94, 93.186.129.149, 93.186.129.151, 93.186.129.161, 93.186.129.163, 93.186.129.191, 93.186.129.198, 93.186.129.223, 93.186.129.225, 93.186.132.72, 93.186.132.74, 93.186.132.143, 93.186.133.123, 93.186.142.213, 93.186.142.215, 109.105.97.127, 149.3.183.61, 149.3.183.63, 149.3.183.115, 149.3.183.117, 149.3.183.133, 185.70.202.128, 185.70.203.11, 185.70.203.59, 185.70.203.61, 185.70.203.63, 185.70.203.65, 195.22.192.181, 195.22.192.191, 195.22.195.49, 195.22.196.213, 195.22.197.25, 195.22.197.27, 195.22.199.125, 195.22.199.179, 195.22.205.13, 195.22.205.39, 195.22.205.49, 195.22.205.77, 195.22.206.0, 195.22.206.54, 195.22.206.144, 195.22.206.146, 195.22.206.194, 195.22.206.200, 195.22.208.79, 195.22.208.117, 195.22.209.39, 195.22.209.101, 195.22.209.104, 195.22.209.121, 195.22.209.207, 195.22.209.209, 195.22.209.211, 195.22.209.217, 195.22.209.219, 195.22.210.45, 195.22.210.47, 195.22.210.53, 195.22.210.55, 195.22.210.107, 195.22.210.195, 195.22.210.217, 195.22.211.39, 195.22.211.55, 195.22.211.193, 195.22.211.199, 195.22.211.205, 195.22.211.207, 195.22.211.213, 195.22.211.215, 195.22.211.219, 195.22.213.233, 195.22.214.131, 195.22.215.223, 195.22.216.29, 195.22.216.31, 195.22.216.201, 195.22.218.41, 195.22.218.43, 195.22.218.49, 195.22.218.51, 195.22.218.199, 195.22.218.213, 195.22.218.215, 195.22.219.1, 195.22.219.3, 195.22.219.17, 195.22.219.31, 195.22.219.73, 195.22.219.75, 195.22.219.215, 195.22.220.7, 195.22.220.13, 195.22.220.15, 195.22.220.29, 195.22.220.31, 195.22.220.123, 195.22.220.233, 195.22.221.185, 195.22.221.187, 195.22.221.189, 195.22.223.133, 195.22.223.208, 195.66.224.153, 213.144.160.1, 213.144.160.3, 213.144.160.5, 213.144.160.7, 213.144.170.0, 213.144.176.11, 213.144.176.129, 213.144.176.208, 213.144.176.210, 213.144.177.7, 213.144.177.174, 213.144.177.216, 213.144.177.218, 213.144.177.230, 213.144.178.22, 213.144.178.149, 213.144.178.151, 213.144.178.204, 213.144.178.206, 213.144.183.47, 213.144.183.63... Done.
+Resolving... Done.
+Inferred subnets has been saved in the output file AS6762_19-01.subnets.
+--- End of target scanning (19-01-2019 15:51:33) ---
+Elapsed time: 1 hour 5 minutes 52 seconds
+Total amount of probes: 354414
+Total amount of successful probes: 345860 (97.5864%)
+Alias hints have been saved in an output file AS6762_19-01.hints.
+Fingerprints have been saved in an output file AS6762_19-01.fingerprints.
+Aliases discovered during subnet discovery have been written in AS6762_19-01.aliases-1.

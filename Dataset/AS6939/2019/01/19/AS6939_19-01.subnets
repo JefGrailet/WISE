@@ -1,0 +1,31 @@
+64.62.144.222/31
+13 - 64.62.144.223 - [72.52.92.57 | 1] - Selected pivot
+Stop: no more IPs to expand the subnet further.
+
+64.62.221.232/31
+14 - 64.62.221.233 - [184.105.65.214 | 1] - Selected pivot
+Stop: reached the maximum size allowed for a subnet.
+
+64.62.224.0/22
+12 - 64.62.225.61 - [132.65.240.1 | 9] - Contra-pivot
+14 - 64.62.227.89 - [128.139.233.1 | 7] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+64.62.228.0/22
+15 - 64.62.229.11 - [132.65.240.1 | 12] - Rule 1
+15 - 64.62.230.82 - [132.65.240.1 | 12] - Selected pivot
+Stop: next prefix length had several contra-pivot candidates (2) located at different distances.
+
+216.66.93.226/31
+14 - 216.66.93.226 - [184.105.222.82 | 2] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+216.66.95.168/31
+11 - 216.66.95.169 - [132.65.240.1 | 8] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+216.171.192.0/21
+14 - 216.171.192.94 - [132.65.240.1 | 11] - Contra-pivot
+15 - 216.171.196.4 - [128.139.233.1 | 8] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+

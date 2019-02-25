@@ -1,0 +1,9 @@
+WISE (Wide and lInear Subnet inferencE) - Time at start: 29-12-2018 06:19:46
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... Socket Send Exception Error Message: Operation not permitted
+
+WARNING: emergency stop has been triggered because of connectivity issues.
+WISE will wait for all remaining threads to complete before exiting without carrying out remaining probing tasks.
+
+WISE is halting now.

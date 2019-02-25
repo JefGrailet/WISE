@@ -1,0 +1,53 @@
+62.102.105.225 - Target scanning: 255 - ECHO | Yes
+62.134.13.22 - Target scanning: 255 - ECHO,vlan4027-c-t2a5.f.core.de.ignite.net | Yes
+62.134.17.3 - Target scanning: 255 - ECHO,62-134-17-3.business.static.de.bt.net | Yes
+62.134.39.75 - Target scanning: 64 - 17;2724,45282,20;2728,24847,21;2731,45199,24;2732,62-134-39-75.business.static.de.bt.net
+62.134.39.76 - Target scanning: 64 - 18;34011,24964,19;34013,45118,22;34016,24871,23;34018,62-134-39-76.business.static.de.bt.net
+62.134.39.77 - Target scanning: 255 - ECHO,62-134-39-77.business.static.de.bt.net
+62.134.246.252 - Target scanning: 255 - ECHO,62-134-246-252.business.static.de.bt.net
+80.169.40.245 - Target scanning: 255 - ECHO | Yes
+90.152.5.28 - Target scanning: 255 - ECHO,host90-152-5-28.ipv4.regusnet.com | Yes
+166.49.134.17 - Target scanning: 255 - ECHO,166-49-134-17.eu.bt.net | Yes
+166.49.134.141 - Target scanning: 64 - 57;48893,88977,64;48942,25837,65;48956,89624,72;49004,t2c4-ge-11-3-0-0.de-dus.eu.bt.net
+166.49.143.116 - Target scanning: 64 - 73;593,144414,84;646,44444,85;655,144380,96;710,t2c3-ge0-3-1-0.es-bar.eu.bt.net
+166.49.147.49 - Target scanning: 64 - 74;596,124080,83;642,65138,86;658,123717,95;701,t2c3-xe-0-1-0-8.es-bar.eu.bt.net
+166.49.153.230 - Target scanning: 255 - ECHO,166-49-153-230.eu.bt.net | Yes
+166.49.158.237 - Target scanning: 64 - 58;48904,68543,63;48939,46204,66;48963,69682,71;48998,t2c4-ge0-2-9-0.de-dus.eu.bt.net
+166.49.159.90 - Target scanning: 255 - ECHO,166-49-159-90.eu.bt.net | Yes
+166.49.164.75 - Target scanning: 64 - 105;27744,79349,110;27820,37754,111;27846,78162,116;27910,t2c4-xe1-1-2-1.uk-lof.eu.bt.net
+166.49.164.206 - Target scanning: 64 - 117;25215,42563,120;25288,26335,121;25309,42531,124;25338,t2c2-ge6-1.uk-lon1.eu.bt.net
+166.49.172.146 - Target scanning: 255 - ECHO,t2c1-ge0-1-4.cz-pra.eu.bt.net | Yes
+166.49.179.202 - Target scanning: 64 - 137;40051,121337,146;40108,40125,147;40123,121161,156;40174,t2c4-xe-11-2-0-102.se-sto.eu.bt.net
+166.49.195.26 - Target scanning: 255 - ECHO,t3a2-ge0-0-3.de-nur.eu.bt.net | Yes
+166.49.195.34 - Target scanning: 255 - ECHO,t3a4-ge0-1-1-100.dk-cop.eu.bt.net | Yes
+166.49.195.38 - Target scanning: 64 - 59;48912,48393,62;48933,66558,67;48968,57233,70;48991,t2c4-xe-0-0-0-0.de-dus.eu.bt.net
+166.49.208.2 - Target scanning: 255 - ECHO,t2c1-ge0-0-3.uk-lon2.eu.bt.net | Yes
+166.49.208.10 - Target scanning: 64 - 178;12229,38506,179;12259,58085,182;12290,38455,183;12305,t2c3-xe-0-0-1-0.uk-lon1.eu.bt.net
+166.49.208.21 - Target scanning: 255 - ECHO,t2c1-ge0-0-3.cz-pra.eu.bt.net | Yes
+166.49.208.33 - Target scanning: 64 - 185;60580,81461,190;60623,39746,191;60634,80359,196;60677,t2c4-xe-0-0-0-0.uk-lof.eu.bt.net
+166.49.208.37 - Target scanning: 64 - 106;27756,59191,109;27797,57922,112;27856,58006,115;27902,t2c4-xe-1-0-0-0.uk-lof.eu.bt.net
+166.49.208.64 - Target scanning: 64 - 138;40056,100890,145;40105,60274,148;40133,101113,155;40171,t2c4-xe-0-0-0-0.se-sto.eu.bt.net
+166.49.208.86 - Target scanning: 255 - ECHO,t3a4-ge0-0-3-1.dk-cop.eu.bt.net | Yes
+166.49.208.154 - Target scanning: 64 - 75;600,103578,82;636,85491,87;664,103528,94;698,t2c3-xe-0-0-0-0.es-bar.eu.bt.net
+166.49.208.177 - Target scanning: 64 - 107;27771,37562,108;27792,78315,113;27872,37684,114;27898,t2c1-ge0-1-0.ie-dub2.eu.bt.net
+166.49.208.246 - Target scanning: 64 - 186;60583,60901,189;60618,60124,192;60639,60134,195;60670,t2c2-p3-0.de-dus.eu.bt.net
+166.49.226.226 - Target scanning: 255 - ECHO,166-49-226-226.eu.bt.net
+166.49.234.186 - Target scanning: 255 - ECHO,166-49-234-186.eu.bt.net
+166.49.237.37 - Target scanning: 64 - 187;60589,39746,188;60611,80448,193;60648,39695,194;60660,t2c4-xe11-3-2-0.uk-lof.eu.bt.net
+166.49.237.46 - Target scanning: 255 - ECHO,t2c1-ge0-0-1.cz-pra.eu.bt.net | Yes
+166.49.237.49 - Target scanning: 64 - 139;40060,75670,144;40098,80689,149;40140,80572,154;40165,t2c4-xe0-1-1-0.se-sto.eu.bt.net
+166.49.237.51 - Target scanning: 64 - 140;40064,55776,143;40092,101206,150;40143,60268,153;40160,t2c4-xe0-1-1-1.se-sto.eu.bt.net
+166.49.237.53 - Target scanning: 64 - 141;40083,39745,142;40088,121628,151;40148,39870,152;40153,t2c4-xe11-0-1-0.se-sto.eu.bt.net
+166.49.237.173 - Target scanning: 64 - 60;48915,28006,61;48923,86931,68;48974,42472,69;48984,t2c4-xe0-1-1-0.de-dus.eu.bt.net
+166.49.237.190 - Target scanning: 64 - 76;604,83250,81;632,106934,88;667,82054,93;695,t2c3-xe0-0-1-1.es-bar.eu.bt.net
+166.49.237.228 - Target scanning: 64 - 118;25220,22482,119;25281,46453,122;25314,22621,123;25333,t2c3-xe0-1-1-1.de-fra.eu.bt.net
+166.49.250.66 - Target scanning: 255 - ECHO,t3a2-ge0-0-1.de-nur.eu.bt.net | Yes
+166.49.250.99 - Target scanning: 255 - ECHO,t3a4-ge0-0-0.dk-cop.eu.bt.net | Yes
+166.49.251.134 - Target scanning: 255 - ECHO,166-49-251-134.eu.bt.net
+166.49.251.138 - Target scanning: 255 - ECHO,166-49-251-138.eu.bt.net
+212.49.131.241 - Target scanning: 64 - 77;607,62239,80;625,128156,89;671,60785,92;692
+212.49.131.245 - Target scanning: 64 - 78;610,42463,79;619,146450,90;677,44388,91;689
+212.108.23.225 - Target scanning: 255 - ECHO | Yes
+212.108.30.97 - Target scanning: 255 - ECHO | Yes
+217.72.223.137 - Target scanning: 255 - ECHO | Yes
+217.72.223.166 - Target scanning: 255 - ECHO | Yes

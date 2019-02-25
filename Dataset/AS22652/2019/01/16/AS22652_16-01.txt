@@ -1,0 +1,38 @@
+WISE (Wide and lInear Subnet inferencE) - Time at start: 16-01-2019 13:55:32
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 13969 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 28 additional responsive IPs.
+--- End of target pre-scanning (16-01-2019 14:34:39) ---
+Elapsed time: 39 minutes 7 seconds
+Total amount of probes: 138607
+Total amount of successful probes: 21704 (15.6587%)
+Total amount of discovered responsive IPs: 13997
+
+Filtered target IPs have been saved in an output file AS22652_16-01.ips (temporar).
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 260 threads will be scheduled (up to 54 target IPs per thread).
+3612 out of 13423 IPs with an estimated TTL (26.909%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 57 threads will be scheduled (from 2 to 280 target IPs per thread).
+Updated IP dictionary has been saved in the output file AS22652_16-01.ips.
+
+There are flickering IPs that could lead to the discovery of 4 aliases.
+Now starting alias hints collection...
+Collecting hints for 4.59.178.46, 68.67.63.82, 68.67.63.93, 107.161.9.85, 192.252.138.83, 192.252.138.207, 208.88.110.205... Done.
+Collecting hints for 68.67.63.81, 192.252.143.186... Done.
+Collecting hints for 68.67.63.94, 192.252.143.77... Done.
+Collecting hints for 192.252.138.206, 192.252.143.121, 192.252.143.181... Done.
+Resolving... Done.
+Inferred subnets has been saved in the output file AS22652_16-01.subnets.
+--- End of target scanning (16-01-2019 15:51:30) ---
+Elapsed time: 1 hour 16 minutes 51 seconds
+Total amount of probes: 83706
+Total amount of successful probes: 61447 (73.4081%)
+Alias hints have been saved in an output file AS22652_16-01.hints.
+Fingerprints have been saved in an output file AS22652_16-01.fingerprints.
+Aliases discovered during subnet discovery have been written in AS22652_16-01.aliases-1.

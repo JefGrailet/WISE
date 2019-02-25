@@ -1,0 +1,48 @@
+92.71.25.162/31
+17 - 92.71.25.162 - [92.71.25.162] - Selected pivot
+Stop: no more IPs to expand the subnet further.
+
+134.222.48.92/31
+15 - 134.222.48.93 - [134.222.48.93] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+134.222.48.96/27
+14 - 134.222.48.105 - [134.222.49.55] - Contra-pivot
+16 - 134.222.48.123 - [134.222.48.144 | 3] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+134.222.92.0/22
+14 - 134.222.93.188 - [134.222.48.207] - Selected pivot
+14 - 134.222.94.97 - [62.40.98.128 | 4] - Selected pivot
+Stop: merging of undergrown subnets 134.222.92.0/23, 134.222.94.0/24 (similar pivot).
+
+134.222.95.0/24
+14 - 134.222.95.34 - [134.222.48.39 | 1] - Contra-pivot
+16 - 134.222.95.137 - [134.222.48.144 | 3] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+134.222.168.152/31
+13 - 134.222.168.153 - [134.222.48.39] - Selected pivot
+Stop: reached the maximum size allowed for a subnet.
+
+193.242.91.198/31
+14 - 193.242.91.198 - [62.115.37.102 | 2] - Selected pivot
+Stop: reached the maximum size allowed for a subnet.
+
+194.45.46.0/27
+14 - 194.45.46.1 - [62.115.37.102 | 2] - Contra-pivot
+16 - 194.45.46.23 - [134.222.116.243 | 1] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+194.45.46.42/31
+19 - 194.45.46.43 - [62.40.98.128 | 9] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+194.120.0.198/31
+17 - 194.120.0.198 - [62.115.37.102 | 5] - Selected pivot
+Stop: reached the maximum size allowed for a subnet.
+
+194.121.203.8/31
+17 - 194.121.203.9 - [212.86.216.14] - Selected pivot
+Stop: reached the maximum size allowed for a subnet.
+

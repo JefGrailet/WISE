@@ -1,0 +1,456 @@
+62.23.0.2 - Target scanning: 255 - ECHO,localhost | Yes
+62.23.0.179 - Target scanning: 255 - ECHO,localhost | Yes
+62.23.0.202 - Target scanning: 255 - ECHO,localhost | Yes
+62.23.1.3 - Target scanning: 255 - ECHO,host.3.1.23.62.rev.coltfrance.com | Yes
+62.23.1.11 - Target scanning: 255 - ECHO,host.11.1.23.62.rev.coltfrance.com | Yes
+62.23.1.35 - Target scanning: 255 - ECHO,host.35.1.23.62.rev.coltfrance.com | Yes
+62.23.1.131 - Target scanning: 255 - ECHO,apolloft2.tf1.coltfrance.com
+62.23.1.179 - Target scanning: 255 - ECHO,host.179.1.23.62.rev.coltfrance.com
+62.23.2.243 - Target scanning: 255 - ECHO,host.243.2.23.62.rev.coltfrance.com | Yes
+62.23.3.59 - Target scanning: 255 - ECHO,host.59.3.23.62.rev.coltfrance.com | Yes
+62.23.3.93 - Target scanning: 255 - ECHO,localhost
+62.23.6.227 - Target scanning: 255 - ECHO,localhost
+62.23.7.10 - Target scanning: 255 - ECHO,localhost
+62.23.7.131 - Target scanning: 255 - ECHO,host.131.7.23.62.rev.coltfrance.com
+62.23.8.198 - Target scanning: 255 - ECHO,pm-8198.dms-01.net
+62.23.9.35 - Target scanning: 255 - ECHO,localhost | Yes
+62.23.12.35 - Target scanning: 255 - ECHO,localhost
+62.23.12.43 - Target scanning: 255 - ECHO,externisbdd01.legato.coltfrance.com | Yes
+62.23.13.219 - Target scanning: 255 - ECHO,entagencesft01.legato.coltfrance.com
+62.23.15.3 - Target scanning: 255 - ECHO,host.3.15.23.62.rev.coltfrance.com | Yes
+62.23.15.11 - Target scanning: 255 - ECHO,localhost | Yes
+62.23.15.171 - Target scanning: 255 - ECHO,host.171.15.23.62.rev.coltfrance.com | Yes
+62.23.17.131 - Target scanning: 255 - ECHO,cnplab-ft2.heb.fr.colt.net | Yes
+62.23.18.219 - Target scanning: 255 - ECHO,localhost | Yes
+62.23.30.203 - Target scanning: 255 - ECHO,host.203.30.23.62.rev.coltfrance.com | Yes
+62.23.30.236 - Target scanning: 255 - ECHO,host.236.30.23.62.rev.coltfrance.com | Yes
+62.23.33.78 - Target scanning: 255 - 241;34824,106641,244;34827,80159,245;34828,101789,248;34831,cpefr_xbt000764.ia.colt.net | Yes
+62.23.40.246 - Target scanning: 255 - ECHO,host.246.40.23.62.rev.coltfrance.com | Yes
+62.23.46.3 - Target scanning: 255 - ECHO,host.3.46.23.62.rev.coltfrance.com | Yes
+62.23.46.139 - Target scanning: 255 - ECHO,host.139.46.23.62.rev.coltfrance.com | Yes
+62.23.51.60 - Target scanning: 255 - ECHO,mailbox.cfpj.com | Yes
+62.23.54.115 - Target scanning: 255 - ECHO,host.115.54.23.62.rev.coltfrance.com | Yes
+62.23.56.102 - Target scanning: 255 - ECHO,cpefr_par002431.ia.colt.net | Yes
+62.23.59.243 - Target scanning: 255 - ECHO,host.243.59.23.62.rev.coltfrance.com | Yes
+62.23.62.82 - Target scanning: 64 - 297;62956,102155,300;63454,79951,301;63987,102241,304;64481,host.82.62.23.62.rev.coltfrance.com
+62.23.64.150 - Target scanning: 255 - ECHO,cpefr_xbt049630.ia.colt.net | Yes
+62.23.79.53 - Target scanning: 255 - ECHO,host.53.79.23.62.rev.coltfrance.com | Yes
+62.23.79.231 - Target scanning: 255 - ECHO,host.231.79.23.62.rev.coltfrance.com | Yes
+62.23.80.34 - Target scanning: 255 - ECHO,cpefr_jev000483.ia.colt.net | Yes
+62.23.80.178 - Target scanning: 255 - ECHO | Yes
+62.23.87.230 - Target scanning: 64 - 337;34787,102148,340;34788,81217,341;34789,102369,344;34790,host.230.87.23.62.rev.coltfrance.com | Yes
+62.23.87.253 - Target scanning: 64 - 338;24919,80926,339;24920,102706,342;24921,80396,343;24922,host.253.87.23.62.rev.coltfrance.com | Yes
+62.23.92.51 - Target scanning: 255 - ECHO,host.51.92.23.62.rev.coltfrance.com | Yes
+62.23.93.125 - Target scanning: 255 - ECHO,host.125.93.23.62.rev.coltfrance.com | Yes
+62.23.94.115 - Target scanning: 255 - ECHO,ch.mlkj.net | Yes
+62.23.103.17 - Target scanning: 64 - 298;63080,79976,299;63380,102806,302;64087,80008,303;64411,se3-4-4-ls7200-2-wat.PAR.router.fr.colt.net
+62.23.103.250 - Target scanning: 255 - ECHO,localhost | Yes
+62.23.104.99 - Target scanning: 255 - ECHO
+62.23.105.131 - Target scanning: 255 - ECHO,host.131.105-23-62.ripe.coltfrance.com
+62.23.116.163 - Target scanning: 255 - ECHO | Yes
+62.23.126.142 - Target scanning: 255 - ECHO,localhost | Yes
+62.23.130.162 - Target scanning: 255 - ECHO,host.162.130.23.62.rev.coltfrance.com
+62.23.133.76 - Target scanning: 255 - ECHO,localhost
+62.23.133.131 - Target scanning: 255 - ECHO,france1.eol.heb.fr.colt.net
+62.23.133.163 - Target scanning: 255 - ECHO,localhost
+62.23.138.203 - Target scanning: 255 - ECHO,quaul-db01.heb.fr.colt.net
+62.23.138.210 - Target scanning: 255 - ECHO,localhost | Yes
+62.23.140.195 - Target scanning: 255 - ECHO,host.195.140.23.62.rev.coltfrance.com
+62.23.146.35 - Target scanning: 255 - ECHO,localhost | Yes
+62.23.161.122 - Target scanning: 255 - ECHO | Yes
+62.23.161.162 - Target scanning: 255 - ECHO | Yes
+62.23.192.54 - Target scanning: 255 - ECHO,cpefr_par081070.ia.colt.net | Yes
+62.23.221.27 - Target scanning: 255 - ECHO,host.27.221.23.62.rev.coltfrance.com | Yes
+62.23.224.50 - Target scanning: 255 - ECHO,cpefr_par060543.ia.colt.net | Yes
+62.23.224.246 - Target scanning: 255 - ECHO | Yes
+62.23.226.242 - Target scanning: 255 - ECHO,cpefr_xbt002069.ia.colt.net | Yes
+62.72.109.101 - Target scanning: 255 - ECHO,quick-from-levis-strauss-1697.be.colt.net | Yes
+62.72.126.3 - Target scanning: 255 - ECHO | Yes
+62.72.126.19 - Target scanning: 255 - ECHO | Yes
+62.96.4.3 - Target scanning: 255 - ECHO,ad96e3e03.dsl.de.colt.net | Yes
+62.96.30.182 - Target scanning: 255 - ECHO,localhost | Yes
+62.96.31.106 - Target scanning: 255 - ECHO,h-62.96.31.106.host.de.colt.net | Yes
+62.96.88.182 - Target scanning: 255 - ECHO,h-62.96.88.182.host.de.colt.net | Yes
+62.96.89.58 - Target scanning: 255 - ECHO,h-62.96.89.58.host.de.colt.net | Yes
+62.96.91.65 - Target scanning: 64 - ECHO,localhost
+62.96.91.83 - Target scanning: 64 - ECHO,localhost
+62.96.91.100 - Target scanning: 64 - ECHO,localhost
+62.96.91.102 - Target scanning: 64 - ECHO,localhost
+62.96.91.104 - Target scanning: 64 - ECHO,localhost
+62.96.91.140 - Target scanning: 64 - ECHO,localhost
+62.96.91.166 - Target scanning: 64 - ECHO,h-62.96.91.166.host.de.colt.net
+62.96.91.171 - Target scanning: 64 - ECHO,localhost
+62.96.91.173 - Target scanning: 64 - ECHO,h-62.96.91.173.host.de.colt.net
+62.96.116.162 - Target scanning: 255 - ECHO,h-62.96.116.162.host.de.colt.net | Yes
+62.96.128.211 - Target scanning: 255 - ECHO | Yes
+62.96.138.195 - Target scanning: 255 - ECHO,h-62.96.138.195.host.de.colt.net | Yes
+62.96.141.162 - Target scanning: 255 - ECHO | Yes
+62.96.143.74 - Target scanning: 255 - ECHO | Yes
+62.96.143.82 - Target scanning: 255 - ECHO | Yes
+62.96.179.18 - Target scanning: 255 - ECHO | Yes
+62.96.179.138 - Target scanning: 255 - ECHO | Yes
+62.96.179.218 - Target scanning: 255 - ECHO | Yes
+62.96.180.2 - Target scanning: 255 - ECHO,localhost | Yes
+62.96.180.66 - Target scanning: 255 - ECHO,h-62.96.180.66.host.de.colt.net | Yes
+62.96.189.135 - Target scanning: 64 - 793;37526,107417,796;37551,86406,797;37568,107601,800;37592,h-62.96.189.135.host.de.colt.net
+62.96.204.195 - Target scanning: 255 - ECHO,h-62.96.204.195.host.de.colt.net | Yes
+62.96.243.246 - Target scanning: 255 - ECHO | Yes
+62.96.248.154 - Target scanning: 255 - ECHO | Yes
+62.96.248.234 - Target scanning: 255 - ECHO | Yes
+62.97.65.138 - Target scanning: 255 - ECHO | Yes
+62.97.73.130 - Target scanning: 255 - ECHO | Yes
+62.97.81.3 - Target scanning: 255 - ECHO | Yes
+62.97.81.226 - Target scanning: 255 - ECHO,m226rev.csi-mad.es.colt.net | Yes
+62.97.82.131 - Target scanning: 255 - ECHO,localhost | Yes
+62.97.82.132 - Target scanning: 64 - 997;13284,121073,1000;13285,98315,1001;13286,123238,1004;13287,hst132.csi-mad.es.colt.net | Yes
+62.97.82.154 - Target scanning: 255 - ECHO,hst154.csi-mad.es.colt.net | Yes
+62.97.86.50 - Target scanning: 255 - ECHO | Yes
+62.97.86.122 - Target scanning: 255 - ECHO | Yes
+62.97.87.194 - Target scanning: 255 - ECHO
+62.97.101.8 - Target scanning: 255 - ECHO | Yes
+80.169.17.130 - Target scanning: 255 - ECHO | Yes
+80.169.17.131 - Target scanning: 255 - ECHO | Yes
+80.169.82.218 - Target scanning: 255 - ECHO,cpebe_bru009186.ia.colt.net | Yes
+80.169.90.3 - Target scanning: 64 - 1021;22147,7565952,1028;22152,76235,1029;22153,119417,1034;22158 | Yes
+80.169.90.131 - Target scanning: 64 - 1022;22148,7543908,1027;22151,97744,1030;22154,98012,1033;22157 | Yes
+80.169.247.50 - Target scanning: 255 - ECHO | Yes
+80.169.247.74 - Target scanning: 255 - ECHO,cpees_bcn065488.ia.colt.net | Yes
+80.169.253.59 - Target scanning: 255 - ECHO | Yes
+80.251.178.163 - Target scanning: 255 - ECHO | Yes
+80.251.179.179 - Target scanning: 255 - ECHO | Yes
+84.14.8.235 - Target scanning: 255 - ECHO,localhost | Yes
+84.14.11.35 - Target scanning: 255 - ECHO,35.11-14-84.ripe.coltfrance.com | Yes
+84.14.13.3 - Target scanning: 255 - ECHO,3.13-14-84.ripe.coltfrance.com | Yes
+84.14.14.122 - Target scanning: 255 - ECHO,122.14-14-84.ripe.coltfrance.com | Yes
+84.14.21.234 - Target scanning: 255 - ECHO,234.21-14-84.ripe.coltfrance.com | Yes
+84.14.23.2 - Target scanning: 255 - ECHO,2.23-14-84.ripe.coltfrance.com | Yes
+84.14.25.242 - Target scanning: 255 - ECHO,cpees_bcn008975.ia.colt.net | Yes
+84.14.28.118 - Target scanning: 255 - ECHO,cpefr_par001959.ia.colt.net | Yes
+84.14.34.27 - Target scanning: 255 - ECHO,27.34-14-84.ripe.coltfrance.com | Yes
+84.14.46.2 - Target scanning: 255 - ECHO,2.46-14-84.ripe.coltfrance.com | Yes
+84.14.46.29 - Target scanning: 255 - ECHO,29.46-14-84.ripe.coltfrance.com | Yes
+84.14.48.150 - Target scanning: 255 - ECHO,cpefr_lys000185.ia.colt.net | Yes
+84.14.54.194 - Target scanning: 255 - ECHO,cpefr_par071844.ia.colt.net | Yes
+84.14.55.227 - Target scanning: 255 - ECHO,227.55-14-84.ripe.coltfrance.com | Yes
+84.14.61.170 - Target scanning: 255 - ECHO,170.61-14-84.ripe.coltfrance.com | Yes
+84.14.61.246 - Target scanning: 255 - ECHO,246.61-14-84.ripe.coltfrance.com | Yes
+84.14.74.118 - Target scanning: 255 - ECHO,118.74-14-84.ripe.coltfrance.com | Yes
+84.14.83.214 - Target scanning: 255 - ECHO,cpefr_xbg000720.ia.colt.net | Yes
+84.14.87.83 - Target scanning: 255 - ECHO,83.87-14-84.ripe.coltfrance.com | Yes
+84.14.90.163 - Target scanning: 255 - ECHO,163.90-14-84.ripe.coltfrance.com | Yes
+84.14.92.195 - Target scanning: 255 - ECHO,195.92-14-84.ripe.coltfrance.com | Yes
+84.14.94.211 - Target scanning: 255 - ECHO,211.94-14-84.ripe.coltfrance.com | Yes
+84.14.95.126 - Target scanning: 255 - ECHO,cpefr_xbt003298.ia.colt.net | Yes
+84.14.96.228 - Target scanning: 255 - ECHO,228.96-14-84.ripe.coltfrance.com
+84.14.100.227 - Target scanning: 255 - ECHO,227.100-14-84.ripe.coltfrance.com | Yes
+84.14.104.35 - Target scanning: 255 - ECHO,35.104-14-84.ripe.coltfrance.com | Yes
+84.14.106.19 - Target scanning: 255 - ECHO,19.106-14-84.ripe.coltfrance.com | Yes
+84.14.110.10 - Target scanning: 255 - ECHO,cpefr_xbt060417.ia.colt.net | Yes
+84.14.111.14 - Target scanning: 255 - ECHO,14.111-14-84.ripe.coltfrance.com | Yes
+84.14.114.154 - Target scanning: 255 - ECHO,cpefr_xbt000072.ia.colt.net | Yes
+84.14.119.218 - Target scanning: 255 - ECHO,cpefr_par070342.ia.colt.net | Yes
+84.14.120.58 - Target scanning: 255 - ECHO,58.120-14-84.ripe.coltfrance.com | Yes
+84.14.120.102 - Target scanning: 255 - ECHO,cpefr_par070347.ia.colt.net | Yes
+84.14.120.250 - Target scanning: 255 - ECHO | Yes
+84.14.123.35 - Target scanning: 255 - ECHO,35.123-14-84.ripe.coltfrance.com | Yes
+84.14.127.42 - Target scanning: 255 - ECHO,cpefr_jev000291.ia.colt.net | Yes
+84.14.127.50 - Target scanning: 255 - ECHO,50.127-14-84.ripe.coltfrance.com | Yes
+84.14.128.114 - Target scanning: 255 - ECHO,cpefr_par000066.ia.colt.net | Yes
+84.14.128.122 - Target scanning: 255 - ECHO,122.128-14-84.ripe.coltfrance.com | Yes
+84.14.129.13 - Target scanning: 255 - ECHO,13.129-14-84.ripe.coltfrance.com | Yes
+84.14.131.70 - Target scanning: 255 - ECHO,cpefr_xbt000963.ia.colt.net | Yes
+84.14.135.236 - Target scanning: 255 - ECHO,smtp1.altergaz.fr
+84.14.144.38 - Target scanning: 255 - ECHO,cpefr_xbg060415.ia.colt.net | Yes
+84.14.144.102 - Target scanning: 255 - ECHO,102.144-14-84.ripe.coltfrance.com | Yes
+84.14.144.190 - Target scanning: 255 - ECHO,cpefr_par060867.ia.colt.net | Yes
+84.14.147.254 - Target scanning: 255 - ECHO,cpefr_xbt065926.ia.colt.net | Yes
+84.14.150.58 - Target scanning: 255 - ECHO,58.150-14-84.ripe.coltfrance.com | Yes
+84.14.151.5 - Target scanning: 255 - ECHO,5.151-14-84.ripe.coltfrance.com | Yes
+84.14.152.46 - Target scanning: 255 - ECHO,46.152-14-84.ripe.coltfrance.com
+84.14.157.35 - Target scanning: 255 - ECHO,35.157-14-84.ripe.coltfrance.com | Yes
+84.14.164.205 - Target scanning: 255 - ECHO,205.164-14-84.ripe.coltfrance.com | Yes
+84.14.169.147 - Target scanning: 255 - ECHO,localhost | Yes
+84.14.172.44 - Target scanning: 255 - ECHO,44.172-14-84.ripe.coltfrance.com | Yes
+84.14.173.226 - Target scanning: 255 - ECHO,cpefr_xbt065473.ia.colt.net | Yes
+84.14.178.54 - Target scanning: 255 - ECHO,cpefr_xbg000853.ia.colt.net | Yes
+84.14.185.203 - Target scanning: 255 - ECHO,203.185-14-84.ripe.coltfrance.com | Yes
+84.14.192.252 - Target scanning: 255 - ECHO,prod-mail-252.cab03.net
+84.14.204.195 - Target scanning: 255 - ECHO,localhost | Yes
+84.14.206.226 - Target scanning: 255 - ECHO,cpefr_par00995.ia.colt.net | Yes
+84.14.208.98 - Target scanning: 255 - ECHO,cpefr_par004350.ia.colt.net | Yes
+84.14.209.27 - Target scanning: 255 - ECHO,27.209-14-84.ripe.coltfrance.com | Yes
+84.14.210.37 - Target scanning: 255 - ECHO,37.210-14-84.ripe.coltfrance.com | Yes
+84.14.212.174 - Target scanning: 255 - ECHO,cpefr_xbt065474.ia.colt.net | Yes
+84.14.222.30 - Target scanning: 255 - ECHO,cpefr_par060706.ia.colt.net | Yes
+84.14.223.35 - Target scanning: 255 - ECHO,35.223-14-84.ripe.coltfrance.com | Yes
+84.14.225.106 - Target scanning: 255 - ECHO,cpefr_dij000040.ia.colt.net | Yes
+84.14.232.134 - Target scanning: 255 - ECHO,134.232-14-84.ripe.coltfrance.com | Yes
+84.14.242.222 - Target scanning: 255 - ECHO,cpefr_xbg060422.ia.colt.net | Yes
+84.14.253.251 - Target scanning: 255 - ECHO,251.253-14-84.ripe.coltfrance.com
+109.75.100.1 - Target scanning: 64 - ECHO,localhost
+109.75.100.18 - Target scanning: 64 - ECHO,W109075100018.pool.wisotel.info
+109.75.100.45 - Target scanning: 64 - ECHO,localhost
+109.75.100.85 - Target scanning: 64 - ECHO,W109075100085.pool.wisotel.info
+109.75.100.103 - Target scanning: 64 - ECHO,W109075100103.pool.wisotel.info
+109.75.100.105 - Target scanning: 64 - ECHO,W109075100105.pool.wisotel.info | Yes
+109.75.100.119 - Target scanning: 64 - ECHO,localhost
+109.75.100.126 - Target scanning: 64 - 537;34087,939606,615;34088,696257,669;34089,405569,697;34090,W109075100126.pool.wisotel.info
+109.75.100.142 - Target scanning: 64 - ECHO,W109075100142.pool.wisotel.info
+109.75.100.152 - Target scanning: 64 - ECHO,localhost
+109.75.100.157 - Target scanning: 64 - ECHO,W109075100157.pool.wisotel.info
+109.75.100.175 - Target scanning: 64 - ECHO,localhost
+109.75.100.181 - Target scanning: 64 - ECHO,W109075100181.pool.wisotel.info
+109.75.100.207 - Target scanning: 64 - ECHO,W109075100207.pool.wisotel.info
+109.75.100.225 - Target scanning: 64 - ECHO,localhost
+109.75.100.228 - Target scanning: 64 - ECHO,localhost
+109.75.100.251 - Target scanning: 64 - ECHO,localhost
+109.75.101.18 - Target scanning: 64 - ECHO,localhost
+109.75.101.86 - Target scanning: 64 - ECHO,localhost
+109.75.101.94 - Target scanning: 64 - ECHO,W109075101094.pool.wisotel.info
+109.75.101.101 - Target scanning: 64 - ECHO,W109075101101.pool.wisotel.info
+109.75.101.195 - Target scanning: 64 - ECHO,W109075101195.pool.wisotel.info
+109.75.101.201 - Target scanning: 64 - ECHO,W109075101201.pool.wisotel.info
+185.8.85.156 - Target scanning: 64 - ECHO,localhost
+185.8.85.162 - Target scanning: 64 - ECHO,W185008085162.pool.wisotel.info
+185.8.85.190 - Target scanning: 64 - ECHO,W185008085190.pool.wisotel.info
+185.8.85.202 - Target scanning: 64 - ECHO,W185008085202.pool.wisotel.info
+185.8.85.204 - Target scanning: 64 - ECHO,W185008085204.pool.wisotel.info
+185.8.85.212 - Target scanning: 64 - ECHO,localhost
+185.8.85.215 - Target scanning: 64 - ECHO,W185008085215.pool.wisotel.info
+185.8.85.219 - Target scanning: 64 - ECHO,W185008085219.pool.wisotel.info
+185.8.85.228 - Target scanning: 64 - ECHO,W185008085228.pool.wisotel.info
+185.8.85.243 - Target scanning: 64 - ECHO,W185008085243.pool.wisotel.info
+185.8.85.246 - Target scanning: 64 - ECHO,W185008085246.pool.wisotel.info
+185.8.85.249 - Target scanning: 64 - ECHO,localhost
+185.65.196.129 - Target scanning: 64 - ECHO,localhost | Yes
+185.65.196.134 - Target scanning: 64 - ECHO,localhost
+185.65.196.136 - Target scanning: 64 - ECHO,localhost
+185.65.196.149 - Target scanning: 64 - ECHO,localhost
+185.65.196.163 - Target scanning: 64 - ECHO,localhost
+185.65.196.173 - Target scanning: 64 - ECHO,localhost
+185.65.196.195 - Target scanning: 64 - ECHO,localhost
+185.65.196.197 - Target scanning: 64 - ECHO,localhost
+185.65.196.201 - Target scanning: 64 - ECHO,localhost
+185.65.196.219 - Target scanning: 64 - ECHO,W185065196219.pool.wisotel.info
+193.109.52.2 - Target scanning: 64 - 1359;43973,136475,1364;43988,92507,1365;44009,137362,1370;44011,skyfw01.skypro.ch
+193.109.52.38 - Target scanning: 128 - 1360;6448,114976,1363;6449,114610,1366;6450,115072,1369;6451 | Yes
+193.109.52.51 - Target scanning: 64 - 1361;16453,93369,1362;16474,136369,1367;16475,92901,1368;16498,ifolder.skypro.ch | Yes
+195.68.7.51 - Target scanning: 255 - ECHO,eyrolles18.lan-isdn.imaginet.fr | Yes
+195.68.7.211 - Target scanning: 255 - ECHO,195-68-7-211-static.opcalia-idf.com | Yes
+195.68.8.243 - Target scanning: 255 - ECHO | Yes
+195.68.9.51 - Target scanning: 255 - ECHO,fim-db.heb.fr.colt.net
+195.68.9.75 - Target scanning: 255 - ECHO,nf2-c3-bes.fr.colt.net | Yes
+195.68.9.189 - Target scanning: 255 - ECHO,prod-mail-189.cab07.net
+195.68.18.3 - Target scanning: 255 - ECHO | Yes
+195.68.25.210 - Target scanning: 255 - ECHO | Yes
+195.68.30.26 - Target scanning: 255 - ECHO,cpefr_par07027.ia.colt.net | Yes
+195.68.35.3 - Target scanning: 255 - ECHO,host3.35.68.195.rev.coltfrance.com | Yes
+195.68.45.51 - Target scanning: 255 - ECHO,access-51.45.rev.fr.colt.net | Yes
+195.68.49.19 - Target scanning: 255 - ECHO,access-19.49.rev.imaginet.fr | Yes
+195.68.54.19 - Target scanning: 255 - ECHO,access3.cyberaccess.imaginet.be | Yes
+195.68.54.77 - Target scanning: 255 - ECHO | Yes
+195.68.55.220 - Target scanning: 255 - ECHO,host55-220.lan-isdn.imaginet.fr | Yes
+195.68.60.18 - Target scanning: 255 - ECHO,cpefr_par000551.ia.colt.net | Yes
+195.68.66.148 - Target scanning: 255 - ECHO,mailgw2.geodis-logistics.com | Yes
+195.68.68.42 - Target scanning: 255 - ECHO,CPEDE_BER001970.ia.colt.net | Yes
+195.68.68.194 - Target scanning: 255 - ECHO,cpefr_par002494.ia.colt.net | Yes
+195.68.71.66 - Target scanning: 255 - ECHO,cpefr_vaf000021.ia.colt.net | Yes
+195.68.71.114 - Target scanning: 255 - ECHO | Yes
+195.68.77.194 - Target scanning: 255 - ECHO | Yes
+195.68.78.22 - Target scanning: 255 - ECHO,prod-mail-22.cab04.net
+195.68.78.115 - Target scanning: 255 - ECHO
+195.68.79.99 - Target scanning: 255 - ECHO,lan-99.79.68.195.rev.fr.colt.net
+195.68.84.162 - Target scanning: 255 - ECHO,cpefr_xbt065903.ia.colt.net | Yes
+195.68.102.18 - Target scanning: 255 - ECHO,host.18.102.68.195.rev.coltfrance.com | Yes
+195.68.109.35 - Target scanning: 255 - ECHO | Yes
+195.68.117.6 - Target scanning: 255 - 1387;62415,101308,1390;62418,80016,1391;62419,102895,1394;62422,host.6.117.68.195.rev.coltfrance.com | Yes
+195.68.118.54 - Target scanning: 255 - ECHO,host.54.118.68.195.rev.coltfrance.com.com | Yes
+195.68.119.2 - Target scanning: 255 - ECHO | Yes
+195.178.0.6 - Target scanning: 64 - 575;41218,101847,577;41219,927035,652;41220,780016,714;41221,W195178000006.pool.wisotel.info | Yes
+212.0.98.86 - Target scanning: 255 - ECHO,cpees_bcn002608.ia.colt.net | Yes
+212.0.99.147 - Target scanning: 255 - ECHO | Yes
+212.0.99.226 - Target scanning: 255 - ECHO | Yes
+212.0.101.104 - Target scanning: 255 - 998;7642,99171,999;8524,119517,1002;8986,103190,1003;9706
+212.0.121.179 - Target scanning: 255 - ECHO,sin-asignar | Yes
+212.0.122.162 - Target scanning: 255 - ECHO
+212.0.126.243 - Target scanning: 255 - ECHO,212.0.126.243.static.es.colt.net | Yes
+212.35.105.83 - Target scanning: 255 - ECHO | Yes
+212.35.118.202 - Target scanning: 255 - ECHO | Yes
+212.78.171.130 - Target scanning: 255 - ECHO,cpenl_ams000969.ia.colt.net | Yes
+212.78.171.162 - Target scanning: 255 - ECHO,cpenl_nld000048.ia.colt.net | Yes
+212.78.171.234 - Target scanning: 255 - ECHO,cpenl_nld000906.ia.colt.net | Yes
+212.78.181.163 - Target scanning: 255 - ECHO | Yes
+212.121.145.227 - Target scanning: 255 - ECHO,mail.concardis.com | Yes
+212.123.193.194 - Target scanning: 255 - ECHO | Yes
+212.123.202.43 - Target scanning: 255 - ECHO | Yes
+212.123.225.19 - Target scanning: 255 - ECHO | Yes
+212.123.225.179 - Target scanning: 255 - ECHO | Yes
+212.123.226.51 - Target scanning: 255 - ECHO,localhost | Yes
+212.123.227.195 - Target scanning: 255 - ECHO
+212.123.229.178 - Target scanning: 255 - ECHO | Yes
+212.123.231.131 - Target scanning: 255 - ECHO
+212.123.246.82 - Target scanning: 255 - ECHO
+212.161.23.98 - Target scanning: 255 - ECHO,98-23-161-212.DSL.ONCOLT.COM | Yes
+212.187.192.22 - Target scanning: VMWARE-UK-L.ear3.London2.Level3.net
+213.27.130.3 - Target scanning: 255 - ECHO | Yes
+213.27.136.238 - Target scanning: 255 - ECHO | Yes
+213.27.137.186 - Target scanning: 255 - ECHO
+213.27.144.98 - Target scanning: 255 - ECHO
+213.27.145.18 - Target scanning: 255 - ECHO
+213.27.147.66 - Target scanning: 255 - ECHO
+213.27.148.18 - Target scanning: 255 - ECHO
+213.27.148.82 - Target scanning: 255 - ECHO
+213.27.148.131 - Target scanning: 255 - ECHO | Yes
+213.27.148.251 - Target scanning: 255 - ECHO | Yes
+213.27.149.3 - Target scanning: 255 - ECHO | Yes
+213.27.150.18 - Target scanning: 255 - ECHO | Yes
+213.27.150.146 - Target scanning: 255 - ECHO | Yes
+213.27.150.171 - Target scanning: 255 - ECHO | Yes
+213.27.150.178 - Target scanning: 255 - ECHO | Yes
+213.27.150.186 - Target scanning: 255 - ECHO | Yes
+213.27.162.244 - Target scanning: 255 - ECHO,213.27.162.244.es.colt.net | Yes
+213.27.203.147 - Target scanning: 255 - ECHO
+213.27.205.115 - Target scanning: 255 - ECHO | Yes
+213.27.208.206 - Target scanning: 255 - ECHO | Yes
+213.27.220.50 - Target scanning: 255 - ECHO,213.27.220.50.static.es.colt.net
+213.27.232.18 - Target scanning: 255 - ECHO,cpees_mad000276.ia.colt.net | Yes
+213.27.243.35 - Target scanning: 255 - ECHO
+213.27.252.116 - Target scanning: 255 - ECHO,mail-spain.dlink.es
+213.27.254.198 - Target scanning: 255 - ECHO
+213.41.0.142 - Target scanning: 255 - ECHO | Yes
+213.41.2.206 - Target scanning: 255 - ECHO | Yes
+213.41.9.14 - Target scanning: 255 - ECHO,cpefr_xbt065919.ia.colt.net | Yes
+213.41.19.195 - Target scanning: 255 - ECHO,access-195.19.rev.fr.colt.net | Yes
+213.41.27.114 - Target scanning: 255 - ECHO,cpefr_xps003550.ia.colt.net | Yes
+213.41.29.182 - Target scanning: 255 - ECHO,cpede_dus009890.ia.colt.net | Yes
+213.41.39.2 - Target scanning: 255 - 1388;62416,80316,1389;62417,101152,1392;62420,81195,1393;62421 | Yes
+213.41.39.66 - Target scanning: 255 - 242;34825,80721,243;34826,106191,246;34829,80460,247;34830 | Yes
+213.41.42.82 - Target scanning: 255 - ECHO,hosting-82.42.rev.fr.colt.net | Yes
+213.41.47.51 - Target scanning: 255 - ECHO,localhost | Yes
+213.41.64.154 - Target scanning: 255 - ECHO,infra-bessiere-154.64.rev.fr.colt.net | Yes
+213.41.64.155 - Target scanning: 255 - ECHO,infra-bessiere-155.64.rev.fr.colt.net | Yes
+213.41.66.221 - Target scanning: 255 - ECHO,keljob-ft3.legato.coltfrance.com | Yes
+213.41.69.133 - Target scanning: 255 - ECHO,prod-mail-69-133.cab01.net
+213.41.71.194 - Target scanning: 255 - ECHO,hosting-194.71.rev.fr.colt.net | Yes
+213.41.75.61 - Target scanning: 255 - ECHO,localhost
+213.41.75.65 - Target scanning: 255 - ECHO,wip-65.cabestan.com
+213.41.99.222 - Target scanning: 255 - ECHO,cpede_ger005113.ia.colt.net | Yes
+213.41.100.230 - Target scanning: 255 - ECHO,cpefr_par060860.ia.colt.net | Yes
+213.41.100.238 - Target scanning: 255 - ECHO | Yes
+213.41.102.147 - Target scanning: 255 - ECHO,access-147.102.rev.fr.colt.net | Yes
+213.41.104.99 - Target scanning: 255 - ECHO,access-99.104.rev.fr.colt.net | Yes
+213.41.105.19 - Target scanning: 255 - ECHO,access-19.105.rev.fr.colt.net | Yes
+213.41.114.42 - Target scanning: 255 - ECHO | Yes
+213.41.116.131 - Target scanning: 255 - ECHO,access-131.116.rev.fr.colt.net | Yes
+213.61.50.242 - Target scanning: 255 - ECHO,h-213.61.50.242.host.de.colt.net | Yes
+213.61.50.250 - Target scanning: 255 - ECHO,h-213.61.50.250.host.de.colt.net | Yes
+213.61.65.138 - Target scanning: 255 - ECHO,CPEDE_BER001808.ia.colt.net | Yes
+213.61.65.214 - Target scanning: 255 - ECHO | Yes
+213.61.67.99 - Target scanning: 255 - ECHO | Yes
+213.61.69.217 - Target scanning: 255 - ECHO,unknown.sietec.de | Yes
+213.61.81.131 - Target scanning: 255 - ECHO | Yes
+213.61.82.131 - Target scanning: 255 - ECHO | Yes
+213.61.98.27 - Target scanning: 255 - ECHO,h-213.61.98.27.host.de.colt.net | Yes
+213.61.131.38 - Target scanning: 255 - ECHO,forsa.customer.ber.de.colt.net | Yes
+213.61.152.66 - Target scanning: 255 - ECHO,localhost | Yes
+213.61.155.188 - Target scanning: 255 - ECHO,h-213.61.155.188.host.de.colt.net | Yes
+213.61.196.135 - Target scanning: 64 - 1663;60887,128106,1668;60892,84246,1669;60893,129550,1674;60898,port-213-61-196-135.fra.dial.de.colt.net
+213.61.196.138 - Target scanning: 64 - 1664;60888,105247,1667;60891,107574,1670;60894,106417,1673;60897,port-213-61-196-138.fra.dial.de.colt.net
+213.61.207.3 - Target scanning: 255 - ECHO,smtp-out.euroships.de | Yes
+213.61.207.131 - Target scanning: 255 - ECHO | Yes
+213.61.248.51 - Target scanning: 255 - ECHO | Yes
+213.61.250.125 - Target scanning: 255 - 1691;49797,108999,1694;49801,87524,1695;49802,110794,1698;49805 | Yes
+213.86.113.3 - Target scanning: 64 - 1024;22149,7511106,1026;22150,119848,1031;22155,76285,1032;22156 | Yes
+213.86.125.62 - Target scanning: 255 - ECHO | Yes
+213.86.151.164 - Target scanning: 255 - ECHO | Yes
+213.86.233.227 - Target scanning: 255 - ECHO | Yes
+213.164.10.69 - Target scanning: 64 - 1707;24093,124470,1710;24103,109614,1711;24111,134829,1714;24114,mail6.valneva.com
+213.164.29.74 - Target scanning: 64 - 1708;47729,106678,1709;47741,137576,1712;47767,100717,1713;47774
+213.208.192.51 - Target scanning: 255 - ECHO | Yes
+213.208.196.210 - Target scanning: 255 - ECHO | Yes
+213.208.209.126 - Target scanning: 255 - ECHO | Yes
+213.208.209.178 - Target scanning: 255 - ECHO | Yes
+213.208.215.19 - Target scanning: 255 - ECHO | Yes
+213.208.215.195 - Target scanning: 255 - ECHO,ns1327.ztomy.com | Yes
+213.208.239.179 - Target scanning: 255 - ECHO | Yes
+213.208.248.35 - Target scanning: 255 - ECHO | Yes
+213.208.249.50 - Target scanning: 255 - ECHO | Yes
+213.208.249.178 - Target scanning: 255 - ECHO | Yes
+213.208.249.226 - Target scanning: 255 - ECHO,cpenl_ams001787.ia.colt.net | Yes
+213.208.250.3 - Target scanning: 255 - ECHO | Yes
+213.208.250.10 - Target scanning: 255 - ECHO,router_090302229.ia.colt.net | Yes
+213.208.250.194 - Target scanning: 255 - ECHO | Yes
+213.229.129.206 - Target scanning: 255 - ECHO | Yes
+213.229.135.169 - Target scanning: 255 - ECHO | Yes
+213.229.135.171 - Target scanning: 255 - ECHO | Yes
+213.229.160.27 - Target scanning: 255 - ECHO,localhost | Yes
+213.229.160.33 - Target scanning: 255 - ECHO,localhost | Yes
+213.229.160.43 - Target scanning: 255 - ECHO,localhost | Yes
+213.229.160.123 - Target scanning: 255 - ECHO,localhost | Yes
+213.229.160.179 - Target scanning: 255 - ECHO,localhost | Yes
+213.229.160.186 - Target scanning: 255 - ECHO,hst186.csi-mad.es.colt.net | Yes
+213.229.160.211 - Target scanning: 255 - ECHO | Yes
+213.229.162.35 - Target scanning: 255 - ECHO,localhost | Yes
+213.229.162.99 - Target scanning: 255 - ECHO,localhost | Yes
+213.229.164.35 - Target scanning: 255 - ECHO | Yes
+213.229.166.115 - Target scanning: 255 - ECHO | Yes
+213.229.166.227 - Target scanning: 255 - ECHO
+213.229.166.235 - Target scanning: 255 - ECHO | Yes
+213.246.217.211 - Target scanning: 255 - ECHO | Yes
+213.246.228.10 - Target scanning: 255 - ECHO,cpebe_bru009137.ia.colt.net | Yes
+213.246.229.125 - Target scanning: 255 - ECHO | Yes
+213.246.230.211 - Target scanning: 255 - ECHO | Yes
+213.246.246.86 - Target scanning: 255 - ECHO | Yes
+213.246.249.61 - Target scanning: 255 - ECHO | Yes
+217.110.21.37 - Target scanning: 255 - ECHO,ad96e1525.dsl.de.colt.net | Yes
+217.110.32.101 - Target scanning: 64 - 794;57135,86104,795;24775,107847,798;60033,85966,799;44500
+217.110.39.74 - Target scanning: 255 - ECHO | Yes
+217.110.53.195 - Target scanning: 255 - ECHO | Yes
+217.110.73.187 - Target scanning: 255 - ECHO | Yes
+217.110.84.211 - Target scanning: 255 - ECHO | Yes
+217.110.86.253 - Target scanning: 255 - ECHO | Yes
+217.110.103.34 - Target scanning: 255 - ECHO
+217.110.105.82 - Target scanning: 255 - ECHO | Yes
+217.110.105.194 - Target scanning: 255 - ECHO | Yes
+217.110.110.162 - Target scanning: 255 - ECHO,h-217.110.110.162.host.de.colt.net | Yes
+217.110.129.42 - Target scanning: 255 - ECHO,port-217-110-129-42.ham.dial.de.colt.net | Yes
+217.110.136.250 - Target scanning: 255 - ECHO,port-217-110-136-250.muc.dial.de.colt.net | Yes
+217.110.137.138 - Target scanning: 255 - ECHO,cpede_haj059549.ia.colt.net | Yes
+217.110.189.200 - Target scanning: 255 - ECHO | Yes
+217.110.226.114 - Target scanning: 255 - ECHO,dvblog.customer.fra.de.colt.net | Yes
+217.110.247.67 - Target scanning: 255 - ECHO | Yes
+217.111.1.178 - Target scanning: 255 - ECHO,localhost | Yes
+217.111.24.2 - Target scanning: 255 - ECHO | Yes
+217.111.40.163 - Target scanning: 255 - ECHO | Yes
+217.111.42.190 - Target scanning: 255 - 1692;49798,87092,1693;49800,108889,1696;49803,86763,1697;49804 | Yes
+217.111.45.74 - Target scanning: 255 - ECHO | Yes
+217.111.72.34 - Target scanning: 255 - ECHO | Yes
+217.111.76.131 - Target scanning: 255 - ECHO | Yes
+217.111.78.134 - Target scanning: 255 - ECHO | Yes
+217.111.79.35 - Target scanning: 255 - ECHO | Yes
+217.111.90.126 - Target scanning: 255 - ECHO | Yes
+217.111.90.218 - Target scanning: 255 - ECHO,router.boavideo.net | Yes
+217.111.113.30 - Target scanning: 255 - ECHO | Yes
+217.111.117.74 - Target scanning: 255 - ECHO | Yes
+217.111.127.30 - Target scanning: 255 - ECHO | Yes
+217.111.137.82 - Target scanning: 255 - ECHO
+217.111.144.206 - Target scanning: 255 - ECHO | Yes
+217.111.157.1 - Target scanning: 255 - ECHO,localhost | Yes
+217.111.157.253 - Target scanning: 255 - ECHO,pm157-253.dms31.com
+217.111.158.1 - Target scanning: 255 - ECHO,localhost
+217.111.159.1 - Target scanning: 255 - ECHO,pm159-1.c05-ltd.co.uk
+217.111.172.250 - Target scanning: 255 - ECHO | Yes
+217.111.188.18 - Target scanning: 64 - 1665;60889,84242,1666;60890,129144,1671;60895,84130,1672;60896
+217.111.188.230 - Target scanning: 255 - ECHO,cpeeu_ams000704.ia.colt.net | Yes
+217.111.188.234 - Target scanning: 255 - ECHO | Yes
+217.111.188.254 - Target scanning: 255 - ECHO
+217.111.200.230 - Target scanning: 255 - ECHO | Yes
+217.111.208.131 - Target scanning: 255 - ECHO | Yes
+217.111.209.60 - Target scanning: 255 - ECHO | Yes
+217.111.219.247 - Target scanning: 255 - 1815;61319,124800,1818;61321,100047,1819;61323,121814,1822;61325
+217.111.219.248 - Target scanning: 255 - 1816;27855,100199,1817;27857,121821,1820;27859,99975,1821;27861
+217.111.220.158 - Target scanning: 255 - ECHO | Yes
+217.111.228.94 - Target scanning: 255 - ECHO | Yes
+217.111.228.198 - Target scanning: 255 - ECHO | Yes
+217.111.234.42 - Target scanning: 255 - ECHO | Yes
+217.111.252.60 - Target scanning: 255 - ECHO | Yes

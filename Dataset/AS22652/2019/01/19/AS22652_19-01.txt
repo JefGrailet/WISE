@@ -1,0 +1,38 @@
+WISE (Wide and lInear Subnet inferencE) - Time at start: 19-01-2019 14:16:48
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 13976 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 24 additional responsive IPs.
+--- End of target pre-scanning (19-01-2019 14:52:10) ---
+Elapsed time: 35 minutes 22 seconds
+Total amount of probes: 138600
+Total amount of successful probes: 20073 (14.4827%)
+Total amount of discovered responsive IPs: 14000
+
+Filtered target IPs have been saved in an output file AS22652_19-01.ips (temporar).
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 260 threads will be scheduled (up to 54 target IPs per thread).
+3568 out of 13480 IPs with an estimated TTL (26.4688%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 54 threads will be scheduled (from 1 to 256 target IPs per thread).
+Updated IP dictionary has been saved in the output file AS22652_19-01.ips.
+
+There are flickering IPs that could lead to the discovery of 4 aliases.
+Now starting alias hints collection...
+Collecting hints for 4.59.178.46, 45.61.0.85, 68.67.63.82, 68.67.63.173, 107.161.3.35, 192.252.138.83, 192.252.143.78, 192.252.143.166... Done.
+Collecting hints for 68.67.63.81, 192.252.143.186... Done.
+Collecting hints for 68.67.63.94, 192.252.143.77... Done.
+Collecting hints for 192.252.138.206, 192.252.143.121, 192.252.143.181... Done.
+Resolving... Done.
+Inferred subnets has been saved in the output file AS22652_19-01.subnets.
+--- End of target scanning (19-01-2019 15:58:46) ---
+Elapsed time: 1 hour 6 minutes 36 seconds
+Total amount of probes: 79627
+Total amount of successful probes: 60030 (75.389%)
+Alias hints have been saved in an output file AS22652_19-01.hints.
+Fingerprints have been saved in an output file AS22652_19-01.fingerprints.
+Aliases discovered during subnet discovery have been written in AS22652_19-01.aliases-1.

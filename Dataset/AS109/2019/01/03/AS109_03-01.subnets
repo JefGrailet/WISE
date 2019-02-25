@@ -1,0 +1,5 @@
+64.103.40.0/23
+10 - 64.103.40.150 - [132.65.240.1 | 7] - Contra-pivot
+11 - 64.103.41.46 - [64.103.40.2] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+

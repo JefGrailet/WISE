@@ -1,0 +1,11 @@
+WISE (Wide and lInear Subnet inferencE) - Time at start: 17-01-2019 13:15:57
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 15094 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... Socket Send Exception Error Message: Operation not permitted
+
+WARNING: emergency stop has been triggered because of connectivity issues.
+WISE will wait for all remaining threads to complete before exiting without carrying out remaining probing tasks.
+
+WISE is halting now.

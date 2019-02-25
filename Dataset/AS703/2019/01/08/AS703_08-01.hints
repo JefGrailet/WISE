@@ -1,0 +1,59 @@
+125.21.255.158 - Target scanning: 64 - 1;3828,310320,4;3857,336491,6;3892,245429,7;3920 | Yes
+152.63.48.110 - Target scanning: 64 - 9;4184,47390,12;4209,27013,13;4219,47869,16;4228,0.ge-7-0-0.IL1.SAC2.ALTER.NET | Yes
+152.63.48.114 - Target scanning: 64 - 10;65298,26938,11;65302,47961,14;65309,26996,15;65352,0.ge-7-0-0.IL2.SAC2.ALTER.NET | Yes
+202.80.50.78 - Target scanning: 64 - 2;55316,289320,3;55317,289526,5;55318,313674,8;55319,verizonbusiness-gw.customer.alter.net
+202.95.64.70 - Target scanning: 255 - ECHO,Internet-gw.customer.alter.net | Yes
+202.95.64.206 - Target scanning: 255 - ECHO,ikea-gw.customer.alter.net | Yes
+202.95.72.226 - Target scanning: 255 - ECHO
+202.95.74.242 - Target scanning: 255 - ECHO,gi0-1.fsr1.sin2.alter.net | Yes
+202.95.74.252 - Target scanning: 255 - ECHO,loopback0.fsr1.sin2.alter.net
+202.95.83.210 - Target scanning: 255 - ECHO
+202.95.96.198 - Target scanning: 255 - ECHO,intl.verizon-gw.customer.alter.net
+202.95.116.131 - Target scanning: 255 - ECHO | Yes
+202.95.117.125 - Target scanning: 255 - ECHO
+202.95.121.202 - Target scanning: 255 - ECHO
+202.130.129.165 - Target scanning: 255 - ECHO,867.GigabitEthernet0-0-6.GW9.HKG2.ALTER.NET
+202.130.131.85 - Target scanning: 255 - ECHO,0.GigabitEthernet0-0-5.GW10.HKG2.ALTER.NET
+202.130.160.249 - Target scanning: 255 - ECHO,60.GigabitEthernet0-0-3.GW10.HKG2.ALTER.NET
+202.130.165.74 - Target scanning: 255 - ECHO,Internet-gw.customer.alter.net | Yes
+203.166.30.2 - Target scanning: 255 - ECHO,50.ge-0-3.FSR5.SYD4.ALTER.NET | Yes
+203.166.42.185 - Target scanning: 255 - ECHO,34.GigabitEthernet4-0-4.GW10.SYD2.ALTER.NET
+203.166.92.58 - Target scanning: 255 - ECHO,successfactors-gw.customer.alter.net
+203.166.92.121 - Target scanning: 255 - ECHO,1325.GigabitEthernet0-0-5.GW4.SYD2.ALTER.NET
+203.166.96.26 - Target scanning: 255 - ECHO,gi0-1.FSR5.SYD4.ALTER.NET
+203.166.96.66 - Target scanning: 255 - ECHO,148.ge-1-0-0.FSR1.SYD4.ALTER.NET
+203.166.97.66 - Target scanning: 255 - ECHO,52.ge-0-3.FSR5.SYD4.ALTER.NET
+203.166.97.98 - Target scanning: 255 - ECHO,51.ge-0-3.FSR5.SYD4.ALTER.NET
+203.166.99.146 - Target scanning: 255 - ECHO,54.ge-0-3.FSR5.SYD4.ALTER.NET
+203.166.99.162 - Target scanning: 255 - ECHO,20.ge-0-0-0.FSR1.SYD4.ALTER.NET
+203.166.115.113 - Target scanning: 64 - 145;3124,258965,148;3139,238861,149;3155,259226,152;3192 | Yes
+203.193.31.67 - Target scanning: 255 - ECHO
+203.193.119.133 - Target scanning: 255 - ECHO
+210.80.0.150 - Target scanning: 64 - 161;23076,269689,163;23207,249690,165;23246,248903,167;23335,Loopback0.XL3.MEL1.ALTER.NET | Yes
+210.80.2.98 - Target scanning: 64 - 169;1788,216772,172;1952,216574,173;2099,206909,175;2327,0.ae0.GW7.TPE1.ALTER.NET | Yes
+210.80.2.102 - Target scanning: 64 - 170;1791,194242,171;1943,227199,174;2102,217276,176;2330,0.ae1.GW7.TPE1.ALTER.NET
+210.80.2.106 - Target scanning: 64 - 177;14891,227366,180;14922,206021,181;14934,226826,184;14959,0.ae0.GW8.TPE1.ALTER.NET | Yes
+210.80.2.110 - Target scanning: 64 - 178;14897,206837,179;14919,226234,182;14937,206780,183;14955,0.ae1.GW8.TPE1.ALTER.NET
+210.80.2.226 - Target scanning: 64 - 185;52245,194497,187;52323,212995,190;52508,194518,191;52709,20.xe-11-0-0.SA1.TKO2.ALTER.NET | Yes
+210.80.2.234 - Target scanning: 64 - 186;57370,227681,188;57561,192816,189;57729,214573,192;57942,20.xe-11-0-0.SA2.TKO2.ALTER.NET
+210.80.3.2 - Target scanning: 64 - 193;41655,196837,195;41854,215675,198;42134,196722,199;42384,20.ge-5-0-0.SA3.HKG6.ALTER.NET | Yes
+210.80.3.22 - Target scanning: 64 - 194;21904,217360,196;22135,195424,197;22367,217104,200;22689,20.ge-5-0-0.SA4.HKG6.ALTER.NET
+210.80.3.74 - Target scanning: 255 - ECHO,0.gigabitethernet6-0-0.GW9.HKG2.Alter.Net
+210.80.3.78 - Target scanning: 255 - ECHO,0.gigabitethernet6-0-0.GW10.HKG2.Alter.Net
+210.80.3.82 - Target scanning: 255 - ECHO,0.gigabitethernet7-0-0.GW9.HKG2.Alter.Net
+210.80.3.86 - Target scanning: 255 - ECHO,0.gigabitethernet7-0-0.GW10.HKG2.Alter.Net
+210.80.4.14 - Target scanning: 64 - 201;35635,220327,204;35724,211915,206;35780,201730,207;35812,xe-10-2-0.GW3.OSA4.ALTER.NET | Yes
+210.80.4.138 - Target scanning: 255 - ECHO,0.gigabitethernet6-0-0.GW7.TKO2.Alter.Net
+210.80.32.134 - Target scanning: 64 - 221;30090,259642,224;30260,238247,225;30446,258205,228;30599,0.xe-10-2-0.GW5.MEL1.ALTER.NET | Yes
+210.80.32.214 - Target scanning: 64 - 229;4095,310575,232;4157,288717,233;4166,310676,236;4194,0.so-4-0-3.XL2.PER2.ALTER.NET | Yes
+210.80.33.38 - Target scanning: 64 - 146;48796,238931,147;48835,259197,150;48887,239007,151;48936
+210.80.33.102 - Target scanning: 64 - 162;23082,249570,164;23212,249375,166;23249,249398,168;23338,0.so-3-1-0.XL3.MEL1.Alter.Net
+210.80.33.110 - Target scanning: 64 - 222;30093,239886,223;30257,258029,226;30450,237979,227;30595,0.xe-11-2-0.GW5.MEL1.ALTER.NET
+210.80.33.165 - Target scanning: 64 - 230;4098,290393,231;4154,308972,234;4169,290450,235;4188,0.ge-2-0-3.XL2.PER2.ALTER.NET
+210.80.34.186 - Target scanning: 255 - ECHO,0.gigabitethernet6-0-0.GW10.SYD2.Alter.Net
+210.80.34.242 - Target scanning: 255 - ECHO,0.gigabitethernet7-0-0.GW11.SYD2.Alter.Net
+210.80.140.5 - Target scanning: 255 - ECHO
+210.80.140.19 - Target scanning: 255 - ECHO
+210.81.5.229 - Target scanning: 255 - ECHO,12.GigabitEthernet0-0-2.GW7.TKO2.ALTER.NET
+210.81.6.25 - Target scanning: 255 - ECHO,GigabitEthernet0-0-5.GW7.TKO2.ALTER.NET
+210.81.6.41 - Target scanning: 64 - 202;35638,200316,203;35721,211796,205;35776,221958,208;35815,35.ge-0-1-0.GW3.OSA4.ALTER.NET

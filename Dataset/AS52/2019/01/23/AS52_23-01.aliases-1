@@ -1,0 +1,7 @@
+164.67.38.129, 164.67.56.17 (group by echo IP-ID counter)
+164.67.85.110, 169.232.156.252 (group by echo IP-ID counter)
+164.67.85.202, 164.67.86.69 (group by echo IP-ID counter)
+164.67.203.252, 164.67.228.98 (group by echo IP-ID counter)
+128.97.4.77, 128.97.4.219, 164.67.85.118 (group by echo IP-ID counter, 50% of aliases)
+164.67.130.249, 164.67.130.251, 164.67.181.131 (group by echo IP-ID counter)
+164.67.132.126, 164.67.132.252, 164.67.134.252, 164.67.228.252 (group by echo IP-ID counter, 66.6667% of aliases)

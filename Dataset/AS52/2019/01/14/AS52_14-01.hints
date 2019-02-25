@@ -1,0 +1,72 @@
+128.97.4.77 - Target scanning: 255 - ECHO,psnet-gw-4.math.ucla.edu | Yes
+128.97.4.219 - Target scanning: 255 - ECHO,psnet-ch-4.math.ucla.edu | Yes
+164.67.38.129 - Target scanning: 255 - ECHO | Yes
+164.67.56.17 - Target scanning: 255 - ECHO | Yes
+164.67.85.110 - Target scanning: 255 - ECHO,psn-br2--pa-cr.psnet.ucla.edu | Yes
+164.67.85.118 - Target scanning: 255 - ECHO | Yes
+164.67.85.202 - Target scanning: 255 - ECHO | Yes
+164.67.86.69 - Target scanning: 255 - ECHO | Yes
+164.67.126.16 - Target scanning
+164.67.126.18 - Target scanning
+164.67.130.249 - Target scanning: 255 - ECHO | Yes
+164.67.130.251 - Target scanning: 255 - ECHO | Yes
+164.67.132.126 - Target scanning: 255 - ECHO
+164.67.132.252 - Target scanning: 255 - ECHO,6513-1vlan132.ais.ucla.edu
+164.67.134.252 - Target scanning: 255 - ECHO,6513-1vlan134.ais.ucla.edu
+164.67.176.3 - Target scanning: 255 - ECHO,fac-164-67-176-3.anderson.ucla.edu | Yes
+164.67.187.3 - Target scanning: 255 - ECHO | Yes
+164.67.203.252 - Target scanning: 255 - ECHO | Yes
+164.67.228.98 - Target scanning: 255 - ECHO | Yes
+164.67.228.252 - Target scanning: 255 - ECHO
+164.67.255.75 - Target scanning: cr01f2--dr01f2.lab.ucla.net
+164.67.255.77 - Target scanning: cr02f2--dr01f2.lab.ucla.net
+164.67.255.93 - Target scanning: cr01f2--sr03f2.lab.ucla.net
+164.67.255.95 - Target scanning: cr02f2--sr03f2.lab.ucla.net
+169.232.8.3 - Target scanning: cr00f2.csb1--sr01f2.csb1.ucla.net
+169.232.8.5 - Target scanning: cr00f1.anderson--sr01f2.csb1.ucla.net
+169.232.8.7 - Target scanning: cr00f2.csb1--sr02f2.csb1.ucla.net
+169.232.8.9 - Target scanning: cr00f1.anderson--sr02f2.csb1.ucla.net
+169.232.8.17 - Target scanning: cr00f1.anderson--ra04f2.csb1.ucla.net
+169.232.8.19 - Target scanning: sr01f2.csb1--sr03f2.csb1.ucla.net
+169.232.8.21 - Target scanning: dr02f2.csb1--br01fb.dodd.ucla.net
+169.232.8.23 - Target scanning: dr02f1.anderson--br02fb.dodd.ucla.net
+169.232.8.29 - Target scanning: cr00f1.anderson--sr01f1.anderson.ucla.net
+169.232.8.31 - Target scanning: cr00f2.csb1--sr02f1.anderson.ucla.net
+169.232.8.33 - Target scanning: cr00f1.anderson--sr02f1.anderson.ucla.net
+169.232.8.53 - Target scanning: cr00f1.anderson--sr02fb.jsei.ucla.net
+169.232.8.55 - Target scanning: cr00f2.csb1--ra04fb.jsei.ucla.net
+169.232.8.57 - Target scanning: cr00f1.anderson--ra04fb.jsei.ucla.net
+169.232.8.59 - Target scanning: sr01fb.jsei--sr03fb.jsei.ucla.net
+169.232.8.79 - Target scanning: dr02f2.csb1--br01fb.medplaza.ucla.net
+169.232.8.81 - Target scanning: dr02f1.anderson--br02fb.medplaza.ucla.net
+169.232.8.141 - Target scanning: dr02f2.csb1--br00f2n.luskin.ucla.net
+169.232.8.143 - Target scanning: dr02f1.anderson--br00f2s.luskin.ucla.net
+169.232.8.154 - Target scanning
+169.232.8.170 - Target scanning
+169.232.8.237 - Target scanning: dr02f2.csb1--br01fc.franz.ucla.net
+169.232.8.239 - Target scanning: dr02f1.anderson--br02fc.franz.ucla.net
+169.232.9.11 - Target scanning: dr02f1.anderson-10ge--br02f2-lab-10ge.backbone.ucla.net
+169.232.9.13 - Target scanning: br01f2-lab--br01f2-lab-10ge.backbone.ucla.net
+169.232.9.27 - Target scanning: dr02f2.csb1--br01f1.botany.ucla.net
+169.232.9.29 - Target scanning: dr02f1.anderson--br02f1.botany.ucla.net
+169.232.9.51 - Target scanning: dr02f2.csb1--br03f1.pubpol.ucla.net
+169.232.9.53 - Target scanning: dr02f1.anderson--br04f1.pubpol.ucla.net
+169.232.9.63 - Target scanning: dr02f2.csb1--br01f1.rolfe.ucla.net
+169.232.9.65 - Target scanning: dr02f1.anderson--br02f1.rolfe.ucla.net
+169.232.9.69 - Target scanning: dr02f2.csb1--br01f2.boelter.ucla.net
+169.232.9.71 - Target scanning: dr02f1.anderson--br02f2.boelter.ucla.net
+169.232.9.87 - Target scanning: dr02f2.csb1--br01f2.geology.ucla.net
+169.232.9.89 - Target scanning: dr02f1.anderson--br02f2.geology.ucla.net
+169.232.9.105 - Target scanning: dr02f2.csb1--br05f4.mathsci.ucla.net
+169.232.9.107 - Target scanning: dr02f1.anderson--br06f4.mathsci.ucla.net
+169.232.9.117 - Target scanning: dr02f2.csb1--br01fa.bunche.ucla.net
+169.232.9.119 - Target scanning: dr02f1.anderson--br02fa.bunche.ucla.net
+169.232.9.123 - Target scanning: dr02f2.csb1--br13fa.chs.ucla.net
+169.232.9.125 - Target scanning: dr02f1.anderson--br14fa.chs.ucla.net
+169.232.9.155 - Target scanning: dr02f2.csb1--br15f2.csb1.ucla.net
+169.232.9.157 - Target scanning: dr02f1.anderson--br16f2.csb1.ucla.net
+169.232.9.167 - Target scanning: dr02f2.csb1--br03fa.broad.ucla.net
+169.232.9.169 - Target scanning: dr02f1.anderson--br04fa.broad.ucla.net
+169.232.9.221 - Target scanning: dr02f2.csb1--br01fa.humanities.ucla.net
+169.232.9.223 - Target scanning: dr02f1.anderson--br02fa.humanities.ucla.net
+169.232.156.252 - Target scanning: 255 - ECHO | Yes

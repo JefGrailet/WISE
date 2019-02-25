@@ -1,0 +1,58 @@
+WISE (Wide and lInear Subnet inferencE) - Time at start: 10-02-2019 11:25:22
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 125291 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 5155 additional responsive IPs.
+--- End of target pre-scanning (10-02-2019 16:03:35) ---
+Elapsed time: 4 hours 38 minutes 7 seconds
+Total amount of probes: 1098901
+Total amount of successful probes: 137851 (12.5444%)
+Total amount of discovered responsive IPs: 130446
+
+Filtered target IPs have been saved in an output file AS1241_10-02.ips (temporar).
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 257 threads will be scheduled (up to 509 target IPs per thread).
+894 out of 122325 IPs with an estimated TTL (0.73084%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 25 threads will be scheduled (from 2 to 68 target IPs per thread).
+Updated IP dictionary has been saved in the output file AS1241_10-02.ips.
+
+There are flickering IPs that could lead to the discovery of 24 aliases.
+Now starting alias hints collection...
+Collecting hints for 62.1.39.33, 62.1.39.37, 213.144.178.43... Done.
+Collecting hints for 193.92.38.198, 194.219.3.122... Done.
+Collecting hints for 194.219.199.6, 194.219.199.78, 194.219.199.110, 194.219.199.130, 194.219.199.150, 194.219.199.154, 194.219.199.162, 194.219.199.170, 194.219.199.206, 194.219.199.210, 194.219.199.214, 194.219.199.242, 194.219.208.2, 194.219.208.6, 194.219.208.90, 194.219.208.98, 194.219.208.138, 194.219.208.146, 194.219.253.57, 194.219.253.142, 212.251.94.97, 212.251.94.110, 212.251.94.126, 212.251.94.210, 212.251.94.214, 213.16.247.2, 213.16.247.70, 213.16.247.74, 213.16.247.78, 213.16.247.82, 213.16.247.86, 213.16.247.154, 213.16.247.226, 213.16.250.98, 213.16.250.102, 213.16.250.106, 213.16.250.110, 213.16.250.166, 213.16.250.170, 213.16.252.86, 213.16.252.90, 213.16.252.162, 213.16.252.166, 213.16.252.190, 213.16.252.202... Done.
+Collecting hints for 194.219.199.34, 194.219.199.62... Done.
+Collecting hints for 194.219.199.106, 194.219.253.13, 194.219.253.30, 194.219.253.238, 212.251.94.5, 212.251.94.18, 212.251.94.58, 212.251.94.61, 213.16.247.14, 213.16.247.18, 213.16.247.22, 213.16.247.26, 213.16.247.102, 213.16.247.142, 213.16.247.146... Done.
+Collecting hints for 194.219.199.126, 194.219.199.146... Done.
+Collecting hints for 194.219.199.178, 194.219.199.182... Done.
+Collecting hints for 194.219.199.218, 213.16.250.70... Done.
+Collecting hints for 194.219.199.222, 194.219.199.226... Done.
+Collecting hints for 194.219.199.246, 212.251.94.242... Done.
+Collecting hints for 194.219.208.82, 194.219.208.102, 213.16.252.110... Done.
+Collecting hints for 194.219.208.210, 194.219.253.221... Done.
+Collecting hints for 212.251.94.57, 212.251.94.241... Done.
+Collecting hints for 212.251.94.165, 212.251.94.169... Done.
+Collecting hints for 212.251.94.178, 212.251.94.182... Done.
+Collecting hints for 212.251.94.205, 213.16.250.73... Done.
+Collecting hints for 213.16.247.125, 213.16.247.129... Done.
+Collecting hints for 213.16.247.178, 213.16.247.182... Done.
+Collecting hints for 213.16.247.198, 213.16.252.73... Done.
+Collecting hints for 213.16.247.202, 213.16.252.170... Done.
+Collecting hints for 213.16.250.42, 213.16.250.46, 213.16.252.194, 213.16.252.198... Done.
+Collecting hints for 213.16.252.150, 213.16.252.154... Done.
+Collecting hints for 213.16.252.226, 213.16.252.230... Done.
+Collecting hints for 213.16.252.234, 213.16.252.238... Done.
+Resolving... Done.
+Inferred subnets has been saved in the output file AS1241_10-02.subnets.
+--- End of target scanning (10-02-2019 20:02:07) ---
+Elapsed time: 3 hours 58 minutes 31 seconds
+Total amount of probes: 581995
+Total amount of successful probes: 509550 (87.5523%)
+Alias hints have been saved in an output file AS1241_10-02.hints.
+Fingerprints have been saved in an output file AS1241_10-02.fingerprints.
+Aliases discovered during subnet discovery have been written in AS1241_10-02.aliases-1.

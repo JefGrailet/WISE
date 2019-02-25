@@ -1,0 +1,47 @@
+WISE (Wide and lInear Subnet inferencE) - Time at start: 01-01-2019 09:22:21
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 8284 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 3 additional responsive IPs.
+--- End of target pre-scanning (01-01-2019 10:09:23) ---
+Elapsed time: 47 minutes 2 seconds
+Total amount of probes: 184228
+Total amount of successful probes: 16115 (8.74731%)
+Total amount of discovered responsive IPs: 8287
+
+Filtered target IPs have been saved in an output file AS13789_01-01.ips (temporar).
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 259 threads will be scheduled (up to 32 target IPs per thread).
+1979 out of 8286 IPs with an estimated TTL (23.8837%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 34 threads will be scheduled (from 1 to 244 target IPs per thread).
+Updated IP dictionary has been saved in the output file AS13789_01-01.ips.
+
+There are flickering IPs that could lead to the discovery of 13 aliases.
+Now starting alias hints collection...
+Collecting hints for 63.251.20.253, 70.42.74.253, 104.153.107.253, 162.248.95.253... Done.
+Collecting hints for 63.251.32.14, 74.201.53.90... Done.
+Collecting hints for 64.94.164.228, 64.94.164.229... Done.
+Collecting hints for 64.94.177.70, 74.201.252.6... Done.
+Collecting hints for 64.95.46.178, 64.95.46.182... Done.
+Collecting hints for 70.42.33.114, 70.42.35.114... Done.
+Collecting hints for 72.26.212.10, 72.26.212.14... Done.
+Collecting hints for 74.201.135.248, 74.217.51.193... Done.
+Collecting hints for 74.201.198.2, 74.201.198.6... Done.
+Collecting hints for 75.98.32.8, 75.98.32.11, 75.98.33.42... Done.
+Collecting hints for 216.52.95.20, 216.52.95.23, 216.52.95.82, 216.52.95.86... Done.
+Collecting hints for 216.52.95.44, 216.52.95.45, 216.52.95.107, 216.52.95.108... Done.
+Collecting hints for 216.52.95.46, 216.52.95.47, 216.52.95.109... Done.
+Resolving... Done.
+Inferred subnets has been saved in the output file AS13789_01-01.subnets.
+--- End of target scanning (01-01-2019 10:51:03) ---
+Elapsed time: 41 minutes 40 seconds
+Total amount of probes: 43689
+Total amount of successful probes: 37106 (84.9321%)
+Alias hints have been saved in an output file AS13789_01-01.hints.
+Fingerprints have been saved in an output file AS13789_01-01.fingerprints.
+Aliases discovered during subnet discovery have been written in AS13789_01-01.aliases-1.

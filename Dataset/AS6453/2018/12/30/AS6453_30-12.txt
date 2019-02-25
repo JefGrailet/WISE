@@ -1,0 +1,61 @@
+WISE (Wide and lInear Subnet inferencE) - Time at start: 30-12-2018 08:08:15
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 74941 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 119 additional responsive IPs.
+--- End of target pre-scanning (30-12-2018 13:49:29) ---
+Elapsed time: 5 hours 41 minutes 8 seconds
+Total amount of probes: 1238339
+Total amount of successful probes: 117852 (9.51694%)
+Total amount of discovered responsive IPs: 75060
+
+Filtered target IPs have been saved in an output file AS6453_30-12.ips (temporar).
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 257 threads will be scheduled (up to 293 target IPs per thread).
+14496 out of 74727 IPs with an estimated TTL (19.3986%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 154 threads will be scheduled (from 2 to 510 target IPs per thread).
+Updated IP dictionary has been saved in the output file AS6453_30-12.ips.
+
+There are flickering IPs that could lead to the discovery of 27 aliases.
+Now starting alias hints collection...
+Collecting hints for 63.243.205.12, 63.243.205.72, 63.243.205.74, 63.243.205.130... Done.
+Collecting hints for 64.86.76.134, 117.103.88.140... Done.
+Collecting hints for 64.86.140.4, 64.254.1.69, 66.110.6.4... Done.
+Collecting hints for 64.86.252.37, 64.86.252.39, 180.87.15.25... Done.
+Collecting hints for 66.110.59.2, 206.82.129.18... Done.
+Collecting hints for 66.110.96.5, 66.110.96.59... Done.
+Collecting hints for 66.110.118.90, 66.110.118.246... Done.
+Collecting hints for 66.119.73.114, 208.91.192.242... Done.
+Collecting hints for 80.231.17.1, 80.231.17.9... Done.
+Collecting hints for 80.231.62.38, 195.219.13.37... Done.
+Collecting hints for 80.231.91.105, 80.231.91.113... Done.
+Collecting hints for 80.231.130.129, 80.231.131.109... Done.
+Collecting hints for 80.231.154.38, 80.231.154.46... Done.
+Collecting hints for 116.0.67.33, 116.0.67.61, 180.87.112.45... Done.
+Collecting hints for 116.0.82.63, 180.87.4.155, 180.87.162.26, 180.87.162.53, 180.87.162.105... Done.
+Collecting hints for 129.250.3.145, 129.250.3.159... Done.
+Collecting hints for 180.87.12.1, 180.87.15.74... Done.
+Collecting hints for 180.87.180.2, 180.87.181.72... Done.
+Collecting hints for 180.87.197.61, 180.87.197.65, 180.87.217.6... Done.
+Collecting hints for 180.87.217.2, 180.87.217.150, 180.87.225.5, 180.87.225.21... Done.
+Collecting hints for 185.18.196.2, 185.18.196.4, 185.18.196.50, 185.18.196.83, 185.18.196.118, 185.18.196.193, 185.18.196.222, 185.18.196.226, 185.45.72.22... Done.
+Collecting hints for 195.219.81.10, 195.219.81.58... Done.
+Collecting hints for 195.219.81.34, 195.219.81.38... Done.
+Collecting hints for 195.219.87.9, 195.219.87.13... Done.
+Collecting hints for 195.219.87.18, 195.219.87.195... Done.
+Collecting hints for 195.219.156.132, 195.219.156.135... Done.
+Collecting hints for 216.6.87.1, 216.6.87.42, 216.6.87.200, 216.6.87.222... Done.
+Resolving... Done.
+Inferred subnets has been saved in the output file AS6453_30-12.subnets.
+--- End of target scanning (30-12-2018 19:29:33) ---
+Elapsed time: 5 hours 40 minutes 3 seconds
+Total amount of probes: 409304
+Total amount of successful probes: 293020 (71.5898%)
+Alias hints have been saved in an output file AS6453_30-12.hints.
+Fingerprints have been saved in an output file AS6453_30-12.fingerprints.
+Aliases discovered during subnet discovery have been written in AS6453_30-12.aliases-1.

@@ -1,0 +1,39 @@
+WISE (Wide and lInear Subnet inferencE) - Time at start: 20-01-2019 15:15:54
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 38847 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 182 additional responsive IPs.
+--- End of target pre-scanning (20-01-2019 23:33:10) ---
+Elapsed time: 8 hours 17 minutes 9 seconds
+Total amount of probes: 1616961
+Total amount of successful probes: 84606 (5.23241%)
+Total amount of discovered responsive IPs: 39029
+
+Filtered target IPs have been saved in an output file AS8928_20-01.ips (temporar).
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 257 threads will be scheduled (up to 152 target IPs per thread).
+4945 out of 38241 IPs with an estimated TTL (12.9311%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 73 threads will be scheduled (from 9 to 398 target IPs per thread).
+Updated IP dictionary has been saved in the output file AS8928_20-01.ips.
+
+There are flickering IPs that could lead to the discovery of 6 aliases.
+Now starting alias hints collection...
+Collecting hints for 46.182.4.29, 46.182.4.33... Done.
+Collecting hints for 91.221.13.142, 91.221.13.248... Done.
+Collecting hints for 185.132.228.6, 185.132.228.18, 185.132.228.62... Done.
+Collecting hints for 185.132.228.10, 185.132.228.26, 185.132.228.30, 185.132.228.50, 185.132.228.74, 185.132.228.126, 185.132.228.194... Done.
+Collecting hints for 185.132.228.54, 185.132.228.106... Done.
+Collecting hints for 185.132.228.110, 185.132.228.218... Done.
+Resolving... Done.
+Inferred subnets has been saved in the output file AS8928_20-01.subnets.
+--- End of target scanning (21-01-2019 02:27:39) ---
+Elapsed time: 2 hours 54 minutes 28 seconds
+Total amount of probes: 226781
+Total amount of successful probes: 179642 (79.2139%)
+Alias hints have been saved in an output file AS8928_20-01.hints.
+Fingerprints have been saved in an output file AS8928_20-01.fingerprints.

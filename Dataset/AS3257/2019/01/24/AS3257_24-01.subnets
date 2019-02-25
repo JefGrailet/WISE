@@ -1,0 +1,31 @@
+2.21.48.0/25
+14 - 2.21.48.36 - [80.239.135.136 | 3] - Contra-pivot
+17 - 2.21.48.84 - [132.65.240.1 | 14] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+23.5.159.64/26
+16 - 23.5.159.94 - [141.136.103.213 | 2] - Contra-pivot
+18 - 23.5.159.110 - [62.115.121.1 | 5] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+23.5.159.214/31
+21 - 23.5.159.214 - [62.40.98.81 | 12] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (2) than pivot IPs.
+
+104.66.32.44/31
+15 - 104.66.32.44 - [62.115.141.239 | 2] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+104.66.32.208/31
+15 - 104.66.32.208 - [62.115.121.11 | 2] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+104.66.32.224/27
+15 - 104.66.32.232 - [62.40.98.128 | 5] - Contra-pivot
+18 - 104.66.32.241 - [132.65.240.1 | 15] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+104.66.33.122/31
+19 - 104.66.33.122 - [62.115.121.7 | 6] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (4) than pivot IPs.
+

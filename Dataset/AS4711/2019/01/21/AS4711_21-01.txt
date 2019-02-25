@@ -1,0 +1,38 @@
+WISE (Wide and lInear Subnet inferencE) - Time at start: 21-01-2019 16:18:38
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 1083 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Didn't find any additional responsive IP.
+--- End of target pre-scanning (21-01-2019 16:30:53) ---
+Elapsed time: 12 minutes 15 seconds
+Total amount of probes: 33733
+Total amount of successful probes: 3329 (9.86867%)
+Total amount of discovered responsive IPs: 1083
+
+Filtered target IPs have been saved in an output file AS4711_21-01.ips (temporar).
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 34 threads will be scheduled (up to 32 target IPs per thread).
+17 out of 1083 IPs with an estimated TTL (1.56971%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 5 threads will be scheduled (from 1 to 6 target IPs per thread).
+Updated IP dictionary has been saved in the output file AS4711_21-01.ips.
+
+There are flickering IPs that could lead to the discovery of 4 aliases.
+Now starting alias hints collection...
+Collecting hints for 61.213.179.254, 202.222.74.110... Done.
+Collecting hints for 101.53.97.30, 101.53.97.42, 101.53.97.70, 101.53.97.106, 101.53.120.22, 101.53.123.34, 202.222.74.70, 202.222.74.86, 202.222.74.98, 202.222.74.106, 202.222.74.118, 202.222.74.130, 202.222.74.238... Done.
+Collecting hints for 101.53.97.90, 101.53.112.22... Done.
+Collecting hints for 202.222.75.220, 202.222.80.106... Done.
+Resolving... Done.
+Inferred subnets has been saved in the output file AS4711_21-01.subnets.
+--- End of target scanning (21-01-2019 16:33:33) ---
+Elapsed time: 2 minutes 40 seconds
+Total amount of probes: 5393
+Total amount of successful probes: 5298 (98.2385%)
+Alias hints have been saved in an output file AS4711_21-01.hints.
+Fingerprints have been saved in an output file AS4711_21-01.fingerprints.
+Aliases discovered during subnet discovery have been written in AS4711_21-01.aliases-1.

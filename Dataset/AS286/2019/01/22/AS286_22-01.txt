@@ -1,0 +1,39 @@
+WISE (Wide and lInear Subnet inferencE) - Time at start: 22-01-2019 15:48:42
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 3198 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 14 additional responsive IPs.
+--- End of target pre-scanning (22-01-2019 17:54:01) ---
+Elapsed time: 2 hours 5 minutes 18 seconds
+Total amount of probes: 499586
+Total amount of successful probes: 14120 (2.82634%)
+Total amount of discovered responsive IPs: 3212
+
+Filtered target IPs have been saved in an output file AS286_22-01.ips (temporar).
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 101 threads will be scheduled (up to 32 target IPs per thread).
+703 out of 3171 IPs with an estimated TTL (22.1697%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 18 threads will be scheduled (from 1 to 80 target IPs per thread).
+Updated IP dictionary has been saved in the output file AS286_22-01.ips.
+
+There are flickering IPs that could lead to the discovery of 6 aliases.
+Now starting alias hints collection...
+Collecting hints for 80.81.192.22, 134.222.48.5, 134.222.48.12, 134.222.48.83, 134.222.48.159, 134.222.48.176, 134.222.48.194, 134.222.49.55, 188.1.145.229... Done.
+Collecting hints for 134.222.48.25, 134.222.48.94... Done.
+Collecting hints for 134.222.48.104, 134.222.48.122... Done.
+Collecting hints for 134.222.48.147, 134.222.48.174... Done.
+Collecting hints for 134.222.48.164, 134.222.226.174... Done.
+Collecting hints for 134.222.48.217, 134.222.94.217... Done.
+Resolving... Done.
+Inferred subnets has been saved in the output file AS286_22-01.subnets.
+--- End of target scanning (22-01-2019 18:14:13) ---
+Elapsed time: 20 minutes 12 seconds
+Total amount of probes: 17600
+Total amount of successful probes: 13339 (75.7898%)
+Alias hints have been saved in an output file AS286_22-01.hints.
+Fingerprints have been saved in an output file AS286_22-01.fingerprints.

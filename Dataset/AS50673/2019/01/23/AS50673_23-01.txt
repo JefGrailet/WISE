@@ -1,0 +1,41 @@
+WISE (Wide and lInear Subnet inferencE) - Time at start: 23-01-2019 17:35:27
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 17750 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 62 additional responsive IPs.
+--- End of target pre-scanning (23-01-2019 18:01:47) ---
+Elapsed time: 26 minutes 20 seconds
+Total amount of probes: 105642
+Total amount of successful probes: 19389 (18.3535%)
+Total amount of discovered responsive IPs: 17812
+
+Filtered target IPs have been saved in an output file AS50673_23-01.ips (temporar).
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 259 threads will be scheduled (up to 69 target IPs per thread).
+1924 out of 17806 IPs with an estimated TTL (10.8053%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 24 threads will be scheduled (from 1 to 305 target IPs per thread).
+Updated IP dictionary has been saved in the output file AS50673_23-01.ips.
+
+There are flickering IPs that could lead to the discovery of 8 aliases.
+Now starting alias hints collection...
+Collecting hints for 5.45.66.7, 5.45.85.3, 5.45.85.85, 37.1.200.4, 37.1.203.120, 37.252.15.1, 93.158.217.150, 178.21.16.70, 185.8.176.6, 185.8.179.25, 185.8.179.27... Done.
+Collecting hints for 5.255.66.205, 188.120.34.143... Done.
+Collecting hints for 5.255.80.11, 146.185.253.37... Done.
+Collecting hints for 46.249.36.40, 46.249.36.43... Done.
+Collecting hints for 64.125.29.71, 79.141.46.100... Done.
+Collecting hints for 93.158.217.149, 178.21.16.66, 178.21.16.69, 178.21.17.21, 178.21.17.23... Done.
+Collecting hints for 185.8.179.18, 185.8.179.22... Done.
+Collecting hints for 185.14.28.192, 185.53.163.135, 217.12.201.11... Done.
+Resolving... Done.
+Inferred subnets has been saved in the output file AS50673_23-01.subnets.
+--- End of target scanning (23-01-2019 19:20:13) ---
+Elapsed time: 1 hour 18 minutes 25 seconds
+Total amount of probes: 100489
+Total amount of successful probes: 84392 (83.9813%)
+Alias hints have been saved in an output file AS50673_23-01.hints.
+Fingerprints have been saved in an output file AS50673_23-01.fingerprints.

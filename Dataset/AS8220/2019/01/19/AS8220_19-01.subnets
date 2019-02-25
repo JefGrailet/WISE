@@ -1,0 +1,41 @@
+62.23.200.0/31
+11 - 62.23.200.1 - [84.14.119.145] - Selected pivot
+Stop: no more IPs to expand the subnet further.
+
+62.96.108.176/31
+10 - 62.96.108.177 - [83.97.88.93 | 2] - Selected pivot
+Stop: reached the maximum size allowed for a subnet.
+
+80.169.25.64/31
+9 - 80.169.25.65 - [128.139.226.2 | 3] - Selected pivot
+Stop: reached the maximum size allowed for a subnet.
+
+80.169.211.46/31
+10 - 80.169.211.46 - [128.139.233.1 | 3] - Selected pivot
+Stop: reached the maximum size allowed for a subnet.
+
+195.68.27.2/31
+12 - 195.68.27.2 - [212.74.68.37 | 2] - Selected pivot
+Stop: reached the maximum size allowed for a subnet.
+
+212.23.237.78/31
+11 - 212.23.237.78 - [212.74.71.101 | 1] - Selected pivot
+Stop: reached the maximum size allowed for a subnet.
+
+213.27.136.64/31
+9 - 213.27.136.65 - [195.66.224.49] - Selected pivot
+Stop: reached the maximum size allowed for a subnet.
+
+213.86.148.82/31
+9 - 213.86.148.82 - [128.139.233.1 | 2] - Selected pivot
+Stop: reached the maximum size allowed for a subnet.
+
+213.229.128.0/20
+12 - 213.229.135.242 - [212.74.68.69 | 1] - Contra-pivot
+13 - 213.229.138.17 - [132.65.240.1 | 10] - Selected pivot
+Stop: reached the maximum size allowed for a subnet.
+
+213.229.144.180/31
+16 - 213.229.144.180 - [132.64.252.57 | 11] - Selected pivot
+Stop: reached the maximum size allowed for a subnet.
+

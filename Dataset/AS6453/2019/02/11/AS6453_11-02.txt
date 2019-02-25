@@ -1,0 +1,67 @@
+WISE (Wide and lInear Subnet inferencE) - Time at start: 11-02-2019 12:45:27
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 61451 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 167 additional responsive IPs.
+--- End of target pre-scanning (11-02-2019 17:07:20) ---
+Elapsed time: 4 hours 21 minutes 50 seconds
+Total amount of probes: 1041909
+Total amount of successful probes: 94721 (9.0911%)
+Total amount of discovered responsive IPs: 61618
+
+Filtered target IPs have been saved in an output file AS6453_11-02.ips (temporar).
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 257 threads will be scheduled (up to 240 target IPs per thread).
+1698 out of 61317 IPs with an estimated TTL (2.76922%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 39 threads will be scheduled (from 1 to 109 target IPs per thread).
+Updated IP dictionary has been saved in the output file AS6453_11-02.ips.
+
+There are flickering IPs that could lead to the discovery of 33 aliases.
+Now starting alias hints collection...
+Collecting hints for 63.243.128.29, 63.243.128.31... Done.
+Collecting hints for 63.243.152.62, 64.86.32.33, 64.86.33.102, 64.86.85.1, 66.198.154.178, 216.6.87.2... Done.
+Collecting hints for 63.243.205.2, 216.6.81.29, 216.6.115.89... Done.
+Collecting hints for 64.86.21.2, 66.198.127.1... Done.
+Collecting hints for 64.86.76.131, 117.103.88.137... Done.
+Collecting hints for 64.86.76.134, 117.103.88.140... Done.
+Collecting hints for 64.86.140.4, 64.254.1.69, 66.110.6.4... Done.
+Collecting hints for 64.86.188.1, 66.110.56.6, 66.198.154.69... Done.
+Collecting hints for 64.86.252.66, 206.82.129.18, 216.6.87.111... Done.
+Collecting hints for 66.110.118.90, 66.110.118.246... Done.
+Collecting hints for 66.119.73.114, 208.91.192.242... Done.
+Collecting hints for 66.198.111.142, 80.231.130.26, 216.6.57.6, 216.6.87.222, 216.6.90.21... Done.
+Collecting hints for 70.34.62.130, 70.34.62.134, 210.10.220.98... Done.
+Collecting hints for 80.231.17.1, 80.231.17.9... Done.
+Collecting hints for 80.231.130.47, 195.219.100.134... Done.
+Collecting hints for 80.231.130.93, 80.231.130.114, 80.231.130.130, 80.231.131.2, 80.231.139.41... Done.
+Collecting hints for 80.231.131.37, 80.231.131.62... Done.
+Collecting hints for 80.231.131.160, 80.231.154.143... Done.
+Collecting hints for 80.231.153.50, 80.231.217.1... Done.
+Collecting hints for 80.231.154.38, 80.231.154.46... Done.
+Collecting hints for 80.231.200.77, 80.231.217.5... Done.
+Collecting hints for 80.231.217.30, 180.87.38.117... Done.
+Collecting hints for 80.231.217.111, 180.87.12.45, 180.87.37.9, 180.87.38.2, 180.87.38.125, 180.87.39.159, 180.87.39.170, 180.87.98.37, 180.231.217.122... Done.
+Collecting hints for 116.0.82.62, 116.0.93.141, 116.0.93.149... Done.
+Collecting hints for 180.87.12.2, 180.87.96.21... Done.
+Collecting hints for 180.87.12.78, 180.87.136.117... Done.
+Collecting hints for 180.87.15.81, 180.87.162.26... Done.
+Collecting hints for 180.87.73.13, 180.87.73.25... Done.
+Collecting hints for 195.22.211.213, 195.22.211.215... Done.
+Collecting hints for 195.219.9.34, 195.219.9.48, 195.219.81.117... Done.
+Collecting hints for 195.219.87.17, 195.219.87.194... Done.
+Collecting hints for 195.219.156.61, 195.219.194.78... Done.
+Collecting hints for 216.6.87.42, 216.6.87.146, 216.6.87.200... Done.
+Resolving... Done.
+Inferred subnets has been saved in the output file AS6453_11-02.subnets.
+--- End of target scanning (11-02-2019 18:23:50) ---
+Elapsed time: 1 hour 16 minutes 30 seconds
+Total amount of probes: 282532
+Total amount of successful probes: 270705 (95.8139%)
+Alias hints have been saved in an output file AS6453_11-02.hints.
+Fingerprints have been saved in an output file AS6453_11-02.fingerprints.
+Aliases discovered during subnet discovery have been written in AS6453_11-02.aliases-1.

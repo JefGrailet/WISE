@@ -1,0 +1,41 @@
+WISE (Wide and lInear Subnet inferencE) - Time at start: 23-01-2019 17:47:40
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 39008 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 143 additional responsive IPs.
+--- End of target pre-scanning (24-01-2019 01:29:32) ---
+Elapsed time: 7 hours 41 minutes 40 seconds
+Total amount of probes: 1616800
+Total amount of successful probes: 81836 (5.0616%)
+Total amount of discovered responsive IPs: 39151
+
+Filtered target IPs have been saved in an output file AS8928_23-01.ips (temporar).
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 258 threads will be scheduled (up to 152 target IPs per thread).
+5386 out of 38299 IPs with an estimated TTL (14.063%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 78 threads will be scheduled (from 1 to 267 target IPs per thread).
+Updated IP dictionary has been saved in the output file AS8928_23-01.ips.
+
+There are flickering IPs that could lead to the discovery of 8 aliases.
+Now starting alias hints collection...
+Collecting hints for 46.31.255.219, 178.248.149.118, 178.248.149.127... Done.
+Collecting hints for 46.182.4.29, 46.182.4.33... Done.
+Collecting hints for 89.202.146.86, 89.202.146.162, 195.81.94.254, 195.81.105.54... Done.
+Collecting hints for 89.202.146.89, 89.202.146.93... Done.
+Collecting hints for 89.202.172.246, 185.132.228.222, 185.132.228.226, 185.132.228.230... Done.
+Collecting hints for 91.221.13.142, 91.221.13.248... Done.
+Collecting hints for 185.68.178.5, 185.68.178.166, 185.68.179.119, 195.81.185.26... Done.
+Collecting hints for 185.132.228.10, 185.132.228.50... Done.
+Resolving... Done.
+Inferred subnets has been saved in the output file AS8928_23-01.subnets.
+--- End of target scanning (24-01-2019 03:19:53) ---
+Elapsed time: 1 hour 50 minutes 21 seconds
+Total amount of probes: 220994
+Total amount of successful probes: 181196 (81.9914%)
+Alias hints have been saved in an output file AS8928_23-01.hints.
+Fingerprints have been saved in an output file AS8928_23-01.fingerprints.

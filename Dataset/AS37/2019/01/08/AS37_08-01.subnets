@@ -1,0 +1,13 @@
+128.8.192.0/20
+14 - 128.8.194.145 - [128.8.0.97] - Selected pivot
+14 - 128.8.200.12 - [132.64.252.25 | 10] - Rule 2
+Stop: reached the maximum size allowed for a subnet.
+
+128.8.238.194/31
+15 - 128.8.238.194 - [128.8.0.165 | 2] - Selected pivot
+Stop: reached the maximum size allowed for a subnet.
+
+128.8.251.170/31
+17 - 128.8.251.171 - [128.8.251.171 | 2] - Selected pivot
+Stop: reached the maximum size allowed for a subnet.
+

@@ -1,0 +1,36 @@
+203.193.11.16/31
+18 - 203.193.11.17 - [152.63.114.18] - Selected pivot
+Stop: no more IPs to expand the subnet further.
+
+203.193.23.128/25
+21 - 203.193.23.190 - [152.63.115.98 | 4] - Contra-pivot
+22 - 203.193.23.218 - [152.63.115.102 | 5] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+203.193.29.128/28
+22 - 203.193.29.131 - [132.64.252.57 | 17] - Contra-pivot
+23 - 203.193.29.140 - [203.193.29.140 | 1] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+203.193.29.144/31
+21 - 203.193.29.145 - [210.80.3.74 | 1] - Selected pivot
+Stop: next prefix length contained no IP appearing to be on the same subnet.
+
+203.193.29.180/31
+24 - 203.193.29.181 - [203.193.29.181 | 2] - Selected pivot
+Stop: next prefix length had more contra-pivot IPs (3) than pivot IPs.
+
+203.193.39.70/31
+25 - 203.193.39.70 - [203.193.39.70 | 2] - Selected pivot
+Stop: next prefix length overlapped previously inferred subnet.
+
+203.193.44.224/27
+22 - 203.193.44.225 - [203.193.44.225] - Contra-pivot
+26 - 203.193.44.244 - [203.193.44.244 | 3] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+
+203.193.46.0/23
+21 - 203.193.46.19 - [62.115.143.121 | 6] - Contra-pivot
+28 - 203.193.47.26 - [203.193.47.26 | 4] - Selected pivot
+Stop: discovered a sound contra-pivot IP.
+

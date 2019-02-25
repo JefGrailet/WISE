@@ -1,0 +1,116 @@
+WISE (Wide and lInear Subnet inferencE) - Time at start: 13-02-2019 16:05:19
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 291506 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 195 additional responsive IPs.
+--- End of target pre-scanning (14-02-2019 04:27:27) ---
+Elapsed time: 12 hours 21 minutes 57 seconds
+Total amount of probes: 2497870
+Total amount of successful probes: 363803 (14.5645%)
+Total amount of discovered responsive IPs: 291701
+
+Filtered target IPs have been saved in an output file AS3257_13-02.ips (temporar).
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 257 threads will be scheduled (up to 1139 target IPs per thread).
+13230 out of 291128 IPs with an estimated TTL (4.54439%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 143 threads will be scheduled (from 1 to 414 target IPs per thread).
+Updated IP dictionary has been saved in the output file AS3257_13-02.ips.
+
+There are flickering IPs that could lead to the discovery of 82 aliases.
+Now starting alias hints collection...
+Collecting hints for 8.3.211.5, 8.3.211.6, 67.17.193.134... Done.
+Collecting hints for 12.89.215.6, 202.153.100.198... Done.
+Collecting hints for 63.159.216.5, 63.159.216.216... Done.
+Collecting hints for 64.62.214.114, 68.64.172.206... Done.
+Collecting hints for 66.7.138.10, 80.77.0.154... Done.
+Collecting hints for 66.171.233.36, 66.171.236.31, 66.171.236.37, 66.171.236.44, 66.171.236.49, 66.171.236.60, 66.171.236.67, 66.171.236.132, 204.93.61.21, 204.93.61.50... Done.
+Collecting hints for 66.171.238.56, 66.171.239.22... Done.
+Collecting hints for 66.171.238.60, 66.171.238.64, 66.171.238.156... Done.
+Collecting hints for 66.171.238.70, 66.171.238.147... Done.
+Collecting hints for 66.171.238.84, 66.171.238.197... Done.
+Collecting hints for 66.171.238.114, 66.171.238.142... Done.
+Collecting hints for 67.201.39.42, 68.71.240.178... Done.
+Collecting hints for 67.201.58.51, 162.253.68.31... Done.
+Collecting hints for 67.222.102.106, 67.222.111.206, 216.193.220.186... Done.
+Collecting hints for 68.64.190.75, 98.124.155.104... Done.
+Collecting hints for 70.39.147.243, 104.193.140.38... Done.
+Collecting hints for 70.39.149.170, 104.193.140.75... Done.
+Collecting hints for 70.39.232.38, 104.193.140.6... Done.
+Collecting hints for 70.39.246.233, 216.66.41.186... Done.
+Collecting hints for 70.39.248.69, 104.193.140.11... Done.
+Collecting hints for 77.67.36.2, 87.215.30.66... Done.
+Collecting hints for 78.152.34.15, 78.152.53.223... Done.
+Collecting hints for 84.21.62.17, 208.78.38.99... Done.
+Collecting hints for 89.149.128.21, 89.149.128.41, 89.149.128.113, 89.149.128.117, 89.149.128.125, 89.149.129.5, 89.149.129.210, 89.149.131.78, 89.149.131.98, 89.149.131.102, 89.149.131.110, 89.149.131.118, 89.149.131.122, 89.149.131.126, 89.149.131.130, 89.149.131.134, 89.149.136.50, 89.149.137.250, 89.149.137.254, 89.149.138.230, 89.149.181.13, 89.149.181.149, 89.149.184.153, 141.136.105.49, 141.136.105.53, 141.136.111.86, 213.200.113.181, 213.200.117.126, 213.254.215.73, 213.254.215.137, 213.254.230.146, 213.254.230.150, 213.254.230.154, 213.254.230.158... Done.
+Collecting hints for 89.149.128.161, 89.149.128.165, 89.149.181.42, 89.149.185.221, 89.149.186.17, 89.149.186.25... Done.
+Collecting hints for 89.149.128.213, 89.149.133.154... Done.
+Collecting hints for 89.149.131.149, 89.149.131.161, 141.136.106.165... Done.
+Collecting hints for 89.149.131.209, 89.149.182.37, 213.200.117.42... Done.
+Collecting hints for 89.149.133.130, 213.200.115.154... Done.
+Collecting hints for 89.149.134.113, 89.149.134.121, 89.149.138.214, 89.149.138.217, 89.149.140.201, 89.149.180.205, 89.149.184.218, 89.149.184.226, 141.136.111.205, 213.200.114.133, 213.200.114.145... Done.
+Collecting hints for 89.149.135.134, 89.149.135.154, 213.254.230.2, 213.254.230.6... Done.
+Collecting hints for 89.149.136.117, 89.149.136.121, 89.149.180.49, 89.149.180.230... Done.
+Collecting hints for 89.149.136.205, 89.149.136.249... Done.
+Collecting hints for 89.149.136.234, 89.149.136.238... Done.
+Collecting hints for 89.149.137.89, 89.149.137.97... Done.
+Collecting hints for 89.149.137.133, 89.149.137.145, 89.149.180.249... Done.
+Collecting hints for 89.149.137.177, 89.149.137.217... Done.
+Collecting hints for 89.149.137.185, 89.149.183.53... Done.
+Collecting hints for 89.149.139.25, 89.149.141.218, 89.149.186.145, 141.136.106.81, 141.136.110.230... Done.
+Collecting hints for 89.149.139.170, 89.149.139.174... Done.
+Collecting hints for 89.149.140.117, 89.149.180.213... Done.
+Collecting hints for 89.149.141.1, 89.149.141.209... Done.
+Collecting hints for 89.149.141.41, 89.149.141.57, 89.149.141.81... Done.
+Collecting hints for 89.149.141.169, 89.149.141.245, 89.149.141.249... Done.
+Collecting hints for 89.149.141.181, 89.149.141.241... Done.
+Collecting hints for 89.149.142.238, 89.149.142.250, 213.254.214.166, 213.254.214.170, 213.254.214.182, 213.254.214.198, 213.254.214.202, 213.254.214.214, 213.254.214.218... Done.
+Collecting hints for 89.149.142.242, 213.254.214.174... Done.
+Collecting hints for 89.149.143.113, 141.136.109.173, 213.200.120.13, 213.254.215.125... Done.
+Collecting hints for 89.149.143.165, 89.149.181.166... Done.
+Collecting hints for 89.149.143.198, 89.149.143.206... Done.
+Collecting hints for 89.149.184.101, 213.200.112.85... Done.
+Collecting hints for 89.149.184.253, 213.200.114.42, 213.200.114.46, 213.200.114.54... Done.
+Collecting hints for 89.149.185.10, 213.254.214.10... Done.
+Collecting hints for 89.149.185.194, 141.136.108.2, 141.136.108.6... Done.
+Collecting hints for 89.149.185.234, 89.149.185.238... Done.
+Collecting hints for 89.149.186.181, 141.136.110.101... Done.
+Collecting hints for 89.149.186.213, 141.136.107.242, 213.254.214.234... Done.
+Collecting hints for 89.149.186.230, 141.136.105.38... Done.
+Collecting hints for 98.124.176.22, 98.124.176.28, 98.124.176.29, 98.124.176.37... Done.
+Collecting hints for 98.124.176.59, 98.124.176.81, 98.124.176.117... Done.
+Collecting hints for 104.193.140.17, 104.193.140.45... Done.
+Collecting hints for 104.193.140.20, 104.193.140.55, 104.193.140.80... Done.
+Collecting hints for 104.193.140.23, 104.193.140.73, 104.193.140.81... Done.
+Collecting hints for 104.193.140.28, 104.193.140.53... Done.
+Collecting hints for 104.193.140.40, 104.193.140.56, 104.193.140.62... Done.
+Collecting hints for 104.193.140.46, 104.193.140.60... Done.
+Collecting hints for 104.193.140.52, 104.193.140.65... Done.
+Collecting hints for 104.193.140.78, 173.205.126.204... Done.
+Collecting hints for 139.4.75.166, 149.235.16.193, 149.235.16.241... Done.
+Collecting hints for 141.136.106.77, 213.254.231.197... Done.
+Collecting hints for 141.136.106.89, 141.136.110.149... Done.
+Collecting hints for 141.136.107.133, 213.254.230.18... Done.
+Collecting hints for 141.136.107.254, 141.136.108.194... Done.
+Collecting hints for 141.136.110.145, 213.200.113.254... Done.
+Collecting hints for 149.235.0.192, 149.235.0.229, 149.235.0.237, 158.43.6.146... Done.
+Collecting hints for 162.253.68.11, 162.253.68.13... Done.
+Collecting hints for 162.253.68.70, 162.253.68.83... Done.
+Collecting hints for 208.67.16.8, 208.67.16.9, 208.67.16.10, 208.67.17.7, 208.67.17.8, 208.67.17.10... Done.
+Collecting hints for 213.200.114.66, 213.200.114.182... Done.
+Collecting hints for 213.200.114.174, 213.200.114.178... Done.
+Collecting hints for 213.254.214.2, 213.254.214.6... Done.
+Collecting hints for 213.254.214.162, 213.254.214.206... Done.
+Resolving... Done.
+Inferred subnets has been saved in the output file AS3257_13-02.subnets.
+--- End of target scanning (14-02-2019 16:38:16) ---
+Elapsed time: 12 hours 10 minutes 48 seconds
+Total amount of probes: 1296835
+Total amount of successful probes: 1176403 (90.7134%)
+Alias hints have been saved in an output file AS3257_13-02.hints.
+Fingerprints have been saved in an output file AS3257_13-02.fingerprints.
+Aliases discovered during subnet discovery have been written in AS3257_13-02.aliases-1.

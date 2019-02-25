@@ -1,0 +1,35 @@
+WISE (Wide and lInear Subnet inferencE) - Time at start: 08-01-2019 04:48:55
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 7238 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 458 additional responsive IPs.
+--- End of target pre-scanning (08-01-2019 05:24:15) ---
+Elapsed time: 35 minutes 19 seconds
+Total amount of probes: 136634
+Total amount of successful probes: 13871 (10.1519%)
+Total amount of discovered responsive IPs: 7696
+
+Filtered target IPs have been saved in an output file AS802_08-01.ips (temporar).
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 241 threads will be scheduled (up to 32 target IPs per thread).
+1401 out of 7454 IPs with an estimated TTL (18.7953%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 25 threads will be scheduled (from 1 to 142 target IPs per thread).
+Updated IP dictionary has been saved in the output file AS802_08-01.ips.
+
+There are flickering IPs that could lead to the discovery of one alias.
+Now starting alias hints collection...
+Collecting hints for 130.63.2.2, 130.63.2.62, 130.63.9.98... Done.
+Resolving... Done.
+Inferred subnets has been saved in the output file AS802_08-01.subnets.
+--- End of target scanning (08-01-2019 05:53:53) ---
+Elapsed time: 29 minutes 38 seconds
+Total amount of probes: 42745
+Total amount of successful probes: 32297 (75.5574%)
+Alias hints have been saved in an output file AS802_08-01.hints.
+Fingerprints have been saved in an output file AS802_08-01.fingerprints.
+Aliases discovered during subnet discovery have been written in AS802_08-01.aliases-1.

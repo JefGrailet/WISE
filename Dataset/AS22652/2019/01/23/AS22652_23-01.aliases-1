@@ -1,0 +1,7 @@
+64.119.217.234, 64.119.217.237 (group by echo IP-ID counter/DNS)
+68.67.63.233, 192.252.143.130 (group by echo IP-ID counter/DNS)
+199.167.104.155, 199.167.104.163 (group by echo IP-ID counter/DNS)
+107.161.0.81, 192.252.143.150, 206.41.93.97 (group by echo IP-ID counter/DNS)
+45.61.15.117, 75.98.133.113, 192.252.143.66, 208.84.106.60 (group by echo IP-ID counter/DNS)
+64.119.217.177, 75.98.138.241, 104.156.75.225, 192.252.143.177 (group by echo IP-ID counter/DNS)
+64.119.208.160, 68.67.38.182, 192.252.143.146, 208.84.105.253, 208.94.108.113 (group by echo IP-ID counter/DNS)

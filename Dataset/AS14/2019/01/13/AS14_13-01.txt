@@ -1,0 +1,36 @@
+WISE (Wide and lInear Subnet inferencE) - Time at start: 13-01-2019 12:42:00
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 13403 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 648 additional responsive IPs.
+--- End of target pre-scanning (13-01-2019 15:56:38) ---
+Elapsed time: 3 hours 14 minutes 36 seconds
+Total amount of probes: 666533
+Total amount of successful probes: 14207 (2.13148%)
+Total amount of discovered responsive IPs: 14051
+
+Filtered target IPs have been saved in an output file AS14_13-01.ips (temporar).
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 261 threads will be scheduled (up to 54 target IPs per thread).
+90 out of 13504 IPs with an estimated TTL (0.666469%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 4 threads will be scheduled (from 1 to 63 target IPs per thread).
+Updated IP dictionary has been saved in the output file AS14_13-01.ips.
+
+There are flickering IPs that could lead to the discovery of 2 aliases.
+Now starting alias hints collection...
+Collecting hints for 128.59.194.148, 128.59.255.50... Done.
+Collecting hints for 128.59.255.13, 128.59.255.46, 128.59.255.110, 128.59.255.210... Done.
+Resolving... Done.
+Inferred subnets has been saved in the output file AS14_13-01.subnets.
+--- End of target scanning (13-01-2019 16:21:00) ---
+Elapsed time: 24 minutes 22 seconds
+Total amount of probes: 63367
+Total amount of successful probes: 57106 (90.1195%)
+Alias hints have been saved in an output file AS14_13-01.hints.
+Fingerprints have been saved in an output file AS14_13-01.fingerprints.
+Aliases discovered during subnet discovery have been written in AS14_13-01.aliases-1.

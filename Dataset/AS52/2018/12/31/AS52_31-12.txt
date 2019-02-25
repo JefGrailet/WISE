@@ -1,0 +1,46 @@
+WISE (Wide and lInear Subnet inferencE) - Time at start: 31-12-2018 09:14:55
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 10885 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 300 additional responsive IPs.
+--- End of target pre-scanning (31-12-2018 11:53:03) ---
+Elapsed time: 2 hours 38 minutes 7 seconds
+Total amount of probes: 647035
+Total amount of successful probes: 34181 (5.28271%)
+Total amount of discovered responsive IPs: 11185
+
+Filtered target IPs have been saved in an output file AS52_31-12.ips (temporar).
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 261 threads will be scheduled (up to 43 target IPs per thread).
+4949 out of 10453 IPs with an estimated TTL (47.3453%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 93 threads will be scheduled (from 1 to 147 target IPs per thread).
+Updated IP dictionary has been saved in the output file AS52_31-12.ips.
+
+There are flickering IPs that could lead to the discovery of 12 aliases.
+Now starting alias hints collection...
+Collecting hints for 128.97.121.147, 128.97.121.156, 128.97.121.170, 128.97.121.201, 128.97.121.203, 128.97.142.87, 128.97.142.97, 128.97.143.183, 128.97.143.193, 128.97.143.195, 128.97.143.204, 128.97.143.218, 128.97.144.12, 128.97.144.98, 128.97.144.100, 128.97.144.102, 128.97.144.157, 128.97.145.13, 128.97.145.17, 128.97.145.21, 128.97.145.26, 128.97.145.192, 128.97.145.194, 128.97.148.38, 128.97.148.124, 128.97.148.126, 128.97.149.71, 128.97.149.74, 128.97.149.81, 128.97.149.148, 128.97.149.157, 128.97.249.12, 128.97.249.82, 128.97.249.84, 128.97.249.99, 128.97.254.39, 128.97.254.44, 128.97.254.50, 128.97.254.145, 128.97.254.147, 128.97.254.154, 128.97.254.156, 128.97.254.177, 128.97.254.181, 128.97.254.188, 128.97.254.201, 128.97.254.205, 149.142.1.41, 149.142.1.43, 149.142.1.117, 149.142.1.122, 149.142.1.241, 149.142.1.251, 149.142.206.209, 149.142.206.211, 149.142.206.228, 149.142.207.22, 149.142.207.24, 149.142.207.26, 164.67.148.40, 164.67.148.54, 164.67.148.57, 164.67.148.59, 164.67.180.34, 164.67.180.38, 164.67.180.53, 164.67.180.57, 164.67.180.105, 164.67.180.115, 164.67.180.146, 164.67.180.229, 164.67.180.236, 164.67.180.244... Done.
+Collecting hints for 164.67.130.249, 164.67.130.251... Done.
+Collecting hints for 169.232.8.7, 169.232.8.9... Done.
+Collecting hints for 169.232.8.21, 169.232.8.23... Done.
+Collecting hints for 169.232.8.29, 169.232.8.31... Done.
+Collecting hints for 169.232.8.63, 169.232.203.209, 169.232.203.211... Done.
+Collecting hints for 169.232.8.154, 169.232.8.170... Done.
+Collecting hints for 169.232.9.53, 169.232.201.65... Done.
+Collecting hints for 169.232.9.65, 169.232.202.145... Done.
+Collecting hints for 169.232.9.107, 169.232.200.187... Done.
+Collecting hints for 169.232.9.119, 169.232.200.60... Done.
+Collecting hints for 169.232.9.221, 169.232.9.223... Done.
+Resolving... Done.
+Inferred subnets has been saved in the output file AS52_31-12.subnets.
+--- End of target scanning (31-12-2018 12:43:58) ---
+Elapsed time: 50 minutes 55 seconds
+Total amount of probes: 89506
+Total amount of successful probes: 47785 (53.3875%)
+Alias hints have been saved in an output file AS52_31-12.hints.
+Fingerprints have been saved in an output file AS52_31-12.fingerprints.
+Aliases discovered during subnet discovery have been written in AS52_31-12.aliases-1.

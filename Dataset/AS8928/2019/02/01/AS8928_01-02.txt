@@ -1,0 +1,40 @@
+WISE (Wide and lInear Subnet inferencE) - Time at start: 01-02-2019 16:08:34
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 35667 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 116 additional responsive IPs.
+--- End of target pre-scanning (02-02-2019 00:05:45) ---
+Elapsed time: 7 hours 57 minutes 5 seconds
+Total amount of probes: 1745581
+Total amount of successful probes: 80711 (4.62373%)
+Total amount of discovered responsive IPs: 35783
+
+Filtered target IPs have been saved in an output file AS8928_01-02.ips (temporar).
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 258 threads will be scheduled (up to 139 target IPs per thread).
+3877 out of 35133 IPs with an estimated TTL (11.0352%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 46 threads will be scheduled (from 2 to 277 target IPs per thread).
+Updated IP dictionary has been saved in the output file AS8928_01-02.ips.
+
+There are flickering IPs that could lead to the discovery of 6 aliases.
+Now starting alias hints collection...
+Collecting hints for 91.221.13.142, 91.221.13.248... Done.
+Collecting hints for 149.235.0.192, 149.235.0.229, 158.43.6.146... Done.
+Collecting hints for 185.132.228.6, 185.132.228.18, 185.132.228.62... Done.
+Collecting hints for 185.132.228.10, 185.132.228.30, 185.132.228.50, 185.132.228.74, 185.132.228.126, 185.132.228.194... Done.
+Collecting hints for 185.132.228.54, 185.132.228.106... Done.
+Collecting hints for 185.132.228.110, 185.132.228.218... Done.
+Resolving... Done.
+Inferred subnets has been saved in the output file AS8928_01-02.subnets.
+--- End of target scanning (02-02-2019 01:45:55) ---
+Elapsed time: 1 hour 40 minutes 9 seconds
+Total amount of probes: 179994
+Total amount of successful probes: 154393 (85.7767%)
+Alias hints have been saved in an output file AS8928_01-02.hints.
+Fingerprints have been saved in an output file AS8928_01-02.fingerprints.
+Aliases discovered during subnet discovery have been written in AS8928_01-02.aliases-1.

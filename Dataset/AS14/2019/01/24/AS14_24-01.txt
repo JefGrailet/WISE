@@ -1,0 +1,39 @@
+WISE (Wide and lInear Subnet inferencE) - Time at start: 24-01-2019 16:54:10
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 26540 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 5925 additional responsive IPs.
+--- End of target pre-scanning (24-01-2019 19:36:56) ---
+Elapsed time: 2 hours 42 minutes 45 seconds
+Total amount of probes: 653396
+Total amount of successful probes: 32587 (4.98733%)
+Total amount of discovered responsive IPs: 32465
+
+Filtered target IPs have been saved in an output file AS14_24-01.ips (temporar).
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 258 threads will be scheduled (up to 126 target IPs per thread).
+134 out of 24748 IPs with an estimated TTL (0.541458%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 4 threads will be scheduled (from 15 to 74 target IPs per thread).
+Updated IP dictionary has been saved in the output file AS14_24-01.ips.
+
+There are flickering IPs that could lead to the discovery of 5 aliases.
+Now starting alias hints collection...
+Collecting hints for 128.59.100.203, 128.59.255.42... Done.
+Collecting hints for 128.59.127.70, 128.59.255.5... Done.
+Collecting hints for 128.59.150.237, 128.59.255.90... Done.
+Collecting hints for 128.59.255.13, 128.59.255.38, 128.59.255.210... Done.
+Collecting hints for 128.59.255.226, 160.39.160.89, 160.39.163.209... Done.
+Resolving... Done.
+Inferred subnets has been saved in the output file AS14_24-01.subnets.
+--- End of target scanning (24-01-2019 20:29:23) ---
+Elapsed time: 52 minutes 27 seconds
+Total amount of probes: 175497
+Total amount of successful probes: 108341 (61.7338%)
+Alias hints have been saved in an output file AS14_24-01.hints.
+Fingerprints have been saved in an output file AS14_24-01.fingerprints.
+Aliases discovered during subnet discovery have been written in AS14_24-01.aliases-1.

@@ -1,0 +1,43 @@
+WISE (Wide and lInear Subnet inferencE) - Time at start: 21-01-2019 16:18:17
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 17748 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 2390 additional responsive IPs.
+--- End of target pre-scanning (21-01-2019 19:07:10) ---
+Elapsed time: 2 hours 48 minutes 51 seconds
+Total amount of probes: 662188
+Total amount of successful probes: 20254 (3.05865%)
+Total amount of discovered responsive IPs: 20138
+
+Filtered target IPs have been saved in an output file AS14_21-01.ips (temporar).
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 259 threads will be scheduled (up to 78 target IPs per thread).
+113 out of 17439 IPs with an estimated TTL (0.647973%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 7 threads will be scheduled (from 5 to 48 target IPs per thread).
+Updated IP dictionary has been saved in the output file AS14_21-01.ips.
+
+There are flickering IPs that could lead to the discovery of 9 aliases.
+Now starting alias hints collection...
+Collecting hints for 128.59.255.38, 128.59.255.42... Done.
+Collecting hints for 128.59.255.46, 128.59.255.50... Done.
+Collecting hints for 128.59.255.65, 128.59.255.67... Done.
+Collecting hints for 128.59.255.70, 128.59.255.74... Done.
+Collecting hints for 128.59.255.78, 128.59.255.226... Done.
+Collecting hints for 128.59.255.86, 128.59.255.90... Done.
+Collecting hints for 128.59.255.94, 128.59.255.98... Done.
+Collecting hints for 128.59.255.110, 128.59.255.114... Done.
+Collecting hints for 128.59.255.210, 128.59.255.214... Done.
+Resolving... Done.
+Inferred subnets has been saved in the output file AS14_21-01.subnets.
+--- End of target scanning (21-01-2019 19:41:39) ---
+Elapsed time: 34 minutes 29 seconds
+Total amount of probes: 109288
+Total amount of successful probes: 83090 (76.0285%)
+Alias hints have been saved in an output file AS14_21-01.hints.
+Fingerprints have been saved in an output file AS14_21-01.fingerprints.
+Aliases discovered during subnet discovery have been written in AS14_21-01.aliases-1.
