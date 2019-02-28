@@ -1,0 +1,280 @@
+58.138.80.54 - Target scanning: 255 - ECHO
+58.138.80.82 - Target scanning: 64 - 9;12551,136978,11;12610,137179,13;12645,136790,15;12689 | Yes
+58.138.80.117 - Target scanning: 255 - ECHO | Yes
+58.138.80.190 - Target scanning: 64 - 29;59672,141565,32;59723,120458,33;59773,141777,36;59826 | Yes
+58.138.80.210 - Target scanning: 64 - 30;59680,120783,31;59717,141263,34;59786,120147,35;59818
+58.138.83.22 - Target scanning: 64 - 37;44138,154083,40;44185,132921,41;44215,156942,44;44241 | Yes
+58.138.83.78 - Target scanning: 64 - 45;52584,65305,50;52587,25778,51;52597,61703,56;52601 | Yes
+58.138.84.6 - Target scanning: 255 - ECHO | Yes
+58.138.85.66 - Target scanning: 64 - 57;56505,289611,74;56544,119342,75;56571,291836,92;56623 | Yes
+58.138.85.93 - Target scanning: 64 - 93;1871,219639,102;1949,132778,103;2000,219712,112;2081 | Yes
+58.138.85.101 - Target scanning: 64 - 94;1874,199450,101;1936,152356,104;2004,198045,111;2077
+58.138.85.105 - Target scanning: 64 - 38;163,132631,39;190,154207,42;223,132484,43;247
+58.138.85.177 - Target scanning: 255 - ECHO
+58.138.85.234 - Target scanning: 64 - 125;57282,147115,128;57362,126813,129;57390,140185,132;57468 | Yes
+58.138.85.242 - Target scanning: 64 - 133;21372,138815,136;21445,128064,137;21550,146988,140;21614 | Yes
+58.138.88.89 - Target scanning: 64 - 141;30371,142778,144;30497,120165,145;30614,145230,148;30903 | Yes
+58.138.88.93 - Target scanning: 64 - 149;10348,187739,156;10797,118951,157;10978,183450,164;11399 | Yes
+58.138.88.105 - Target scanning: 255 - ECHO
+58.138.88.185 - Target scanning: 255 - ECHO
+58.138.88.189 - Target scanning: 255 - ECHO
+58.138.88.206 - Target scanning: 64 - 189;33461,44060,192;33514,24750,193;33524,46001,196;33537 | Yes
+58.138.88.241 - Target scanning: 255 - ECHO
+58.138.88.245 - Target scanning: 255 - ECHO
+58.138.89.2 - Target scanning: 64 - 190;33464,24144,191;33507,44806,194;33527,25392,195;33532 | Yes
+58.138.89.21 - Target scanning: 64 - 197;50972,195361,202;51173,159048,205;51269,148941,207;51391 | Yes
+58.138.89.97 - Target scanning: 64 - 209;13168,161790,212;13349,145219,213;13516,159561,216;13571 | Yes
+58.138.89.101 - Target scanning: 64 - 217;27337,144468,220;27395,123688,221;27462,142833,224;27681 | Yes
+58.138.89.145 - Target scanning: 64 - 225;54379,164579,230;54421,120477,231;54474,164912,236;54528 | Yes
+58.138.89.149 - Target scanning: 64 - 59;45851,247928,72;45928,158110,77;45975,250531,90;46017 | Yes
+58.138.98.54 - Target scanning: 255 - ECHO
+58.138.98.214 - Target scanning: 64 - 142;31251,120014,143;31268,141546,146;31289,120244,147;31302
+58.138.98.246 - Target scanning: 255 - ECHO | Yes
+58.138.99.102 - Target scanning: 64 - 245;33744,165925,250;33754,121949,251;33775,168991,256;33814 | Yes
+58.138.99.126 - Target scanning: 64 - 257;58905,152307,262;58947,118592,263;58963,150883,268;58994 | Yes
+58.138.99.130 - Target scanning: 255 - ECHO | Yes
+58.138.100.54 - Target scanning: 255 - ECHO
+58.138.102.109 - Target scanning: 64 - 151;10425,143744,154;10782,164118,159;11014,141069,162;11375 | Yes
+58.138.102.210 - Target scanning: 64 - 152;31699,120883,153;31756,183232,160;31866,120626,161;31969
+58.138.102.222 - Target scanning: 64 - 134;40773,118570,135;40828,155324,138;40902,117768,139;40947
+58.138.102.230 - Target scanning: 64 - 126;1584,117470,127;1670,154431,130;1692,121040,131;1696
+58.138.104.53 - Target scanning: 255 - ECHO
+58.138.104.174 - Target scanning: 64 - 277;23493,139266,280;23513,120105,281;23536,142889,284;23579 | Yes
+58.138.104.198 - Target scanning: 255 - ECHO | Yes
+58.138.104.226 - Target scanning: 255 - ECHO | Yes
+58.138.105.2 - Target scanning: 64 - 301;49509,138443,304;49554,121059,305;49584,142529,308;49627 | Yes
+58.138.105.6 - Target scanning: 64 - 302;49521,117827,303;49551,142552,306;49591,117848,307;49617
+58.138.105.186 - Target scanning: 64 - 294;59732,117340,295;59762,139499,298;59784,116756,299;59794
+58.138.105.242 - Target scanning: 64 - 309;9301,143562,312;9336,120087,313;9355,142272,316;9381 | Yes
+58.138.105.246 - Target scanning: 64 - 317;17463,120157,319;17484,130357,322;17516,117186,323;17527 | Yes
+58.138.105.254 - Target scanning: 64 - 325;46813,143098,328;46853,118154,329;46878,144375,332;46897 | Yes
+58.138.106.105 - Target scanning: 255 - ECHO
+58.138.106.118 - Target scanning: 64 - 167;64498,197503,174;64693,199510,179;64862,198168,185;65052 | Yes
+58.138.106.122 - Target scanning: 64 - 168;64503,189518,173;64678,199497,180;64867,206701,186;65061
+58.138.106.237 - Target scanning: 255 - ECHO
+58.138.107.94 - Target scanning: 255 - ECHO | Yes
+58.138.107.134 - Target scanning: 255 - ECHO | Yes
+58.138.108.77 - Target scanning: 64 - 210;13176,142177,211;13337,163303,214;13522,142519,215;13568
+58.138.108.189 - Target scanning: 64 - 218;27344,123045,219;27389,143706,222;27485,123151,223;27673
+58.138.108.218 - Target scanning: 255 - ECHO | Yes
+58.138.108.222 - Target scanning: 255 - ECHO
+58.138.111.62 - Target scanning: 255 - ECHO | Yes
+58.138.111.74 - Target scanning: 255 - ECHO | Yes
+58.138.111.206 - Target scanning: 64 - 373;1269,169036,378;1392,137594,379;1493,158527,384;1569 | Yes
+58.138.111.210 - Target scanning: 64 - 374;1307,146721,377;1389,159937,380;1498,148997,383;1565
+58.138.112.138 - Target scanning: 255 - ECHO
+58.138.112.142 - Target scanning: 255 - ECHO
+58.138.112.186 - Target scanning: 64 - 385;17988,189996,392;18011,118125,393;18050,156487,397;18072 | Yes
+58.138.112.194 - Target scanning: 255 - ECHO | Yes
+58.138.113.34 - Target scanning: 255 - ECHO | Yes
+58.138.113.38 - Target scanning: 255 - ECHO | Yes
+58.138.114.34 - Target scanning: 255 - ECHO | Yes
+58.138.114.42 - Target scanning: 255 - ECHO
+58.138.114.54 - Target scanning: 64 - 63;25574,162018,68;25606,245283,81;25646,162761,86;25671
+58.138.114.150 - Target scanning: 255 - ECHO
+58.138.116.42 - Target scanning: 255 - ECHO | Yes
+58.138.116.70 - Target scanning: 255 - ECHO | Yes
+58.138.116.78 - Target scanning: 255 - ECHO
+58.138.117.90 - Target scanning: 255 - ECHO | Yes
+58.138.117.106 - Target scanning: 255 - ECHO | Yes
+58.138.117.150 - Target scanning: 64 - 461;56332,168837,464;56357,136081,465;56372,149607,468;56402 | Yes
+58.138.118.162 - Target scanning: 64 - 469;48043,154872,472;48075,129316,473;48106,195855,476;48149 | Yes
+58.138.119.214 - Target scanning: 64 - 477;29441,169626,480;29487,142755,481;29521,181812,484;29567 | Yes
+58.138.120.130 - Target scanning: 255 - ECHO | Yes
+58.138.120.134 - Target scanning: 255 - ECHO
+58.138.120.182 - Target scanning: 255 - ECHO | Yes
+58.138.120.186 - Target scanning: 255 - ECHO | Yes
+58.138.120.210 - Target scanning: 255 - ECHO | Yes
+58.138.120.214 - Target scanning: 255 - ECHO
+58.138.120.230 - Target scanning: 64 - 64;37148,141799,67;37173,266843,82;37212,140605,85;37220
+58.138.120.254 - Target scanning: 64 - 226;7527,146675,229;7548,141987,232;7582,145935,235;7608
+58.138.122.110 - Target scanning: 255 - ECHO | Yes
+150.31.202.122 - Target scanning: 255 - ECHO | Yes
+160.13.52.2 - Target scanning: 64 - 533;11276,161498,538;11300,113917,539;11326,157536,544;11351 | Yes
+160.13.52.33 - Target scanning: 64 - 534;6793,130499,536;6794,142054,540;6795,129755,542;6796
+160.13.52.49 - Target scanning: 64 - 545;61673,139922,548;61674,122265,549;61675,138732,552;61676 | Yes
+160.13.52.146 - Target scanning: 64 - 546;53905,116065,547;53906,143556,550;53907,114432,551;53908
+160.13.52.246 - Target scanning: 255 - ECHO
+160.13.132.18 - Target scanning: 255 - ECHO
+160.13.132.122 - Target scanning: 255 - ECHO | Yes
+160.13.139.142 - Target scanning: 255 - ECHO | Yes
+160.13.139.150 - Target scanning: 255 - ECHO | Yes
+160.13.139.174 - Target scanning: 255 - ECHO
+160.13.141.14 - Target scanning: 255 - ECHO | Yes
+160.13.141.22 - Target scanning: 255 - ECHO
+160.13.141.46 - Target scanning: 255 - ECHO
+160.13.141.142 - Target scanning: 255 - ECHO | Yes
+160.13.141.150 - Target scanning: 255 - ECHO | Yes
+160.13.141.166 - Target scanning: 255 - ECHO
+160.13.161.14 - Target scanning: 255 - ECHO | Yes
+160.13.163.6 - Target scanning: 255 - ECHO | Yes
+160.13.163.150 - Target scanning: 255 - ECHO | Yes
+160.13.163.154 - Target scanning: 255 - ECHO
+160.13.163.210 - Target scanning: 255 - ECHO | Yes
+160.13.165.3 - Target scanning: 255 - ECHO | Yes
+160.13.165.66 - Target scanning: 255 - ECHO | Yes
+160.13.167.30 - Target scanning: 255 - ECHO | Yes
+160.13.167.134 - Target scanning: 255 - ECHO | Yes
+160.13.167.142 - Target scanning: 255 - ECHO
+160.13.167.146 - Target scanning: 255 - ECHO | Yes
+160.13.167.150 - Target scanning: 255 - ECHO
+160.13.167.158 - Target scanning: 255 - ECHO | Yes
+160.13.167.162 - Target scanning: 255 - ECHO
+160.13.167.166 - Target scanning: 255 - ECHO
+160.13.167.174 - Target scanning: 255 - ECHO
+160.13.167.182 - Target scanning: 255 - ECHO
+160.13.167.190 - Target scanning: 255 - ECHO
+160.13.169.14 - Target scanning: 255 - ECHO | Yes
+160.13.169.22 - Target scanning: 255 - ECHO
+160.13.169.26 - Target scanning: 255 - ECHO
+160.13.169.38 - Target scanning: 255 - ECHO | Yes
+160.13.169.62 - Target scanning: 255 - ECHO
+162.44.197.237 - Target scanning: 255 - ECHO
+163.49.91.13 - Target scanning: 64 - 829;65132,143063,832;65141,122176,833;65150,141384,836;65157 | Yes
+192.70.131.2 - Target scanning: 255 - ECHO | Yes
+192.70.131.6 - Target scanning: 255 - ECHO
+192.70.131.50 - Target scanning: 255 - ECHO | Yes
+192.70.131.54 - Target scanning: 255 - ECHO | Yes
+192.70.131.118 - Target scanning: 255 - ECHO | Yes
+202.32.116.2 - Target scanning: 64 - 853;62798,164400,856;62814,146885,857;62838,160286,860;62875 | Yes
+202.32.116.78 - Target scanning: 64 - 854;19566,140093,855;19567,167376,858;19568,140694,859;19569
+202.32.116.102 - Target scanning: 64 - 861;16892,169362,864;16893,140565,865;16894,171423,868;16895 | Yes
+202.32.116.166 - Target scanning: 255 - ECHO | Yes
+202.32.116.174 - Target scanning: 255 - ECHO
+202.32.132.224 - Target scanning: 64 - 877;21828,141454,879;21830,123433,881;21832,141354,884;21842
+202.214.1.6 - Target scanning: 255 - ECHO | Yes
+202.214.1.39 - Target scanning: 255 - ECHO | Yes
+202.214.1.53 - Target scanning: 255 - ECHO
+202.214.1.134 - Target scanning: 255 - ECHO | Yes
+202.214.1.142 - Target scanning: 255 - ECHO
+202.214.1.150 - Target scanning: 255 - ECHO
+202.214.1.158 - Target scanning: 255 - ECHO
+202.214.1.166 - Target scanning: 255 - ECHO
+202.214.41.2 - Target scanning: 64 - ECHO
+202.214.41.10 - Target scanning: 255 - ECHO
+202.214.41.26 - Target scanning: 255 - ECHO | Yes
+202.214.41.70 - Target scanning: 255 - ECHO | Yes
+202.214.41.110 - Target scanning: 255 - ECHO | Yes
+202.214.41.118 - Target scanning: 255 - ECHO
+202.214.41.126 - Target scanning: 255 - ECHO
+202.214.41.134 - Target scanning: 255 - ECHO | Yes
+202.214.41.158 - Target scanning: 255 - ECHO
+202.214.41.182 - Target scanning: 255 - ECHO
+202.214.41.226 - Target scanning: 255 - ECHO
+202.214.41.234 - Target scanning: 255 - ECHO
+202.214.41.238 - Target scanning: 255 - ECHO
+202.214.41.242 - Target scanning: 255 - ECHO
+202.221.252.42 - Target scanning: 255 - ECHO | Yes
+202.221.252.50 - Target scanning: 255 - ECHO | Yes
+202.221.252.74 - Target scanning: 255 - ECHO | Yes
+202.221.252.106 - Target scanning: 255 - ECHO
+202.221.252.178 - Target scanning: 255 - ECHO
+202.232.6.78 - Target scanning: 255 - ECHO
+202.232.7.226 - Target scanning: 255 - ECHO
+202.232.11.90 - Target scanning: 255 - ECHO
+202.232.47.11 - Target scanning: 255 - ECHO | Yes
+203.180.8.82 - Target scanning: 255 - ECHO | Yes
+203.180.8.98 - Target scanning: 255 - ECHO
+203.180.8.162 - Target scanning: 255 - ECHO | Yes
+203.180.8.174 - Target scanning: 255 - ECHO
+203.180.43.26 - Target scanning: 255 - ECHO
+203.180.58.74 - Target scanning: 255 - ECHO
+203.180.58.146 - Target scanning: 255 - ECHO
+203.180.58.194 - Target scanning: 255 - ECHO | Yes
+203.180.58.202 - Target scanning: 255 - ECHO | Yes
+203.180.58.242 - Target scanning: 255 - ECHO | Yes
+203.180.167.66 - Target scanning: 255 - 1029;54991,169931,1032;42002,150123,1033;49556,164965,1036;14436 | Yes
+203.180.195.34 - Target scanning: 255 - ECHO | Yes
+203.180.195.42 - Target scanning: 255 - ECHO
+203.180.195.54 - Target scanning: 255 - ECHO
+203.180.195.146 - Target scanning: 255 - ECHO
+203.180.195.174 - Target scanning: 255 - ECHO
+203.180.195.234 - Target scanning: 255 - ECHO
+203.180.195.242 - Target scanning: 255 - ECHO
+203.180.195.246 - Target scanning: 255 - ECHO | Yes
+206.132.171.118 - Target scanning: 255 - ECHO | Yes
+210.128.94.34 - Target scanning: 255 - ECHO | Yes
+210.128.195.98 - Target scanning: 255 - ECHO
+210.130.134.146 - Target scanning: 255 - ECHO | Yes
+210.130.135.30 - Target scanning: 255 - ECHO
+210.130.135.102 - Target scanning: 255 - ECHO
+210.130.142.34 - Target scanning: 64 - 939;36507,134622,940;36520,182469,945;36534,149231,947;36541
+210.130.142.90 - Target scanning: 64 - 926;56289,151637,929;56299,127998,932;56309,139943,935;56318
+210.130.142.222 - Target scanning: 64 - 1039;23297,158407,1042;23311,179938,1048;23564,135820,1050;23586
+210.130.142.238 - Target scanning: 64 - 170;35667,146048,171;35876,251279,182;35916,145416,183;35942
+210.130.143.2 - Target scanning: 64 - 808;13859,146013,809;13870,195110,816;13889,142679,817;13897 | Yes
+210.130.143.18 - Target scanning: 64 - 96;62070,156838,99;62077,194975,106;62090,154853,109;62110
+210.130.143.34 - Target scanning: 64 - 1069;46605,159135,1072;46626,137457,1073;46641,157679,1076;46645 | Yes
+210.130.143.122 - Target scanning: 64 - 1077;47301,198473,1082;47586,150086,1084;47816,159638,1088;48035 | Yes
+210.130.145.210 - Target scanning: 255 - ECHO
+210.130.145.214 - Target scanning: 255 - ECHO
+210.130.146.150 - Target scanning: 255 - ECHO
+210.130.146.162 - Target scanning: 255 - ECHO
+210.130.147.98 - Target scanning: 255 - ECHO
+210.130.152.98 - Target scanning: 255 - ECHO
+210.130.152.174 - Target scanning: 255 - ECHO
+210.130.153.54 - Target scanning: 255 - ECHO
+210.130.153.74 - Target scanning: 255 - ECHO
+210.130.153.130 - Target scanning: 255 - ECHO | Yes
+210.130.155.50 - Target scanning: 255 - ECHO
+210.130.163.146 - Target scanning: 255 - ECHO
+210.130.163.154 - Target scanning: 255 - ECHO
+210.130.172.10 - Target scanning: 255 - ECHO
+210.130.182.229 - Target scanning: 255 - ECHO
+210.130.183.10 - Target scanning: 255 - ECHO
+210.130.183.14 - Target scanning: 255 - ECHO
+210.130.183.38 - Target scanning: 255 - ECHO
+210.130.183.82 - Target scanning: 255 - ECHO
+210.130.183.102 - Target scanning: 255 - ECHO
+210.130.183.110 - Target scanning: 255 - ECHO
+210.130.183.114 - Target scanning: 255 - ECHO
+210.130.183.118 - Target scanning: 255 - ECHO
+210.130.183.122 - Target scanning: 255 - ECHO
+210.130.183.134 - Target scanning: 128 - ECHO
+210.130.183.138 - Target scanning: 255 - ECHO | Yes
+210.130.183.142 - Target scanning: 255 - ECHO
+210.130.183.158 - Target scanning: 255 - ECHO
+210.130.183.162 - Target scanning: 255 - ECHO
+210.130.183.166 - Target scanning: 255 - ECHO
+210.130.183.174 - Target scanning: 255 - ECHO
+210.130.183.190 - Target scanning: 255 - ECHO
+210.130.183.194 - Target scanning: 255 - ECHO
+210.130.183.198 - Target scanning: 255 - ECHO
+210.138.9.242 - Target scanning: 255 - ECHO
+210.138.12.29 - Target scanning: 255 - ECHO
+210.138.15.13 - Target scanning: 255 - ECHO
+210.138.31.138 - Target scanning: 255 - ECHO
+210.138.31.210 - Target scanning: 255 - ECHO
+210.138.31.234 - Target scanning: 255 - ECHO
+210.138.46.170 - Target scanning: 255 - ECHO
+210.138.46.222 - Target scanning: 255 - ECHO
+210.138.47.94 - Target scanning: 255 - ECHO
+210.138.66.53 - Target scanning: 255 - ECHO
+210.138.70.26 - Target scanning: 255 - 1030;62366,148942,1031;11501,164001,1034;18365,149349,1035;37972
+210.138.79.21 - Target scanning: 255 - ECHO
+210.138.107.38 - Target scanning: 255 - ECHO
+210.138.111.198 - Target scanning: 255 - ECHO | Yes
+210.138.111.206 - Target scanning: 255 - ECHO
+210.138.115.106 - Target scanning: 255 - ECHO
+210.138.115.141 - Target scanning: 255 - ECHO
+210.138.115.226 - Target scanning: 255 - ECHO
+210.138.131.70 - Target scanning: 255 - ECHO
+210.138.131.118 - Target scanning: 255 - ECHO
+210.138.132.86 - Target scanning: 255 - ECHO
+210.138.133.94 - Target scanning: 255 - ECHO
+210.138.170.246 - Target scanning: 255 - ECHO
+210.148.39.10 - Target scanning: 255 - ECHO
+210.148.39.14 - Target scanning: 64 - ECHO
+210.148.39.66 - Target scanning: 255 - ECHO
+210.148.39.82 - Target scanning: 255 - ECHO
+210.148.48.218 - Target scanning: 64 - 862;27514,146482,863;27515,164638,866;27516,148877,867;27517
+210.148.72.249 - Target scanning: 255 - ECHO
+210.148.147.30 - Target scanning: 255 - ECHO
+210.148.147.38 - Target scanning: 255 - ECHO | Yes
+210.148.147.62 - Target scanning: 255 - ECHO
+210.148.147.70 - Target scanning: 255 - ECHO
+210.148.159.22 - Target scanning: 255 - ECHO | Yes
+210.148.159.46 - Target scanning: 255 - ECHO
+210.149.33.147 - Target scanning: 255 - ECHO | Yes
+210.149.33.158 - Target scanning: 255 - ECHO
+210.149.239.223 - Target scanning: 64 - 777;14256,163234,778;14264,317373,795;14270,161514,796;14280

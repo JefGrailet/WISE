@@ -1,0 +1,40 @@
+WISE (Wide and lInear Subnet inferencE) - Time at start: 23-02-2019 10:23:19
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 22496 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 27 additional responsive IPs.
+--- End of target pre-scanning (23-02-2019 17:28:53) ---
+Elapsed time: 7 hours 5 minutes 28 seconds
+Total amount of probes: 1597984
+Total amount of successful probes: 25763 (1.61222%)
+Total amount of discovered responsive IPs: 22523
+
+Filtered target IPs have been saved in an output file AS5511_23-02.ips (temporar).
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 259 threads will be scheduled (up to 87 target IPs per thread).
+2324 out of 22442 IPs with an estimated TTL (10.3556%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 41 threads will be scheduled (from 1 to 196 target IPs per thread).
+Updated IP dictionary has been saved in the output file AS5511_23-02.ips.
+
+There are flickering IPs that could lead to the discovery of 6 aliases.
+Now starting alias hints collection...
+Collecting hints for 41.222.117.6, 193.251.223.2... Done.
+Collecting hints for 57.74.160.130, 66.96.32.101... Done.
+Collecting hints for 157.197.66.150, 157.197.66.154... Done.
+Collecting hints for 193.251.223.8, 193.251.223.10, 193.251.223.14... Done.
+Collecting hints for 201.229.37.74, 201.229.37.106... Done.
+Collecting hints for 219.142.2.158, 219.142.12.26... Done.
+Resolving... Done.
+Inferred subnets has been saved in the output file AS5511_23-02.subnets.
+--- End of target scanning (23-02-2019 19:15:36) ---
+Elapsed time: 1 hour 46 minutes 43 seconds
+Total amount of probes: 118267
+Total amount of successful probes: 100434 (84.9214%)
+Alias hints have been saved in an output file AS5511_23-02.hints.
+Fingerprints have been saved in an output file AS5511_23-02.fingerprints.
+Aliases discovered during subnet discovery have been written in AS5511_23-02.aliases-1.

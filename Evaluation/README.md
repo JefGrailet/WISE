@@ -1,8 +1,12 @@
 # Evaluating the data collected with WISE
 
-*By Jean-François Grailet (last updated: February 25, 2019)*
+*By Jean-François Grailet (last updated: February 28, 2019)*
 
 ## About
+
+**N.B.:** if you reached this part of the repository via a direct link, please note that this 
+sub-folder doesn't provide the data collected by `WISE`. You will rather find it in the 
+*Dataset/* sub-folder located at the root of this repository.
 
 This part of the repository provides several sub-folders containing scripts to plot various 
 figures showing the accuracy of measured subnets, the persistence of subnets or the extent of the 

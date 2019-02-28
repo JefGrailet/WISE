@@ -1,6 +1,6 @@
 # Dataset
 
-*By Jean-François Grailet (last updated: February 25, 2019)*
+*By Jean-François Grailet (last updated: February 28, 2019)*
 
 ## About
 
@@ -17,7 +17,7 @@ dates of each campaign present in this dataset are provided below.
 | 01/02/2019   | 14/02/2019 | 10              | Medium-sized ASes          |
 | 01/02/2019   | 11/02/2019 | 4               | Large/very responsive ASes |
 | 19/02/2019   | Ongoing    | 10              | Medium-sized ASes          |
-| 19/02/2019   | Ongoing    | 4               | Large/very responsive ASes |
+| 19/02/2019   | 25/02/2019 | 4               | Large/very responsive ASes |
 
 A few remarks about this public dataset:
 
@@ -32,14 +32,16 @@ A few remarks about this public dataset:
 * For some ASes, the target file has been updated in early February. If so, the previous target 
   file (usually generated at worst in 2017) is provided with an underscore (`_`) prefixing it.
   
-* The implementation of `WISE` used before February 19, 2019 has an imperfect post-processing. 
+* While the subnet post-processing phase is not definitive at the moment, the implementation of 
+  `WISE` used before February 19, 2019 provides an imperfect implementation for it. 
   In particular, this implementation forces /32 prefixes (typically, loop-back interfaces) into 
   /31 prefixes (typically, point-to-point links) due to an error while translating the 
   experimental subnet inference (initially written in Python) in the C/C++ implementation of 
   `WISE`. As a consequence, most datasets will contain many duplicate /31 subnets. Some other 
   exotic scenarios also produced subnets overlapping the next one in the list. Python scripts 
   provided in other parts of this repository are written such that the overlapped subnets are 
-  not taken into account for producing statistics and plotting figures.
+  not taken into account for producing statistics and plotting figures. The implementation of 
+  `WISE` after February 19, 2019 produces little to no overlapping subnets.
 
 * For the sake of reproducibility, we also provide in a **Scripts/** folder the bash scripts and 
   the typical files we used to schedule and retrieve our measurements.

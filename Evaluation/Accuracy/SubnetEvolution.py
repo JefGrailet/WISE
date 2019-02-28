@@ -161,15 +161,15 @@ if __name__ == "__main__":
         
         curSubnet = []
         parsedSubnets = []
-        for i in range(0, len(subnetsRaw)):
-            if not subnetsRaw[i]:
+        for j in range(0, len(subnetsRaw)):
+            if not subnetsRaw[j]:
                 if len(curSubnet) > 0:
                     parsedSubnets.append(curSubnet)
                     curSubnet = []
                 continue
             # Subnet interface
             if len(curSubnet) >= 1:
-                line = subnetsRaw[i]
+                line = subnetsRaw[j]
                 if "Stop" in line:
                     curSubnet.append(line)
                     continue
@@ -182,15 +182,15 @@ if __name__ == "__main__":
                 curSubnet.append([IP, TTL, trail, interfaceType])
             # Subnet CIDR notation
             else:
-                curSubnet.append(subnetsRaw[i])
+                curSubnet.append(subnetsRaw[j])
         
         # Removes subnets that are overlapped
         subnets = []
-        for i in range(0, len(parsedSubnets)):
-            if len(subnets) > 0 and overlapTest(subnets[len(subnets) - 1], parsedSubnets[i]):
+        for j in range(0, len(parsedSubnets)):
+            if len(subnets) > 0 and overlapTest(subnets[len(subnets) - 1], parsedSubnets[j]):
                 continue
             else:
-                subnets.append(parsedSubnets[i])
+                subnets.append(parsedSubnets[j])
         
         if len(subnets) == 0:
             if showDump == "yes":
@@ -200,7 +200,6 @@ if __name__ == "__main__":
         
         validDatasets.append(date)
         
-        # For now
         totalSubnets = float(len(subnets))
         if totalSubnets > maxSubnets:
             maxSubnets = totalSubnets
@@ -214,17 +213,17 @@ if __name__ == "__main__":
         nbShadow = 0
         nb2Rules = 0
         nb1Rule = 0 # nbAccurate = 3 rules, nbShadow = no rule
-        for i in range(0, len(subnets)):
-            rule1 = contrapivotRule(subnets[i])
-            rule2 = spreadRule(subnets[i])
-            rule3 = outlierRule(subnets[i])
+        for j in range(0, len(subnets)):
+            rule1 = contrapivotRule(subnets[j])
+            rule2 = spreadRule(subnets[j])
+            rule3 = outlierRule(subnets[j])
             if rule1:
                 nbRule1 += 1
             if rule2:
                 nbRule2 += 1
             if rule3:
                 nbRule3 += 1
-            if singleDistance(subnets[i]):
+            if singleDistance(subnets[j]):
                 nbSingleDist += 1
             if rule1 and rule2 and rule3:
                 nbAccurate += 1
@@ -233,8 +232,8 @@ if __name__ == "__main__":
             else:
                 rules = [rule1, rule2, rule3]
                 nbRules = 0
-                for j in range(0, 3):
-                    if rules[j]:
+                for k in range(0, 3):
+                    if rules[k]:
                         nbRules += 1
                 if nbRules == 2:
                     nb2Rules += 1

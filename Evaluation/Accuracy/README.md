@@ -1,8 +1,12 @@
 # Subnet accuracy
 
-*By Jean-François Grailet (last updated: February 25, 2019)*
+*By Jean-François Grailet (last updated: February 28, 2019)*
 
 ## About
+
+**N.B.:** if you reached this part of the repository via a direct link, please note that this 
+sub-folder doesn't provide the data collected by `WISE`. You will rather find it in the 
+*Dataset/* sub-folder located at the root of this repository.
 
 You can use the content of this folder to generate figures depicting how many subnets were 
 inferred in some target network and how many among them fullfill a certain amount of subnet 

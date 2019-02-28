@@ -1,0 +1,43 @@
+WISE (Wide and lInear Subnet inferencE) - Time at start: 25-02-2019 15:37:02
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 22525 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 38 additional responsive IPs.
+--- End of target pre-scanning (25-02-2019 22:42:04) ---
+Elapsed time: 7 hours 4 minutes 57 seconds
+Total amount of probes: 1597955
+Total amount of successful probes: 24549 (1.53628%)
+Total amount of discovered responsive IPs: 22563
+
+Filtered target IPs have been saved in an output file AS5511_25-02.ips (temporar).
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 257 threads will be scheduled (up to 88 target IPs per thread).
+2504 out of 22421 IPs with an estimated TTL (11.1681%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 43 threads will be scheduled (from 4 to 175 target IPs per thread).
+Updated IP dictionary has been saved in the output file AS5511_25-02.ips.
+
+There are flickering IPs that could lead to the discovery of 9 aliases.
+Now starting alias hints collection...
+Collecting hints for 23.51.72.1, 81.52.134.129, 104.76.152.1, 184.29.200.1, 193.251.151.3... Done.
+Collecting hints for 23.66.232.95, 80.12.97.96, 193.251.151.240... Done.
+Collecting hints for 157.197.66.150, 157.197.66.154... Done.
+Collecting hints for 193.251.128.95, 193.251.128.134... Done.
+Collecting hints for 193.251.128.203, 193.251.154.153... Done.
+Collecting hints for 193.251.158.3, 193.252.153.10... Done.
+Collecting hints for 197.221.232.3, 197.221.232.8... Done.
+Collecting hints for 201.229.37.74, 201.229.37.114... Done.
+Collecting hints for 212.143.201.188, 212.143.201.190... Done.
+Resolving... Done.
+Inferred subnets has been saved in the output file AS5511_25-02.subnets.
+--- End of target scanning (26-02-2019 00:30:34) ---
+Elapsed time: 1 hour 48 minutes 30 seconds
+Total amount of probes: 136594
+Total amount of successful probes: 81296 (59.5165%)
+Alias hints have been saved in an output file AS5511_25-02.hints.
+Fingerprints have been saved in an output file AS5511_25-02.fingerprints.
+Aliases discovered during subnet discovery have been written in AS5511_25-02.aliases-1.

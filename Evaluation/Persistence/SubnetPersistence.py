@@ -154,15 +154,15 @@ if __name__ == "__main__":
         # Subnet parsing
         curSubnet = []
         parsedSubnets = []
-        for i in range(0, len(subnetsRaw)):
-            if not subnetsRaw[i]:
+        for j in range(0, len(subnetsRaw)):
+            if not subnetsRaw[j]:
                 if len(curSubnet) > 0:
                     parsedSubnets.append(curSubnet)
                     curSubnet = []
                 continue
             # Subnet interface
             if len(curSubnet) >= 1:
-                line = subnetsRaw[i]
+                line = subnetsRaw[j]
                 if "Stop" in line:
                     curSubnet.append(line)
                     continue
@@ -175,15 +175,15 @@ if __name__ == "__main__":
                 curSubnet.append([IP, TTL, trail, interfaceType])
             # Subnet CIDR notation
             else:
-                curSubnet.append(subnetsRaw[i])
+                curSubnet.append(subnetsRaw[j])
         
         # Removes subnets that are overlapped
         subnets = []
-        for i in range(0, len(parsedSubnets)):
-            if len(subnets) > 0 and overlapTest(subnets[len(subnets) - 1], parsedSubnets[i]):
+        for j in range(0, len(parsedSubnets)):
+            if len(subnets) > 0 and overlapTest(subnets[len(subnets) - 1], parsedSubnets[j]):
                 continue
             else:
-                subnets.append(parsedSubnets[i])
+                subnets.append(parsedSubnets[j])
         
         if len(subnets) == 0:
             if showDump == "yes":
@@ -195,9 +195,9 @@ if __name__ == "__main__":
         
         newSet = set()
         fullData = dict()
-        for i in range(0, len(subnets)):
-            newSet.add(subnets[i][0])
-            fullData[subnets[i][0]] = subnets[i]
+        for j in range(0, len(subnets)):
+            newSet.add(subnets[j][0])
+            fullData[subnets[j][0]] = subnets[j]
         perDateSets.append(newSet)
         perDateData.append(fullData)
     

@@ -1,10 +1,14 @@
 # Trail analysis
 
-*By Jean-François Grailet (last updated: February 25, 2019)*
+*By Jean-François Grailet (last updated: February 28, 2019)*
 
 ## About
 
-**N.B.:** for reminders, a _trail_ consists in an association between the last non-anonymous 
+**N.B.:** if you reached this part of the repository via a direct link, please note that this 
+sub-folder doesn't provide the data collected by `WISE`. You will rather find it in the 
+*Dataset/* sub-folder located at the root of this repository.
+
+**N.B. n°2:** for reminders, a _trail_ consists in an association between the last non-anonymous 
 IP appearing in the route towards a target IP/subnet interface and the amount of hops between that 
 hop and the target IP that are either cycles or anonymous hops. Ideally, a _trail_ should just be 
 the last hop to emit a _Time exceeded_ message before getting a reply from the target IP while 

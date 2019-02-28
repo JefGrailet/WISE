@@ -1,0 +1,115 @@
+78.35.18.78 - Target scanning: 255 - ECHO,swrt-maw4-po24.netcologne.de | Yes
+78.35.18.90 - Target scanning: 255 - ECHO,cmts-dus2-te100.netcologne.de | Yes
+78.35.18.94 - Target scanning: 255 - ECHO,cmts-dus2-te300.netcologne.de | Yes
+78.35.18.106 - Target scanning: 255 - ECHO,cmts-maw3.netcologne.de | Yes
+78.35.18.110 - Target scanning: 255 - ECHO,cmts-maw3.netcologne.de | Yes
+78.35.18.130 - Target scanning: 255 - ECHO,cmts-rat2-po1.netcologne.de | Yes
+78.35.18.134 - Target scanning: 255 - ECHO,cmts-rat2-po2.netcologne.de | Yes
+78.35.18.242 - Target scanning: 255 - ECHO,cmts-rs1-g1-0-0.netcologne.de | Yes
+78.35.18.246 - Target scanning: 255 - ECHO,cmts-rs1-g3-0-0.netcologne.de | Yes
+78.35.33.22 - Target scanning: 128 - ECHO,e320-bow1-te200.netcologne.de
+78.35.33.26 - Target scanning: 128 - ECHO,e320-bow1-te400.netcologne.de
+78.35.33.138 - Target scanning: 128 - ECHO,e320-mul-te200.netcologne.de
+78.35.33.142 - Target scanning: 128 - ECHO,e320-mul-te400.netcologne.de
+78.35.33.150 - Target scanning: 128 - ECHO,e320-maw1-te200.netcologne.de
+78.35.33.154 - Target scanning: 128 - ECHO,e320-maw1-te400.netcologne.de
+78.35.33.158 - Target scanning: 128 - ECHO,e320-eup2-g003.netcologne.de
+78.35.33.162 - Target scanning: 128 - ECHO,e320-eup2-g203.netcologne.de
+78.35.33.166 - Target scanning: 128 - ECHO,e320-bn1-te20.netcologne.de
+78.35.33.170 - Target scanning: 128 - ECHO,e320-bn1-te40.netcologne.de
+78.35.33.238 - Target scanning: 128 - ECHO,e320-zva1-te20.netcologne.de
+78.35.33.242 - Target scanning: 128 - ECHO,e320-zva1-te40.netcologne.de
+81.173.192.74 - Target scanning: 255 - ECHO,cmts-neu1-gi1-0-0.netcologne.de | Yes
+81.173.192.78 - Target scanning: 255 - ECHO,cmts-neu1-gi3-0-0.netcologne.de | Yes
+81.173.192.113 - Target scanning: 64 - 105;31461,40452,108;31476,19979,109;31483,49711,112;31517,ip-core-sto1-ae3.netcologne.de
+81.173.192.117 - Target scanning: 64 - 106;23667,20210,107;23680,41582,110;23686,20207,111;23689,ip-core-sto2-ae3.netcologne.de
+81.173.194.94 - Target scanning: 255 - ECHO,cmts-bn1-ge3-0-2.netcologne.de | Yes
+81.173.194.114 - Target scanning: 255 - ECHO,swrt-eup13-te1-1.netcologne.de | Yes
+81.173.194.118 - Target scanning: 255 - ECHO,swrt-eup13-te1-2.netcologne.de | Yes
+81.173.194.126 - Target scanning: 255 - ECHO,swrt-eup14-te1-2.netcologne.de | Yes
+81.173.194.146 - Target scanning: 255 - ECHO,cmts-sce2-po1.netcologne.de | Yes
+81.173.194.150 - Target scanning: 255 - ECHO,cmts-sce2-po2.netcologne.de | Yes
+81.173.194.154 - Target scanning: 255 - ECHO,cmts-bn1-ge1-0-2.netcologne.de | Yes
+81.173.194.158 - Target scanning: 255 - ECHO,cmts-maw5-po1.netcologne.de | Yes
+81.173.194.162 - Target scanning: 255 - ECHO,cmts-bn1-ge1-0-1.netcologne.de | Yes
+81.173.194.170 - Target scanning: 255 - ECHO,cmts-bn1-ge3-0-1.netcologne.de | Yes
+81.173.194.178 - Target scanning: 255 - ECHO,cmts-maw5-po2.netcologne.de | Yes
+81.173.194.194 - Target scanning: 255 - ECHO,cmts-bn1-ge1-0-0.netcologne.de | Yes
+81.173.194.198 - Target scanning: 255 - ECHO,cmts-bn1-ge3-0-0.netcologne.de | Yes
+81.173.197.74 - Target scanning: 128 - ECHO,e120-scsto1-te1-0-0.netcologne.de
+81.173.197.78 - Target scanning: 128 - ECHO,e120-scsto1-te-2-0-0.netcologne.de
+81.173.221.132 - Target scanning: 255 - 173;30472,150948,186;30473,19451,187;30474,164700,200;30475
+84.44.160.149 - Target scanning: 64 - 201;55794,41967,204;55797,21448,205;55798,41815,208;55801
+84.44.160.254 - Target scanning: 64 - 202;55795,21547,203;55796,41964,206;55799,21591,207;55800
+87.79.4.244 - Target scanning: 128 - 174;13606,126773,185;13607,40296,188;13608,133297,199;13609,mr15.oevermann.de
+87.79.4.246 - Target scanning: 128 - 175;766,104779,184;767,65342,189;768,116007,198;769
+87.79.16.14 - Target scanning: 255 - ECHO,swrt-sto4-te1-1.netcologne.de | Yes
+87.79.16.46 - Target scanning: 255 - ECHO,swrt-sto3-te1-1.netcologne.de | Yes
+87.79.16.50 - Target scanning: 255 - ECHO,swrt-sto3-te1-2.netcologne.de | Yes
+87.79.16.78 - Target scanning: 128 - ECHO,e320-eup1-te2-0-0.netcologne.de
+87.79.16.86 - Target scanning: 128 - ECHO,e320-eup1-te-4-0-0.netcologne.de
+87.79.16.138 - Target scanning: 255 - ECHO,swrt-eup1-te1-1.netcologne.de | Yes
+87.79.16.142 - Target scanning: 255 - ECHO,swrt-eup2-te1-1.netcologne.de | Yes
+87.79.16.150 - Target scanning: 255 - ECHO,swrt-eup2-te2-1.netcologne.de | Yes
+87.79.16.194 - Target scanning: 128 - ECHO,e320lns-eup1-b1.netcologne.de
+87.79.16.198 - Target scanning: 128 - ECHO,e320lns-eup1-b2.netcologne.de
+87.79.17.29 - Target scanning: 64 - 253;40336,40157,256;40349,19887,257;40354,55451,260;40368,ip-core-eup2-et10-3-2.netcologne.de
+87.79.17.106 - Target scanning: 255 - ECHO,swrt-sto4-te1-2.netcologne.de | Yes
+89.1.16.90 - Target scanning: 255 - ECHO,swrt-maw5-po15.netcologne.de | Yes
+89.1.16.94 - Target scanning: 255 - ECHO,swrt-maw5-po25.netcologne.de | Yes
+89.1.16.102 - Target scanning: 255 - ECHO,swrt-maw6-po26.netcologne.de | Yes
+89.1.16.126 - Target scanning: 64 - 269;49391,38498,272;49769,21789,273;49920,39559,276;50325,rtkds-vc1-ae1.netcologne.de
+89.1.16.130 - Target scanning: 64 - 270;49499,20184,271;49704,40965,274;49950,20887,275;50185,rtkds-vc1-ae2.netcologne.de
+89.1.16.166 - Target scanning: 64 - 277;64186,49824,280;64325,23519,281;64348,44773,284;64420,bras-vc2-ae3.netcologne.de
+89.1.16.170 - Target scanning: 64 - 278;64235,21786,279;64299,55279,282;64351,20754,283;64412,bras-vc2-ae4.netcologne.de
+89.1.16.174 - Target scanning: 64 - 285;20961,40320,288;21036,20218,289;21074,40702,292;21113,bras-vc1-ae3.netcologne.de
+89.1.16.178 - Target scanning: 64 - 286;20984,21113,287;20996,39573,290;21085,20201,291;21108,bras-vc1-ae4.netcologne.de
+89.1.86.1 - Target scanning: 64 - 254;60250,20090,255;60254,40060,258;60263,19963,259;60267,ip-core-net1-et2-2-1.netcologne.de
+89.1.86.102 - Target scanning: 64 - 293;29167,40869,296;29183,20853,297;29212,59190,300;29248
+89.1.86.106 - Target scanning: 64 - 294;29171,21732,295;29176,58366,298;29223,21094,299;29239
+193.26.15.60 - Target scanning: 128 - 176;13305,57302,182;13306,106055,191;13307,71607,196;13308
+193.26.15.81 - Target scanning: 128 - 177;7424,79711,183;7425,82887,190;7426,85422,197;7427
+193.26.15.186 - Target scanning: 128 - 178;16494,43949,181;16495,129412,192;16496,40732,195;16497
+193.26.15.189 - Target scanning: 128 - 179;20589,21031,180;20590,149941,193;20591,23403,194;20592
+195.14.195.2 - Target scanning: 64 - 301;33916,56812,304;33930,37094,306;33941,21109,307;33956,swdc-net-vc1-ae1.netcologne.de
+195.14.195.6 - Target scanning: 64 - 302;33923,33056,303;33928,37030,305;33939,55883,308;33964,swdc-net-vc1-ae2.netcologne.de
+195.14.195.42 - Target scanning: 255 - ECHO | Yes
+195.14.195.46 - Target scanning: 255 - ECHO | Yes
+195.14.195.50 - Target scanning: 64 - 309;41259,40462,312;41348,20016,313;41417,40175,316;41443,bdr-eup1-ae1.netcologne.de
+195.14.195.54 - Target scanning: 64 - 310;41274,20226,311;41338,40234,314;41424,20357,315;41435,bdr-eup1-ae2.netcologne.de
+195.14.195.66 - Target scanning: 255 - ECHO,cmts-ac2-po1.netcologne.de | Yes
+195.14.195.70 - Target scanning: 255 - ECHO,cmts-ac2-po2.netcologne.de | Yes
+195.14.195.74 - Target scanning: 255 - ECHO | Yes
+195.14.195.78 - Target scanning: 255 - ECHO | Yes
+195.14.195.122 - Target scanning: 255 - ECHO | Yes
+195.14.195.126 - Target scanning: 255 - ECHO | Yes
+195.14.195.130 - Target scanning: 255 - ECHO,cmts-dus1-gi1-0-0.netcologne.de | Yes
+195.14.195.138 - Target scanning: 255 - ECHO,cmts-dus1-gi3-0-0.netcologne.de | Yes
+195.14.195.162 - Target scanning: 255 - ECHO,cmts-maw4-po1.netcologne.de | Yes
+195.14.195.166 - Target scanning: 255 - ECHO,cmts-maw4-po2.netcologne.de | Yes
+195.14.195.170 - Target scanning: 255 - ECHO,cmts-mul3-po1.netcologne.de | Yes
+195.14.195.174 - Target scanning: 255 - ECHO,cmts-mul3-po2.netcologne.de | Yes
+195.14.195.178 - Target scanning: 255 - ECHO,swrt-sto1-te1-1.netcologne.de | Yes
+195.14.195.182 - Target scanning: 255 - ECHO,swrt-sto2-te1-1.netcologne.de | Yes
+195.14.195.186 - Target scanning: 255 - ECHO,swrt-sto1-te1-2.netcologne.de | Yes
+195.14.195.190 - Target scanning: 255 - ECHO,swrt-sto2-te1-2.netcologne.de | Yes
+195.14.215.10 - Target scanning: 64 - 381;1547,40394,384;1560,21257,385;1563,39407,388;1579,bras-vc3-ae3.netcologne.de
+195.14.215.14 - Target scanning: 64 - 382;1551,20167,383;1556,40287,386;1570,20073,387;1576,bras-vc3-ae4.netcologne.de
+195.14.215.26 - Target scanning: 64 - 389;21428,30330,391;21449,40251,394;21507,20167,395;21532,bras-vc4-ae3.netcologne.de
+195.14.215.30 - Target scanning: 64 - 390;21436,30495,392;21453,20126,393;21492,40770,396;21538,bras-vc4-ae4.netcologne.de
+195.14.215.58 - Target scanning: 64 - 397;19630,40197,400;19644,19971,401;19648,40462,404;19664,braslns-vc1-ae3.netcologne.de
+195.14.215.62 - Target scanning: 64 - 398;19634,20092,399;19641,40353,402;19654,20108,403;19660,braslns-vc1-ae4.netcologne.de
+195.14.215.162 - Target scanning: 255 - ECHO,swrt-eup11-te1-1.netcologne.de | Yes
+195.14.215.166 - Target scanning: 255 - ECHO,swrt-eup11-te1-2.netcologne.de | Yes
+195.14.215.170 - Target scanning: 255 - ECHO,swrt-eup12-te1-1.netcologne.de | Yes
+195.14.215.174 - Target scanning: 255 - ECHO,swrt-eup12-te1-2.netcologne.de | Yes
+195.14.215.186 - Target scanning: 64 - 421;48399,41113,424;48410,20611,425;48415,40715,428;48428
+195.14.215.190 - Target scanning: 64 - 422;48403,20474,423;48407,40897,426;48418,20601,427;48424
+195.14.215.193 - Target scanning: 64 - 429;11334,33843,432;11350,19928,433;11353,40421,436;11368,ip-core-maw2-et1-3-1.netcologne.de
+195.14.215.197 - Target scanning: 64 - 430;11337,20104,431;11347,40258,434;11356,21503,435;11361,ip-core-maw2-et10-3-1.netcologne.de
+195.14.215.202 - Target scanning: 255 - ECHO,swrt-eup7-te1-1.netcologne.de | Yes
+195.14.215.206 - Target scanning: 255 - ECHO,swrt-eup8-te1-1.netcologne.de | Yes
+195.14.215.242 - Target scanning: 255 - ECHO,swrt-eup7-te1-2.netcologne.de | Yes
+195.14.215.246 - Target scanning: 255 - ECHO,swrt-eup8-te1-2.netcologne.de | Yes
+195.14.215.249 - Target scanning: 64 - 453;40279,39476,456;40290,19905,457;40294,40190,460;40320,ip-core-maw1-et1-3-1.netcologne.de
+195.14.215.253 - Target scanning: 64 - 454;40282,19904,455;40287,40149,458;40301,20062,459;40315,ip-core-maw1-et10-3-1.netcologne.de
