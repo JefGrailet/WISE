@@ -1,0 +1,54 @@
+128.39.103.46 - Target scanning: 64 - 1;47796,157402,4;47812,140649,5;47815,158185,8;47854,nova-gw1.bs.unsi.no | Yes
+128.39.103.47 - Target scanning: 64 - 2;26012,137447,3;26021,161121,6;26022,137436,7;26046,nova-gw2.bs.unsi.no
+129.177.1.160 - Target scanning
+129.177.1.162 - Target scanning
+129.240.25.154 - Target scanning: 255 - 13;47935,150924,16;47935,133408,17;47935,150403,20;42906,ramme-gw1.uio.no
+129.240.100.93 - Target scanning: 255 - 14;47935,130711,15;47935,153405,18;47935,130441,19;42906,cn-gw.uio.no
+129.241.1.3 - Target scanning: 255 - ECHO,ntnu-csw.nettel.ntnu.no
+129.241.1.4 - Target scanning: 255 - ECHO,ntnu-csw2.nettel.ntnu.no
+129.241.1.129 - Target scanning: 255 - ECHO,dc-gsw.nettel.ntnu.no
+129.241.1.131 - Target scanning: 255 - ECHO,dc-gsw2.nettel.ntnu.no
+129.241.1.133 - Target scanning: 255 - ECHO,dragv-dsw.nettel.ntnu.no
+129.241.1.135 - Target scanning: 255 - ECHO,dragv-dsw2.nettel.ntnu.no
+129.241.1.137 - Target scanning: 255 - ECHO,el-dsw.nettel.ntnu.no
+129.241.1.147 - Target scanning: 255 - ECHO,hb-dsw.nettel.ntnu.no
+129.241.1.149 - Target scanning: 255 - ECHO,kalvsk-dsw.nettel.ntnu.no
+129.241.1.151 - Target scanning: 255 - ECHO,kjemi-dsw.nettel.ntnu.no
+129.241.1.153 - Target scanning: 255 - ECHO,mts-dsw.nettel.ntnu.no
+129.241.1.155 - Target scanning: 255 - ECHO,rfb-dsw.nettel.ntnu.no
+129.241.1.157 - Target scanning: 255 - ECHO,sb-dsw.nettel.ntnu.no
+129.241.1.159 - Target scanning: 255 - ECHO,sentrum-dsw.nettel.ntnu.no
+129.241.1.161 - Target scanning: 255 - ECHO,stolav-dsw.nettel.ntnu.no
+129.241.1.163 - Target scanning: 255 - ECHO,syd-dsw.nettel.ntnu.no
+129.241.1.169 - Target scanning: 255 - ECHO,wlan-dsw2.nettel.ntnu.no
+129.241.1.171 - Target scanning: 255 - ECHO,gvk-dsw.nettel.ntnu.no | Yes
+129.241.1.173 - Target scanning: 255 - ECHO,als-dsw.nettel.ntnu.no | Yes
+129.241.1.193 - Target scanning: 255 - ECHO,dc-gsw.nettel.ntnu.no
+129.241.1.195 - Target scanning: 255 - ECHO,dc-gsw2.nettel.ntnu.no
+129.241.1.197 - Target scanning: 255 - ECHO,dragv-dsw.nettel.ntnu.no
+129.241.1.199 - Target scanning: 255 - ECHO,dragv-dsw2.nettel.ntnu.no
+129.241.1.201 - Target scanning: 255 - ECHO,el-dsw.nettel.ntnu.no
+129.241.1.211 - Target scanning: 255 - ECHO,hb-dsw.nettel.ntnu.no
+129.241.1.213 - Target scanning: 255 - ECHO,kalvsk-dsw.nettel.ntnu.no
+129.241.1.215 - Target scanning: 255 - ECHO,kjemi-dsw.nettel.ntnu.no
+129.241.1.217 - Target scanning: 255 - ECHO,mts-dsw.nettel.ntnu.no
+129.241.1.219 - Target scanning: 255 - ECHO,rfb-dsw.nettel.ntnu.no
+129.241.1.221 - Target scanning: 255 - ECHO,sb-dsw.nettel.ntnu.no
+129.241.1.223 - Target scanning: 255 - ECHO,sentrum-dsw.nettel.ntnu.no
+129.241.1.225 - Target scanning: 255 - ECHO,stolav-dsw.nettel.ntnu.no
+129.241.1.227 - Target scanning: 255 - ECHO,syd-dsw.nettel.ntnu.no
+129.241.1.233 - Target scanning: 255 - ECHO,wlan-dsw2.nettel.ntnu.no
+129.241.1.235 - Target scanning: 255 - ECHO,gvk-dsw.nettel.ntnu.no
+129.241.1.237 - Target scanning: 255 - ECHO,als-dsw.nettel.ntnu.no
+129.242.24.18 - Target scanning: 255 - ECHO,tmu-gsw.infra.uit.no | Yes
+129.242.24.22 - Target scanning: 255 - ECHO,asgvn40-gsw.infra.uit.no | Yes
+129.242.24.82 - Target scanning: 255 - ECHO,bio-gsw.infra.uit.no | Yes
+129.242.24.114 - Target scanning: 255 - ECHO,asgvn-gsw.infra.uit.no
+129.242.24.185 - Target scanning: 255 - ECHO,ma-gsw.infra.uit.no
+129.242.24.189 - Target scanning: 255 - ECHO,tmu-gsw.infra.uit.no
+129.242.24.234 - Target scanning: 255 - ECHO,ma2-gsw.infra.uit.no
+129.242.25.139 - Target scanning: 255 - ECHO,bio-gsw.infra.uit.no
+158.39.9.234 - Target scanning: 255 - ECHO,nyland-gsw.infra.uit.no | Yes
+158.39.9.238 - Target scanning: 255 - ECHO,nyland-gsw.infra.uit.no
+193.156.24.65 - Target scanning: 64 - 205;42370,141914,207;42392,132940,209;42402,153906,212;42410 | Yes
+193.156.24.83 - Target scanning: 64 - 206;7419,139422,208;7422,141418,210;7428,126932,211;7437

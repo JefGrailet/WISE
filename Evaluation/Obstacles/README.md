@@ -1,6 +1,6 @@
 # Trail analysis
 
-*By Jean-François Grailet (last updated: February 28, 2019)*
+*By Jean-François Grailet (last updated: March 1, 2019)*
 
 ## About
 
