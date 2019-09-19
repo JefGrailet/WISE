@@ -29,37 +29,24 @@ RouteHop::~RouteHop()
 {
 }
 
-void RouteHop::update(InetAddress ip)
-{
-    this->ip = ip;
-    if(ip == InetAddress(0))
-        this->state = ANONYMOUS;
-    else
-        this->state = VIA_TRACEROUTE;
-}
-
-void RouteHop::anonymize()
+void RouteHop::reset()
 {
     this->ip = InetAddress(0);
-    this->state = ANONYMOUS;
+    this->state = NOT_MEASURED;
 }
 
-void RouteHop::repair(InetAddress ip)
+void RouteHop::update(InetAddress ip, bool peer)
 {
     this->ip = ip;
-    this->state = REPAIRED_1;
-}
-
-void RouteHop::repairBis(InetAddress ip)
-{
-    this->ip = ip;
-    this->state = REPAIRED_2;
-}
-
-void RouteHop::deanonymize(InetAddress ip)
-{
-    this->ip = ip;
-    this->state = LIMITED;
+    if(ip != InetAddress(0))
+    {
+        if(peer)
+            this->state = PEERING_POINT;
+        else
+            this->state = VIA_TRACEROUTE;
+    }   
+    else
+        this->state = ANONYMOUS;
 }
 
 RouteHop &RouteHop::operator=(const RouteHop &other)

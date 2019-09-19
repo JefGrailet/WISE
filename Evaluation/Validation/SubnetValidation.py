@@ -66,18 +66,26 @@ def compareSets(groundtruth, measurement):
     for i in range(0, 23):
         normalized = (float(results[i]) / float(len(groundtruth))) * 100
         results[i] = normalized
+    #sumArr = 0
+    #for i in range(0, 23):
+    #    sumArr += results[i]
+    #print(sumArr)
     return results
 
 if __name__ == "__main__":
 
     if len(sys.argv) < 5:
-        print("Use this command: python SubnetValidation.py [groundtruth .txt] [WISE .subnets] [SAGE .subnets] [SAGE .xnet]")
+        print("Use this command: python SubnetValidation.py [groundtruth .txt] [WISE .subnets] [SAGE .subnets] [SAGE .xnet] [[--adjusted]]")
         sys.exit()
     
     groundtruthPath = str(sys.argv[1])
     WISEFilePath = str(sys.argv[2])
     TreeNETFilePath = str(sys.argv[3])
-    ExploreNETFilePath = str(sys.argv[4])    
+    ExploreNETFilePath = str(sys.argv[4])
+    adjustedPrefixes = False
+    if len(sys.argv) == 6:
+        if str(sys.argv[5]) == '--adjusted':
+            adjustedPrefixes = True
 
     # Checks existence of the file providing prefixes of the groundtruth
     if not os.path.isfile(groundtruthPath):
@@ -102,11 +110,24 @@ if __name__ == "__main__":
         WISERaw = f.read().splitlines()
     WISE = set()
     for i in range(0, len(WISERaw)):
-        if "merging" not in WISERaw[i] and "fragment" not in WISERaw[i] and "/" in WISERaw[i]:
-            if WISERaw[i] not in WISE:
-                WISE.add(WISERaw[i])
+        if "merging" in WISERaw[i] or "fragment" in WISERaw[i]:
+            continue
+        if "aggregate" in WISERaw[i]:
+            continue
+        if "/" in WISERaw[i]:
+            subnetPrefix = WISERaw[i]
+            if "adjusted" in WISERaw[i]:
+                prefixSplit = WISERaw[i].split(" (adjusted from ")
+                prefix1 = prefixSplit[0]
+                prefix2 = prefixSplit[1][:-1]
+                if adjustedPrefixes:
+                    subnetPrefix = prefix1
+                else:
+                    subnetPrefix = prefix2
+            if subnetPrefix not in WISE:
+                WISE.add(subnetPrefix)
             else:
-                print("Warning: " + WISERaw[i] + " is a duplicate in WISE dataset.")
+                print("Warning: " + subnetPrefix + " is a duplicate in WISE dataset.")
     
     # Checks existence of the .subnets file produced by SAGE v1.0
     if not os.path.isfile(TreeNETFilePath):
@@ -140,6 +161,24 @@ if __name__ == "__main__":
                 ExploreNET.add(lineSplit[1])
             else:
                 print("Warning: " + lineSplit[1] + " is a duplicate in ExploreNET dataset.")
+   
+    # Prints perfectly inferred subnets found by TreeNET but not by WISE
+    perfectWISE = set()
+    perfectTreeNET = set()
+    for subnet in groundtruth:
+        if subnet in WISE:
+            perfectWISE.add(subnet)
+        if subnet in TreeNET:
+            perfectTreeNET.add(subnet)
+    
+    missed = []
+    for subnet in perfectTreeNET:
+        if subnet not in perfectWISE:
+            missed.append(subnet)
+    missed.sort()
+    print("Missed by WISE:")
+    for i in range(0, len(missed)):
+        print(missed[i])
     
     compWISE = compareSets(groundtruth, WISE)
     compTreeNET = compareSets(groundtruth, TreeNET)
@@ -172,7 +211,7 @@ if __name__ == "__main__":
         if compTreeNET[i] > maxValue:
             maxValue = compTreeNET[i]   
         if compExploreNET[i] > maxValue:
-            maxValue = ExploreNET[i]
+            maxValue = compExploreNET[i]
     
     while highestPercent > maxValue:
         highestPercent -= 10

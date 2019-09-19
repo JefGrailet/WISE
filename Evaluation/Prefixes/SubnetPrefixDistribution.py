@@ -1,6 +1,9 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
 
+# 18/09/2019: updated to take account of minor changes brought by WISE 1.1, in this case the 
+# possibility of having an adjusted prefix.
+
 import os
 import sys
 import numpy as np
@@ -82,6 +85,7 @@ if __name__ == "__main__":
         with open(VPPath) as f:
             vantagePoint = f.read().splitlines()
         
+        # N.B.: only useful for processing early campaigns (February 2019)
         if vantagePoint[0] == "planet3.cs.huji.ac.il" or vantagePoint[0] == "planet4.cs.huji.ac.il":
             continue
         
@@ -112,7 +116,11 @@ if __name__ == "__main__":
                 curSubnet.append([IP, TTL, trail, interfaceType])
             # Subnet CIDR notation
             else:
-                curSubnet.append(subnetsRaw[j])
+                CIDR = subnetsRaw[j]
+                if "adjusted from" in CIDR:
+                    splitCIDR = CIDR.split(" (adjusted from")
+                    CIDR = splitCIDR[0]
+                curSubnet.append(CIDR)
         
         # Removes subnets that are overlapped
         subnets = []

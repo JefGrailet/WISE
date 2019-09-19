@@ -28,6 +28,7 @@ using std::ofstream;
 #include "utils/StopException.h" // Not used directly here, but provided to all classes that need it this way
 #include "structure/IPLookUpTable.h"
 #include "structure/AliasSet.h"
+#include "structure/Subnet.h"
 
 class Environment
 {
@@ -101,6 +102,10 @@ public:
     inline unsigned short getScanningNbReprobing() { return scanNbReprobing; }
     inline unsigned short getScanningMaxFlickeringDelta() { return scanMaxFlickeringDelta; }
     
+    inline unsigned short getOutliersRatioDivisor() { return outliersRatioDivisor; }
+    
+    inline unsigned short getMaxPeerDiscoveryPivots() { return maxPeerDiscoveryPivots; }
+    
     inline unsigned short getARNbIPIDs() { return this->ARNbIPIDs; }
     inline unsigned short getARAllyMaxDiff() { return this->ARAllyMaxDiff; }
     inline unsigned short getARAllyMaxConsecutiveDiff() { return this->ARAllyMaxConsecutiveDiff; }
@@ -144,6 +149,8 @@ public:
     inline void setScanningListSplitThreshold(unsigned short t) { scanListSplitThreshold = t; }
     inline void setScanningNbReprobing(unsigned short n) { scanNbReprobing = n; }
     inline void setScanningMaxFlickeringDelta(unsigned short m) { scanMaxFlickeringDelta = m; }
+    inline void setOutliersRatioDivisor(unsigned short d) { outliersRatioDivisor = d; }
+    inline void setMaxPeerDiscoveryPivots(unsigned short m) { maxPeerDiscoveryPivots = m; }
     inline void setARNbIPIDs(unsigned short nb) { this->ARNbIPIDs = nb; }
     inline void setARAllyMaxDiff(unsigned short diff) { this->ARAllyMaxDiff = diff; }
     inline void setARAllyMaxConsecutiveDiff(unsigned short diff) { this->ARAllyMaxConsecutiveDiff = diff; }
@@ -161,6 +168,11 @@ public:
     inline void addAliasSet(AliasSet *newSet) { aliases.push_back(newSet); }
     void outputAliases(string filename, bool verbose = false); // Outputs all sets except full a.r.
     AliasSet* getLattestAliases(); // Returns last alias set (NULL if none)
+    
+    // Methods to handle the set of subnets
+    inline unsigned int getNbSubnets() { return (unsigned int) subnets.size(); }
+    void outputSubnets(string filename);
+    inline list<Subnet*> *getSubnets() { return &subnets; }
     
     // Methods to handle the initial target IPs/ranges
     inline list<InetAddress> *getInitialTargetIPs() { return &itIPs; }
@@ -196,6 +208,7 @@ private:
     // Structures
     IPLookUpTable *IPDictionary;
     list<AliasSet*> aliases;
+    list<Subnet*> subnets;
     
     /*
      * Output streams (main console output and file stream for the external logs). Having both is 
@@ -229,6 +242,10 @@ private:
     unsigned short scanMinTargetsPerThread;
     unsigned short scanListSplitThreshold, scanNbReprobing;
     unsigned short scanMaxFlickeringDelta;
+    
+    unsigned short outliersRatioDivisor;
+    
+    unsigned short maxPeerDiscoveryPivots;
     
     unsigned short ARNbIPIDs;
     unsigned short ARAllyMaxDiff; // Max difference between two IDs for Ally application

@@ -52,6 +52,8 @@ public:
     inline void setTTL(unsigned char TTL) { this->TTL = TTL; }
     inline void setPreferredTimeout(TimeVal timeout) { this->preferredTimeout = timeout; }
     inline void setType(unsigned short type) { this->type = type; }
+    inline void setRouteLength(unsigned short routeLength) { this->routeLength = routeLength; } // Used only for test code
+    inline void setRoute(RouteHop *route) { this->route = route; } // Same as above
     
     // Methods to handle the different TTLs at which this IP has been seen (as dest. or route hop)
     inline bool sameTTL(unsigned char t) { return (TTL != 0 && TTL == t); }
@@ -79,6 +81,7 @@ public:
     void initRoute(); // Route length from TTL (nothing happens if unset); deletes previous route
     bool anonymousEndOfRoute(); // Returns true if the last hop in the route is anonymous
     bool setTrail(); // Returns false if trail cannot be set yet
+    bool hasCompleteRoute(); // Returns true if a full traceroute towards this IP has been done
     string routeToString(); // Returns the route in string format (TTL - hop\n)
     
     /*** Special IPs ***/
@@ -89,10 +92,16 @@ public:
     inline bool isEchoing() { return echoing; }
     inline list<InetAddress> *getFlickeringPeers() { return &flickeringPeers; }
     
+    // Used for neighborhood peer discovery
+    inline bool denotesNeighborhood() { return denotingNeighborhood; }
+    
     inline void setAsTrailIP() { trailIP = true; }
     inline void setAsWarping() { warping = true; }
     inline void setAsFlickering() { flickering = true; }
     inline void setAsEchoing() { echoing = true; }
+    
+    // Used for neighborhood peer discovery
+    inline void setAsDenotingNeighborhood() { denotingNeighborhood = true; }
     
     void addFlickeringPeer(InetAddress peer);
     
@@ -120,12 +129,14 @@ private:
     Trail *trail;
     
     /*
-     * Flags used to advertise whether this IP is in a trail, and if yes, if it's warping, 
-     * flickering and or echoing. These flags are initially set to false and needs to be set to 
-     * true (when relevant) with some post-processing of the IP dictionary.
+     * Flags used to advertise whether this IP is in a trail, and if yes, if it's a potential 
+     * candidate for neighborhood peering (see neighborhoods/ module), if it's warping, flickering 
+     * and/or echoing. These flags are initially set to false and needs to be set to true (when 
+     * relevant) with some post-processing of the IP dictionary.
      */
    
     bool trailIP, warping, flickering, echoing;
+    bool denotingNeighborhood;
     
     // List of IPs that are flickering with this one
     list<InetAddress> flickeringPeers;

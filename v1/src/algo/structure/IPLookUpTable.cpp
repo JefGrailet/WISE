@@ -195,6 +195,15 @@ unsigned short IPLookUpTable::isFlickering(IPTableEntry *cur,
 
 void IPLookUpTable::reviewSpecialIPs(unsigned short maxDelta)
 {
+    /*
+     * Next piece of code ensures that all IPs appearing in trails will be in the dictionary as 
+     * well. It also implements a specific policy regarding TTL: for all target IPs, the "main" 
+     * TTL is the one observed with scanning (it can have other TTL values if it's seen among 
+     * trails), but for an IP that wasn't part of the initial targets and was discovered via trail 
+     * detection, the "main" TTL is supposed to be the shortest, and therefore, TTL is changed 
+     * each time a shorter TTL is found.
+     */
+
     list<IPTableEntry*> filtTargets = this->listTargetEntries();
     for(list<IPTableEntry*>::iterator i = filtTargets.begin(); i != filtTargets.end(); ++i)
     {
@@ -254,6 +263,15 @@ void IPLookUpTable::reviewSpecialIPs(unsigned short maxDelta)
             IPTableEntry *assocEntry = this->lookUp(trailIP);
             if(assocEntry == NULL) // Shouldn't occur due to previous loop
                 continue;
+            
+            /*
+             * Remark for next lines of code: depending on the situation, a same IP might be 
+             * "marked" several times (as trail IP, as warping IP, etc.) during the execution of 
+             * this loop. However, since the "marking" methods just set a boolean to true and 
+             * receive no parameter, successive calls will be harmless in practice.
+             */
+            
+            // Trail IP
             assocEntry->setAsTrailIP();
             
             // Warping
@@ -332,6 +350,14 @@ void IPLookUpTable::postProcessHints(unsigned short maxRollovers, double maxErro
                 lattestHints->postProcessIPIDData(maxRollovers, maxError);
         }
     }
+}
+
+bool IPLookUpTable::isPotentialPeer(InetAddress needle)
+{
+    IPTableEntry *found = this->lookUp(needle);
+    if(found == NULL)
+        return false;
+    return found->denotesNeighborhood();
 }
 
 void IPLookUpTable::outputDictionary(string filename)

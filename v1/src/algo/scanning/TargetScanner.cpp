@@ -10,6 +10,8 @@
 
 #include "TargetScanner.h"
 #include "../../common/thread/Thread.h"
+#include "../aliasresolution/AliasHintsCollector.h" // For flickering IPs alias resolution
+#include "../aliasresolution/AliasResolver.h" // Ditto
 
 TargetScanner::TargetScanner(Environment *env)
 {
@@ -389,8 +391,11 @@ void TargetScanner::scan()
     unsigned int nbBadTrails = this->countBadEntries();
     unsigned int withTTL = this->countEntriesWithTTL();
     double ratioReprobe = ((double) nbBadTrails / (double) withTTL) * 100;
-    (*out) << nbBadTrails << " out of " << withTTL << " IPs with an estimated TTL (";
-    (*out) << ratioReprobe << "%) need to be re-probed to improve trails." << endl;
+    if(nbBadTrails > 0)
+    {
+        (*out) << nbBadTrails << " out of " << withTTL << " IPs with an estimated TTL (";
+        (*out) << ratioReprobe << "%) need to be re-probed to improve trails." << endl;
+    }
     
     // 2) Re-probes target IPs with incomplete trails, if any
     list<list<IPTableEntry*> > rescheduled = this->reschedule();
@@ -510,5 +515,129 @@ void TargetScanner::scan()
         }
     }
     
-    // 3) We're done with scanning.
+    // 3) We're done with the scanning itself (finalization is done with another method).
+}
+
+void TargetScanner::addFlickeringPeers(IPTableEntry *IP, 
+                                       list<IPTableEntry*> *alias, 
+                                       list<IPTableEntry*> *flickIPs)
+{
+    list<InetAddress> *peers = IP->getFlickeringPeers();
+    for(list<InetAddress>::iterator i = peers->begin(); i != peers->end(); ++i)
+    {
+        InetAddress curIP = (*i);
+        
+        // Finds corresponding entry in flickIPs, does a recursive call and erases it from flickIPs
+        for(list<IPTableEntry*>::iterator j = flickIPs->begin(); j != flickIPs->end(); ++j)
+        {
+            IPTableEntry *curEntry = (*j);
+            if((InetAddress) (*curEntry) == curIP)
+            {
+                alias->push_back(curEntry);
+                flickIPs->erase(j);
+                addFlickeringPeers(curEntry, alias, flickIPs);
+                break;
+            }
+        }
+    }
+}
+
+void TargetScanner::finalize()
+{
+    IPLookUpTable *dict = env->getIPDictionary();
+    
+    // Detects problematic IPs
+    dict->reviewScannedIPs();
+    dict->reviewSpecialIPs(env->getScanningMaxFlickeringDelta());
+    
+    /*
+     * We now build potential aliases, using a list of flickering IPs. For each item, we will:
+     * 1) init a new list curAlias with the IP itself, 
+     * 2) then, for each flickering peer:
+     *    -add the peer to curAlias, 
+     *    -remove it from the flickIPs list, 
+     *    -perform the same operation recursively on its own peers;
+     * 3) after, the final list is sorted, duplicate IPs are removed and curAlias is appended to 
+     *    the list of alleged aliases.
+     */
+    
+    list<list<IPTableEntry*> > aliases; // Only alleged, at this point
+    list<IPTableEntry*> flickIPs = dict->listFlickeringIPs();
+    while(flickIPs.size() > 0)
+    {
+        // 1) Inits the alias
+        list<IPTableEntry*> curAlias;
+        IPTableEntry *first = flickIPs.front();
+        curAlias.push_back(first);
+        flickIPs.pop_front();
+        
+        // 2) Adds flickering peers to the alias
+        addFlickeringPeers(first, &curAlias, &flickIPs);
+        
+        // 3) Remove duplicate IPs and append to the alleged aliases
+        curAlias.sort(IPTableEntry::compare);
+        IPTableEntry *prev = NULL;
+        for(list<IPTableEntry*>::iterator i = curAlias.begin(); i != curAlias.end(); ++i)
+        {
+            if(i == curAlias.begin())
+            {
+                prev = (*i);
+                continue;
+            }
+            if((*i) == prev)
+                curAlias.erase(i--);
+            else
+                prev = (*i);
+        }
+        aliases.push_back(curAlias);
+    }
+    
+    if(aliases.size() == 0)
+        return;
+    
+    ostream *out = env->getOutputStream();
+    (*out) << "\nThere are flickering IPs that could lead to the discovery of ";
+    if(aliases.size() > 1)
+        (*out) << aliases.size() << " aliases.\n";
+    else
+        (*out) << "one alias.\n";
+    (*out) << "Now starting alias hints collection...\n";
+    
+    /*
+     * An AliasHintsCollector object is created to collect alias hints on all alleged aliases, 
+     * in order to check the odds that flickering IPs indeed belong to a same device (or not).
+     */
+    
+    AliasHintsCollector *ahc = new AliasHintsCollector(env);
+    for(list<list<IPTableEntry*> >::iterator i = aliases.begin(); i != aliases.end(); ++i)
+    {
+        list<IPTableEntry*> hypothesis = (*i);
+        (*out) << "Collecting hints for ";
+        for(list<IPTableEntry*>::iterator j = hypothesis.begin(); j != hypothesis.end(); ++j)
+        {
+            if(j != hypothesis.begin())
+                (*out) << ", ";
+            (*out) << *(*j);
+        }
+        (*out) << "... " << std::flush;
+        ahc->setIPsToProbe(hypothesis);
+        ahc->collect();
+    }
+    delete ahc;
+    
+    // Post-processes newly collected hints
+    dict->postProcessHints(env->getARVelocityMaxRollovers(), env->getARVelocityMaxError());
+    
+    // Builds the alias set, using the AliasResolver class.
+    (*out) << "Resolving... " << std::flush;
+    AliasSet *set = new AliasSet(AliasSet::SUBNET_DISCOVERY);
+    AliasResolver *ar = new AliasResolver(env);
+    for(list<list<IPTableEntry*> >::iterator i = aliases.begin(); i != aliases.end(); ++i)
+    {
+        list<Alias*> newAliases = ar->resolve((*i));
+        set->addAliases(newAliases, true); // Only actual aliases (#IPs >= 2) should appear
+    }
+    env->addAliasSet(set);
+    delete ar;
+    (*out) << "Done." << endl;
 }

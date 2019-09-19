@@ -24,8 +24,8 @@ public:
     TargetScanner(Environment *env);
     ~TargetScanner();
     
-    // No parameter, because it counts on listEntries() from IPLookUpTable to get the target IPs
-    void scan();
+    void scan(); // Scans IP found in the dictionary
+    void finalize(); // Finalizes by detecting problematic trails and aliasing flickering IPs
     
 private:
 
@@ -62,6 +62,16 @@ private:
     unsigned int estimateSplit(list<IPTableEntry*> ls);
     list<list<IPTableEntry*> > splitList(list<IPTableEntry*> ls, unsigned int splitNb);
     static bool compareLists(list<IPTableEntry*> &ls1, list<IPTableEntry*> &ls2);
+    
+    /*
+     * Utility method to build potential aliases with the flickering IPs listed in the dictionary; 
+     * called by the finalize() method.
+     */
+    
+    static void addFlickeringPeers(IPTableEntry *IP, 
+                                   list<IPTableEntry*> *alias, 
+                                   list<IPTableEntry*> *flickIPs);
+    
 }; 
 
 #endif /* TARGETSCANNER_H_ */

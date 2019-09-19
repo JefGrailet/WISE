@@ -56,6 +56,9 @@ public:
     void reviewSpecialIPs(unsigned short maxDelta); // Finds warping, echoing and flickering IPs
     void postProcessHints(unsigned short maxRollovers, double maxError);
     
+    // Special method used during peer discovery; tells if the IP has been seen as direct trail
+    bool isPotentialPeer(InetAddress needle);
+    
     // Output methods
     void outputDictionary(string filename);
     void outputAliasHints(string filename);

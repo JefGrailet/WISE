@@ -43,6 +43,10 @@ Environment::Environment(ostream *consoleOut,
     scanNbReprobing = 1;
     scanMaxFlickeringDelta = 4;
     
+    outliersRatioDivisor = 3;
+    
+    maxPeerDiscoveryPivots = 5; // Up to 5 (e.g. if /31 subnet, only one possible VP)
+    
     ARNbIPIDs = 4;
     ARAllyMaxDiff = 13107; // 1/5 * 2^16
     ARAllyMaxConsecutiveDiff = 100;
@@ -68,6 +72,9 @@ Environment::~Environment()
     for(list<AliasSet*>::iterator i = aliases.begin(); i != aliases.end(); ++i)
         delete (*i);
     aliases.clear();
+    for(list<Subnet*>::iterator i = subnets.begin(); i != subnets.end(); i++)
+        delete (*i);
+    subnets.clear();
 }
 
 ostream* Environment::getOutputStream()
@@ -96,13 +103,13 @@ void Environment::outputAliases(string filename, bool verbose)
                 // No need to get a specific output stream here.
                 case AliasSet::SUBNET_DISCOVERY:
                     cout << "Aliases discovered during subnet discovery have been written in ";
-                    cout << filename << "-1.\n";
+                    cout << filename << ".aliases-1.\n";
                     curSet->output(filename + ".aliases-1", verbose);
                     break;
                 // For SAGE v2.0
                 case AliasSet::GRAPH_BUILDING:
                     cout << "Aliases discovered during graph building have been written in ";
-                    cout << filename << "-2.\n";
+                    cout << filename << ".aliases-2.\n";
                     curSet->output(filename + ".aliases-2", verbose);
                     break;
                 default:
@@ -117,6 +124,22 @@ AliasSet* Environment::getLattestAliases()
     if(aliases.size() == 0)
         return NULL;
     return aliases.back();
+}
+
+void Environment::outputSubnets(string filename)
+{
+    string output = "";
+    
+    for(list<Subnet*>::iterator i = subnets.begin(); i != subnets.end(); i++)
+        output += (*i)->toString() + "\n";
+    
+    ofstream newFile;
+    newFile.open(filename.c_str());
+    newFile << output;
+    newFile.close();
+    
+    string path = "./" + filename;
+    chmod(path.c_str(), 0766);
 }
 
 bool Environment::initialTargetsEncompass(InetAddress IP)

@@ -1,6 +1,6 @@
 # Dataset
 
-*By Jean-François Grailet (last updated: March 1, 2019)*
+*By Jean-François Grailet (last updated: September 19, 2019)*
 
 ## About
 
@@ -18,6 +18,7 @@ dates of each campaign present in this dataset are provided below.
 | 01/02/2019   | 11/02/2019 | 4               | Large/very responsive ASes |
 | 19/02/2019   | 28/02/2019 | 10              | Medium-sized ASes          |
 | 19/02/2019   | 25/02/2019 | 4               | Large/very responsive ASes |
+| 04/09/2019   | 17/09/2019 | 13              |                            |
 
 A few remarks about this public dataset:
 
@@ -68,7 +69,7 @@ Note that the date of measurement is only the date at which the measurement was 
 most if not all measurements could be completed in less than 24 hours, hence why most measurements 
 could be renewed on a daily basis with a different vantage point each day.
 
-### After December 28, 2018 (included)
+### Between December 28, 2018 and February 28, 2019 (included)
 
 Datasets collected after that date are complete, i.e., they were obtained with a full 
 implementation of `WISE` and provides all inferred subnets. Inside, you will find the following 
@@ -97,6 +98,23 @@ Note that the date of measurement is only the date at which the measurement was 
 with a few exceptions (large and/or very responsive networks), `WISE` is usually capable of 
 completing said measurement in less than 24 hours, hence why some ASes could be measured on a 
 daily basis with a different vantage point each day.
+
+### After September 4, 2019 (included)
+
+Starting from September 4, 2019, we deployed `WISE` v1.1 on PlanetLab for new campaigns. This 
+upgraded version produces the same output files as previously as well as new additional output 
+files:
+
+* **.peers file:** contains the results of the partial (Paris) `traceroute` measurements which 
+  are performed by the new neighborhood inference stage (new final stage; starts after subnet 
+  inference).
+* **.neighborhoods file:** lists and details the neighborhoods inferred by `WISE` v1.1 during its 
+  new final algorithmic step. For reminders, a *neighborhood* is a network location bordered by 
+  subnets located at at most one hop away from each other.
+
+Just like before, the date of the measurement corresponds to the date at which the measurement was 
+started, but measurements by `WISE` are usually completed within the next 24 hours except for 
+very large and/or very responsive ASes.
 
 ## Contact
 

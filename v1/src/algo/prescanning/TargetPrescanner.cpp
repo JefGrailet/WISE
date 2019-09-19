@@ -113,7 +113,7 @@ void TargetPrescanner::probe()
         {
             task = new TargetPrescanningUnit(env, 
                                              this, 
-                                             targetsSubset, 
+                                             targetsSubset, // By design, always at least one target
                                              DirectICMPProber::DEFAULT_LOWER_SRC_PORT_ICMP_ID + (i * range), 
                                              DirectICMPProber::DEFAULT_LOWER_SRC_PORT_ICMP_ID + (i * range) + range - 1, 
                                              DirectICMPProber::DEFAULT_LOWER_DST_PORT_ICMP_SEQ, 

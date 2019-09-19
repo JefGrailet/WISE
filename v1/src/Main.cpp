@@ -45,7 +45,10 @@ using std::list;
 #include "algo/utils/TargetParser.h"
 #include "algo/prescanning/TargetPrescanner.h"
 #include "algo/scanning/TargetScanner.h"
-#include "algo/scanning/SubnetInferrer.h"
+#include "algo/subnetinference/SubnetInferrer.h"
+#include "algo/subnetinference/SubnetPostProcessor.h"
+#include "algo/neighborhoods/PeerScanner.h"
+#include "algo/neighborhoods/TopologyInferrer.h"
 
 // Simple function to display usage.
 
@@ -133,6 +136,21 @@ void printInfo()
     cout << "to well located outliers) but also to re-size subnets to the minimal prefix\n";
     cout << "length that accomodate all their respective interfaces.\n";
     cout << "\n";
+    cout << "4) Neighborhood inference\n";
+    cout << "-------------------------\n";
+    cout << "\n";
+    cout << "Using the data collected so far (including the subnets themselves) and some\n";
+    cout << "additional probing, WISE aggregates subnets together into \"neighborhoods\",\n";
+    cout << "i.e., network locations where subnets are located at at most one hop from\n";
+    cout << "each other, which should correspond to a single router or a mesh of L2/L3\n";
+    cout << "devices.\n";
+    cout << "\n";
+    cout << "WISE discovers all neighborhoods as well as hints of how they are located with\n";
+    cout << "respect to each others, using the concept of \"peer\": if a route hop leading\n";
+    cout << "towards pivot(s) (seen just before their trails) of some subnets aggregated\n";
+    cout << "into a neighborhood is also used to identify another neighborhood, then both\n";
+    cout << "neighborhoods are located next to each other. Such knowledge can be used to\n";
+    cout << "eventually build a graph of the measured target domain.\n";
     cout.flush();
 }
 
@@ -580,6 +598,9 @@ int main(int argc, char *argv[])
     TargetPrescanner *prescanner = NULL;
     TargetScanner *scanner = NULL;
     SubnetInferrer *inferrer = NULL;
+    SubnetPostProcessor *postProcessor = NULL;
+    PeerScanner *peerScanner = NULL;
+    TopologyInferrer *topo = NULL;
 
     try
     {
@@ -587,7 +608,7 @@ int main(int argc, char *argv[])
         parser = new TargetParser(env);
         parser->parseCommandLine(targetsStr);
         
-        cout << "WISE (Wide and lInear Subnet inferencE) v1.0 - Time at start: ";
+        cout << "WISE (Wide and lInear Subnet inferencE) v1.1 - Time at start: ";
         cout << getCurrentTimeStr() << "\n" << endl;
         
         // Announces that it will ignore LAN.
@@ -663,7 +684,7 @@ int main(int argc, char *argv[])
         
         IPDict->outputDictionary(newFileName + ".ips");
         cout << "Filtered target IPs have been saved in an output file " << newFileName;
-        cout << ".ips (temporar).\n";
+        cout << ".ips (temporar)." << endl;
         
         /*
          * STEP II: TARGET SCANNING
@@ -675,30 +696,36 @@ int main(int argc, char *argv[])
          * probing work for the next one, relying on the hypothesis that consecutive IPs likely 
          * are located at the same distance (especially if they belong to the same subnet). At the 
          * end of the scanning, IPs are processed to detect problematic IPs (i.e. flickering, 
-         * warping and echoing IPs) and mark them.
+         * warping and echoing IPs) and attempt alias resolution on flickering IPs.
          */
         
-        cout << "--- Start of target scanning ---" << endl;
+        cout << "\n--- Start of target scanning ---" << endl;
         timeval scanningStart, scanningEnd;
         gettimeofday(&scanningStart, NULL);
         
         // External logs are unused for now but might be restored later.
         // env->openLogStream("Log_" + newFileName + "_scanning");
         
-        // Actual scanning
         scanner = new TargetScanner(env);
         
         scanner->scan();
+        scanner->finalize(); // Detects problematic IPs + aliases flickering IPs (if possible)
         
         delete scanner;
         scanner = NULL;
         
-        // Post-processing of the dictionary + new save
-        IPDict->reviewScannedIPs();
-        IPDict->reviewSpecialIPs(env->getScanningMaxFlickeringDelta());
+        cout << "--- End of target scanning (" << getCurrentTimeStr() << ") ---" << endl;
+        gettimeofday(&scanningEnd, NULL);
+        unsigned long scanningElapsed = scanningEnd.tv_sec - scanningStart.tv_sec;
+        successRate = ((double) env->getTotalSuccessfulProbes() / (double) env->getTotalProbes()) * 100;
+        cout << "Elapsed time: " << elapsedTimeStr(scanningElapsed) << endl;
+        cout << "Total amount of probes: " << env->getTotalProbes() << endl;
+        cout << "Total amount of successful probes: " << env->getTotalSuccessfulProbes();
+        cout << " (" << successRate << "%)\n" << endl;
+        env->resetProbeAmounts();
         
         IPDict->outputDictionary(newFileName + ".ips");
-        cout << "Updated IP dictionary has been saved in the output file " << newFileName << ".ips.\n";
+        cout << "Updated IP dictionary has been saved in the output file " << newFileName << ".ips." << endl;
         
         // env->closeLogStream();
         
@@ -706,53 +733,112 @@ int main(int argc, char *argv[])
          * STEP III: SUBNET INFERENCE
          *
          * All the data collected during the previous step is used to conduct offline subnet 
-         * inference, processing IPs one by one and in order. See the SubnetInferrer class for 
-         * more details on how inference works. Note, however, that the inference starts with a 
-         * preparation step in which flickering IPs are probed for alias resolution, but this is 
-         * the only step of the inference that requires additional probing.
+         * inference, processing IPs one by one and in order. A short post-processing phase also 
+         * ensures subnets are as complete as possible.
          */
         
-        // Subnet inference
+        cout << "\n--- Start of subnet inference ---" << endl;
+        timeval inferenceStart, inferenceEnd;
+        gettimeofday(&inferenceStart, NULL);
+        
         inferrer = new SubnetInferrer(env);
+        postProcessor = new SubnetPostProcessor(env);
         
-        inferrer->prepare();
-        inferrer->infer();
-        inferrer->postProcess();
+        cout << "Inferring subnets... " << std::flush;
+        inferrer->process();
+        cout << "Done." << endl;
         
-        if(inferrer->getNbSubnets() > 0)
-        {
-            inferrer->outputSubnets(newFileName + ".subnets");
-            cout << "Inferred subnets has been saved in the output file " << newFileName << ".subnets.\n";
-        }
-        else
-        {
-            cout << "No subnet could be inferred.\n";
-        }
+        cout << "Post-processing the discovered subnets... " << std::flush;
+        postProcessor->process();
+        cout << "Done." << endl;
         
         delete inferrer;
         inferrer = NULL;
         
-        cout << "--- End of target scanning (" << getCurrentTimeStr() << ") ---" << endl;
-        gettimeofday(&scanningEnd, NULL);
-        unsigned long scanningElapsed = scanningEnd.tv_sec - scanningStart.tv_sec;
+        delete postProcessor;
+        postProcessor = NULL;
+        
+        cout << "--- End of subnet inference (" << getCurrentTimeStr() << ") ---" << endl;
+        gettimeofday(&inferenceEnd, NULL);
+        unsigned long inferenceElapsed = inferenceEnd.tv_sec - inferenceStart.tv_sec;
         successRate = ((double) env->getTotalSuccessfulProbes() / (double) env->getTotalProbes()) * 100;
-        nbResponsiveIPs = IPDict->getTotalIPs();
-        cout << "Elapsed time: " << elapsedTimeStr(scanningElapsed) << endl;
-        cout << "Total amount of probes: " << env->getTotalProbes() << endl;
-        cout << "Total amount of successful probes: " << env->getTotalSuccessfulProbes();
-        cout << " (" << successRate << "%)" << endl;
-        env->resetProbeAmounts();
+        cout << "Elapsed time: " << elapsedTimeStr(inferenceElapsed) << "\n" << endl;
+        
+        if(env->getNbSubnets() > 0)
+        {
+            env->outputSubnets(newFileName + ".subnets");
+            cout << "Inferred subnets has been saved in the output file " << newFileName << ".subnets." << endl;
+        }
+        else
+        {
+            cout << "No subnet could be inferred." << endl;
+        }
+        
+        /*
+         * A save of the alias resolution hints/fingerprints is done now (if relevant), along with 
+         * a save of the aliases discovered so far.
+         */
         
         if(IPDict->hasAliasResolutionData())
         {
             IPDict->outputAliasHints(newFileName + ".hints");
-            cout << "Alias hints have been saved in an output file " << newFileName << ".hints.\n";
+            cout << "Alias hints have been saved in the output file " << newFileName << ".hints." << endl;
             IPDict->outputFingerprints(newFileName + ".fingerprints");
-            cout << "Fingerprints have been saved in an output file " << newFileName << ".fingerprints.\n";
+            cout << "Fingerprints have been saved in the output file " << newFileName << ".fingerprints." << endl;
             
             // This method will also write on the console to advertise the final output file name
             env->outputAliases(newFileName);
         }
+        
+        // If there's no subnet to work with, WISE stops running here.
+        if(env->getNbSubnets() == 0)
+        {
+            delete env;
+            return 0;
+        }
+        
+        /*
+         * STEP IV: NEIGHBORHOOD INFERENCE
+         *
+         * Using the trails towards pivot IPs of all subnets, neighborhoods are inferred (this 
+         * will be the first step for graph building in SAGE v2.0). Prior to the neighborhood 
+         * inference itself, WISE makes a census of all IPs that will be identifying neighborhoods 
+         * (i.e., IPs from direct trails towards pivot IPs of each subnet) then starts a short 
+         * (partial) traceroute phase to collect additional data on the pivot interfaces within 
+         * subnets, which will be later used to discover how neighborhoods are located w.r.t. each 
+         * others, using the concept of "peers" (see the headers of the classes in the 
+         * neighborhoods/ module).
+         */
+        
+        cout << "\n--- Start of neighborhood inference ---" << endl;
+        timeval buildingStart, buildingEnd;
+        gettimeofday(&buildingStart, NULL);
+        
+        peerScanner = new PeerScanner(env);
+        peerScanner->scan(); // Makes the census mentioned above + partial traceroute probing
+        
+        topo = new TopologyInferrer(env);
+        topo->infer(); // Actually infers the neighborhoods
+        
+        cout << "--- End of neighborhood inference (" << getCurrentTimeStr() << ") ---" << endl;
+        gettimeofday(&buildingEnd, NULL);
+        unsigned long buildingElapsed = buildingEnd.tv_sec - buildingStart.tv_sec;
+        successRate = ((double) env->getTotalSuccessfulProbes() / (double) env->getTotalProbes()) * 100;
+        cout << "Elapsed time: " << elapsedTimeStr(buildingElapsed) << endl;
+        cout << "Total amount of probes: " << env->getTotalProbes() << endl;
+        cout << "Total amount of successful probes: " << env->getTotalSuccessfulProbes();
+        cout << " (" << successRate << "%)\n" << endl;
+        env->resetProbeAmounts();
+        
+        peerScanner->output(newFileName + ".peers");
+        cout << "Additional traceroute data has been saved in the output file " << newFileName << ".peers." << endl;
+        topo->outputNeighborhoods(newFileName + ".neighborhoods");
+        cout << "Neighborhoods have been saved in the output file " << newFileName << ".neighborhoods." << endl;
+        
+        delete peerScanner;
+        peerScanner = NULL;
+        delete topo;
+        topo = NULL;
     }
     catch(StopException e)
     {
@@ -763,6 +849,9 @@ int main(int argc, char *argv[])
         delete prescanner;
         delete scanner;
         delete inferrer;
+        delete postProcessor;
+        delete peerScanner;
+        delete topo;
         
         delete env;
         return 1;

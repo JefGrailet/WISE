@@ -1,0 +1,80 @@
+WISE (Wide and lInear Subnet inferencE) v1.1 - Time at start: 09-09-2019 08:11:12
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 60733 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 292 additional responsive IPs.
+--- End of target pre-scanning (09-09-2019 12:22:34) ---
+Elapsed time: 4 hours 11 minutes 21 seconds
+Total amount of probes: 1042627
+Total amount of successful probes: 91850 (8.80948%)
+Total amount of discovered responsive IPs: 61025
+
+Filtered target IPs have been saved in an output file AS6453_09-09.ips (temporar).
+
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 257 threads will be scheduled (up to 238 target IPs per thread).
+1921 out of 60626 IPs with an estimated TTL (3.16861%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 39 threads will be scheduled (from 1 to 220 target IPs per thread).
+
+There are flickering IPs that could lead to the discovery of 24 aliases.
+Now starting alias hints collection...
+Collecting hints for 41.206.172.1, 41.206.172.5... Done.
+Collecting hints for 63.243.128.29, 63.243.128.31... Done.
+Collecting hints for 63.243.129.21, 64.86.21.104... Done.
+Collecting hints for 64.86.140.4, 64.254.1.69... Done.
+Collecting hints for 66.110.56.6, 66.110.57.42... Done.
+Collecting hints for 66.110.118.90, 66.110.118.246... Done.
+Collecting hints for 66.198.154.34, 66.198.154.69... Done.
+Collecting hints for 70.34.62.130, 70.34.62.134, 210.10.220.98... Done.
+Collecting hints for 80.231.17.1, 80.231.17.9... Done.
+Collecting hints for 80.231.111.1, 80.231.111.29... Done.
+Collecting hints for 80.231.130.62, 80.231.130.111... Done.
+Collecting hints for 80.231.130.134, 80.231.199.149... Done.
+Collecting hints for 80.231.130.141, 80.231.154.143... Done.
+Collecting hints for 80.231.139.26, 80.231.139.46... Done.
+Collecting hints for 80.231.165.118, 80.231.200.22... Done.
+Collecting hints for 116.0.67.38, 116.0.82.13... Done.
+Collecting hints for 116.0.82.62, 116.0.93.137, 116.0.93.149... Done.
+Collecting hints for 116.0.93.141, 120.29.216.38... Done.
+Collecting hints for 120.29.211.3, 180.87.180.1, 180.87.180.58, 180.87.181.72, 180.87.181.121... Done.
+Collecting hints for 180.87.12.226, 180.87.98.118... Done.
+Collecting hints for 195.219.81.10, 195.219.81.58... Done.
+Collecting hints for 195.219.87.2, 195.219.156.132... Done.
+Collecting hints for 195.219.87.9, 195.219.87.13... Done.
+Collecting hints for 197.221.232.3, 197.221.232.4... Done.
+Resolving... Done.
+--- End of target scanning (09-09-2019 14:10:25) ---
+Elapsed time: 1 hour 47 minutes 51 seconds
+Total amount of probes: 268657
+Total amount of successful probes: 251423 (93.5851%)
+
+Updated IP dictionary has been saved in the output file AS6453_09-09.ips.
+
+--- Start of subnet inference ---
+Inferring subnets... Done.
+Post-processing the discovered subnets... Done.
+--- End of subnet inference (09-09-2019 14:11:34) ---
+Elapsed time: 1 minute 9 seconds
+
+Inferred subnets has been saved in the output file AS6453_09-09.subnets.
+Alias hints have been saved in the output file AS6453_09-09.hints.
+Fingerprints have been saved in the output file AS6453_09-09.fingerprints.
+Aliases discovered during subnet discovery have been written in AS6453_09-09.aliases-1.
+
+--- Start of neighborhood inference ---
+Collecting additional data to discover and locate neighborhoods.
+
+9281 IPs will be used as targets for traceroute-like probing, using 256 threads (up to 37 targets per thread).
+Probing the 9281 target IPs... Done.
+--- End of neighborhood inference (09-09-2019 14:16:32) ---
+Elapsed time: 4 minutes 58 seconds
+Total amount of probes: 13935
+Total amount of successful probes: 12422 (89.1424%)
+
+Additional traceroute data has been saved in the output file AS6453_09-09.peers.
+Neighborhoods have been saved in the output file AS6453_09-09.neighborhoods.

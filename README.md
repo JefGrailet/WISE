@@ -1,6 +1,6 @@
 # WISE (Wide and lInear Subnet inferencE)
 
-*By Jean-François Grailet (last updated: March 1, 2019)*
+*By Jean-François Grailet (last updated: September 19, 2019)*
 
 ## Overview
 
@@ -14,18 +14,27 @@
 
 Future updates of `WISE` could include:
 
-* Improved subnet post-processing.
 * 64-bit version and/or IPv6 version.
+
+## Publications
+
+`WISE` and its measurements is currently the topic of one peer-reviewed publication. People wishing to get a big picture on the software free of implementation details are encouraged to read them.
+
+* [Revisiting Subnet Inference WISE-ly](http://www.run.montefiore.ulg.ac.be/~grailet/docs/publications/WISE_TMA_2019.pdf)<br />
+  Jean-François Grailet, Benoit Donnet<br />
+  [Network Traffic Measurement and Analysis Conference (TMA) 2019](http://tma.ifip.org/2019/), Paris, 19/06/2017 - 21/06/2017
+
+Additional works involving `WISE` could be published later.
 
 ## Content of this repository
 
 This repository consists of the following content:
 
-* **Dataset/** provides datasets for various Autonomous Systems (or ASes) we measured with `WISE` from the PlanetLab testbed. Note that the earliest datasets only consist of IP dictionaries, as we used them to study our target networks and progressively design the final version of `WISE` v1.0.
+* **Dataset/** provides datasets for various Autonomous Systems (or ASes) we measured with `WISE` from the PlanetLab testbed. Note that the earliest datasets only consist of IP dictionaries, as we used them to study our target networks and progressively design the final `WISE` v1.0.
 
 * **Evaluation/** provides several sub-folders consisting of Python scripts written to build figures and the figures that were obtained on our public dataset. The purpose of each kind of figure is further described in additional README files. A sub-folder in particular also briefly review how we validate `WISE` and compare it to `TreeNET` and `ExploreNET`.
 
-* **v1/** provides all the source files of `WISE` v1.0, along some instructions to build and use it.
+* **v1/** provides all the source files of `WISE` v1.1, along some instructions to build and use it.
 
 ## Disclaimer
 

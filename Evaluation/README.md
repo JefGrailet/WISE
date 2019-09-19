@@ -1,6 +1,6 @@
 # Evaluating the data collected with WISE
 
-*By Jean-François Grailet (last updated: February 28, 2019)*
+*By Jean-François Grailet (last updated: September 19, 2019)*
 
 ## About
 

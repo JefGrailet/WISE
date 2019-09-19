@@ -6,20 +6,17 @@
 CPP_SRCS += \
 ../src/algo/scanning/LocationTask.cpp \
 ../src/algo/scanning/TrailCorrectionTask.cpp \
-../src/algo/scanning/TargetScanner.cpp \
-../src/algo/scanning/SubnetInferrer.cpp
+../src/algo/scanning/TargetScanner.cpp
 
 OBJS += \
 ./src/algo/scanning/LocationTask.o \
 ./src/algo/scanning/TrailCorrectionTask.o \
-./src/algo/scanning/TargetScanner.o \
-./src/algo/scanning/SubnetInferrer.o
+./src/algo/scanning/TargetScanner.o
 
 CPP_DEPS += \
 ./src/algo/scanning/LocationTask.d \
 ./src/algo/scanning/TrailCorrectionTask.d \
-./src/algo/scanning/TargetScanner.d \
-./src/algo/scanning/SubnetInferrer.d
+./src/algo/scanning/TargetScanner.d
 
 # Each subdirectory must supply rules for building sources it contributes
 src/algo/scanning/%.o: ../src/algo/scanning/%.cpp

@@ -1,0 +1,68 @@
+WISE (Wide and lInear Subnet inferencE) v1.1 - Time at start: 13-09-2019 08:18:14
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 118626 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 362 additional responsive IPs.
+--- End of target pre-scanning (13-09-2019 18:09:11) ---
+Elapsed time: 9 hours 50 minutes 54 seconds
+Total amount of probes: 2393246
+Total amount of successful probes: 190234 (7.94879%)
+Total amount of discovered responsive IPs: 118988
+
+Filtered target IPs have been saved in an output file AS8220_13-09.ips (temporar).
+
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 257 threads will be scheduled (up to 464 target IPs per thread).
+53391 out of 118669 IPs with an estimated TTL (44.9915%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 256 threads will be scheduled (from 1 to 362 target IPs per thread).
+
+There are flickering IPs that could lead to the discovery of 12 aliases.
+Now starting alias hints collection...
+Collecting hints for 62.23.87.230, 62.23.87.253... Done.
+Collecting hints for 62.96.189.135, 217.110.32.101... Done.
+Collecting hints for 80.169.17.130, 80.169.17.131... Done.
+Collecting hints for 109.75.100.255, 109.75.101.9, 109.75.103.167, 109.75.103.187, 109.75.103.190, 185.65.196.129, 185.65.196.136, 195.178.0.6... Done.
+Collecting hints for 193.109.52.2, 193.109.52.38, 193.109.52.51... Done.
+Collecting hints for 212.36.132.9, 212.36.141.137... Done.
+Collecting hints for 212.36.132.38, 212.36.141.132... Done.
+Collecting hints for 212.74.86.239, 212.74.86.245... Done.
+Collecting hints for 213.41.64.186, 213.41.64.187... Done.
+Collecting hints for 213.61.58.163, 213.61.58.164... Done.
+Collecting hints for 213.86.169.11, 213.86.169.12... Done.
+Collecting hints for 213.164.10.69, 213.164.29.74... Done.
+Resolving... Done.
+--- End of target scanning (13-09-2019 23:07:33) ---
+Elapsed time: 4 hours 58 minutes 22 seconds
+Total amount of probes: 632147
+Total amount of successful probes: 593585 (93.8998%)
+
+Updated IP dictionary has been saved in the output file AS8220_13-09.ips.
+
+--- Start of subnet inference ---
+Inferring subnets... Done.
+Post-processing the discovered subnets... Done.
+--- End of subnet inference (13-09-2019 23:14:46) ---
+Elapsed time: 7 minutes 13 seconds
+
+Inferred subnets has been saved in the output file AS8220_13-09.subnets.
+Alias hints have been saved in the output file AS8220_13-09.hints.
+Fingerprints have been saved in the output file AS8220_13-09.fingerprints.
+Aliases discovered during subnet discovery have been written in AS8220_13-09.aliases-1.
+
+--- Start of neighborhood inference ---
+Collecting additional data to discover and locate neighborhoods.
+
+66352 IPs will be used as targets for traceroute-like probing, using 256 threads (up to 260 targets per thread).
+Probing the 66352 target IPs... Done.
+--- End of neighborhood inference (13-09-2019 23:45:09) ---
+Elapsed time: 30 minutes 23 seconds
+Total amount of probes: 192975
+Total amount of successful probes: 172709 (89.4981%)
+
+Additional traceroute data has been saved in the output file AS8220_13-09.peers.
+Neighborhoods have been saved in the output file AS8220_13-09.neighborhoods.

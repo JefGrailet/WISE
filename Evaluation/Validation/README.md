@@ -1,6 +1,6 @@
 # Validating WISE (and comparing it to other tools)
 
-*By Jean-François Grailet (last updated: February 25, 2019)*
+*By Jean-François Grailet (last updated: September 19, 2019)*
 
 ## About
 
@@ -54,6 +54,11 @@ Finally, it's worth noting that:
 * the *SubnetValidation.py* script doesn't need edition and can be used _as is_, but requires all 
   at once the groundtruth prefixes, the subnets as inferred by `WISE`, `TreeNET` and `ExploreNET` 
   (respectively).
+
+**Update (September 19, 2019):** the validation now can compare subnet prefixes obtained by `WISE` 
+before and after being post-processed to be adjusted in size. By default, the validation script 
+compares *raw* prefixes (i.e., before post-processing), but appending the command-line with 
+*--adjusted* will make it use the adjusted prefixes instead.
 
 ## Contact
 

@@ -201,10 +201,7 @@ bool LocationTask::forwardProbing(IPTableEntry *target, unsigned char initTTL)
         {
             InetAddress curIP = timeExceededReplies.front();
             timeExceededReplies.pop_front();
-            if(curIP == InetAddress(0))
-                newRoute[i].anonymize();
-            else
-                newRoute[i].update(curIP);
+            newRoute[i].update(curIP);
         }
     }
     
@@ -269,7 +266,7 @@ void LocationTask::setTrail(IPTableEntry *target)
     
     // Finds the index of last measured interface
     unsigned short lastMeasured = 0;
-    while(lastMeasured < routeLength && route[lastMeasured].state == RouteHop::NOT_MEASURED)
+    while(lastMeasured < routeLength && route[lastMeasured].isUnset())
         lastMeasured++;
     if(lastMeasured == 0)
     {
@@ -292,11 +289,7 @@ void LocationTask::setTrail(IPTableEntry *target)
             throw;
         }
         
-        InetAddress replyingIP = rec->getRplyAddress();
-        if(replyingIP == InetAddress(0))
-            route[index].anonymize();
-        else
-            route[index].update(replyingIP);
+        route[index].update(rec->getRplyAddress());
         delete rec;
         
         index--;
@@ -420,14 +413,19 @@ void LocationTask::run()
         
         // In case of slightly verbose mode, appends the discovered route
         if(showProbingDetails)
-            log += "\nDiscovered route:\n" + curTarget->routeToString() + "\n";
+        {
+            log += "\nDiscovered route";
+            if(!curTarget->hasCompleteRoute())
+                log += " (partial)";
+            log += ":\n" + curTarget->routeToString() + "\n";
+        }
         
         // Puts back the initial timeout (for next target IP)
         if(timeoutChanged)
             prober->setTimeout(initialTimeout);
         
-        prevTTL = curTarget->getTTL();
-        Thread::invokeSleep(env->getProbingThreadDelay());
+        prevTTL = curTarget->getTTL(); // Initial probe TTL for the next target
+        Thread::invokeSleep(env->getProbingThreadDelay()); // Some delay before probing next target
     }
     
     // Displays the log if one was requested

@@ -24,6 +24,8 @@ IPTableEntry::IPTableEntry(InetAddress ip) : InetAddress(ip)
     warping = false;
     echoing = false;
     flickering = false;
+    
+    denotingNeighborhood = false;
 }
 
 IPTableEntry::~IPTableEntry()
@@ -127,7 +129,7 @@ string IPTableEntry::toString()
             }
         }
     }
-    // Seen in a trail
+    // Only seen in a trail
     else if(type == SEEN_IN_TRAIL)
     {
         ss << " - Part of a trail";
@@ -210,10 +212,7 @@ void IPTableEntry::initRoute()
         routeLength = ((unsigned short) TTL) - 1;
         route = new RouteHop[routeLength];
         for(unsigned short i = 0; i < routeLength; i++)
-        {
-            route[i].ip = InetAddress(0);
-            route[i].state = RouteHop::NOT_MEASURED;
-        }
+            route[i].reset();
     }
 }
 
@@ -242,7 +241,7 @@ bool IPTableEntry::setTrail()
     unsigned short lastValidIndex = 0;
     for(short i = trueRouteLen - 1; i >= 0; i--)
     {
-        if(route[i].state == RouteHop::VIA_TRACEROUTE)
+        if(route[i].isValidHop())
         {
             lastValidIP = route[i].ip;
             lastValidIndex = i;
@@ -253,7 +252,7 @@ bool IPTableEntry::setTrail()
     if(lastValidIP == InetAddress(0))
     {
         // Exceptional situation where the route only contains anonymous hops
-        if(route[0].state == RouteHop::ANONYMOUS)
+        if(route[0].isAnonymous())
         {
             trail = new Trail(trueRouteLen);
             return true;
@@ -272,7 +271,7 @@ bool IPTableEntry::setTrail()
      * or j must be negative, otherwise we're not 100% there's no cycle we're missing.
      */
     
-    if(j >= 0 && route[j].state == RouteHop::NOT_MEASURED)
+    if(j >= 0 && route[j].isUnset())
         return false;
     
     if(nbAnomalies > 0)
@@ -281,6 +280,18 @@ bool IPTableEntry::setTrail()
         trail = new Trail(lastValidIP);
     
     return true;
+}
+
+bool IPTableEntry::hasCompleteRoute()
+{
+    if(routeLength == 0 && route == NULL)
+    {
+        if(TTL == 1)
+            return true;
+        else
+            return false;
+    }
+    return !route[0].isUnset();
 }
 
 string IPTableEntry::routeToString()
@@ -296,14 +307,9 @@ string IPTableEntry::routeToString()
     stringstream ss;
     for(unsigned short i = 0; i < routeLength; i++)
     {
-        if(route[i].state == RouteHop::NOT_MEASURED)
+        if(route[i].isUnset())
             continue;
-        ss << (i + 1) << " - ";
-        if(route[i].state == RouteHop::VIA_TRACEROUTE)
-            ss << route[i].ip;
-        else
-            ss << "Anonymous";
-        ss << "\n";
+        ss << (i + 1) << " - " << route[i] << "\n";
     }
     return ss.str();
 }

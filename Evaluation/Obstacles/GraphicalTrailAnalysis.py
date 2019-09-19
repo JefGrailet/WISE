@@ -9,14 +9,15 @@ from matplotlib import pyplot as plt
 if __name__ == "__main__":
 
     if len(sys.argv) < 4:
-        print("Use this command: python GraphicalTrailAnalysis.py [AS] [Dates] [[Show dump ?]]")
+        print("Use this command: python GraphicalTrailAnalysis.py [AS] [Dataset folder] [Dates] [[Show dump ?]]")
         sys.exit()
     
     AS = str(sys.argv[1])
-    datesFilePath = str(sys.argv[2])
+    dataFolder = str(sys.argv[2])
+    datesFilePath = str(sys.argv[3])
     showDump = ""
-    if len(sys.argv) == 4:
-        showDump = str(sys.argv[3]).lower()
+    if len(sys.argv) == 5:
+        showDump = str(sys.argv[4]).lower()
     
     # Checks existence of the file providing dates
     if not os.path.isfile(datesFilePath):
@@ -31,16 +32,17 @@ if __name__ == "__main__":
         splitDate = datesRaw[i].split('/')
         dates.append(splitDate)
     
-    # TODO: change datasetPrefix to fit your file system
-    datasetPrefix = "/home/jefgrailet/PhD/Campaigns/WISE"
+    # TODO: change datasetPrefix so this fits your computer.
+    datasetPrefix = "/home/jefgrailet/PhD/Campaigns/"
     validDatasets = []
     ratiosWarping = []
     ratiosFlickering = []
     ratiosEchoes = []
     for d in range(0, len(dates)):
         curDate = dates[d]
-        IPFilePath = datasetPrefix + "/" + AS + "/" + curDate[2] + "/" + curDate[1] + "/"
-        IPFilePath += curDate[0] + "/" + AS + "_" + curDate[0] + "-" + curDate[1] + ".ips"
+        IPFilePath = datasetPrefix + dataFolder + "/" + AS + "/" + curDate[2]
+        IPFilePath += "/" + curDate[1] + "/" + curDate[0] + "/" + AS + "_" + curDate[0] + "-"
+        IPFilePath += curDate[1] + ".ips"
         
         # Checks existence of the .ips file
         if not os.path.isfile(IPFilePath):

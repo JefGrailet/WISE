@@ -39,6 +39,8 @@ src/algo/utils \
 src/algo/structure \
 src/algo/prescanning \
 src/algo/scanning \
+src/algo/subnetinference \
+src/algo/neighborhoods \
 src/algo/aliasresolution \
 src \
 

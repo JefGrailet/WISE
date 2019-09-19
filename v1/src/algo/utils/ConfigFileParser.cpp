@@ -44,7 +44,7 @@ const string ConfigFileParser::PARAM_STRING[] = {
 "probingPayloadMessage"
 };
 
-const unsigned short ConfigFileParser::N_PARAM_INTEGER = 11;
+const unsigned short ConfigFileParser::N_PARAM_INTEGER = 13;
 const string ConfigFileParser::PARAM_INTEGER[] = {
 "probingMaxRetries", 
 "concurrencyMaxThreads", 
@@ -53,6 +53,8 @@ const string ConfigFileParser::PARAM_INTEGER[] = {
 "scanningTargetListSplitThreshold", 
 "scanningNumberOfReprobing", 
 "scanningMaximumFlickeringDelta", 
+"inferenceOutliersRatioDivisor",
+"peerDiscoveryMaxPivots", 
 "aliasResolutionNbIPIDs", 
 "aliasResolutionAllyMaxDifference", 
 "aliasResolutionAllyMaxConsecutiveDifference", 
@@ -153,10 +155,10 @@ void ConfigFileParser::parse(string inputFileName)
                 switch(index)
                 {
                     case 0:
-                        if(val > 30000000)
+                        if(val > 10000000)
                         {
                             (*out) << "Warning for key \"" << PARAM_TIMEVAL[0] << "\": you ";
-                            (*out) << "provided a timeout larger than 30 seconds. Default value ";
+                            (*out) << "provided a timeout larger than 10 seconds. Default value ";
                             (*out) << "will be used instead." << endl;
                             nbErrors++;
                             break;
@@ -357,12 +359,35 @@ void ConfigFileParser::parse(string inputFileName)
                     }
                     break;
                 case 7:
+                    if(asInt > 1 && asInt <= 100) // Min. ratio of outliers is 1%
+                        env->setOutliersRatioDivisor(asInt);
+                    else
+                    {
+                        nbErrors++;
+                        (*out) << "Warning for key \"" << PARAM_INTEGER[7] << "\": provided ";
+                        (*out) << "value is outside [1, 100]. Default value will be used ";
+                        (*out) << "instead." << endl;
+                    }
+                    break;
+                    break;
+                case 8:
+                    if(asInt > 1 && asInt <= 4095) // Max. value is #IPs in a full /20 - 1
+                        env->setMaxPeerDiscoveryPivots(asInt);
+                    else
+                    {
+                        nbErrors++;
+                        (*out) << "Warning for key \"" << PARAM_INTEGER[8] << "\": provided ";
+                        (*out) << "value is outside [1, 4095]. Default value will be used ";
+                        (*out) << "instead." << endl;
+                    }
+                    break;
+                case 9:
                     if(asInt > 2 && asInt <= 20 && env->getMaxThreads() > (asInt + 1))
                         env->setARNbIPIDs(asInt);
                     else
                     {
                         nbErrors++;
-                        (*out) << "Warning for key \"" << PARAM_INTEGER[7] << "\": ";
+                        (*out) << "Warning for key \"" << PARAM_INTEGER[9] << "\": ";
                         if(asInt <= 2 || asInt > 20)
                             (*out) << "provided value is outside [3, 20]. ";
                         else
@@ -373,35 +398,35 @@ void ConfigFileParser::parse(string inputFileName)
                         (*out) << "Default value will be used instead." << endl;
                     }
                     break;
-                case 8:
+                case 10:
                     if(asInt > 0 && asInt <= 32768) // 0.05 * 65356
                         env->setARAllyMaxDiff(asInt);
                     else
                     {
                         nbErrors++;
-                        (*out) << "Warning for key \"" << PARAM_INTEGER[8] << "\": provided ";
+                        (*out) << "Warning for key \"" << PARAM_INTEGER[10] << "\": provided ";
                         (*out) << "value is outside [1, 32768]. Default value will be used ";
                         (*out) << "instead." << endl;
                     }
                     break;
-                case 9:
+                case 11:
                     if(asInt > 0 && asInt <= 3277) // 0.5 * 65356
                         env->setARAllyMaxConsecutiveDiff(asInt);
                     else
                     {
                         nbErrors++;
-                        (*out) << "Warning for key \"" << PARAM_INTEGER[9] << "\": provided ";
+                        (*out) << "Warning for key \"" << PARAM_INTEGER[11] << "\": provided ";
                         (*out) << "value is outside [1, 3277]. Default value will be used ";
                         (*out) << "instead." << endl;
                     }
                     break;
-                case 10:
+                case 12:
                     if(asInt > 0 && asInt <= 256)
                         env->setARVelocityMaxRollovers(asInt);
                     else
                     {
                         nbErrors++;
-                        (*out) << "Warning for key \"" << PARAM_INTEGER[10] << "\": provided ";
+                        (*out) << "Warning for key \"" << PARAM_INTEGER[12] << "\": provided ";
                         (*out) << "value is outside [1, 256]. Default value will be used ";
                         (*out) << "instead." << endl;
                     }

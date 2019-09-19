@@ -13,6 +13,7 @@
 #define SUBNETINTERFACE_H_
 
 #include "IPTableEntry.h"
+#include "RouteHop.h"
 
 class SubnetInterface
 {
@@ -28,17 +29,37 @@ public:
         RULE_3_ECHOES, // Trails are echoing target IPs and interfaces are at the same distance
         RULE_4_FLICKERING, // Flickering trails which IPs were aliased together
         RULE_5_ALIAS, // Different trail than the pivot, but IPs were aliased (flickering/warping)
-        OUTLIER
+        OUTLIER, 
+        ALTERNATIVE_CONTRAPIVOT // (July 2019) Alternate definition of a contra-pivot, see below
     };
+    
+    /*
+     * About alternative definition of a contra-pivot: usually, a contra-pivot is inferred on the 
+     * basis of the TTL distance. However, in situations where traffic engineering causes the 
+     * distances of pivot IPs to vary wildly, the contra-pivot(s) might not appear sooner than 
+     * pivot IPs and might at first appear as outlier(s). A new post-processing step now detects 
+     * subnets that are missing a contra-pivot and where the TTL distances of pivot IPs vary a 
+     * lot to re-label the outliers as contra-pivots (if there is only one outlier or very few 
+     * of them).
+     */
 
     SubnetInterface(IPTableEntry *ip, unsigned short status);
     ~SubnetInterface();
     
+    // Most essential data
     IPTableEntry *ip;
     unsigned short status;
     
+    // Might be set and used during neighborhood discovery
+    unsigned short partialRouteLength;
+    RouteHop *partialRoute;
+    
     // Comparison method
     static bool smaller(SubnetInterface *i1, SubnetInterface *i2);
+    
+    // Method for convenient output of route data (if any; returns "" if none)
+    string routeToString();
+
 };
 
 #endif /* SUBNETINTERFACE_H_ */

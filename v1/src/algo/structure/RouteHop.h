@@ -6,7 +6,8 @@
  *
  * A simple class to represent a single hop in a route.
  *
- * N.B.: this class is equivalent to "RouteInterface" in SAGE and late TreeNET versions.
+ * N.B.: this class is equivalent to "RouteInterface" in SAGE v1.0 and late TreeNET versions, but 
+ * with a few changes to be more adapted to the probing strategies of WISE/SAGE v2.0.
  */
 
 #ifndef ROUTEHOP_H_
@@ -23,23 +24,34 @@ public:
     {
         NOT_MEASURED, // Not measured yet
         ANONYMOUS, // Tried to get it via traceroute, but only got timeout
-        LIMITED, // Same, but got something when retrying later (because of rate-limitation or firewall)
-        REPAIRED_1, // Repaired at first offline fix
-        REPAIRED_2, // Repaired offline after re-covering a "limited" IP in another route
-        VIA_TRACEROUTE // Obtained through traceroute
+        VIA_TRACEROUTE, // Intermediate hop obtained through traceroute
+        PEERING_POINT // IP appears as the (direct) trail of some neighborhood, i.e. it's a peer
     };
     
-    // TODO: are limited/repaired still relevant for upcoming software ?
-
+    // Output method
+    friend ostream &operator<<(ostream &out, const RouteHop &hop)
+    {
+        if(hop.state == ANONYMOUS)
+            out << "Anonymous";
+        else if(hop.state == PEERING_POINT)
+            out << "[" << hop.ip << "]";
+        else
+            out << hop.ip;
+        return out;
+    }
+    
     RouteHop(); // Creates a "NOT_MEASURED" route hop
     RouteHop(InetAddress ip);
     ~RouteHop();
     
-    void update(InetAddress ip); // For when the hop is initially "NOT_MEASURED"
-    void anonymize(); // Same but for when there is a timeout (= anonymous router)
-    void repair(InetAddress ip); // Always sets state to "REPAIRED_1"
-    void repairBis(InetAddress ip); // Always sets state to "REPAIRED_2"
-    void deanonymize(InetAddress ip); // Always sets state to "LIMITED"
+    void reset();
+    void update(InetAddress ip, bool peer = false); // Updates the state too (see implementation)
+    
+    // Short methods to avoid using "RouteHop::STATE" in other parts of the code
+    inline bool isUnset() { return state == NOT_MEASURED; }
+    inline bool isAnonymous() { return state == ANONYMOUS; }
+    inline bool isValidHop() { return state == VIA_TRACEROUTE || state == PEERING_POINT; }
+    inline bool isPeer() { return state == PEERING_POINT; }
     
     // Overriden equality operator
     RouteHop &operator=(const RouteHop &other);

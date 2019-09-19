@@ -1,6 +1,10 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
 
+# 18/09/2019: updated to take account of minor changes brought by WISE 1.1, mainly: 
+# -taking account of adjusted prefixes, 
+# -taking account of alternative contra-pivot definition (trail-based).
+
 import os
 import sys
 import numpy as np
@@ -13,7 +17,8 @@ from matplotlib import pyplot as plt
 
 def contrapivotRule(subnet):
     for i in range(1, len(subnet) - 1):
-        if subnet[i][3] == 'Contra-pivot':
+        intType = subnet[i][3] # For "interface type"
+        if intType == 'Contra-pivot' or intType == 'Contra-pivot (alternative definition)':
             return True
     return False
 
@@ -23,7 +28,8 @@ def spreadRule(subnet):
     nbContrapivots = 0
     nbInterfaces = len(subnet) - 1
     for i in range(1, len(subnet) - 1):
-        if subnet[i][3] == 'Contra-pivot':
+        intType = subnet[i][3] # Same as above
+        if intType == 'Contra-pivot' or intType == 'Contra-pivot (alternative definition)':
             nbContrapivots += 1
     if nbContrapivots == 1:
         return True
@@ -116,7 +122,7 @@ if __name__ == "__main__":
         splitDate = datesRaw[i].split('/')
         dates.append(splitDate)
     
-    # TODO: change datasetPrefix to fit your file system
+    # TODO: change datasetPrefix so this fits your computer.
     datasetPrefix = "/home/jefgrailet/PhD/Campaigns/WISE/" + ASNumber + "/"
     perDateSets = []
     perDateData = []
@@ -144,6 +150,7 @@ if __name__ == "__main__":
         with open(VPPath) as f:
             vantagePoint = f.read().splitlines()
         
+        # N.B.: only useful for processing early campaigns (February 2019)
         if vantagePoint[0] == "planet3.cs.huji.ac.il" or vantagePoint[0] == "planet4.cs.huji.ac.il":
             ignoredDates.append(date)
             continue
@@ -175,7 +182,11 @@ if __name__ == "__main__":
                 curSubnet.append([IP, TTL, trail, interfaceType])
             # Subnet CIDR notation
             else:
-                curSubnet.append(subnetsRaw[j])
+                CIDR = subnetsRaw[j]
+                if "adjusted from" in CIDR:
+                    splitCIDR = CIDR.split(" (adjusted from")
+                    CIDR = splitCIDR[0]
+                curSubnet.append(CIDR)
         
         # Removes subnets that are overlapped
         subnets = []

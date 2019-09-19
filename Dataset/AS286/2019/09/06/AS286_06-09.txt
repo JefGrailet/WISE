@@ -1,0 +1,59 @@
+WISE (Wide and lInear Subnet inferencE) v1.1 - Time at start: 06-09-2019 08:27:48
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 3017 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 58 additional responsive IPs.
+--- End of target pre-scanning (06-09-2019 10:33:38) ---
+Elapsed time: 2 hours 5 minutes 49 seconds
+Total amount of probes: 499767
+Total amount of successful probes: 8625 (1.7258%)
+Total amount of discovered responsive IPs: 3075
+
+Filtered target IPs have been saved in an output file AS286_06-09.ips (temporar).
+
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 97 threads will be scheduled (up to 32 target IPs per thread).
+715 out of 3038 IPs with an estimated TTL (23.5352%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 18 threads will be scheduled (from 1 to 117 target IPs per thread).
+
+There are flickering IPs that could lead to the discovery of 3 aliases.
+Now starting alias hints collection...
+Collecting hints for 134.222.48.116, 134.222.48.176... Done.
+Collecting hints for 134.222.48.122, 134.222.48.224... Done.
+Collecting hints for 134.222.49.87, 134.222.49.109... Done.
+Resolving... Done.
+--- End of target scanning (06-09-2019 11:05:01) ---
+Elapsed time: 31 minutes 23 seconds
+Total amount of probes: 18356
+Total amount of successful probes: 12814 (69.8082%)
+
+Updated IP dictionary has been saved in the output file AS286_06-09.ips.
+
+--- Start of subnet inference ---
+Inferring subnets... Done.
+Post-processing the discovered subnets... Done.
+--- End of subnet inference (06-09-2019 11:05:01) ---
+Elapsed time: less than one second
+
+Inferred subnets has been saved in the output file AS286_06-09.subnets.
+Alias hints have been saved in the output file AS286_06-09.hints.
+Fingerprints have been saved in the output file AS286_06-09.fingerprints.
+Aliases discovered during subnet discovery have been written in AS286_06-09.aliases-1.
+
+--- Start of neighborhood inference ---
+Collecting additional data to discover and locate neighborhoods.
+
+1398 IPs will be used as targets for traceroute-like probing, using 256 threads (up to 6 targets per thread).
+Probing the 1398 target IPs... Done.
+--- End of neighborhood inference (06-09-2019 11:08:26) ---
+Elapsed time: 3 minutes 25 seconds
+Total amount of probes: 2181
+Total amount of successful probes: 1824 (83.6314%)
+
+Additional traceroute data has been saved in the output file AS286_06-09.peers.
+Neighborhoods have been saved in the output file AS286_06-09.neighborhoods.

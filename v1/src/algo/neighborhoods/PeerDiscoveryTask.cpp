@@ -1,0 +1,304 @@
+/*
+ * PeerDiscoveryTask.cpp
+ *
+ *  Created on: Aug 19, 2019
+ *      Author: jefgrailet
+ *
+ * Implements the class defined in PeerDiscoveryTask.h (see this file to learn further about the 
+ * goals of such a class).
+ */
+
+#include "PeerDiscoveryTask.h"
+#include "../../common/thread/Thread.h" // invokeSleep()
+
+PeerDiscoveryTask::PeerDiscoveryTask(Environment *e, 
+                                     list<SubnetInterface*> sis, 
+                                     unsigned short lbii, 
+                                     unsigned short ubii, 
+                                     unsigned short lbis, 
+                                     unsigned short ubis):
+env(e), 
+targets(sis)
+{
+    try
+    {
+        unsigned short protocol = env->getProbingProtocol();
+    
+        if(protocol == Environment::PROBING_PROTOCOL_UDP)
+        {
+            int roundRobinSocketCount = DirectProber::DEFAULT_TCP_UDP_ROUND_ROBIN_SOCKET_COUNT;
+            if(env->usingFixedFlowID())
+                roundRobinSocketCount = 1;
+            
+            prober = new DirectUDPWrappedICMPProber(env->getAttentionMessage(), 
+                                                    roundRobinSocketCount, 
+                                                    env->getTimeoutPeriod(), 
+                                                    env->getProbeRegulatingPeriod(), 
+                                                    lbii, 
+                                                    ubii, 
+                                                    lbis, 
+                                                    ubis, 
+                                                    env->debugMode());
+        }
+        else if(protocol == Environment::PROBING_PROTOCOL_TCP)
+        {
+            int roundRobinSocketCount = DirectProber::DEFAULT_TCP_UDP_ROUND_ROBIN_SOCKET_COUNT;
+            if(env->usingFixedFlowID())
+                roundRobinSocketCount = 1;
+            
+            prober = new DirectTCPWrappedICMPProber(env->getAttentionMessage(), 
+                                                    roundRobinSocketCount, 
+                                                    env->getTimeoutPeriod(), 
+                                                    env->getProbeRegulatingPeriod(), 
+                                                    lbii, 
+                                                    ubii, 
+                                                    lbis, 
+                                                    ubis, 
+                                                    env->debugMode());
+        }
+        else
+        {
+            prober = new DirectICMPProber(env->getAttentionMessage(), 
+                                          env->getTimeoutPeriod(), 
+                                          env->getProbeRegulatingPeriod(), 
+                                          lbii, 
+                                          ubii, 
+                                          lbis, 
+                                          ubis, 
+                                          env->debugMode());
+        }
+    }
+    catch(SocketException &se)
+    {
+        ostream *out = env->getOutputStream();
+        Environment::consoleMessagesMutex.lock();
+        (*out) << "Caught an exception because no new socket could be opened." << endl;
+        Environment::consoleMessagesMutex.unlock();
+        this->stop();
+        throw;
+    }
+    
+    // Verbosity/debug stuff
+    advertiseRoute = false;
+    displayFinalRoute = false; // Default
+    debugMode = false; // Default
+    unsigned short displayMode = env->getDisplayMode();
+    if(displayMode >= Environment::DISPLAY_MODE_SLIGHTLY_VERBOSE)
+        advertiseRoute = true;
+    if(displayMode >= Environment::DISPLAY_MODE_VERBOSE)
+        displayFinalRoute = true;
+    if(displayMode >= Environment::DISPLAY_MODE_DEBUG)
+        debugMode = true;
+    
+    // Prints first probing details (debug mode only)
+    if(debugMode)
+    {
+        Environment::consoleMessagesMutex.lock();
+        ostream *out = env->getOutputStream();
+        (*out) << "Initiating partial traceroute towards " << targets.size() << " IP";
+        if(targets.size() > 1)
+            (*out) << "s";
+        (*out) << "...\n" << prober->getAndClearLog();
+        Environment::consoleMessagesMutex.unlock();
+    }
+}
+
+PeerDiscoveryTask::~PeerDiscoveryTask()
+{
+    if(prober != NULL)
+    {
+        env->updateProbeAmounts(prober);
+        delete prober;
+    }
+}
+
+ProbeRecord *PeerDiscoveryTask::probe(const InetAddress &dst, unsigned char TTL)
+{
+    InetAddress localIP = env->getLocalIPAddress();
+    ProbeRecord *record = NULL;
+    
+    try
+    {
+        record = prober->singleProbe(localIP, dst, TTL, true);
+    }
+    catch(SocketException &se)
+    {
+        throw;
+    }
+    
+    // Debug log
+    if(debugMode)
+    {
+        this->log += prober->getAndClearLog();
+    }
+    
+    /*
+     * N.B.: Fixed flow is ALWAYS used in this case because we want to use the Paris variant of 
+     * traceroute to mitigate problems encountered with some types of load-balancers.
+     */
+
+    return record;
+}
+
+void PeerDiscoveryTask::stop()
+{
+    Environment::emergencyStopMutex.lock();
+    env->triggerStop();
+    Environment::emergencyStopMutex.unlock();
+}
+
+void PeerDiscoveryTask::run()
+{
+    for(list<SubnetInterface*>::iterator it = targets.begin(); it != targets.end(); ++it)
+    {
+        SubnetInterface *target = (*it);
+        IPTableEntry *targetIP = target->ip;
+        Trail *targetTrail = targetIP->getTrail();
+        // No proper IP dictionary entry or trail: quits (ideally shouldn't occur)
+        if(targetIP == NULL || targetTrail == NULL)
+            return;
+        
+        InetAddress probeDst = (InetAddress) (*targetIP);
+        unsigned char probeTTL = targetIP->getTTL() - 1 - targetTrail->getLengthInTTL();
+        unsigned short initialTTL = (unsigned short) probeTTL; // For display only
+        if(probeTTL == 0 || probeDst == InetAddress(0)) // Bad probing parameters: quits
+            return;
+        
+        // Changes timeout if necessary for this IP
+        TimeVal initialTimeout, preferredTimeout, usedTimeout;
+        initialTimeout = prober->getTimeout();
+        preferredTimeout = targetIP->getPreferredTimeout();
+        if(preferredTimeout > initialTimeout)
+        {
+            prober->setTimeout(preferredTimeout);
+            usedTimeout = preferredTimeout;
+        }
+        else
+            usedTimeout = initialTimeout;
+        
+        // Probes the target IP with decreasing TTL until it reachs 0 or until it finds a peer IP
+        IPLookUpTable *dictionary = env->getIPDictionary();
+        list<InetAddress> routeHops;
+        bool foundPeer = false;
+        while(probeTTL > 0)
+        {
+            ProbeRecord *record = NULL;
+            try
+            {
+                record = this->probe(probeDst, probeTTL);
+            }
+            catch(SocketException &se)
+            {
+                this->stop();
+                return;
+            }
+            
+            InetAddress rplyAddress = record->getRplyAddress();
+            if(rplyAddress == InetAddress(0))
+            {
+                delete record;
+                
+                // Debug message (N.B.: probe() also appends the debug log)
+                if(debugMode)
+                {
+                    this->log += "Retrying at this TTL with twice the initial timeout...\n";
+                }
+                
+                // New probe with twice the timeout period
+                prober->setTimeout(usedTimeout * 2);
+                
+                try
+                {
+                    record = this->probe(probeDst, probeTTL);
+                }
+                catch(SocketException &se)
+                {
+                    this->stop();
+                    return;
+                }
+                
+                rplyAddress = record->getRplyAddress();
+                
+                // Restores default timeout
+                prober->setTimeout(usedTimeout);
+            }
+            
+            if(record->isATimeout())
+                routeHops.push_front(InetAddress(0));
+            else
+                routeHops.push_front(rplyAddress);
+            
+            delete record;
+            
+            // Did we find a peer ?
+            if(rplyAddress != InetAddress(0) && dictionary->isPotentialPeer(rplyAddress))
+            {
+                foundPeer = true;
+                break;
+            }
+            
+            probeTTL--;
+        }
+        
+        unsigned short routeLength = (unsigned short) routeHops.size(), index = 0;
+        RouteHop *route = new RouteHop[routeLength];
+        while(routeHops.size() > 0)
+        {
+            InetAddress hop = routeHops.front();
+            routeHops.pop_front();
+            
+            if(foundPeer && index == 0)
+                route[index++].update(hop, true);
+            else
+                route[index++].update(hop);
+        }
+        
+        target->partialRouteLength = routeLength;
+        target->partialRoute = route;
+        
+        /*
+         * Display policy:
+         * -laconic mode (default): nothing is printed.
+         * -slightly verbose mode: displays a single line to advertise the discovery of a new 
+         *  route for a given target IP (pivot of a subnet).
+         * -verbose mode: displays the route, preceeded by the target that was used to obtain it.
+         * -debug: same as verbose with a bit more spacing.
+         */
+        
+        if(advertiseRoute)
+        {
+            stringstream routeLog;
+            routeLog << "Got a ";
+            if(foundPeer)
+                routeLog << "partial ";
+            else
+                routeLog << "full ";
+            routeLog << "route to " << targetIP->toStringSimple();
+            if(displayFinalRoute)
+            {
+                routeLog << ":\n";
+                for(unsigned short i = 0; i < routeLength; i++)
+                    routeLog << (initialTTL - routeLength + 1 + i) << " - " << route[i] << "\n";
+                
+                // Adding a line break after probe logs to separate from the complete route
+                if(debugMode)
+                    this->log += "\n";
+            }
+            else
+                routeLog << ".";
+            this->log += routeLog.str();
+            
+            // Displays the log, which can be a complete sequence of probe as well as a single line
+            Environment::consoleMessagesMutex.lock();
+            ostream *out = env->getOutputStream();
+            (*out) << this->log << endl;
+            Environment::consoleMessagesMutex.unlock();
+            
+            // Clears the log for next target
+            this->log = "";
+        }
+        
+        // Some delay before handling next target (same idea as in scanning/LocationTask.cpp)
+        Thread::invokeSleep(env->getProbingThreadDelay());
+    }
+}

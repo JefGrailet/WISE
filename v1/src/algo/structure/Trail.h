@@ -46,7 +46,9 @@ public:
     
     inline InetAddress getLastValidIP() const { return lastValidIP; }
     inline unsigned short getNbAnomalies() const { return nbAnomalies; }
+    inline unsigned short getLengthInTTL() { return nbAnomalies + 1; }
     
+    inline bool isDirect() { return direct; }
     inline bool isWarping() { return warping; }
     inline bool isFlickering() { return flickering; }
     inline bool isEchoing() { return echoing; }
@@ -55,6 +57,9 @@ public:
     inline void setAsFlickering() { flickering = true; }
     inline void setAsEchoing() { echoing = true; }
     
+    static bool compare(Trail *t1, Trail *t2);
+    
+    string toString();
     bool equals(Trail *other);
 
 private:
@@ -62,7 +67,7 @@ private:
     InetAddress lastValidIP;
     unsigned short nbAnomalies;
 	
-	bool warping, flickering, echoing;
+	bool direct, warping, flickering, echoing;
 	
 };
 

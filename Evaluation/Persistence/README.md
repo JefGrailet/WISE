@@ -1,6 +1,6 @@
 # Subnet persistence
 
-*By Jean-François Grailet (last updated: March 1, 2019)*
+*By Jean-François Grailet (last updated: September 19, 2019)*
 
 ## About
 

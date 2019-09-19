@@ -1,0 +1,78 @@
+WISE (Wide and lInear Subnet inferencE) v1.1 - Time at start: 06-09-2019 08:30:52
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 97387 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 228 additional responsive IPs.
+--- End of target pre-scanning (06-09-2019 12:18:58) ---
+Elapsed time: 3 hours 48 minutes 3 seconds
+Total amount of probes: 925077
+Total amount of successful probes: 170208 (18.3993%)
+Total amount of discovered responsive IPs: 97615
+
+Filtered target IPs have been saved in an output file AS6939_06-09.ips (temporar).
+
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 257 threads will be scheduled (up to 381 target IPs per thread).
+7789 out of 97286 IPs with an estimated TTL (8.00629%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 115 threads will be scheduled (from 1 to 312 target IPs per thread).
+
+There are flickering IPs that could lead to the discovery of 22 aliases.
+Now starting alias hints collection...
+Collecting hints for 10.225.102.2, 10.225.104.1... Done.
+Collecting hints for 64.62.205.51, 216.218.193.61... Done.
+Collecting hints for 64.62.205.196, 65.49.28.187, 216.218.223.70... Done.
+Collecting hints for 64.71.133.246, 64.71.148.122... Done.
+Collecting hints for 65.19.138.179, 65.19.138.190... Done.
+Collecting hints for 65.19.141.1, 65.49.8.241, 184.105.65.214, 216.218.137.1, 216.218.139.1, 216.218.167.1, 216.218.190.129... Done.
+Collecting hints for 65.49.10.80, 65.49.10.124... Done.
+Collecting hints for 65.49.33.20, 192.168.253.2... Done.
+Collecting hints for 72.52.92.49, 184.105.64.93... Done.
+Collecting hints for 72.52.92.117, 184.105.65.113... Done.
+Collecting hints for 100.70.0.22, 100.70.0.66... Done.
+Collecting hints for 173.230.159.69, 173.230.159.71... Done.
+Collecting hints for 173.243.80.182, 184.105.122.69, 184.105.122.196... Done.
+Collecting hints for 184.75.240.10, 184.75.240.14, 184.75.240.15, 184.75.240.16, 184.75.240.18, 184.75.240.19, 184.75.240.20, 184.75.240.21... Done.
+Collecting hints for 184.104.193.38, 184.105.223.161... Done.
+Collecting hints for 184.105.81.61, 184.105.213.162... Done.
+Collecting hints for 184.105.182.13, 184.105.182.14... Done.
+Collecting hints for 184.105.253.210, 184.105.253.211... Done.
+Collecting hints for 199.168.90.73, 216.66.37.163... Done.
+Collecting hints for 206.41.108.33, 209.51.169.3... Done.
+Collecting hints for 208.64.62.11, 208.64.62.12, 208.64.62.13, 208.64.62.14, 208.64.62.18... Done.
+Collecting hints for 216.218.196.186, 216.218.215.121... Done.
+Resolving... Done.
+--- End of target scanning (06-09-2019 14:36:46) ---
+Elapsed time: 2 hours 17 minutes 47 seconds
+Total amount of probes: 453574
+Total amount of successful probes: 391940 (86.4115%)
+
+Updated IP dictionary has been saved in the output file AS6939_06-09.ips.
+
+--- Start of subnet inference ---
+Inferring subnets... Done.
+Post-processing the discovered subnets... Done.
+--- End of subnet inference (06-09-2019 14:38:55) ---
+Elapsed time: 2 minutes 9 seconds
+
+Inferred subnets has been saved in the output file AS6939_06-09.subnets.
+Alias hints have been saved in the output file AS6939_06-09.hints.
+Fingerprints have been saved in the output file AS6939_06-09.fingerprints.
+Aliases discovered during subnet discovery have been written in AS6939_06-09.aliases-1.
+
+--- Start of neighborhood inference ---
+Collecting additional data to discover and locate neighborhoods.
+
+18448 IPs will be used as targets for traceroute-like probing, using 256 threads (up to 73 targets per thread).
+Probing the 18448 target IPs... Done.
+--- End of neighborhood inference (06-09-2019 15:03:49) ---
+Elapsed time: 24 minutes 53 seconds
+Total amount of probes: 25741
+Total amount of successful probes: 22850 (88.7689%)
+
+Additional traceroute data has been saved in the output file AS6939_06-09.peers.
+Neighborhoods have been saved in the output file AS6939_06-09.neighborhoods.

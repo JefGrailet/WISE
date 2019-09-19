@@ -24,6 +24,8 @@ RM := rm -rf
 -include src/algo/structure/subdir.mk
 -include src/algo/prescanning/subdir.mk
 -include src/algo/scanning/subdir.mk
+-include src/algo/subnetinference/subdir.mk
+-include src/algo/neighborhoods/subdir.mk
 -include src/algo/aliasresolution/subdir.mk
 -include src/algo/subdir.mk
 -include src/subdir.mk

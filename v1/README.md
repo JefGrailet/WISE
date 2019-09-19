@@ -1,6 +1,6 @@
-# About WISE v1.0 (wise)
+# About WISE v1.1 (wise)
 
-*By Jean-François Grailet (last updated: February 25, 2019)*
+*By Jean-François Grailet (last updated: September 19, 2019)*
 
 ## Compilation
 
@@ -29,7 +29,7 @@ If you intent to use `WISE` from the PlanetLab testbed, here is some advice.
 
 ## Usage
 
-`WISE` v1.0 will describe in details its options, flags and how you can use it by running the line:
+`WISE` v1.1 will describe in details its options, flags and how you can use it by running the line:
 
 ```sh
 ./wise -h
@@ -50,6 +50,8 @@ In order to simplify the parameters of `WISE` and only allow the editing of the 
 ## Changes history
 
 * **February 25, 2019:** release of `WISE` v1.0.
+
+* **September 19, 2019:** release of `WISE` v1.1. This new version provides an updated and improved subnet post-processing, as well as one additional step after subnet inference designed to infer *neighborhoods*, network locations bordered by subnets that are located at at most one hop from each other which can consist of a single router or a mesh of network-layer/datalink-layer devices. In addition to inferring neighborhoods, `WISE` v1.1 also locates neighborhoods w.r.t. each other by using some additional data collected with partial (Paris) `traceroute` measurements. Neighborhoods will be later used to infer more from a target domain.
 
 ## Disclaimer
 
