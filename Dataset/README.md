@@ -1,6 +1,6 @@
 # Dataset
 
-*By Jean-François Grailet (last updated: September 19, 2019)*
+*By Jean-François Grailet (last updated: September 25, 2019)*
 
 ## About
 
@@ -19,6 +19,7 @@ dates of each campaign present in this dataset are provided below.
 | 19/02/2019   | 28/02/2019 | 10              | Medium-sized ASes          |
 | 19/02/2019   | 25/02/2019 | 4               | Large/very responsive ASes |
 | 04/09/2019   | 17/09/2019 | 13              |                            |
+| 16/09/2019   | 23/09/2019 | 4               | Large/very responsive ASes |
 
 A few remarks about this public dataset:
 

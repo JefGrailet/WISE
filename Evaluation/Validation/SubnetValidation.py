@@ -233,8 +233,8 @@ if __name__ == "__main__":
         differences.append(str(1 + i))
     plt.xticks(xAxis, differences, **hfont3)
     
-    plt.ylabel('Ratio of groundtruth prefixes (%)', **hfont)
-    plt.xlabel('Difference with groundtruth prefixes', **hfont)
+    plt.ylabel('Ratio of ground truth prefixes (%)', **hfont)
+    plt.xlabel('Difference with ground truth prefixes', **hfont)
     
     plt.grid()
     

@@ -1,0 +1,59 @@
+WISE (Wide and lInear Subnet inferencE) v1.1 - Time at start: 21-09-2019 11:51:12
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 22906 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 43 additional responsive IPs.
+--- End of target pre-scanning (21-09-2019 18:37:16) ---
+Elapsed time: 6 hours 46 minutes 1 second
+Total amount of probes: 1597574
+Total amount of successful probes: 36452 (2.28171%)
+Total amount of discovered responsive IPs: 22949
+
+Filtered target IPs have been saved in an output file AS5511_21-09.ips (temporar).
+
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 258 threads will be scheduled (up to 89 target IPs per thread).
+1518 out of 22797 IPs with an estimated TTL (6.65877%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 31 threads will be scheduled (from 1 to 130 target IPs per thread).
+
+There are flickering IPs that could lead to the discovery of 3 aliases.
+Now starting alias hints collection...
+Collecting hints for 157.197.66.150, 157.197.66.154... Done.
+Collecting hints for 197.221.232.4, 197.221.232.8... Done.
+Collecting hints for 201.229.37.74, 201.229.37.114... Done.
+Resolving... Done.
+--- End of target scanning (21-09-2019 19:30:11) ---
+Elapsed time: 52 minutes 54 seconds
+Total amount of probes: 146589
+Total amount of successful probes: 92094 (62.8246%)
+
+Updated IP dictionary has been saved in the output file AS5511_21-09.ips.
+
+--- Start of subnet inference ---
+Inferring subnets... Done.
+Post-processing the discovered subnets... Done.
+--- End of subnet inference (21-09-2019 19:30:23) ---
+Elapsed time: 11 seconds
+
+Inferred subnets has been saved in the output file AS5511_21-09.subnets.
+Alias hints have been saved in the output file AS5511_21-09.hints.
+Fingerprints have been saved in the output file AS5511_21-09.fingerprints.
+Aliases discovered during subnet discovery have been written in AS5511_21-09.aliases-1.
+
+--- Start of neighborhood inference ---
+Collecting additional data to discover and locate neighborhoods.
+
+11775 IPs will be used as targets for traceroute-like probing, using 256 threads (up to 46 targets per thread).
+Probing the 11775 target IPs... Done.
+--- End of neighborhood inference (21-09-2019 19:51:27) ---
+Elapsed time: 21 minutes 4 seconds
+Total amount of probes: 76821
+Total amount of successful probes: 16656 (21.6816%)
+
+Additional traceroute data has been saved in the output file AS5511_21-09.peers.
+Neighborhoods have been saved in the output file AS5511_21-09.neighborhoods.
