@@ -1,6 +1,6 @@
 # Evaluating the data collected with WISE
 
-*By Jean-François Grailet (last updated: September 19, 2019)*
+*By Jean-François Grailet (last updated: September 28, 2019)*
 
 ## About
 
@@ -11,9 +11,10 @@ sub-folder doesn't provide the data collected by `WISE`. You will rather find it
 This part of the repository provides several sub-folders containing scripts to plot various 
 figures showing the accuracy of measured subnets, the persistence of subnets or the extent of the 
 obstacles for subnet inference (i.e. flickering IPs, warping IPs and echoing IPs). Each sub-folder 
-provides the figures we generated for the currently available data as well. A final sub-folder 
-also provides some details on how to validate `WISE` and compare it to both `ExploreNET` and 
-`TreeNET`.
+provides the figures we generated for the currently available data as well. Two additional 
+sub-folders also provide some details on how to validate `WISE` and compare it to both 
+`ExploreNET` and `TreeNET` and on how to validate/evaluate its neighborhoods (with version 1.1 and 
+onwards).
 
 Each sub-folder comes with the scripts (+ instructions) and additional sub-folders providing all 
 generated figures. Sub-folders are typically named after the start/end dates of the campaign from 

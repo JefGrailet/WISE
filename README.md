@@ -1,6 +1,6 @@
 # WISE (Wide and lInear Subnet inferencE)
 
-*By Jean-François Grailet (last updated: September 19, 2019)*
+*By Jean-François Grailet (last updated: September 28, 2019)*
 
 ## Overview
 
@@ -32,7 +32,7 @@ This repository consists of the following content:
 
 * **Dataset/** provides datasets for various Autonomous Systems (or ASes) we measured with `WISE` from the PlanetLab testbed. Note that the earliest datasets only consist of IP dictionaries, as we used them to study our target networks and progressively design the final `WISE` v1.0.
 
-* **Evaluation/** provides several sub-folders consisting of Python scripts written to build figures and the figures that were obtained on our public dataset. The purpose of each kind of figure is further described in additional README files. A sub-folder in particular also briefly review how we validate `WISE` and compare it to `TreeNET` and `ExploreNET`.
+* **Evaluation/** provides several sub-folders consisting of Python scripts written to build figures and the figures that were obtained on our public dataset. The purpose of each kind of figure is further described in additional README files. Two sub-folders in particular also briefly review how we validate `WISE` and compare it to `TreeNET` and `ExploreNET` and how we evaluate the _neighborhoods_ discovered with `WISE` v1.1.
 
 * **v1/** provides all the source files of `WISE` v1.1, along some instructions to build and use it.
 
