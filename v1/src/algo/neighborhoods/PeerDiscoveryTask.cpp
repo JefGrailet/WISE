@@ -12,7 +12,7 @@
 #include "../../common/thread/Thread.h" // invokeSleep()
 
 PeerDiscoveryTask::PeerDiscoveryTask(Environment *e, 
-                                     list<SubnetInterface*> sis, 
+                                     list<pair<Subnet*, SubnetInterface*> > sis, 
                                      unsigned short lbii, 
                                      unsigned short ubii, 
                                      unsigned short lbis, 
@@ -149,14 +149,19 @@ void PeerDiscoveryTask::stop()
 
 void PeerDiscoveryTask::run()
 {
-    for(list<SubnetInterface*>::iterator it = targets.begin(); it != targets.end(); ++it)
+    list<pair<Subnet*, SubnetInterface*> >::iterator it;
+    for(it = targets.begin(); it != targets.end(); ++it)
     {
-        SubnetInterface *target = (*it);
+        Subnet *encompassingSubnet = (*it).first;
+        SubnetInterface *target = (*it).second;
         IPTableEntry *targetIP = target->ip;
         Trail *targetTrail = targetIP->getTrail();
         // No proper IP dictionary entry or trail: quits (ideally shouldn't occur)
         if(targetIP == NULL || targetTrail == NULL)
             return;
+        InetAddress targetTrailIP(0);
+        if(targetTrail->getNbAnomalies() == 0)
+            targetTrailIP = targetTrail->getLastValidIP();
         
         InetAddress probeDst = (InetAddress) (*targetIP);
         unsigned char probeTTL = targetIP->getTTL() - 1 - targetTrail->getLengthInTTL();
@@ -178,7 +183,7 @@ void PeerDiscoveryTask::run()
         
         // Probes the target IP with decreasing TTL until it reachs 0 or until it finds a peer IP
         IPLookUpTable *dictionary = env->getIPDictionary();
-        list<InetAddress> routeHops;
+        list<RouteHop> routeHops;
         bool foundPeer = false;
         while(probeTTL > 0)
         {
@@ -223,19 +228,17 @@ void PeerDiscoveryTask::run()
                 prober->setTimeout(usedTimeout);
             }
             
-            if(record->isATimeout())
-                routeHops.push_front(InetAddress(0));
-            else
-                routeHops.push_front(rplyAddress);
-            
+            // Did we discover a valid peer ? (+ checks to avoid peer cycling, see PeerScanner.h)
+            if(rplyAddress != InetAddress(0) && !encompassingSubnet->contains(rplyAddress))
+                if(targetTrailIP != InetAddress(0) && rplyAddress != targetTrailIP)
+                    if(dictionary->isPotentialPeer(rplyAddress))
+                        foundPeer = true;
+            routeHops.push_front(RouteHop(record, foundPeer)); // Also detects anonymous hops
             delete record;
             
-            // Did we find a peer ?
-            if(rplyAddress != InetAddress(0) && dictionary->isPotentialPeer(rplyAddress))
-            {
-                foundPeer = true;
+            // Stops probing here
+            if(foundPeer)
                 break;
-            }
             
             probeTTL--;
         }
@@ -244,13 +247,8 @@ void PeerDiscoveryTask::run()
         RouteHop *route = new RouteHop[routeLength];
         while(routeHops.size() > 0)
         {
-            InetAddress hop = routeHops.front();
+            route[index++] = routeHops.front();
             routeHops.pop_front();
-            
-            if(foundPeer && index == 0)
-                route[index++].update(hop, true);
-            else
-                route[index++].update(hop);
         }
         
         target->partialRouteLength = routeLength;

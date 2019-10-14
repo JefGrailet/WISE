@@ -14,6 +14,7 @@
 #define ROUTEHOP_H_
 
 #include "../../common/inet/InetAddress.h"
+#include "../../prober/structure/ProbeRecord.h"
 
 class RouteHop
 {
@@ -28,24 +29,31 @@ public:
         PEERING_POINT // IP appears as the (direct) trail of some neighborhood, i.e. it's a peer
     };
     
-    // Output method
+    // Output method (N.B.: reqTTL / replyTTL not shown, only used for inferring initial TTL)
     friend ostream &operator<<(ostream &out, const RouteHop &hop)
     {
-        if(hop.state == ANONYMOUS)
+        if(hop.state == NOT_MEASURED)
+            out << "Not measured";
+        else if(hop.state == ANONYMOUS)
             out << "Anonymous";
         else if(hop.state == PEERING_POINT)
-            out << "[" << hop.ip << "]";
+            out << "[" << hop.ip << "]"; // << " - " << (unsigned short) hop.replyTTL;
         else
-            out << hop.ip;
+            out << hop.ip; // << " - " << (unsigned short) hop.replyTTL;
         return out;
     }
     
     RouteHop(); // Creates a "NOT_MEASURED" route hop
-    RouteHop(InetAddress ip);
+    RouteHop(ProbeRecord *rec, bool peer = false);
     ~RouteHop();
     
-    void reset();
-    void update(InetAddress ip, bool peer = false); // Updates the state too (see implementation)
+    /*
+     * Note (October 2019): a RouteHop is built from a ProbeRecord. Initially, only the IP address 
+     * was given as parameter of the (non-default) constructor, but for the needs of extended 
+     * fingerprinting (and perhaps other future needs), it was necessary to store also the TTL 
+     * of the probe and the TTL of the reply, and therefore more convenient to use a pointer to a 
+     * ProbeRecord rather than several individual parameters.
+     */
     
     // Short methods to avoid using "RouteHop::STATE" in other parts of the code
     inline bool isUnset() { return state == NOT_MEASURED; }
@@ -58,6 +66,8 @@ public:
     
     InetAddress ip;
     unsigned short state;
+    unsigned char reqTTL;
+    unsigned char replyTTL;
 
 };
 

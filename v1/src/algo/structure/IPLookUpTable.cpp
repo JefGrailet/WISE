@@ -232,6 +232,24 @@ void IPLookUpTable::reviewSpecialIPs(unsigned short maxDelta)
                             assocEntry->pickMinimumTTL();
                     }
                 }
+                
+                /*
+                 * Checks we don't have a different "Time exceeded" initial TTL if one exists. The 
+                 * 0 value means we don't have an initial TTL to begin with. If there are two 
+                 * non-zero values that differs, the value "42" is used to advertise there are 
+                 * conflicting initial TTL values (none will be used during alias resolution).
+                 */
+                
+                unsigned char TEiTTL = assocEntry->getTimeExceedediTTL();
+                if(TEiTTL != 0 && TEiTTL != (unsigned char) 42)
+                {
+                    if(assocEntry->getTimeExceedediTTL() != trail->getLastValidIPiTTL())
+                        assocEntry->setTimeExceedediTTL((unsigned char) 42);
+                }
+                else if(TEiTTL == 0)
+                {
+                    assocEntry->setTimeExceedediTTL(trail->getLastValidIPiTTL());
+                }
             }
             // Otherwise, creates the dictionary entry
             else
@@ -243,6 +261,7 @@ void IPLookUpTable::reviewSpecialIPs(unsigned short maxDelta)
                 assocEntry->setAsTrailIP();
                 assocEntry->setTTL(trailIPTTL);
                 assocEntry->setType(IPTableEntry::SEEN_IN_TRAIL);
+                assocEntry->setTimeExceedediTTL(trail->getLastValidIPiTTL());
             }
         }
     }

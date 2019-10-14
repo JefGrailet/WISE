@@ -10,9 +10,23 @@
 
 #include "Trail.h"
 
-Trail::Trail(InetAddress lastValidIP, unsigned short nbAnomalies)
+void Trail::setInferredInitialTTL(RouteHop lastValidHop)
 {
-    this->lastValidIP = lastValidIP;
+    unsigned short replyTTLAsShort = (unsigned short) lastValidHop.replyTTL;
+    if(replyTTLAsShort > 128)
+        lastValidIPiTTL = (unsigned char) 255;
+    else if(replyTTLAsShort > 64)
+        lastValidIPiTTL = (unsigned char) 128;
+    // If target is 32+ hops away, replyTTL <= 32 still matches initial TTL of 64
+    else if(replyTTLAsShort > 32 || lastValidHop.reqTTL >= 32)
+        lastValidIPiTTL = (unsigned char) 64;
+    else
+        lastValidIPiTTL = (unsigned char) 32;
+}
+
+Trail::Trail(RouteHop lastValidHop, unsigned short nbAnomalies)
+{
+    this->lastValidIP = lastValidHop.ip;
     this->nbAnomalies = nbAnomalies;
     
     direct = true;
@@ -22,17 +36,21 @@ Trail::Trail(InetAddress lastValidIP, unsigned short nbAnomalies)
     warping = false;
     flickering = false;
     echoing = false;
+    
+    this->setInferredInitialTTL(lastValidHop);
 }
 
-Trail::Trail(InetAddress lastValidIP)
+Trail::Trail(RouteHop lastValidHop)
 {
-    this->lastValidIP = lastValidIP;
+    this->lastValidIP = lastValidHop.ip;
     nbAnomalies = 0;
     
     direct = true;
     warping = false;
     flickering = false;
     echoing = false;
+    
+    this->setInferredInitialTTL(lastValidHop);
 }
 
 Trail::Trail(unsigned short routeLength)
@@ -44,6 +62,8 @@ Trail::Trail(unsigned short routeLength)
     warping = false;
     flickering = false;
     echoing = false;
+    
+    lastValidIPiTTL = (unsigned char) 0;
 }
 
 Trail::~Trail()

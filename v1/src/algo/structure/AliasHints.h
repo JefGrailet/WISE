@@ -52,7 +52,7 @@ public:
     
     // Handles the probing stage variable
     static inline void moveStage() { probingStage++; }
-    inline bool isLattestStage() { return (when == probingStage); }
+    inline bool isLattestStage() { return (when >= probingStage); }
     
     // Initializes all arrays to store the IP-ID data (to use after setting "nbIPIDs" variable)
     void prepareIPIDData();
@@ -88,6 +88,7 @@ public:
     inline unsigned long *getDelays() { return delays; }
     
     // Accessers for other alias resolution hints
+    inline unsigned char getTimeExceededInitialTTL() { return timeExceededInitialTTL; }
     inline unsigned char getEchoInitialTTL() { return echoInitialTTL; }
     inline string getHostName() { return hostName; }
     inline bool repliesToTSRequest() { return replyingToTSRequest; }
@@ -100,6 +101,7 @@ public:
     inline unsigned short getIPIDCounterType() { return IPIDCounterType; }
     
     // Setters
+    inline void setTimeExceededInitialTTL(unsigned char iTTL) { timeExceededInitialTTL = iTTL; }
     inline void setEchoInitialTTL(unsigned char iTTL) { echoInitialTTL = iTTL; }
     inline void setHostName(string hn) { hostName = hn; }
     inline void setReplyingToTSRequest(bool rttsr) { replyingToTSRequest = rttsr; }
@@ -114,7 +116,7 @@ private:
 
     // Value telling when these hints have been collected
     unsigned short when;
-    
+        
     // Alias resolution hints
     unsigned short nbIPIDs;
     unsigned long *probeTokens;
@@ -122,7 +124,21 @@ private:
     bool *echoMask;
     unsigned long *delays;
     
-    unsigned char echoInitialTTL;
+    /*
+     * (October 2019) AliasHints now also includes the inferred initial TTL from a "Time exceeded" 
+     * reply (as described by Vanaubel et al. in "Network Fingerprinting: TTL-Based Router 
+     * Signatures" published at IMC 2013). However, such TTL is only available for trail IPs (and 
+     * collected by taking advantage of the route data obtained at scanning); IPs from subnets 
+     * which never appear in partial traceroute records keep a value of 0 for that TTL (appearing 
+     * as "*" in the fingerprint).
+     * 
+     * The "when" variable is now used to adapt the behavior of comparison methods of this class 
+     * w.r.t. this additionnal value. It is therefore taken into account during early stages 
+     * (involving only IPs discovered via traceroute probing) but ignored for the "full" alias 
+     * resolution (involving IPs which didn't appear as route hops during traceroute probing).
+     */
+    
+    unsigned char timeExceededInitialTTL, echoInitialTTL;
     string hostName;
     bool replyingToTSRequest;
     InetAddress portUnreachableSrcIP;

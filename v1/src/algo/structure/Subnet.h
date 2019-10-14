@@ -74,7 +74,7 @@ public:
     // Methods to handle borders in the wide sense
     InetAddress getLowerBorder(bool withLimits = true); // Include network/broadcast addresses
     InetAddress getUpperBorder(bool withLimits = true);
-    bool contains(InetAddress interface);
+    bool contains(InetAddress interface); // True if given interface is within boundaries of this
     bool overlaps(Subnet *other);
     
     // Shrinks/expands the subnet

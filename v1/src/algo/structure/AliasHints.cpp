@@ -24,6 +24,7 @@ AliasHints::AliasHints(unsigned short nbIPIDs)
 	echoMask = NULL;
 	delays = NULL;
     
+    timeExceededInitialTTL = 0;
     echoInitialTTL = 0;
     hostName = "";
     replyingToTSRequest = false;
@@ -228,6 +229,11 @@ void AliasHints::postProcessIPIDData(unsigned short maxRollovers, double maxErro
     
 bool AliasHints::fingerprintSimilarTo(AliasHints *other)
 {
+    // Comparison of "Time exceeded" initial TTL value (ignored at full alias resolution)
+    if(when != DURING_FULL_ALIAS_RESOLUTION)
+        if(other->getTimeExceededInitialTTL() != timeExceededInitialTTL)
+            return false;
+
     unsigned char otherInitialTTL = other->getEchoInitialTTL();
     unsigned short otherType = other->getIPIDCounterType();
     if(echoInitialTTL == otherInitialTTL && IPIDCounterType == otherType)
@@ -255,6 +261,18 @@ bool AliasHints::toGroupByDefault()
 
 bool AliasHints::compare(AliasHints *h1, AliasHints *h2)
 {
+    // Comparison of "Time exceeded" initial TTL value (ignored at full alias resolution)
+    unsigned short when1 = h1->getWhen(), when2 = h2->getWhen();
+    if(when1 == when2 && when1 != DURING_FULL_ALIAS_RESOLUTION)
+    {
+        unsigned char TEiTTL1 = h1->getTimeExceededInitialTTL();
+        unsigned char TEiTTL2 = h2->getTimeExceededInitialTTL();
+        if(TEiTTL1 > TEiTTL2)
+            return true;
+        else if(TEiTTL1 < TEiTTL2)
+            return false;
+    }
+
     unsigned char initialTTL1 = h1->getEchoInitialTTL(), initialTTL2 = h2->getEchoInitialTTL();
     if(initialTTL1 == initialTTL2)
     {
@@ -292,6 +310,11 @@ string AliasHints::fingerprintToString()
     stringstream ss;
     
     ss << "<";
+    if(timeExceededInitialTTL > 0)
+        ss << (unsigned short) timeExceededInitialTTL;
+    else
+        ss << "*";
+    ss << ",";
     if(echoInitialTTL > 0)
         ss << (unsigned short) echoInitialTTL;
     else
@@ -341,13 +364,13 @@ string AliasHints::toString()
     // Probing stage
     switch(when)
     {
-        case 1:
+        case DURING_SUBNET_DISCOVERY:
             ss << "Target scanning";
             break;
-        case 2:
+        case DURING_GRAPH_BUILDING:
             ss << "Graph building";
             break;
-        case 3:
+        case DURING_FULL_ALIAS_RESOLUTION:
             ss << "Full alias resolution";
             break;
         default:
@@ -355,28 +378,42 @@ string AliasHints::toString()
             break;
     }
     
-    // : [Initial echo TTL] - ECHO,[Host name]
+    // : [Initial time exceeded TTL],[Initial echo TTL] - ECHO,[Host name]
     if(IPIDCounterType == ECHO_COUNTER)
     {
         ss << ": ";
         
         unsigned short iTTL = (unsigned short) echoInitialTTL;
         if(iTTL > 0)
+        {
+            if(timeExceededInitialTTL > 0)
+            {
+                unsigned short iTTLBis = (unsigned short) timeExceededInitialTTL;
+                ss << iTTLBis << ",";
+            }
             ss << iTTL << " - ";
+        }
         
         ss << "ECHO";
         
         if(!hostName.empty())
             ss << "," << hostName;
     }
-    // : [Initial echo TTL] - [IP-ID data],[Host name]
+    // : [Initial time exceeded TTL],[Initial echo TTL] - [IP-ID data],[Host name]
     else if(nbIPIDs > 0 && IPIdentifiers != NULL && probeTokens[0] != 0)
     {
         ss << ": ";
         
         unsigned short iTTL = (unsigned short) echoInitialTTL;
         if(iTTL > 0)
+        {
+            if(timeExceededInitialTTL > 0)
+            {
+                unsigned short iTTLBis = (unsigned short) timeExceededInitialTTL;
+                ss << iTTLBis << ",";
+            }
             ss << iTTL << " - ";
+        }
         
         for(unsigned short i = 0; i < nbIPIDs; i++)
         {

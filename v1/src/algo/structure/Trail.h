@@ -24,6 +24,7 @@
 using std::ostream;
 
 #include "../../common/inet/InetAddress.h"
+#include "RouteHop.h"
 
 class Trail
 {
@@ -39,14 +40,15 @@ public:
 		return out;
 	}
     
-    Trail(InetAddress lastValidIP, unsigned short nbAnomalies);
-    Trail(InetAddress lastValidIP); // No anomaly
+    Trail(RouteHop lastValidHop, unsigned short nbAnomalies);
+    Trail(RouteHop lastValidHop); // No anomaly
     Trail(unsigned short routeLength); // Exceptional situation where there's only anonymous hops
     ~Trail();
     
     inline InetAddress getLastValidIP() const { return lastValidIP; }
     inline unsigned short getNbAnomalies() const { return nbAnomalies; }
     inline unsigned short getLengthInTTL() { return nbAnomalies + 1; }
+    inline unsigned char getLastValidIPiTTL() const { return lastValidIPiTTL; }
     
     inline bool isDirect() { return direct; }
     inline bool isWarping() { return warping; }
@@ -68,6 +70,19 @@ private:
     unsigned short nbAnomalies;
 	
 	bool direct, warping, flickering, echoing;
+	
+	/*
+	 * (October 2019) Additional field and private method to compute the inferred initial TTL 
+	 * associated to the last valid IP of the trail, based on the "RouteHop" object passed during 
+	 * construction. This piece of information is later recorded in the dictionary and re-used 
+	 * for alias resolution. Indeed, the initial TTL value of a time exceeded reply is used in an 
+	 * extended fingerprinting approach inspired by Vanaubel et al. (see "Network Fingerprinting: 
+	 * TTL-Based Router Signatures" published at IMC 2013).
+	 */
+	
+	unsigned char lastValidIPiTTL;
+	
+	void setInferredInitialTTL(RouteHop lastValidHop);
 	
 };
 

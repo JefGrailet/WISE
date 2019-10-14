@@ -19,7 +19,7 @@ PeerScanner::PeerScanner(Environment *env)
     this->env = env;
     
     list<Subnet*> *subnets = env->getSubnets();
-    list<list<SubnetInterface*> > lists; // List of lists (see below)
+    list<list<pair<Subnet*, SubnetInterface*> > > lists; // List of lists of pairs (see below)
     for(list<Subnet*>::iterator i = subnets->begin(); i != subnets->end(); ++i)
     {
         Subnet *cur = (*i);
@@ -34,7 +34,11 @@ PeerScanner::PeerScanner(Environment *env)
             continue;
         
         unsigned short maxPivots = env->getMaxPeerDiscoveryPivots();
-        lists.push_back(cur->getPeerDiscoveryPivots(maxPivots));
+        list<SubnetInterface*> pivots = cur->getPeerDiscoveryPivots(maxPivots);
+        list<pair<Subnet*, SubnetInterface*> > pairs;
+        for(list<SubnetInterface*>::iterator j = pivots.begin(); j != pivots.end(); j++)
+            pairs.push_back(std::make_pair(cur, (*j)));
+        lists.push_back(pairs);
     }
     
     /*
@@ -50,10 +54,10 @@ PeerScanner::PeerScanner(Environment *env)
     
     while(lists.size() > 0)
     {
-        list<SubnetInterface*> curList = lists.front();
+        list<pair<Subnet*, SubnetInterface*> > curList = lists.front();
         lists.pop_front();
         
-        SubnetInterface *target = curList.front();
+        pair<Subnet*, SubnetInterface*> target = curList.front();
         curList.pop_front();
         if(curList.size() > 0)
             lists.push_back(curList);
@@ -154,7 +158,7 @@ void PeerScanner::scan()
     // Prepares the thread(s)
     Thread **th = new Thread*[sizeThreadArray];
     unsigned short range = (DirectICMPProber::DEFAULT_UPPER_SRC_PORT_ICMP_ID - DirectICMPProber::DEFAULT_LOWER_SRC_PORT_ICMP_ID) / sizeThreadArray;
-    list<SubnetInterface*> scheduled(targets); // Copy of the targets
+    list<pair<Subnet*, SubnetInterface*> > scheduled(targets); // Copy of the targets
     
     (*out) << "Probing the " << targets.size() << " target IP" << plural << "...";
     if(displayMode >= Environment::DISPLAY_MODE_SLIGHTLY_VERBOSE)
@@ -165,7 +169,7 @@ void PeerScanner::scan()
     // Schedules the threads
     for(unsigned short i = 0; i < sizeThreadArray; i++)
     {
-        list<SubnetInterface*> targetsSubset;
+        list<pair<Subnet*, SubnetInterface*> > targetsSubset;
         unsigned long toRead = targetsPerThread;
         while(scheduled.size() > 0 && toRead > 0)
         {
@@ -244,11 +248,14 @@ void PeerScanner::scan()
 
 void PeerScanner::output(string filename)
 {
-    list<SubnetInterface*> targetsCpy(targets); // Copy is made, in case of re-probing scenario
-    targetsCpy.sort(SubnetInterface::smaller);
+    list<pair<Subnet*, SubnetInterface*> > copy(targets); // Copy is made, in case of re-probing scenario
+    list<SubnetInterface*> interfaces; // Sorted list of SubnetInterface objects
+    for(list<pair<Subnet*, SubnetInterface*> >::iterator i = copy.begin(); i != copy.end(); i++)
+        interfaces.push_back((*i).second);
+    interfaces.sort(SubnetInterface::smaller);
     
     string output = "";
-    for(list<SubnetInterface*>::iterator i = targetsCpy.begin(); i != targetsCpy.end(); i++)
+    for(list<SubnetInterface*>::iterator i = interfaces.begin(); i != interfaces.end(); i++)
         output += (*i)->routeToString() + "\n";
     
     ofstream newFile;

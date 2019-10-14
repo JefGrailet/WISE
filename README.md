@@ -1,6 +1,6 @@
 # WISE (Wide and lInear Subnet inferencE)
 
-*By Jean-François Grailet (last updated: September 28, 2019)*
+*By Jean-François Grailet (last updated: October 14, 2019)*
 
 ## Overview
 
@@ -14,7 +14,11 @@
 
 Future updates of `WISE` could include:
 
-* 64-bit version and/or IPv6 version.
+* IPv6 version,
+* 64-bit version,
+* Improved readability of the code by using features from C++11 and onwards.
+
+It's worth noting that `WISE` is currently coded such that it can run on any machine, but more specifically old and limited environments, such as those you can find on the [PlanetLab testbed](https://planet-lab.eu/) (for reminders, a lot of PlanetLab machines still run with [Fedora 8](https://en.wikipedia.org/wiki/Fedora_(operating_system)) and are 32-bit systems). This is why it is still designed to be a 32-bit application and why it doesn't use features from newer C++ versions.
 
 ## Publications
 

@@ -20,6 +20,9 @@
 #ifndef PEERSCANNER_H_
 #define PEERSCANNER_H_
 
+#include <utility>
+using std::pair;
+
 #include "../Environment.h"
 
 class PeerScanner
@@ -39,7 +42,23 @@ private:
     Environment *env;
     
     // List of targets
-    list<SubnetInterface*> targets;
+    list<pair<Subnet*, SubnetInterface*> > targets;
+    
+    /*
+     * Remark (October 2019): targets are listed as pairs of one subnet with one subnet interface. 
+     * More precisely, each subnet interface is paired with its encompassing subnet. Why ? Because 
+     * routing/measurement issues can cause, in rare instances, IPs from the same subnet (which 
+     * includes the target) to re-appear when doing traceroute probing towards the target 
+     * interface. Regardless of what causes this problem (do we have a bad subnet measurement, or 
+     * is the routing unusual ?), such hops shouldn't be considered as potential peers, as it can 
+     * cause aberrant topology inference or even peer cycling (a big problem for writing sound 
+     * graph building algorithms). The same goes for the trail IP (if we have a direct trail) 
+     * re-appearing in the traceroute measurement (practical and obvious case of peer cycling).
+     *
+     * As SubnetInterface objects don't keep a pointer to the "parent" subnet (because it's 
+     * useless in all situations but this one), a std::pair is used instead to keep track of the 
+     * relationship for this particular context.
+     */
 
 };
 

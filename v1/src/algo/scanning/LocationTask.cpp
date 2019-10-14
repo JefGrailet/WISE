@@ -147,7 +147,7 @@ bool LocationTask::forwardProbing(IPTableEntry *target, unsigned char initTTL)
 {
     unsigned char probeTTL = initTTL;
     unsigned char consecutiveAnonymous = 0;
-    list<InetAddress> timeExceededReplies;
+    list<RouteHop> timeExceededReplies;
     ProbeRecord *rec = NULL;
     while(rec == NULL && probeTTL <= MAX_TTL_ALLOWED)
     {
@@ -176,7 +176,7 @@ bool LocationTask::forwardProbing(IPTableEntry *target, unsigned char initTTL)
         // Checks the type of the reply; keeps the record if it's an "echo" reply
         if(rec->getRplyICMPtype() != DirectProber::ICMP_TYPE_ECHO_REPLY)
         {
-            timeExceededReplies.push_back(rec->getRplyAddress());
+            timeExceededReplies.push_back(RouteHop(rec));
             delete rec;
             rec = NULL;
             probeTTL++;
@@ -199,9 +199,8 @@ bool LocationTask::forwardProbing(IPTableEntry *target, unsigned char initTTL)
     {
         for(unsigned short i = (unsigned short) initTTL - 1; i < newRouteLength; i++)
         {
-            InetAddress curIP = timeExceededReplies.front();
+            newRoute[i] = timeExceededReplies.front();
             timeExceededReplies.pop_front();
-            newRoute[i].update(curIP);
         }
     }
     
@@ -253,7 +252,7 @@ bool LocationTask::backwardProbing(IPTableEntry *target)
     
     // Resets the route
     target->setTTL(probeTTL);
-    target->initRoute();
+    target->initRoute(); // Deletes existing route if any
     return true;
 }
     
@@ -289,7 +288,7 @@ void LocationTask::setTrail(IPTableEntry *target)
             throw;
         }
         
-        route[index].update(rec->getRplyAddress());
+        route[index] = RouteHop(rec);
         delete rec;
         
         index--;

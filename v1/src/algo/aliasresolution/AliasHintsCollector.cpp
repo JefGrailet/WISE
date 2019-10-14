@@ -49,10 +49,18 @@ void AliasHintsCollector::collect()
         previous = current;
     }
     
-    // Creates a new AliasHints object for each target IP
+    // Creates a new AliasHints object for each target IP (+ sets "Time exceeded" initial TTL)
     unsigned short nbIPIDs = env->getARNbIPIDs();
     for(list<IPTableEntry*>::iterator i = IPsToProbe.begin(); i != IPsToProbe.end(); ++i)
-        (*i)->addHints(new AliasHints(nbIPIDs));
+    {
+        IPTableEntry *curIP = (*i);
+        AliasHints *newHints = new AliasHints(nbIPIDs);
+        curIP->addHints(newHints);
+        
+        unsigned char TEiTTL = curIP->getTimeExceedediTTL();
+        if(TEiTTL != (unsigned char) 0 && TEiTTL != (unsigned char) 42)
+            newHints->setTimeExceededInitialTTL(TEiTTL);
+    }
     
     // Amounts of threads
     unsigned short maxThreads = env->getMaxThreads();
@@ -353,7 +361,8 @@ void AliasHintsCollector::collect()
                         initialTTL = (unsigned char) 255;
                     else if(replyTTLAsShort > 64)
                         initialTTL = (unsigned char) 128;
-                    else if(replyTTLAsShort > 32)
+                    // If target is 32+ hops away, replyTTL <= 32 still matches initial TTL of 64
+                    else if(replyTTLAsShort > 32 || curIP->getTTL() >= 32)
                         initialTTL = (unsigned char) 64;
                     else
                         initialTTL = (unsigned char) 32;

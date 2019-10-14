@@ -49,9 +49,12 @@ public:
     inline unsigned char getTTL() { return TTL; } // Returns the minimum observed TTL
     inline TimeVal getPreferredTimeout() { return preferredTimeout; }
     inline unsigned short getType() { return type; }
+    inline unsigned char getTimeExceedediTTL() { return timeExceedediTTL; }
+    
     inline void setTTL(unsigned char TTL) { this->TTL = TTL; }
-    inline void setPreferredTimeout(TimeVal timeout) { this->preferredTimeout = timeout; }
+    inline void setPreferredTimeout(TimeVal timeout) { preferredTimeout = timeout; }
     inline void setType(unsigned short type) { this->type = type; }
+    inline void setTimeExceedediTTL(unsigned char iTTL) { timeExceedediTTL = iTTL; }
     inline void setRouteLength(unsigned short routeLength) { this->routeLength = routeLength; } // Used only for test code
     inline void setRoute(RouteHop *route) { this->route = route; } // Same as above
     
@@ -122,6 +125,9 @@ private:
     TimeVal preferredTimeout;
     list<unsigned char> TTLs; // Lists all TTLs at which this IP has been observed
     unsigned short type; // See public constants
+    
+    // "Time exceeded" inferred initial TTL (for alias resolution), found after scanning
+    unsigned char timeExceedediTTL;
     
     // Route observed during scanning and inferred trail
     unsigned short routeLength;

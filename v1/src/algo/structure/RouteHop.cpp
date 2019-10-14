@@ -12,46 +12,40 @@
 
 RouteHop::RouteHop()
 {
-    this->ip = InetAddress(0);
-    this->state = NOT_MEASURED;
+    ip = InetAddress(0);
+    state = NOT_MEASURED;
+    reqTTL = 0;
+    replyTTL = 0;
 }
 
-RouteHop::RouteHop(InetAddress ip)
+RouteHop::RouteHop(ProbeRecord *record, bool peer)
 {
-    this->ip = ip;
-    if(ip == InetAddress(0))
-        this->state = ANONYMOUS;
+    ip = record->getRplyAddress();
+    reqTTL = record->getReqTTL(); // Regardless of having a proper reply or a timeout
+    if(ip != InetAddress(0))
+    {
+        if(peer)
+            state = PEERING_POINT;
+        else
+            state = VIA_TRACEROUTE;
+        replyTTL = record->getRplyTTL();
+    }   
     else
-        this->state = VIA_TRACEROUTE;
+    {
+        state = ANONYMOUS;
+        replyTTL = 0;
+    }
 }
 
 RouteHop::~RouteHop()
 {
 }
 
-void RouteHop::reset()
-{
-    this->ip = InetAddress(0);
-    this->state = NOT_MEASURED;
-}
-
-void RouteHop::update(InetAddress ip, bool peer)
-{
-    this->ip = ip;
-    if(ip != InetAddress(0))
-    {
-        if(peer)
-            this->state = PEERING_POINT;
-        else
-            this->state = VIA_TRACEROUTE;
-    }   
-    else
-        this->state = ANONYMOUS;
-}
-
 RouteHop &RouteHop::operator=(const RouteHop &other)
 {
     this->ip = other.ip;
     this->state = other.state;
+    this->reqTTL = other.reqTTL;
+    this->replyTTL = other.replyTTL;
     return *this;
 }

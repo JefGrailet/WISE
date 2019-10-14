@@ -1,6 +1,6 @@
 # About WISE v1.1 (wise)
 
-*By Jean-François Grailet (last updated: September 19, 2019)*
+*By Jean-François Grailet (last updated: October 14, 2019)*
 
 ## Compilation
 
@@ -16,6 +16,10 @@ If you need to recompile `WISE` after some editing, type the following commands:
 make clean
 make
 ```
+
+## About the code
+
+Since it needs to be compatible with old environments (e.g. Fedora 8, see below), `WISE` is written in an _old-fashioned_ C++, i.e., it doesn't take advantage of the changes brought by C++11 and onwards. As already said elsewhere, it is also designed to be a 32-bit application for the same reason. This said, after its many campaigns run from the PlanetLab testbed towards all kinds of target networks, it is safe to assume `WISE` is unlikely to crash or mismanage memory. It has been, on top of that, been extensively tested with `valgrind` on a local network.
 
 ## Deployement on PlanetLab testbed
 
@@ -52,6 +56,8 @@ In order to simplify the parameters of `WISE` and only allow the editing of the 
 * **February 25, 2019:** release of `WISE` v1.0.
 
 * **September 19, 2019:** release of `WISE` v1.1. This new version provides an updated and improved subnet post-processing, as well as one additional step after subnet inference designed to infer *neighborhoods*, network locations bordered by subnets that are located at at most one hop from each other which can consist of a single router or a mesh of network-layer/datalink-layer devices. In addition to inferring neighborhoods, `WISE` v1.1 also locates neighborhoods w.r.t. each other by using some additional data collected with partial (Paris) `traceroute` measurements. Neighborhoods will be later used to infer more from a target domain.
+
+* **October 14, 2019:** update of `WISE` v1.1. In addition to fixing a minor issue that can occur during neighborhood inference (rare occurrences of cycles which can induce bad _peer_ discovery), this update extends the fingerprinting of `WISE` (used for alias resolution) by adding the inferred initial TTL value of the ICMP "_Time exceeded_" replies, as used by Vanaubel et al. in "_Network Fingerprinting: TTL-Based Router Signatures_" (IMC 2013). This TTL value wasn't used in previous tools which the alias resolution module come from due to the impossibility to get this value for all alias candidates. In the context of `WISE`, this restriction no longer exists.
 
 ## Disclaimer
 

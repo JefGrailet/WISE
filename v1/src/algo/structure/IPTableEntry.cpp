@@ -16,6 +16,8 @@ IPTableEntry::IPTableEntry(InetAddress ip) : InetAddress(ip)
     preferredTimeout = TimeVal(DEFAULT_TIMEOUT_SECONDS, TimeVal::HALF_A_SECOND);
     type = RESPONSIVE_TARGET;
     
+    timeExceedediTTL = 0;
+    
     routeLength = 0;
     route = NULL;
     trail = NULL;
@@ -153,8 +155,6 @@ string IPTableEntry::toString()
     else
         ss << " - Scan failure";
     
-    // TODO for later: deals with SEEN_IN_TRACEROUTE
-    
     // Special IP: part of trail + has a unique behaviour
     if(trailIP && (warping || echoing || flickering))
     {
@@ -184,6 +184,13 @@ string IPTableEntry::toString()
         }
     }
     
+    /*
+     * Remark (October 2019): (partial) route details and inferred "Time exceeded" initial TTL are 
+     * not given in the text output of the IP dictionary, as these details are used to infer data 
+     * that is either already present (e.g. the trail) or which will be shown in other output 
+     * (e.g. fingerprints for alias resolution).
+     */
+        
     return ss.str();
 }
 
@@ -211,8 +218,6 @@ void IPTableEntry::initRoute()
     {
         routeLength = ((unsigned short) TTL) - 1;
         route = new RouteHop[routeLength];
-        for(unsigned short i = 0; i < routeLength; i++)
-            route[i].reset();
     }
 }
 
@@ -275,9 +280,9 @@ bool IPTableEntry::setTrail()
         return false;
     
     if(nbAnomalies > 0)
-        trail = new Trail(lastValidIP, nbAnomalies);
+        trail = new Trail(route[lastValidIndex], nbAnomalies);
     else
-        trail = new Trail(lastValidIP);
+        trail = new Trail(route[lastValidIndex]);
     
     return true;
 }

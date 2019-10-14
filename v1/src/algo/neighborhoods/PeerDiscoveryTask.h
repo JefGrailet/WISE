@@ -22,6 +22,9 @@
 #ifndef PEERDISCOVERYTASK_H_
 #define PEERDISCOVERYTASK_H_
 
+#include <utility>
+using std::pair;
+
 #include "../Environment.h"
 #include "../../common/thread/Runnable.h"
 #include "../../common/thread/Mutex.h"
@@ -38,7 +41,7 @@ public:
 
     // Constructor, destructor
     PeerDiscoveryTask(Environment *env, 
-                      list<SubnetInterface*> targets, 
+                      list<pair<Subnet*, SubnetInterface*> > targets, 
                       unsigned short lowerBoundICMPid = DirectICMPProber::DEFAULT_LOWER_ICMP_IDENTIFIER,
                       unsigned short upperBoundICMPid = DirectICMPProber::DEFAULT_UPPER_ICMP_IDENTIFIER,
                       unsigned short lowerBoundICMPseq = DirectICMPProber::DEFAULT_LOWER_ICMP_SEQUENCE,
@@ -53,7 +56,7 @@ private:
     Environment *env;
     
     // List of subnet interfaces to probe
-    list<SubnetInterface*> targets;
+    list<pair<Subnet*, SubnetInterface*> > targets;
     
     // Probing stuff
     DirectProber *prober;

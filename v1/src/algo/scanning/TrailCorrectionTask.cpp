@@ -207,7 +207,7 @@ void TrailCorrectionTask::run()
                 InetAddress replyingIP = rec->getRplyAddress();
                 if(replyingIP != InetAddress(0))
                 {
-                    route[((unsigned short) probeTTL) - 1].update(replyingIP);
+                    route[((unsigned short) probeTTL) - 1] = RouteHop(rec);
                     if(showProbingDetails)
                     {
                         log += "Found a non-anonymous interface at TTL = " + TTLToString(probeTTL);
