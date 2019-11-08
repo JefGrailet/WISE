@@ -1,6 +1,6 @@
 # Evaluating neighborhoods collected by WISE v1.1
 
-*By Jean-François Grailet (last updated: September 28, 2019)*
+*By Jean-François Grailet (last updated: November 8, 2019)*
 
 ## About
 
@@ -29,17 +29,19 @@ there is no intermediate hop between _b_ and _a_, we also say that _B_ is a _dir
 This folder provides two scripts you can use to evaluate neighborhoods in general, using data 
 produced by `WISE`.
 
-* _NeighborhoodsAnalysis.py_ processes several datasets to have a first look at the notion of 
-_peer_ and evaluate its viability. In particular, it produces two figures, one giving the CDF of 
-the distance between any neighborhood and its peer(s) (the X axis corresponding to TTL = 0, 1, 
-2...) and another one giving the PDF of the amount of peers found for the discovered 
-neighborhoods in a log-log plot. Examples of such figures can be found within this repository 
-(computed with datasets collected in September 2019). Here is the typical command you could use 
-to generate such figures for the ASes listed in _Example\_ASes_ for the dates given in 
-_Example\_dates_, the output figures being prefixed with _September19_:
+* _NeighborhoodsAnalysis.py_ processes several datasets collected for a given AS to have a first 
+look at the notion of _peer_ and evaluate its viability. In particular, it produces two figures, 
+one giving the CDF of the distance between any neighborhood and its peer(s) (the X axis 
+corresponding to TTL = 0, 1, 2...) and another one giving the PDF of the amount of peers found for 
+the discovered neighborhoods in a log-log plot. Examples of such figures can be found within this 
+repository (computed with datasets collected in September 2019). To simplify the generation of the 
+figures, a bash script is provided in order to run _NeighborhoodsAnalysis.py_ on several ASes and 
+put the results in automatically generated sub-directories. Here is the typical command you 
+could use to generate all figures for the ASes listed in _Example\_ASes_ for the dates given in 
+_Example\_dates_, the output figures being prefixed with _September2019_:
 
 ```sh
-python NeighborhoodsAnalysis.py Example_ASes Example_dates September19
+./PlotFigures.sh Example_ASes Example_dates September2019
 ```
 
 * _NeighborhoodsValidation.py_ processes one _.neighborhoods_ file and a ground truth network 
