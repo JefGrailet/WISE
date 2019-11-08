@@ -28,11 +28,11 @@ No peers; gate to the discovered topology.
 Neighborhood for {Echo, TTL=17, Pre-echoing=64.94.179.189}:
 64.94.179.160/28
 64.94.179.176/31
-Peer: 74.201.136.18
+Peer: 74.201.136.18 (offset=1)
 
 Neighborhood for {Echo, TTL=18, Pre-echoing=74.217.51.22 (offset=2)}:
 64.94.180.0/23
-Peer: 216.52.95.82
+Peer: 216.52.95.82 (offset=3)
 
 Neighborhood for {Echo, TTL=16, Pre-echoing=74.201.136.18}:
 64.94.187.108/31
@@ -41,7 +41,7 @@ Peer: 74.201.136.18
 
 Neighborhood for {Echo, TTL=17, Pre-echoing=216.223.63.74 (offset=1)}:
 64.94.189.148/31
-Peer: 216.223.63.74
+Peer: 216.223.63.74 (offset=1)
 
 Neighborhood for {Echo, TTL=16, Pre-echoing=64.94.177.198}:
 64.95.44.0/24
@@ -49,14 +49,14 @@ Peer: 64.94.177.198
 
 Neighborhood for {Echo, TTL=16, Pre-echoing=209.191.128.108, 209.191.128.172 (offset=1)}:
 70.42.217.0/25 (pre-echoing: 209.191.128.108, 209.191.128.172)
-Peer: 209.191.128.108
+Peer: 209.191.128.108 (offset=1)
 
 Neighborhood for {Echo, TTL=18, Pre-echoing=74.201.152.98 (offset=1)}:
 74.201.135.4/30
 74.201.240.12/31
 74.201.240.80/28
 74.201.240.192/26
-Peer: 74.201.152.98
+Peer: 74.201.152.98 (offset=1)
 
 Neighborhood for {Echo, TTL=18, Pre-echoing=74.201.138.2}:
 74.201.135.64/27
@@ -85,7 +85,7 @@ No peers; gate to the discovered topology.
 
 Neighborhood for {Echo, TTL=18, Pre-echoing=74.201.254.86 (offset=1)}:
 74.201.149.4/30
-Peer: 74.201.254.86
+Peer: 74.201.254.86 (offset=1)
 
 Neighborhood for {Echo, TTL=17, Pre-echoing=74.201.254.82}:
 74.201.156.8/31
@@ -104,7 +104,7 @@ Neighborhood for {Echo, TTL=17, Pre-echoing=74.201.138.2 (offset=1)}:
 74.201.156.162/31
 74.201.156.226/31
 74.217.54.240/29
-Peer: 74.201.138.2
+Peer: 74.201.138.2 (offset=1)
 
 Neighborhood for {Echo, TTL=16, Pre-echoing=70.42.39.148}:
 74.201.208.28/31
@@ -118,11 +118,11 @@ Neighborhood for {Echo, TTL=19, Pre-echoing=74.201.152.98 (offset=2)}:
 74.201.232.0/28
 74.201.232.18/31
 74.201.232.22/32
-Peer: 74.201.152.98
+Peer: 74.201.152.98 (offset=2)
 
 Neighborhood for {Echo, TTL=17, Pre-echoing=75.98.62.226 (offset=1)}:
 74.201.254.160/27
-Peer: 75.98.62.226
+Peer: 75.98.62.226 (offset=1)
 
 Neighborhood for {Echo, TTL=17, Pre-echoing=74.217.51.11}:
 74.217.52.16/30
@@ -142,7 +142,7 @@ Neighborhood for {Echo, TTL=17, Pre-echoing=74.217.227.241}:
 74.217.226.80/29
 74.217.226.96/29
 74.217.226.104/31
-Peer: 75.98.40.33
+Peer: 75.98.40.33 (offset=1)
 
 Neighborhood for {Echo, TTL=14, Pre-echoing=207.200.176.73}:
 74.217.237.192/28
@@ -156,7 +156,7 @@ Neighborhood for {Echo, TTL=17, Pre-echoing=70.42.45.114}:
 75.98.34.32/29
 75.98.34.80/31
 75.98.34.188/31
-Peer: 74.201.138.2
+Peer: 74.201.138.2 (offset=1)
 
 Neighborhood for {Echo, TTL=17, Pre-echoing=216.52.93.54 (offset=1)}:
 75.98.42.0/26
@@ -165,7 +165,7 @@ Peers: 216.52.95.45, 216.52.95.108 (offset=2)
 Neighborhood for {Echo, TTL=12, Pre-echoing=8.41.196.2 (offset=1)}:
 75.98.73.104/30
 75.98.73.160/29
-Peer: 8.41.196.2
+Peer: 8.41.196.2 (offset=1)
 
 Neighborhood for {Echo, TTL=14, Pre-echoing=80.239.135.179 (offset=1)}:
 75.98.79.0/29
@@ -675,7 +675,7 @@ Peer: 74.201.136.10
 
 Neighborhood for {64.95.158.73}:
 75.98.37.48/30
-Peer: 213.248.66.102
+Peer: 213.248.66.102 (offset=6)
 
 Neighborhood for {64.95.158.234}:
 75.98.36.32/27
@@ -2212,7 +2212,7 @@ Peer: 74.201.136.10
 
 Neighborhood for {74.217.50.103}:
 74.217.50.96/30
-Peer: 74.201.138.2
+Peer: 74.201.138.2 (offset=1)
 
 Neighborhood for {74.217.51.11}:
 74.217.52.8/29
@@ -2350,11 +2350,11 @@ Peers: 216.52.95.23, 216.52.95.86
 
 Neighborhood for {75.98.73.86 | 2}:
 75.98.73.86/32
-Peer: 8.41.196.2
+Peer: 8.41.196.2 (offset=1)
 
 Neighborhood for {75.98.73.87 | 2}:
 75.98.73.87/32
-Peer: 8.41.196.2
+Peer: 8.41.196.2 (offset=1)
 
 Neighborhood for {75.98.84.242}:
 74.201.204.0/30
@@ -2906,7 +2906,7 @@ Neighborhood for {173.231.161.146}:
 75.98.36.192/30
 75.98.36.248/31
 75.98.37.128/30
-Peer: 213.248.66.102
+Peer: 213.248.66.102 (offset=6)
 
 Neighborhood for {173.231.161.206}:
 74.201.137.0/30

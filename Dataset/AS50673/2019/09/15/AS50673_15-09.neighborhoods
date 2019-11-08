@@ -667,11 +667,11 @@ Neighborhood for {Echo, TTL=18, Pre-echoing=185.8.179.39 (offset=2)}:
 5.45.70.101/32
 37.1.201.50/31
 37.1.201.155/32
-Peer: 185.8.179.39
+Peer: 185.8.179.39 (offset=2)
 
 Neighborhood for {Echo, TTL=18, Pre-echoing=178.21.17.2 (offset=2)}:
 5.45.69.198/31
-Peer: 178.21.17.2
+Peer: 178.21.17.2 (offset=2)
 
 Neighborhood for {Echo, TTL=17, Pre-echoing=185.8.179.19, 185.8.179.27}:
 5.255.64.44/30 (pre-echoing: 185.8.179.27)
@@ -712,7 +712,7 @@ Peer: 46.249.63.242
 
 Neighborhood for {Echo, TTL=18, Pre-echoing=185.8.179.40 (offset=2)}:
 37.1.200.68/31
-Peer: 185.8.179.40
+Peer: 185.8.179.40 (offset=2)
 
 Neighborhood for {Echo, TTL=17, Pre-echoing=178.21.17.2, 185.8.179.39}:
 37.49.229.0/27 (pre-echoing: 178.21.17.2, 185.8.179.39)
@@ -2056,7 +2056,7 @@ Peers: 185.8.177.33, 185.8.177.35
 Neighborhood for {37.49.228.137}:
 37.49.225.12/31
 37.49.225.16/29
-Peer: 185.8.179.27
+Peer: 185.8.179.27 (offset=1)
 
 Neighborhood for {37.49.228.148}:
 37.49.225.32/27
@@ -2601,7 +2601,7 @@ Peers: 185.187.12.173, 185.187.12.175
 Neighborhood for {91.238.186.49 | 1}:
 93.158.208.52/30
 103.196.241.102/31
-Peer: 185.8.179.27
+Peer: 185.8.179.27 (offset=1)
 
 Neighborhood for {92.47.159.182}:
 46.8.249.192/27

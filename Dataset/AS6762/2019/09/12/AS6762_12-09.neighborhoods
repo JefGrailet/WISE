@@ -10,15 +10,15 @@ Peers: 79.140.80.165, 93.186.135.148, 93.186.135.151 (offset=11)
 
 Neighborhood for {Echo, TTL=30, Pre-echoing=103.250.194.214 (offset=1)}:
 5.178.41.26/31
-Peer: 103.250.194.214
+Peer: 103.250.194.214 (offset=1)
 
 Neighborhood for {Echo, TTL=27, Pre-echoing=54.239.111.254 (offset=7)}:
 5.178.41.52/30
-Peer: 195.22.192.191
+Peer: 195.22.192.191 (offset=14)
 
 Neighborhood for {Echo, TTL=25, Pre-echoing=52.95.67.176 (offset=2)}:
 5.178.41.89/32
-Peer: 93.186.135.148
+Peer: 93.186.135.148 (offset=11)
 
 Neighborhood for {Echo, TTL=23, Pre-echoing=5.178.41.109}:
 5.178.41.109/32
@@ -30,12 +30,12 @@ Peer: 5.178.41.110
 
 Neighborhood for {Echo, TTL=20, Pre-echoing=12.122.132.197 (offset=1)}:
 5.178.41.122/31
-Peer: 93.186.135.148
+Peer: 93.186.135.148 (offset=6)
 
 Neighborhood for {Echo, TTL=21, Pre-echoing=193.159.166.42 (offset=1)}:
 5.178.41.192/29
 185.70.201.192/29
-Peer: 195.22.205.39
+Peer: 195.22.205.39 (offset=4)
 
 Neighborhood for {Echo, TTL=21, Pre-echoing=203.166.7.202 (offset=2)}:
 23.79.247.40/29
@@ -88,11 +88,11 @@ Peer: 38.142.19.74
 
 Neighborhood for {Echo, TTL=28, Pre-echoing=64.137.10.26 (offset=3)}:
 64.137.10.26/31
-Peer: 64.137.10.26
+Peer: 64.137.10.26 (offset=3)
 
 Neighborhood for {Echo, TTL=28, Pre-echoing=64.137.10.29 (offset=1)}:
 64.137.10.28/31
-Peer: 64.137.10.29
+Peer: 64.137.10.29 (offset=1)
 
 Neighborhood for {Echo, TTL=27, Pre-echoing=64.137.10.31}:
 64.137.10.30/31
@@ -100,7 +100,7 @@ Peer: 64.137.10.31
 
 Neighborhood for {Echo, TTL=32, Pre-echoing=64.137.10.39 (offset=1)}:
 64.137.10.38/31
-Peer: 64.137.10.39
+Peer: 64.137.10.39 (offset=1)
 
 Neighborhood for {Echo, TTL=28, Pre-echoing=64.137.10.42}:
 64.137.10.42/31
@@ -108,7 +108,7 @@ Peer: 64.137.10.42
 
 Neighborhood for {Echo, TTL=32, Pre-echoing=64.137.10.47 (offset=2)}:
 64.137.10.44/30
-Peer: 64.137.10.47
+Peer: 64.137.10.47 (offset=2)
 
 Neighborhood for {Echo, TTL=33, Pre-echoing=64.137.10.50}:
 64.137.10.50/32
@@ -116,7 +116,7 @@ Peer: 64.137.10.50
 
 Neighborhood for {Echo, TTL=30, Pre-echoing=64.137.10.51 (offset=1)}:
 64.137.10.51/32
-Peer: 64.137.10.51
+Peer: 64.137.10.51 (offset=1)
 
 Neighborhood for {Echo, TTL=32, Pre-echoing=64.137.10.52}:
 64.137.10.52/31
@@ -124,15 +124,15 @@ Peer: 64.137.10.52
 
 Neighborhood for {Echo, TTL=34, Pre-echoing=64.137.10.54 (offset=1)}:
 64.137.10.54/31
-Peer: 64.137.10.54
+Peer: 64.137.10.54 (offset=1)
 
 Neighborhood for {Echo, TTL=30, Pre-echoing=64.137.10.57 (offset=1)}:
 64.137.10.57/32
-Peer: 64.137.10.57
+Peer: 64.137.10.57 (offset=1)
 
 Neighborhood for {Echo, TTL=35, Pre-echoing=64.137.10.59 (offset=1)}:
 64.137.10.58/31
-Peer: 64.137.10.59
+Peer: 64.137.10.59 (offset=1)
 
 Neighborhood for {Echo, TTL=37, Pre-echoing=64.137.10.61}:
 64.137.10.60/31
@@ -148,7 +148,7 @@ Peer: 64.137.10.63
 
 Neighborhood for {Echo, TTL=36, Pre-echoing=64.137.10.70 (offset=1)}:
 64.137.10.70/31
-Peer: 64.137.10.70
+Peer: 64.137.10.70 (offset=1)
 
 Neighborhood for {Echo, TTL=42, Pre-echoing=64.137.10.72}:
 64.137.10.72/29
@@ -156,7 +156,7 @@ Peer: 64.137.10.72
 
 Neighborhood for {Echo, TTL=47, Pre-echoing=64.137.10.86 (offset=3)}:
 64.137.10.80/29
-Peer: 64.137.10.86
+Peer: 64.137.10.86 (offset=3)
 
 Neighborhood for {Echo, TTL=47, Pre-echoing=64.137.10.95}:
 64.137.10.88/29
@@ -164,23 +164,23 @@ Peer: 64.137.10.95
 
 Neighborhood for {Echo, TTL=47, Pre-echoing=64.137.10.97 (offset=1)}:
 64.137.10.96/31
-Peer: 64.137.10.97
+Peer: 64.137.10.97 (offset=1)
 
 Neighborhood for {Echo, TTL=44, Pre-echoing=64.137.10.100 (offset=1)}:
 64.137.10.100/30
-Peer: 64.137.10.100
+Peer: 64.137.10.100 (offset=1)
 
 Neighborhood for {Echo, TTL=46, Pre-echoing=64.137.10.106 (offset=4)}:
 64.137.10.106/32
-Peer: 64.137.10.106
+Peer: 64.137.10.106 (offset=4)
 
 Neighborhood for {Echo, TTL=44, Pre-echoing=64.137.10.107 (offset=1)}:
 64.137.10.107/32
-Peer: 64.137.10.107
+Peer: 64.137.10.107 (offset=1)
 
 Neighborhood for {Echo, TTL=43, Pre-echoing=64.137.10.109 (offset=7)}:
 64.137.10.108/31
-Peer: 64.137.10.109
+Peer: 64.137.10.109 (offset=7)
 
 Neighborhood for {Echo, TTL=47, Pre-echoing=64.137.10.112, 64.137.10.114}:
 64.137.10.112/29 (pre-echoing: 64.137.10.112, 64.137.10.114)
@@ -196,7 +196,7 @@ Peer: 64.137.10.135
 
 Neighborhood for {Echo, TTL=46, Pre-echoing=64.137.10.139 (offset=1)}:
 64.137.10.138/31
-Peer: 64.137.10.139
+Peer: 64.137.10.139 (offset=1)
 
 Neighborhood for {Echo, TTL=42, Pre-echoing=64.137.10.141}:
 64.137.10.141/32
@@ -212,11 +212,11 @@ Peer: 64.137.10.161
 
 Neighborhood for {Echo, TTL=44, Pre-echoing=64.137.10.163 (offset=1)}:
 64.137.10.163/32
-Peer: 64.137.10.163
+Peer: 64.137.10.163 (offset=1)
 
 Neighborhood for {Echo, TTL=47, Pre-echoing=64.137.10.167 (offset=1)}:
 64.137.10.166/31
-Peer: 64.137.10.167
+Peer: 64.137.10.167 (offset=1)
 
 Neighborhood for {Echo, TTL=47, Pre-echoing=64.137.10.171, 64.137.10.173, 64.137.10.175}:
 64.137.10.168/29 (pre-echoing: 64.137.10.171, 64.137.10.173, 64.137.10.175)
@@ -228,19 +228,19 @@ Peer: 64.137.10.180
 
 Neighborhood for {Echo, TTL=47, Pre-echoing=64.137.10.187 (offset=1)}:
 64.137.10.186/31
-Peer: 64.137.10.187
+Peer: 64.137.10.187 (offset=1)
 
 Neighborhood for {Echo, TTL=40, Pre-echoing=64.137.10.189 (offset=1)}:
 64.137.10.188/31
-Peer: 64.137.10.189
+Peer: 64.137.10.189 (offset=1)
 
 Neighborhood for {Echo, TTL=47, Pre-echoing=64.137.10.193 (offset=2)}:
 64.137.10.192/30
-Peer: 64.137.10.193
+Peer: 64.137.10.193 (offset=2)
 
 Neighborhood for {Echo, TTL=47, Pre-echoing=64.137.10.200 (offset=1)}:
 64.137.10.200/31
-Peer: 64.137.10.200
+Peer: 64.137.10.200 (offset=1)
 
 Neighborhood for {Echo, TTL=47, Pre-echoing=64.137.10.204}:
 64.137.10.204/32
@@ -252,7 +252,7 @@ Peer: 64.137.10.205
 
 Neighborhood for {Echo, TTL=47, Pre-echoing=64.137.10.209 (offset=1)}:
 64.137.10.208/30
-Peer: 64.137.10.209
+Peer: 64.137.10.209 (offset=1)
 
 Neighborhood for {Echo, TTL=45, Pre-echoing=64.137.10.231}:
 64.137.10.231/32
@@ -264,7 +264,7 @@ Peer: 64.137.10.235
 
 Neighborhood for {Echo, TTL=46, Pre-echoing=64.137.10.237 (offset=1)}:
 64.137.10.236/30
-Peer: 64.137.10.237
+Peer: 64.137.10.237 (offset=1)
 
 Neighborhood for {Echo, TTL=47, Pre-echoing=64.137.10.245}:
 64.137.10.244/30
@@ -307,22 +307,22 @@ Peer: 203.227.231.62
 Neighborhood for {Echo, TTL=19, Pre-echoing=65.115.40.158 (offset=1)}:
 79.140.84.106/31
 79.140.84.176/31
-Peer: 79.140.80.142
+Peer: 79.140.80.142 (offset=5)
 
 Neighborhood for {Echo, TTL=22, Pre-echoing=12.249.200.182 (offset=2)}:
 79.140.84.158/31
 79.140.92.158/31
 93.186.138.158/31
 200.123.202.158/31
-Peer: 12.249.200.182
+Peer: 12.249.200.182 (offset=2)
 
 Neighborhood for {Echo, TTL=21, Pre-echoing=4.30.131.138 (offset=1)}:
 79.140.84.163/32
-Peer: 195.22.218.199
+Peer: 195.22.218.199 (offset=8)
 
 Neighborhood for {Echo, TTL=21, Pre-echoing=65.115.40.158 (offset=1)}:
 79.140.84.180/30
-Peer: 195.22.218.199
+Peer: 195.22.218.199 (offset=8)
 
 Neighborhood for {Echo, TTL=21, Pre-echoing=79.140.84.203}:
 79.140.84.203/32
@@ -334,7 +334,7 @@ Peer: 211.45.50.178
 
 Neighborhood for {Echo, TTL=19, Pre-echoing=205.171.134.37 (offset=2)}:
 79.140.84.214/31
-Peer: 79.140.80.142
+Peer: 79.140.80.142 (offset=5)
 
 Neighborhood for {Echo, TTL=21, Pre-echoing=79.140.84.246}:
 79.140.84.244/30
@@ -352,7 +352,7 @@ Peer: 79.140.92.63
 Neighborhood for {Echo, TTL=20, Pre-echoing=152.179.114.54 (offset=1)}:
 79.140.92.106/31
 195.22.201.169/32
-Peer: 152.179.114.54
+Peer: 152.179.114.54 (offset=1)
 
 Neighborhood for {Echo, TTL=22, Pre-echoing=195.50.90.170}:
 79.140.92.144/31
@@ -364,7 +364,7 @@ Peer: 152.179.114.54
 
 Neighborhood for {Echo, TTL=21, Pre-echoing=152.179.114.54 (offset=2)}:
 79.140.92.208/29
-Peer: 152.179.114.54
+Peer: 152.179.114.54 (offset=2)
 
 Neighborhood for {Echo, TTL=22, Pre-echoing=79.140.92.246}:
 79.140.92.244/30
@@ -376,7 +376,7 @@ Peer: 79.140.93.22
 
 Neighborhood for {Echo, TTL=19, Pre-echoing=101.95.23.70 (offset=1)}:
 79.140.93.104/32
-Peer: 101.95.23.70
+Peer: 101.95.23.70 (offset=1)
 
 Neighborhood for {Echo, TTL=25, Pre-echoing=89.221.39.150}:
 89.221.39.148/30
@@ -407,7 +407,7 @@ Peer: 213.144.183.117
 
 Neighborhood for {Echo, TTL=21, Pre-echoing=117.8.223.73}:
 93.186.138.55/32
-Peer: 213.144.183.117
+Peer: 213.144.183.117 (offset=9)
 
 Neighborhood for {Echo, TTL=27, Pre-echoing=93.186.138.63}:
 93.186.138.62/31
@@ -432,7 +432,7 @@ Peer: 93.186.138.181
 
 Neighborhood for {Echo, TTL=20, Pre-echoing=65.115.40.158 (offset=2)}:
 93.186.138.203/32
-Peer: 93.186.129.23
+Peer: 93.186.129.23 (offset=7)
 
 Neighborhood for {Echo, TTL=22, Pre-echoing=93.186.138.246}:
 93.186.138.244/30
@@ -440,7 +440,7 @@ Peer: 93.186.138.246
 
 Neighborhood for {Echo, TTL=20, Pre-echoing=116.251.74.201}:
 93.186.139.24/29
-Peer: 93.186.137.212
+Peer: 93.186.137.212 (offset=6)
 
 Neighborhood for {Echo, TTL=22, Pre-echoing=213.248.81.43 (offset=2)}:
 93.186.139.64/32
@@ -453,7 +453,7 @@ Peer: 4.15.74.50
 
 Neighborhood for {Echo, TTL=22, Pre-echoing=116.251.81.245 (offset=1)}:
 93.186.139.154/31
-Peer: 213.144.183.117
+Peer: 213.144.183.117 (offset=10)
 
 Neighborhood for {Echo, TTL=21, Pre-echoing=93.186.139.167}:
 93.186.139.166/31
@@ -461,7 +461,7 @@ Peer: 93.186.139.167
 
 Neighborhood for {Echo, TTL=22, Pre-echoing=116.251.87.233 (offset=2)}:
 93.186.139.168/31
-Peer: 93.186.129.23
+Peer: 93.186.129.23 (offset=9)
 
 Neighborhood for {Echo, TTL=20, Pre-echoing=93.186.139.206}:
 93.186.139.206/31
@@ -472,17 +472,17 @@ Neighborhood for {Echo, TTL=17, Pre-echoing=167.24.243.3}:
 104.76.208.98/31
 104.76.209.98/31
 104.77.179.98/31
-Peer: 93.186.137.212
+Peer: 93.186.137.212 (offset=3)
 
 Neighborhood for {Echo, TTL=28, Pre-echoing=210.22.83.177 (offset=1)}:
 104.76.206.128/30
-Peer: 210.22.83.177
+Peer: 210.22.83.177 (offset=1)
 
 Neighborhood for {Echo, TTL=23, Pre-echoing=116.251.82.246 (offset=2)}:
 104.76.206.141/32
 104.76.208.141/32
 195.22.201.192/31
-Peer: 116.251.82.246
+Peer: 116.251.82.246 (offset=2)
 
 Neighborhood for {Echo, TTL=28, Pre-echoing=54.240.244.62 (offset=3)}:
 104.76.206.143/32
@@ -491,7 +491,7 @@ Peers: 93.186.129.23, 195.22.218.199 (offset=15)
 
 Neighborhood for {Echo, TTL=25, Pre-echoing=219.141.130.54 (offset=1)}:
 104.76.206.168/32
-Peer: 213.144.178.204
+Peer: 213.144.178.204 (offset=12)
 
 Neighborhood for {Echo, TTL=23, Pre-echoing=61.148.8.22, 124.65.236.94 (offset=1)}:
 104.76.206.169/32 (pre-echoing: 61.148.8.22)
@@ -539,7 +539,7 @@ Peer: 104.76.208.115
 
 Neighborhood for {Echo, TTL=15, Pre-echoing=204.221.76.221}:
 104.76.208.116/31
-Peer: 79.140.80.142
+Peer: 79.140.80.142 (offset=1)
 
 Neighborhood for {Echo, TTL=29, Pre-echoing=104.76.208.129}:
 104.76.208.128/31
@@ -555,16 +555,16 @@ Peer: 104.76.208.140
 
 Neighborhood for {Echo, TTL=31, Pre-echoing=203.83.223.17 (offset=4)}:
 104.76.208.142/32
-Peer: 195.22.218.197
+Peer: 195.22.218.197 (offset=18)
 
 Neighborhood for {Echo, TTL=22, Pre-echoing=203.118.12.42}:
 104.76.209.114/31
 200.123.204.140/31
-Peer: 180.87.12.254
+Peer: 180.87.12.254 (offset=1)
 
 Neighborhood for {Echo, TTL=15, Pre-echoing=204.221.76.220}:
 104.76.209.116/31
-Peer: 93.186.135.148
+Peer: 93.186.135.148 (offset=1)
 
 Neighborhood for {Echo, TTL=28, Pre-echoing=104.76.209.128}:
 104.76.209.128/32
@@ -572,7 +572,7 @@ Peer: 104.76.209.128
 
 Neighborhood for {Echo, TTL=21, Pre-echoing=116.251.82.229 (offset=2)}:
 104.76.209.141/32
-Peer: 116.251.82.229
+Peer: 116.251.82.229 (offset=2)
 
 Neighborhood for {Echo, TTL=28, Pre-echoing=177.72.240.253 (offset=3)}:
 104.76.209.143/32
@@ -581,35 +581,35 @@ Peers: 195.22.192.191, 195.22.220.15 (offset=15)
 
 Neighborhood for {Echo, TTL=24, Pre-echoing=219.141.140.146}:
 104.76.209.171/32
-Peer: 195.22.196.213
+Peer: 195.22.196.213 (offset=11)
 
 Neighborhood for {Echo, TTL=23, Pre-echoing=124.127.60.206}:
 104.76.209.174/31
-Peer: 61.148.8.22
+Peer: 61.148.8.22 (offset=1)
 
 Neighborhood for {Echo, TTL=24, Pre-echoing=219.141.140.77}:
 104.76.209.177/32
-Peer: 195.22.192.191
+Peer: 195.22.192.191 (offset=11)
 
 Neighborhood for {Echo, TTL=25, Pre-echoing=219.141.140.146}:
 104.76.209.220/30
-Peer: 219.142.2.158
+Peer: 219.142.2.158 (offset=1)
 
 Neighborhood for {Echo, TTL=26, Pre-echoing=104.76.209.224}:
 104.76.209.224/31
-Peer: 219.142.2.158
+Peer: 219.142.2.158 (offset=1)
 
 Neighborhood for {Echo, TTL=21, Pre-echoing=116.251.81.217 (offset=1)}:
 104.77.179.112/29
-Peer: 195.22.220.31
+Peer: 195.22.220.31 (offset=8)
 
 Neighborhood for {Echo, TTL=29, Pre-echoing=210.22.83.177 (offset=1)}:
 104.77.179.128/31
-Peer: 210.22.83.177
+Peer: 210.22.83.177 (offset=1)
 
 Neighborhood for {Echo, TTL=25, Pre-echoing=101.95.110.2}:
 104.77.179.130/31
-Peer: 185.70.203.61
+Peer: 185.70.203.61 (offset=12)
 
 Neighborhood for {Echo, TTL=21, Pre-echoing=104.77.179.141}:
 104.77.179.141/32
@@ -621,11 +621,11 @@ Peer: 104.77.179.174
 
 Neighborhood for {Echo, TTL=23, Pre-echoing=124.65.194.162}:
 104.77.179.175/32
-Peer: 185.70.203.65
+Peer: 185.70.203.65 (offset=10)
 
 Neighborhood for {Echo, TTL=25, Pre-echoing=104.77.179.179 (offset=1)}:
 104.77.179.178/31
-Peer: 104.77.179.179
+Peer: 104.77.179.179 (offset=1)
 
 Neighborhood for {Echo, TTL=25, Pre-echoing=104.77.179.181}:
 104.77.179.180/31
@@ -658,7 +658,7 @@ Peer: 104.77.179.226
 Neighborhood for {Echo, TTL=15, Pre-echoing=195.22.209.209 (offset=2)}:
 104.222.176.200/29
 104.249.46.0/27
-Peer: 195.22.209.209
+Peer: 195.22.209.209 (offset=2)
 
 Neighborhood for {Echo, TTL=17, Pre-echoing=195.22.209.209, 195.22.209.211 (offset=4)}:
 104.233.59.0/24 (pre-echoing: 195.22.209.209, 195.22.209.211)
@@ -674,16 +674,16 @@ Peers: 195.22.209.209, 195.22.209.211 (offset=4)
 
 Neighborhood for {Echo, TTL=16, Pre-echoing=195.22.209.209 (offset=3)}:
 104.249.46.32/27
-Peer: 195.22.209.209
+Peer: 195.22.209.209 (offset=3)
 
 Neighborhood for {Echo, TTL=25, Pre-echoing=205.251.230.118 (offset=2)}:
 149.3.179.116/31
-Peer: 93.186.137.212
+Peer: 93.186.137.212 (offset=11)
 
 Neighborhood for {Echo, TTL=20, Pre-echoing=171.162.64.231 (offset=1)}:
 149.3.179.119/32
 184.50.95.119/32
-Peer: 206.80.194.42
+Peer: 206.80.194.42 (offset=2)
 
 Neighborhood for {Echo, TTL=13, Pre-echoing=213.144.183.117 (offset=1)}:
 149.3.179.126/31
@@ -693,7 +693,7 @@ Neighborhood for {Echo, TTL=13, Pre-echoing=213.144.183.117 (offset=1)}:
 213.144.186.120/32
 213.144.186.125/32
 213.144.186.126/31
-Peer: 213.144.183.117
+Peer: 213.144.183.117 (offset=1)
 
 Neighborhood for {Echo, TTL=22, Pre-echoing=149.3.179.133}:
 149.3.179.132/31
@@ -705,27 +705,27 @@ Peer: 149.3.179.195
 
 Neighborhood for {Echo, TTL=17, Pre-echoing=89.221.41.91 (offset=3)}:
 168.90.92.0/28
-Peer: 89.221.41.171
+Peer: 89.221.41.171 (offset=4)
 
 Neighborhood for {Echo, TTL=15, Pre-echoing=89.221.41.91 (offset=1)}:
 168.90.93.0/31
-Peer: 89.221.41.171
+Peer: 89.221.41.171 (offset=2)
 
 Neighborhood for {Echo, TTL=17, Pre-echoing=23.13.219.1 (offset=1)}:
 184.50.95.22/31
-Peer: 195.22.196.213
+Peer: 195.22.196.213 (offset=4)
 
 Neighborhood for {Echo, TTL=26, Pre-echoing=61.148.4.214}:
 184.50.95.78/31
-Peer: 219.158.44.113
+Peer: 219.158.44.113 (offset=3)
 
 Neighborhood for {Echo, TTL=23, Pre-echoing=4.16.126.142 (offset=3)}:
 184.50.95.90/31
-Peer: 195.22.196.213
+Peer: 195.22.196.213 (offset=10)
 
 Neighborhood for {Echo, TTL=25, Pre-echoing=65.113.42.14 (offset=8)}:
 184.50.95.116/31
-Peer: 93.186.135.148
+Peer: 93.186.135.148 (offset=11)
 
 Neighborhood for {Echo, TTL=24, Pre-echoing=184.50.95.195}:
 184.50.95.192/30
@@ -733,15 +733,15 @@ Peer: 184.50.95.195
 
 Neighborhood for {Echo, TTL=24, Pre-echoing=171.162.144.3 (offset=1)}:
 184.50.95.220/31
-Peer: 171.162.144.3
+Peer: 171.162.144.3 (offset=1)
 
 Neighborhood for {Echo, TTL=26, Pre-echoing=52.95.67.180 (offset=2)}:
 185.70.200.89/32
-Peer: 195.22.218.197
+Peer: 195.22.218.197 (offset=13)
 
 Neighborhood for {Echo, TTL=28, Pre-echoing=120.88.54.98 (offset=2)}:
 185.70.200.106/31
-Peer: 195.22.205.13
+Peer: 195.22.205.13 (offset=11)
 
 Neighborhood for {Echo, TTL=23, Pre-echoing=185.70.200.109}:
 185.70.200.109/32
@@ -766,15 +766,15 @@ Peer: 185.70.200.184
 
 Neighborhood for {Echo, TTL=27, Pre-echoing=4.53.98.34 (offset=6)}:
 185.70.200.188/30
-Peer: 79.140.80.142
+Peer: 79.140.80.142 (offset=13)
 
 Neighborhood for {Echo, TTL=23, Pre-echoing=4.69.167.196 (offset=1)}:
 185.70.200.224/31
-Peer: 195.22.218.199
+Peer: 195.22.218.199 (offset=10)
 
 Neighborhood for {Echo, TTL=21, Pre-echoing=116.251.81.241}:
 185.70.201.109/32
-Peer: 213.144.178.206
+Peer: 213.144.178.206 (offset=8)
 
 Neighborhood for {Echo, TTL=21, Pre-echoing=116.251.81.237}:
 185.70.201.110/31
@@ -803,15 +803,15 @@ Peers: 195.22.196.213, 195.22.220.15 (offset=9)
 
 Neighborhood for {Echo, TTL=18, Pre-echoing=203.131.248.162}:
 195.22.201.80/31
-Peer: 195.22.196.213
+Peer: 195.22.196.213 (offset=5)
 
 Neighborhood for {Echo, TTL=22, Pre-echoing=171.162.144.3 (offset=1)}:
 195.22.201.150/31
-Peer: 171.162.144.3
+Peer: 171.162.144.3 (offset=1)
 
 Neighborhood for {Echo, TTL=20, Pre-echoing=116.251.81.241 (offset=1)}:
 195.22.201.154/31
-Peer: 195.22.192.191
+Peer: 195.22.192.191 (offset=7)
 
 Neighborhood for {Echo, TTL=21, Pre-echoing=195.22.201.167}:
 195.22.201.166/31
@@ -824,7 +824,7 @@ Peers: 185.70.203.65, 195.22.196.213 (offset=9)
 
 Neighborhood for {Echo, TTL=19, Pre-echoing=203.118.6.30}:
 195.22.201.206/31
-Peer: 93.186.135.148
+Peer: 93.186.135.148 (offset=5)
 
 Neighborhood for {Echo, TTL=26, Pre-echoing=195.22.201.243}:
 195.22.201.242/31
@@ -832,11 +832,11 @@ Peer: 195.22.201.243
 
 Neighborhood for {Echo, TTL=18, Pre-echoing=23.13.219.1 (offset=2)}:
 195.22.203.80/31
-Peer: 79.140.80.165
+Peer: 79.140.80.165 (offset=4)
 
 Neighborhood for {Echo, TTL=21, Pre-echoing=4.69.140.145}:
 195.22.203.150/31
-Peer: 195.22.218.199
+Peer: 195.22.218.199 (offset=8)
 
 Neighborhood for {Echo, TTL=21, Pre-echoing=195.22.203.167}:
 195.22.203.166/31
@@ -852,7 +852,7 @@ Peer: 195.22.203.169
 
 Neighborhood for {Echo, TTL=23, Pre-echoing=116.251.82.250 (offset=2)}:
 195.22.203.192/31
-Peer: 116.251.82.250
+Peer: 116.251.82.250 (offset=2)
 
 Neighborhood for {Echo, TTL=22, Pre-echoing=195.22.203.206}:
 195.22.203.206/31
@@ -872,19 +872,19 @@ Peers: 185.70.203.61, 195.22.220.31 (offset=10)
 
 Neighborhood for {Echo, TTL=22, Pre-echoing=200.123.202.101}:
 200.123.202.96/28
-Peer: 152.179.114.54
+Peer: 152.179.114.54 (offset=1)
 
 Neighborhood for {Echo, TTL=22, Pre-echoing=62.115.54.14}:
 200.123.202.144/31
-Peer: 195.22.220.15
+Peer: 195.22.220.15 (offset=9)
 
 Neighborhood for {Echo, TTL=23, Pre-echoing=152.179.114.54 (offset=2)}:
 200.123.202.181/32
-Peer: 152.179.114.54
+Peer: 152.179.114.54 (offset=2)
 
 Neighborhood for {Echo, TTL=22, Pre-echoing=152.179.114.54 (offset=1)}:
 200.123.202.203/32
-Peer: 152.179.114.54
+Peer: 152.179.114.54 (offset=1)
 
 Neighborhood for {Echo, TTL=27, Pre-echoing=200.123.203.148}:
 200.123.203.148/31
@@ -896,7 +896,7 @@ Peer: 171.162.144.3
 
 Neighborhood for {Echo, TTL=27, Pre-echoing=180.166.111.198}:
 200.123.203.184/31
-Peer: 195.22.220.31
+Peer: 195.22.220.31 (offset=14)
 
 Neighborhood for {Echo, TTL=22, Pre-echoing=200.123.204.14}:
 200.123.204.14/31
@@ -904,7 +904,7 @@ Peer: 200.123.204.14
 
 Neighborhood for {Echo, TTL=21, Pre-echoing=63.218.174.193}:
 200.123.204.22/31
-Peer: 200.123.201.247
+Peer: 200.123.201.247 (offset=7)
 
 Neighborhood for {Echo, TTL=19, Pre-echoing=61.160.169.49, 61.160.173.81}:
 200.123.204.28/30 (pre-echoing: 61.160.169.49, 61.160.173.81)
@@ -913,23 +913,23 @@ Peers: 185.70.203.65, 195.22.220.31 (offset=6)
 Neighborhood for {Echo, TTL=23, Pre-echoing=64.211.168.186 (offset=2)}:
 200.123.204.40/29
 200.123.204.48/31
-Peer: 200.123.201.247
+Peer: 200.123.201.247 (offset=9)
 
 Neighborhood for {Echo, TTL=19, Pre-echoing=61.160.169.73}:
 200.123.204.76/31
-Peer: 195.22.220.13
+Peer: 195.22.220.13 (offset=6)
 
 Neighborhood for {Echo, TTL=23, Pre-echoing=204.148.32.206 (offset=2)}:
 200.123.204.90/31
-Peer: 195.22.220.31
+Peer: 195.22.220.31 (offset=10)
 
 Neighborhood for {Echo, TTL=23, Pre-echoing=103.44.56.195}:
 200.123.204.118/31
-Peer: 195.22.220.15
+Peer: 195.22.220.15 (offset=10)
 
 Neighborhood for {Echo, TTL=27, Pre-echoing=213.19.193.154 (offset=4)}:
 200.123.204.192/30
-Peer: 213.19.193.154
+Peer: 213.19.193.154 (offset=4)
 
 Neighborhood for {Echo, TTL=21, Pre-echoing=200.123.204.215}:
 200.123.204.214/31
@@ -939,11 +939,11 @@ Neighborhood for {Echo, TTL=24, Pre-echoing=212.162.42.214 (offset=3)}:
 200.123.205.25/32
 200.123.205.100/31
 200.123.205.108/31
-Peer: 195.22.211.215
+Peer: 195.22.211.215 (offset=6)
 
 Neighborhood for {Echo, TTL=25, Pre-echoing=120.88.54.98 (offset=2)}:
 200.123.205.106/31
-Peer: 200.123.197.129
+Peer: 200.123.197.129 (offset=9)
 
 Neighborhood for {Echo, TTL=25, Pre-echoing=200.123.205.111}:
 200.123.205.110/31
@@ -951,28 +951,28 @@ Peer: 200.123.205.111
 
 Neighborhood for {Echo, TTL=30, Pre-echoing=175.124.53.92 (offset=3)}:
 200.123.205.184/31
-Peer: 89.221.41.171
+Peer: 89.221.41.171 (offset=13)
 
 Neighborhood for {Echo, TTL=25, Pre-echoing=212.119.15.86 (offset=1)}:
 200.123.205.192/31
-Peer: 200.123.197.129
+Peer: 200.123.197.129 (offset=9)
 
 Neighborhood for {Echo, TTL=15, Pre-echoing=89.221.41.5 (offset=1)}:
 208.84.81.58/31
-Peer: 89.221.41.5
+Peer: 89.221.41.5 (offset=1)
 
 Neighborhood for {1.208.24.22 | 1}:
 79.140.84.218/31
 79.140.92.218/31
-Peer: 79.140.80.142
+Peer: 79.140.80.142 (offset=6)
 
 Neighborhood for {1.208.25.14 | 1}:
 200.123.202.218/31
-Peer: 195.22.220.15
+Peer: 195.22.220.15 (offset=11)
 
 Neighborhood for {1.213.25.14}:
 93.186.138.218/31
-Peer: 93.186.137.212
+Peer: 93.186.137.212 (offset=11)
 
 Neighborhood for {4.7.18.130}:
 200.123.203.166/31
@@ -982,7 +982,7 @@ Peers: 185.70.203.61, 185.70.203.65 (offset=5)
 Neighborhood for {4.14.170.197}:
 200.123.205.0/28
 200.123.205.122/31
-Peer: 4.14.170.197
+Peer: 4.14.170.197 (offset=1)
 
 Neighborhood for {4.14.170.197 | 2}:
 5.178.41.0/28
@@ -1001,7 +1001,7 @@ Peer: 171.162.144.3
 Neighborhood for {4.15.120.166}:
 5.178.41.68/31
 185.70.201.68/31
-Peer: 93.186.135.148
+Peer: 93.186.135.148 (offset=4)
 
 Neighborhood for {4.30.131.138 | 1}:
 79.140.84.184/29
@@ -1014,25 +1014,25 @@ Peer: 4.69.211.177
 Neighborhood for {4.53.98.34 | 6}:
 5.178.41.188/30
 185.70.201.188/30
-Peer: 93.186.137.212
+Peer: 93.186.137.212 (offset=6)
 
 Neighborhood for {4.68.62.185 | 3}:
 79.140.92.184/29
 79.140.92.224/30
-Peer: 195.22.192.191
+Peer: 195.22.192.191 (offset=4)
 
 Neighborhood for {4.69.167.196 | 1}:
 185.70.200.166/31
-Peer: 195.22.218.197
+Peer: 195.22.218.197 (offset=9)
 
 Neighborhood for {4.69.167.196 | 3}:
 185.70.201.182/31
-Peer: 213.144.178.204
+Peer: 213.144.178.204 (offset=7)
 
 Neighborhood for {4.69.211.177}:
 23.79.247.158/31
 79.140.84.224/30
-Peer: 79.140.80.142
+Peer: 79.140.80.142 (offset=6)
 
 Neighborhood for {4.69.211.177 | 2}:
 93.186.138.184/29
@@ -1041,15 +1041,15 @@ Peer: 4.69.211.177
 
 Neighborhood for {5.178.41.111 | 1}:
 5.178.41.111/32
-Peer: 93.186.135.148
+Peer: 93.186.135.148 (offset=5)
 
 Neighborhood for {5.178.41.228 | 1}:
 5.178.41.228/32
-Peer: 93.186.135.1
+Peer: 93.186.135.1 (offset=9)
 
 Neighborhood for {5.178.41.246 | 1}:
 5.178.41.246/32
-Peer: 195.22.196.213
+Peer: 195.22.196.213 (offset=11)
 
 Neighborhood for {5.178.43.128}:
 5.178.43.144/31
@@ -1096,7 +1096,7 @@ Neighborhood for {12.249.200.182}:
 79.140.84.20/30
 195.22.203.122/31
 195.22.203.236/30
-Peer: 12.249.200.182
+Peer: 12.249.200.182 (offset=1)
 
 Neighborhood for {12.249.200.182 | 2}:
 5.178.41.132/30
@@ -1111,7 +1111,7 @@ Peers: 93.186.135.148, 93.186.137.212, 200.123.201.198 (offset=5)
 Neighborhood for {14.49.12.142 | 1}:
 104.76.208.108/31
 195.22.203.212/30
-Peer: 61.78.52.246
+Peer: 61.78.52.246 (offset=1)
 
 Neighborhood for {14.49.12.146}:
 104.77.179.108/31
@@ -1121,23 +1121,23 @@ Neighborhood for {23.56.131.142}:
 79.140.85.32/30
 89.221.39.160/30
 200.123.201.32/30
-Peer: 23.56.131.142
+Peer: 23.56.131.142 (offset=1)
 
 Neighborhood for {23.56.131.177}:
 79.140.93.32/30
 185.70.200.52/31
 185.70.201.52/31
 200.123.205.52/31
-Peer: 23.56.131.177
+Peer: 23.56.131.177 (offset=1)
 
 Neighborhood for {23.73.135.229}:
 79.140.92.60/31
 93.186.138.60/31
-Peer: 93.186.137.212
+Peer: 93.186.137.212 (offset=5)
 
 Neighborhood for {23.73.135.233}:
 200.123.202.60/31
-Peer: 195.22.220.29
+Peer: 195.22.220.29 (offset=9)
 
 Neighborhood for {23.79.238.26}:
 5.178.41.40/29
@@ -1171,7 +1171,7 @@ Peers: 195.22.218.197, 213.144.178.204 (offset=6)
 
 Neighborhood for {23.210.60.35 | 1}:
 79.140.92.202/32
-Peer: 195.22.192.191
+Peer: 195.22.192.191 (offset=12)
 
 Neighborhood for {23.210.60.129}:
 93.186.138.202/32
@@ -1180,12 +1180,12 @@ Peers: 195.22.220.13, 213.144.178.204 (offset=13)
 
 Neighborhood for {23.210.60.137}:
 79.140.84.202/32
-Peer: 195.22.218.199
+Peer: 195.22.218.199 (offset=13)
 
 Neighborhood for {27.115.80.69}:
 79.140.93.72/31
 200.123.201.72/32
-Peer: 27.115.80.69
+Peer: 27.115.80.69 (offset=3)
 
 Neighborhood for {38.32.68.194}:
 64.137.8.0/24
@@ -1215,7 +1215,7 @@ Neighborhood for {38.142.7.2}:
 23.79.247.156/31
 79.140.92.174/31
 184.50.95.156/31
-Peer: 38.142.7.2
+Peer: 38.142.7.2 (offset=1)
 
 Neighborhood for {38.142.19.74}:
 64.137.10.0/28
@@ -1235,11 +1235,11 @@ Neighborhood for {38.142.226.50}:
 64.137.16.0/20
 64.137.32.0/20
 64.137.48.0/20
-Peer: 154.54.30.189
+Peer: 154.54.30.189 (offset=1)
 
 Neighborhood for {39.156.67.61 | 2}:
 5.178.41.112/31
-Peer: 93.186.135.148
+Peer: 93.186.135.148 (offset=9)
 
 Neighborhood for {45.43.136.4 | 1}:
 45.43.167.0/24
@@ -1293,25 +1293,25 @@ No peers; gate to the discovered topology.
 
 Neighborhood for {46.19.252.19 | 1}:
 104.76.208.120/30
-Peer: 195.22.218.197
+Peer: 195.22.218.197 (offset=13)
 
 Neighborhood for {46.19.252.27 | 1}:
 104.76.206.120/30
 104.76.209.120/30
 104.77.179.120/30
-Peer: 93.186.137.212
+Peer: 93.186.137.212 (offset=12)
 
 Neighborhood for {52.95.67.176 | 2}:
 185.70.201.88/31
-Peer: 93.186.129.151
+Peer: 93.186.129.151 (offset=10)
 
 Neighborhood for {52.95.67.208 | 3}:
 23.79.247.114/31
-Peer: 79.140.80.165
+Peer: 79.140.80.165 (offset=8)
 
 Neighborhood for {52.95.67.212 | 2}:
 200.123.204.114/31
-Peer: 195.22.220.15
+Peer: 195.22.220.15 (offset=10)
 
 Neighborhood for {52.95.67.212 | 3}:
 149.3.179.114/31
@@ -1320,23 +1320,23 @@ Peers: 93.186.135.148, 93.186.137.212 (offset=8)
 
 Neighborhood for {54.222.0.132 | 4}:
 79.140.93.38/32
-Peer: 195.22.211.36
+Peer: 195.22.211.36 (offset=11)
 
 Neighborhood for {54.222.1.194}:
 89.221.39.176/31
-Peer: 93.186.137.212
+Peer: 93.186.137.212 (offset=16)
 
 Neighborhood for {54.222.1.196 | 4}:
 200.123.201.38/32
-Peer: 195.22.216.201
+Peer: 195.22.216.201 (offset=12)
 
 Neighborhood for {54.240.244.9 | 3}:
 195.22.203.144/31
-Peer: 195.22.218.197
+Peer: 195.22.218.197 (offset=11)
 
 Neighborhood for {54.240.244.100 | 3}:
 195.22.201.144/31
-Peer: 195.22.192.191
+Peer: 195.22.192.191 (offset=11)
 
 Neighborhood for {54.240.244.110 | 3}:
 93.186.139.144/31
@@ -1345,7 +1345,7 @@ Peers: 195.22.220.15, 213.144.178.149 (offset=11)
 
 Neighborhood for {58.185.245.234}:
 23.79.247.52/31
-Peer: 203.192.168.122
+Peer: 203.192.168.122 (offset=4)
 
 Neighborhood for {58.215.172.7}:
 23.79.247.88/31
@@ -1364,35 +1364,35 @@ Neighborhood for {61.14.33.168}:
 79.140.93.39/32
 89.221.39.166/31
 200.123.201.39/32
-Peer: 61.14.33.168
+Peer: 61.14.33.168 (offset=2)
 
 Neighborhood for {61.49.143.94 | 1}:
 200.123.205.22/31
-Peer: 185.70.203.61
+Peer: 185.70.203.61 (offset=10)
 
 Neighborhood for {61.78.52.242}:
 79.140.92.132/31
 200.123.202.132/31
-Peer: 61.78.52.246
+Peer: 61.78.52.246 (offset=3)
 
 Neighborhood for {61.78.52.242 | 3}:
 79.140.84.132/31
-Peer: 195.22.218.197
+Peer: 195.22.218.197 (offset=9)
 
 Neighborhood for {61.78.52.246}:
 93.186.139.212/30
 104.76.206.108/31
 104.76.209.108/31
 195.22.201.212/30
-Peer: 61.78.52.242
+Peer: 61.78.52.242 (offset=4)
 
 Neighborhood for {61.78.52.246 | 1}:
 93.186.138.132/31
-Peer: 213.144.178.151
+Peer: 213.144.178.151 (offset=9)
 
 Neighborhood for {61.78.52.246 | 3}:
 200.123.203.212/30
-Peer: 200.123.201.198
+Peer: 200.123.201.198 (offset=5)
 
 Neighborhood for {61.120.145.122}:
 5.178.41.156/31
@@ -1404,7 +1404,7 @@ Neighborhood for {61.148.8.22}:
 23.79.247.78/31
 104.76.208.228/30
 104.76.208.234/31
-Peer: 61.148.8.22
+Peer: 61.148.8.22 (offset=1)
 
 Neighborhood for {61.148.8.22 | 1}:
 79.140.93.10/31
@@ -1413,7 +1413,7 @@ Neighborhood for {61.148.8.22 | 1}:
 104.76.209.186/31
 104.76.209.188/31
 200.123.201.10/31
-Peer: 93.186.135.151
+Peer: 93.186.135.151 (offset=7)
 
 Neighborhood for {61.148.157.10}:
 200.123.204.8/31
@@ -1421,7 +1421,7 @@ Peer: 202.106.55.22
 
 Neighborhood for {61.152.25.21}:
 149.3.179.72/29
-Peer: 101.95.23.70
+Peer: 101.95.23.70 (offset=3)
 
 Neighborhood for {61.160.169.69}:
 89.221.39.232/32
@@ -1442,14 +1442,14 @@ Neighborhood for {62.67.56.18 | 8}:
 104.77.179.140/32
 104.77.179.238/31
 200.123.204.216/31
-Peer: 79.140.80.142
+Peer: 79.140.80.142 (offset=5)
 
 Neighborhood for {62.84.212.6}:
 104.76.206.96/31
 104.76.208.96/31
 104.76.209.96/31
 104.77.179.96/31
-Peer: 62.84.212.6
+Peer: 62.84.212.6 (offset=5)
 
 Neighborhood for {62.105.132.133}:
 5.178.41.229/32
@@ -1476,11 +1476,11 @@ Peer: 62.115.135.79
 
 Neighborhood for {62.115.136.47}:
 104.76.208.164/31
-Peer: 195.22.218.197
+Peer: 195.22.218.197 (offset=7)
 
 Neighborhood for {62.115.175.61 | 3}:
 195.22.203.44/30
-Peer: 195.22.218.197
+Peer: 195.22.218.197 (offset=6)
 
 Neighborhood for {62.190.89.182}:
 93.186.139.244/32
@@ -1491,7 +1491,7 @@ Peer: 62.190.89.182
 
 Neighborhood for {63.217.254.90}:
 149.3.179.20/30
-Peer: 213.144.178.206
+Peer: 213.144.178.206 (offset=8)
 
 Neighborhood for {63.225.65.134 | 1}:
 79.140.84.32/30
@@ -1502,7 +1502,7 @@ Peers: 195.22.211.48, 195.22.211.50 (offset=4)
 
 Neighborhood for {63.243.205.2}:
 23.79.247.100/30
-Peer: 79.140.80.165
+Peer: 79.140.80.165 (offset=13)
 
 Neighborhood for {64.9.38.3}:
 79.140.84.88/30
@@ -1520,18 +1520,18 @@ Neighborhood for {64.79.175.54}:
 79.140.84.242/31
 79.140.92.242/31
 93.186.138.242/31
-Peer: 195.22.218.197
+Peer: 195.22.218.197 (offset=9)
 
 Neighborhood for {64.79.175.70}:
 200.123.202.242/31
-Peer: 185.70.203.65
+Peer: 185.70.203.65 (offset=9)
 
 Neighborhood for {64.88.184.158}:
 5.178.41.62/31
 185.70.200.62/31
 185.70.201.62/31
 200.123.205.62/31
-Peer: 93.186.137.212
+Peer: 93.186.137.212 (offset=6)
 
 Neighborhood for {64.90.181.118}:
 79.140.92.176/30
@@ -1543,110 +1543,110 @@ Peers: 64.90.181.118, 64.124.54.46
 
 Neighborhood for {64.124.54.46}:
 195.22.203.104/32
-Peer: 79.140.80.165
+Peer: 79.140.80.165 (offset=5)
 
 Neighborhood for {64.124.203.78}:
 200.123.203.210/31
-Peer: 195.22.220.29
+Peer: 195.22.220.29 (offset=7)
 
 Neighborhood for {64.125.192.114}:
 93.186.139.92/31
 195.22.201.92/31
 195.22.203.92/31
 200.123.203.92/31
-Peer: 200.123.197.129
+Peer: 200.123.197.129 (offset=8)
 
 Neighborhood for {64.137.10.23 | 1}:
 64.137.10.20/30
-Peer: 38.142.19.74
+Peer: 38.142.19.74 (offset=5)
 
 Neighborhood for {64.137.10.33 | 1}:
 64.137.10.32/31
-Peer: 38.142.19.74
+Peer: 38.142.19.74 (offset=7)
 
 Neighborhood for {64.137.10.35 | 1}:
 64.137.10.34/31
-Peer: 38.142.19.74
+Peer: 38.142.19.74 (offset=8)
 
 Neighborhood for {64.137.10.41 | 1}:
 64.137.10.40/31
-Peer: 38.142.19.74
+Peer: 38.142.19.74 (offset=10)
 
 Neighborhood for {64.137.10.49 | 1}:
 64.137.10.48/31
-Peer: 38.142.19.74
+Peer: 38.142.19.74 (offset=10)
 
 Neighborhood for {64.137.10.56 | 1}:
 64.137.10.56/32
-Peer: 38.142.19.74
+Peer: 38.142.19.74 (offset=12)
 
 Neighborhood for {64.137.10.64 | 1}:
 64.137.10.64/31
-Peer: 38.142.19.74
+Peer: 38.142.19.74 (offset=14)
 
 Neighborhood for {64.137.10.67 | 2}:
 64.137.10.66/31
-Peer: 38.142.19.74
+Peer: 38.142.19.74 (offset=18)
 
 Neighborhood for {64.137.10.69 | 1}:
 64.137.10.68/31
-Peer: 38.142.19.74
+Peer: 38.142.19.74 (offset=20)
 
 Neighborhood for {64.137.10.98 | 1}:
 64.137.10.98/31
-Peer: 38.142.19.74
+Peer: 38.142.19.74 (offset=23)
 
 Neighborhood for {64.137.10.111 | 1}:
 64.137.10.110/31
-Peer: 38.142.19.74
+Peer: 38.142.19.74 (offset=25)
 
 Neighborhood for {64.137.10.140 | 1}:
 64.137.10.140/32
-Peer: 38.142.19.74
+Peer: 38.142.19.74 (offset=23)
 
 Neighborhood for {64.137.10.142 | 1}:
 64.137.10.142/31
-Peer: 38.142.19.74
+Peer: 38.142.19.74 (offset=24)
 
 Neighborhood for {64.137.10.162 | 2}:
 64.137.10.162/32
-Peer: 38.142.19.74
+Peer: 38.142.19.74 (offset=24)
 
 Neighborhood for {64.137.10.165 | 3}:
 64.137.10.164/31
-Peer: 38.142.19.74
+Peer: 38.142.19.74 (offset=20)
 
 Neighborhood for {64.137.10.179 | 1}:
 64.137.10.176/30
-Peer: 38.142.19.74
+Peer: 38.142.19.74 (offset=25)
 
 Neighborhood for {64.137.10.198 | 2}:
 64.137.10.198/31
-Peer: 38.142.19.74
+Peer: 38.142.19.74 (offset=23)
 
 Neighborhood for {64.137.10.222 | 1}:
 64.137.10.220/30
-Peer: 38.142.19.74
+Peer: 38.142.19.74 (offset=25)
 
 Neighborhood for {64.137.10.227 | 1}:
 64.137.10.226/31
-Peer: 38.142.19.74
+Peer: 38.142.19.74 (offset=25)
 
 Neighborhood for {64.137.10.228 | 2}:
 64.137.10.228/31
-Peer: 38.142.19.74
+Peer: 38.142.19.74 (offset=24)
 
 Neighborhood for {64.137.10.230 | 1}:
 64.137.10.230/32
-Peer: 38.142.19.74
+Peer: 38.142.19.74 (offset=25)
 
 Neighborhood for {64.137.10.240 | 1}:
 64.137.10.240/31
-Peer: 38.142.19.74
+Peer: 38.142.19.74 (offset=24)
 
 Neighborhood for {65.198.56.77}:
 195.22.201.44/31
-Peer: 93.186.135.151
+Peer: 93.186.135.151 (offset=5)
 
 Neighborhood for {66.48.95.38}:
 93.186.139.52/31
@@ -1654,7 +1654,7 @@ Peer: 204.92.98.228
 
 Neighborhood for {66.208.229.46 | 1}:
 79.140.84.60/31
-Peer: 195.22.218.197
+Peer: 195.22.218.197 (offset=5)
 
 Neighborhood for {69.174.1.54}:
 206.246.79.0/24
@@ -1677,7 +1677,7 @@ Neighborhood for {69.191.240.73}:
 200.123.202.62/31
 200.123.203.48/31
 200.123.203.128/29
-Peer: 69.191.240.201
+Peer: 69.191.240.201 (offset=1)
 
 Neighborhood for {69.191.240.201}:
 79.140.84.8/31
@@ -1687,7 +1687,7 @@ Neighborhood for {69.191.240.201}:
 93.186.138.8/31
 200.123.201.60/31
 200.123.202.8/31
-Peer: 69.191.240.201
+Peer: 69.191.240.201 (offset=2)
 
 Neighborhood for {69.195.212.4}:
 79.140.84.156/31
@@ -1698,7 +1698,7 @@ Neighborhood for {69.195.212.4}:
 195.22.203.224/29
 200.123.202.156/31
 200.123.203.224/29
-Peer: 69.195.212.4
+Peer: 69.195.212.4 (offset=1)
 
 Neighborhood for {72.247.150.5}:
 104.76.206.10/31
@@ -1711,14 +1711,14 @@ Peer: 72.247.150.5
 
 Neighborhood for {72.247.150.67}:
 200.123.203.116/31
-Peer: 195.22.220.15
+Peer: 195.22.220.15 (offset=9)
 
 Neighborhood for {74.205.230.60}:
 5.178.41.76/31
 185.70.200.76/31
 185.70.201.76/31
 200.123.205.76/31
-Peer: 93.186.135.148
+Peer: 93.186.135.148 (offset=7)
 
 Neighborhood for {79.140.80.142}:
 195.22.203.50/31
@@ -1817,7 +1817,7 @@ Neighborhood for {80.154.95.228}:
 149.3.179.184/30
 184.50.95.184/30
 200.123.204.174/31
-Peer: 93.186.135.148
+Peer: 93.186.135.148 (offset=7)
 
 Neighborhood for {80.255.14.34}:
 2.23.83.0/24
@@ -1841,7 +1841,7 @@ Peers: 93.186.129.161, 195.22.192.191, 195.22.218.199 (offset=6)
 
 Neighborhood for {81.210.78.126 | 1}:
 200.123.203.100/31
-Peer: 185.70.203.65
+Peer: 185.70.203.65 (offset=6)
 
 Neighborhood for {82.81.84.50}:
 79.140.84.172/32
@@ -1853,7 +1853,7 @@ Peers: 195.22.218.197, 195.22.218.199, 213.144.178.204 (offset=6)
 Neighborhood for {84.14.131.218}:
 79.140.92.172/32
 195.22.201.210/31
-Peer: 195.22.192.191
+Peer: 195.22.192.191 (offset=6)
 
 Neighborhood for {84.21.62.17}:
 104.76.206.54/31
@@ -1887,21 +1887,21 @@ Peers: 84.21.62.25, 84.21.62.81
 
 Neighborhood for {84.21.63.17}:
 104.76.209.85/32
-Peer: 195.22.192.191
+Peer: 195.22.192.191 (offset=6)
 
 Neighborhood for {84.21.63.25}:
 104.76.206.84/30
-Peer: 93.186.137.212
+Peer: 93.186.137.212 (offset=8)
 
 Neighborhood for {85.95.85.122}:
 5.178.41.166/32
 185.70.201.166/32
-Peer: 194.150.50.250
+Peer: 194.150.50.250 (offset=4)
 
 Neighborhood for {89.26.62.49}:
 149.3.179.122/31
 184.50.95.122/31
-Peer: 89.26.62.49
+Peer: 89.26.62.49 (offset=1)
 
 Neighborhood for {89.149.131.10}:
 93.186.133.30/31
@@ -1924,7 +1924,7 @@ Neighborhood for {89.187.81.2}:
 184.50.95.191/32
 200.123.202.86/31
 200.123.202.180/32
-Peer: 89.187.81.2
+Peer: 89.187.81.2 (offset=1)
 
 Neighborhood for {89.206.170.4}:
 93.186.139.22/31
@@ -1993,7 +1993,7 @@ Neighborhood for {89.221.41.5}:
 208.84.81.194/31
 208.84.84.0/29
 208.84.84.64/27
-Peer: 213.144.183.117
+Peer: 213.144.183.117 (offset=1)
 
 Neighborhood for {89.221.41.5 | 1}:
 208.84.81.0/28
@@ -2010,11 +2010,11 @@ Neighborhood for {89.221.41.5 | 1}:
 208.84.84.48/28
 208.84.84.104/30
 208.84.84.108/30
-Peer: 213.144.183.117
+Peer: 213.144.183.117 (offset=1)
 
 Neighborhood for {89.221.41.5 | 2}:
 208.84.81.114/31
-Peer: 213.144.183.117
+Peer: 213.144.183.117 (offset=1)
 
 Neighborhood for {89.221.41.77}:
 195.22.199.58/31
@@ -2298,7 +2298,7 @@ Neighborhood for {93.186.129.142}:
 213.144.186.118/32
 213.144.186.121/32
 213.144.186.124/32
-Peer: 213.144.183.117
+Peer: 213.144.183.117 (offset=1)
 
 Neighborhood for {93.186.129.155}:
 93.186.129.140/30
@@ -2456,7 +2456,7 @@ Peers: 195.22.192.191, 195.22.196.213
 
 Neighborhood for {93.186.137.207 | 1}:
 149.3.179.224/27
-Peer: 213.144.183.117
+Peer: 213.144.183.117 (offset=1)
 
 Neighborhood for {93.186.137.212}:
 93.186.139.50/31
@@ -2466,13 +2466,13 @@ Peers: 93.186.129.21, 93.186.129.163, 213.144.178.149
 
 Neighborhood for {93.186.137.213}:
 23.79.247.224/27
-Peer: 195.22.218.199
+Peer: 195.22.218.199 (offset=1)
 
 Neighborhood for {95.142.97.162}:
 185.70.200.128/29
 200.123.202.244/30
 200.123.204.132/31
-Peer: 95.142.97.162
+Peer: 95.142.97.162 (offset=1)
 
 Neighborhood for {95.142.97.166}:
 5.178.41.130/31
@@ -2491,7 +2491,7 @@ Neighborhood for {96.17.173.228}:
 93.186.138.76/30
 195.22.203.108/31
 200.123.202.76/30
-Peer: 93.186.137.212
+Peer: 93.186.137.212 (offset=4)
 
 Neighborhood for {101.95.23.2}:
 23.79.247.64/31
@@ -2523,11 +2523,11 @@ Neighborhood for {101.95.23.70 | 1}:
 79.140.85.106/32
 79.140.93.106/32
 89.221.39.178/31
-Peer: 93.186.135.151
+Peer: 93.186.135.151 (offset=3)
 
 Neighborhood for {101.95.89.70}:
 79.140.93.76/31
-Peer: 101.95.23.70
+Peer: 101.95.23.70 (offset=4)
 
 Neighborhood for {101.95.110.130}:
 93.186.139.164/31
@@ -2537,15 +2537,15 @@ Peer: 116.228.185.186
 Neighborhood for {101.95.132.170}:
 79.140.93.12/31
 200.123.201.12/31
-Peer: 101.95.132.170
+Peer: 101.95.132.170 (offset=4)
 
 Neighborhood for {101.95.132.170 | 1}:
 89.221.39.140/31
-Peer: 93.186.129.151
+Peer: 93.186.129.151 (offset=6)
 
 Neighborhood for {103.250.194.214}:
 104.76.209.124/30
-Peer: 93.186.135.151
+Peer: 93.186.135.151 (offset=14)
 
 Neighborhood for {103.250.194.214 | 1}:
 104.76.206.124/30
@@ -2553,7 +2553,7 @@ Neighborhood for {103.250.194.214 | 1}:
 104.77.179.124/30
 185.70.200.26/31
 200.123.205.26/31
-Peer: 139.226.210.54
+Peer: 139.226.210.54 (offset=2)
 
 Neighborhood for {104.44.237.90}:
 195.22.203.106/31
@@ -2565,51 +2565,51 @@ Peer: 104.44.237.98
 
 Neighborhood for {104.44.237.98 | 1}:
 200.123.203.106/31
-Peer: 200.123.197.129
+Peer: 200.123.197.129 (offset=8)
 
 Neighborhood for {104.44.237.220}:
 195.22.201.106/31
-Peer: 195.22.196.71
+Peer: 195.22.196.71 (offset=11)
 
 Neighborhood for {104.76.206.164 | 1}:
 104.76.206.164/31
-Peer: 62.115.136.47
+Peer: 62.115.136.47 (offset=1)
 
 Neighborhood for {106.11.130.181}:
 185.70.200.22/31
-Peer: 79.140.80.165
+Peer: 79.140.80.165 (offset=11)
 
 Neighborhood for {106.11.130.189}:
 185.70.201.22/31
-Peer: 213.144.178.204
+Peer: 213.144.178.204 (offset=12)
 
 Neighborhood for {106.38.196.230 | 2}:
 5.178.41.22/31
-Peer: 93.186.135.151
+Peer: 93.186.135.151 (offset=9)
 
 Neighborhood for {106.38.199.246}:
 185.70.200.112/32
-Peer: 195.22.218.197
+Peer: 195.22.218.197 (offset=14)
 
 Neighborhood for {106.75.28.4}:
 185.70.200.97/32
 200.123.205.96/31
-Peer: 106.75.28.4
+Peer: 106.75.28.4 (offset=6)
 
 Neighborhood for {106.75.35.249}:
 104.76.206.160/31
-Peer: 106.75.35.249
+Peer: 106.75.35.249 (offset=4)
 
 Neighborhood for {108.59.15.101}:
 104.76.206.43/32
 104.76.208.43/32
 104.76.209.43/32
 104.77.179.43/32
-Peer: 79.140.80.142
+Peer: 79.140.80.142 (offset=6)
 
 Neighborhood for {108.170.238.233}:
 79.140.92.118/32
-Peer: 195.22.192.191
+Peer: 195.22.192.191 (offset=5)
 
 Neighborhood for {109.144.60.43}:
 79.140.84.220/30
@@ -2620,11 +2620,11 @@ Peers: 79.140.80.142, 93.186.137.212 (offset=5)
 
 Neighborhood for {110.49.27.182 | 9}:
 104.76.209.248/30
-Peer: 93.186.135.148
+Peer: 93.186.135.148 (offset=6)
 
 Neighborhood for {111.87.18.54}:
 200.123.205.156/31
-Peer: 200.123.197.129
+Peer: 200.123.197.129 (offset=5)
 
 Neighborhood for {113.21.243.243 | 10}:
 104.76.206.248/30
@@ -2633,11 +2633,11 @@ Peers: 93.186.137.212, 200.123.201.198 (offset=5)
 
 Neighborhood for {113.98.5.202}:
 104.76.209.22/31
-Peer: 195.22.192.191
+Peer: 195.22.192.191 (offset=9)
 
 Neighborhood for {116.51.3.45}:
 200.123.203.56/31
-Peer: 200.123.201.247
+Peer: 200.123.201.247 (offset=8)
 
 Neighborhood for {116.228.185.186}:
 104.76.206.138/32
@@ -2665,61 +2665,61 @@ Peer: 116.251.74.197
 
 Neighborhood for {116.251.74.197 | 1}:
 200.123.203.42/31
-Peer: 200.123.201.247
+Peer: 200.123.201.247 (offset=5)
 
 Neighborhood for {116.251.74.201 | 2}:
 195.22.201.76/31
-Peer: 195.22.196.213
+Peer: 195.22.196.213 (offset=7)
 
 Neighborhood for {116.251.74.205 | 1}:
 200.123.203.26/31
-Peer: 200.123.201.247
+Peer: 200.123.201.247 (offset=4)
 
 Neighborhood for {116.251.81.217 | 1}:
 93.186.139.40/29
 93.186.139.76/31
-Peer: 93.186.137.212
+Peer: 93.186.137.212 (offset=5)
 
 Neighborhood for {116.251.81.221 | 2}:
 195.22.201.42/31
-Peer: 93.186.135.151
+Peer: 93.186.135.151 (offset=6)
 
 Neighborhood for {116.251.81.237}:
 184.50.95.214/31
-Peer: 93.186.135.148
+Peer: 93.186.135.148 (offset=6)
 
 Neighborhood for {116.251.82.229}:
 93.186.138.98/31
-Peer: 93.186.129.21
+Peer: 93.186.129.21 (offset=8)
 
 Neighborhood for {116.251.82.246}:
 79.140.92.98/32
-Peer: 195.22.196.213
+Peer: 195.22.196.213 (offset=8)
 
 Neighborhood for {116.251.82.250}:
 79.140.84.98/31
-Peer: 195.22.218.199
+Peer: 195.22.218.199 (offset=8)
 
 Neighborhood for {116.251.83.165}:
 195.22.203.116/30
-Peer: 79.140.80.142
+Peer: 79.140.80.142 (offset=10)
 
 Neighborhood for {116.251.86.237 | 1}:
 79.140.84.232/31
 200.123.202.232/31
-Peer: 195.22.205.13
+Peer: 195.22.205.13 (offset=9)
 
 Neighborhood for {116.251.86.241 | 1}:
 93.186.138.232/31
-Peer: 195.22.205.39
+Peer: 195.22.205.39 (offset=9)
 
 Neighborhood for {116.251.86.253 | 1}:
 79.140.92.232/32
-Peer: 195.22.205.39
+Peer: 195.22.205.39 (offset=9)
 
 Neighborhood for {116.251.87.249 | 1}:
 104.76.206.112/29
-Peer: 93.186.137.212
+Peer: 93.186.137.212 (offset=6)
 
 Neighborhood for {118.23.17.194}:
 185.70.200.152/31
@@ -2729,40 +2729,40 @@ Peers: 195.22.205.39, 200.123.197.129 (offset=14)
 Neighborhood for {118.23.17.198}:
 5.178.41.152/31
 185.70.201.152/31
-Peer: 118.23.17.194
+Peer: 118.23.17.194 (offset=2)
 
 Neighborhood for {118.101.192.1}:
 79.140.84.118/31
 79.140.92.119/32
 93.186.138.118/31
 200.123.202.118/31
-Peer: 118.101.192.1
+Peer: 118.101.192.1 (offset=1)
 
 Neighborhood for {120.29.214.50}:
 23.79.247.132/31
 184.50.95.132/31
-Peer: 79.140.80.142
+Peer: 79.140.80.142 (offset=7)
 
 Neighborhood for {120.88.54.98 | 2}:
 5.178.41.106/31
 185.70.201.106/31
-Peer: 195.22.205.13
+Peer: 195.22.205.13 (offset=8)
 
 Neighborhood for {123.125.248.42 | 2}:
 104.76.206.240/29
-Peer: 89.221.39.129
+Peer: 89.221.39.129 (offset=7)
 
 Neighborhood for {123.125.248.106 | 1}:
 104.76.208.240/29
-Peer: 195.22.218.197
+Peer: 195.22.218.197 (offset=10)
 
 Neighborhood for {124.65.60.106}:
 200.123.202.55/32
-Peer: 185.70.203.61
+Peer: 185.70.203.61 (offset=9)
 
 Neighborhood for {124.65.62.150}:
 79.140.92.55/32
-Peer: 195.22.192.191
+Peer: 195.22.192.191 (offset=9)
 
 Neighborhood for {124.65.236.94}:
 104.76.208.232/31
@@ -2770,20 +2770,20 @@ Peers: 61.148.8.22, 124.65.236.94 (offset=3)
 
 Neighborhood for {124.65.236.94 | 1}:
 79.140.85.10/31
-Peer: 79.140.80.142
+Peer: 79.140.80.142 (offset=7)
 
 Neighborhood for {124.74.54.50}:
 149.3.179.30/31
 200.123.201.84/30
-Peer: 61.152.25.21
+Peer: 61.152.25.21 (offset=3)
 
 Neighborhood for {124.74.54.54}:
 79.140.93.50/31
-Peer: 101.95.23.70
+Peer: 101.95.23.70 (offset=7)
 
 Neighborhood for {124.74.54.54 | 1}:
 79.140.85.104/32
-Peer: 101.95.23.70
+Peer: 101.95.23.70 (offset=7)
 
 Neighborhood for {124.74.55.22}:
 104.76.206.42/32
@@ -2796,7 +2796,7 @@ Peer: 116.228.185.186
 
 Neighborhood for {124.251.52.1 | 2}:
 200.123.205.112/32
-Peer: 195.22.220.13
+Peer: 195.22.220.13 (offset=11)
 
 Neighborhood for {125.18.131.186}:
 79.140.84.154/31
@@ -2818,27 +2818,27 @@ Peers: 79.140.80.165, 93.186.137.212 (offset=6)
 
 Neighborhood for {129.250.5.118 | 2}:
 104.76.206.38/31
-Peer: 195.22.205.39
+Peer: 195.22.205.39 (offset=8)
 
 Neighborhood for {129.250.5.134 | 2}:
 104.76.208.38/31
 104.76.209.38/31
 104.77.179.38/31
-Peer: 200.123.197.129
+Peer: 200.123.197.129 (offset=5)
 
 Neighborhood for {134.141.2.72 | 2}:
 104.76.206.16/28
 104.76.208.16/31
 104.76.209.16/31
-Peer: 79.140.80.142
+Peer: 79.140.80.142 (offset=8)
 
 Neighborhood for {134.213.97.153}:
 79.140.84.192/31
-Peer: 79.140.80.142
+Peer: 79.140.80.142 (offset=8)
 
 Neighborhood for {139.226.210.54}:
 104.76.209.154/31
-Peer: 101.95.89.70
+Peer: 101.95.89.70 (offset=4)
 
 Neighborhood for {141.136.111.174}:
 213.144.176.216/31
@@ -2856,11 +2856,11 @@ Peers: 93.186.135.148, 93.186.137.212 (offset=8)
 
 Neighborhood for {149.3.179.118 | 1}:
 149.3.179.118/32
-Peer: 93.186.129.149
+Peer: 93.186.129.149 (offset=10)
 
 Neighborhood for {149.3.179.141 | 1}:
 149.3.179.140/31
-Peer: 93.186.137.212
+Peer: 93.186.137.212 (offset=7)
 
 Neighborhood for {149.3.181.79}:
 200.123.196.80/29
@@ -2895,11 +2895,11 @@ Peers: 195.22.196.213, 195.22.218.197 (offset=7)
 Neighborhood for {152.179.114.54 | 1}:
 93.186.138.174/31
 200.123.202.174/31
-Peer: 93.186.137.212
+Peer: 93.186.137.212 (offset=4)
 
 Neighborhood for {152.179.114.54 | 2}:
 200.123.202.176/31
-Peer: 195.22.220.31
+Peer: 195.22.220.31 (offset=7)
 
 Neighborhood for {154.54.30.189}:
 208.84.83.0/30
@@ -2914,20 +2914,20 @@ Neighborhood for {157.133.170.65 | 1}:
 195.22.201.184/29
 195.22.203.184/29
 200.123.203.190/31
-Peer: 93.186.135.148
+Peer: 93.186.135.148 (offset=10)
 
 Neighborhood for {158.177.118.193}:
 79.140.84.68/32
-Peer: 158.177.118.199
+Peer: 158.177.118.199 (offset=2)
 
 Neighborhood for {158.177.118.195}:
 79.140.84.128/31
 200.123.202.128/31
-Peer: 195.22.218.199
+Peer: 195.22.218.199 (offset=7)
 
 Neighborhood for {158.177.118.199}:
 93.186.138.68/32
-Peer: 93.186.137.212
+Peer: 93.186.137.212 (offset=6)
 
 Neighborhood for {158.177.118.203}:
 79.140.92.128/31
@@ -2937,11 +2937,11 @@ Peers: 93.186.135.148, 93.186.137.212 (offset=6)
 
 Neighborhood for {158.177.118.207}:
 79.140.92.68/32
-Peer: 158.177.118.207
+Peer: 158.177.118.207 (offset=2)
 
 Neighborhood for {159.253.151.22}:
 104.76.206.144/31
-Peer: 159.253.151.22
+Peer: 159.253.151.22 (offset=4)
 
 Neighborhood for {160.43.250.59}:
 79.140.92.99/32
@@ -2949,31 +2949,31 @@ Peer: 152.179.114.54
 
 Neighborhood for {162.13.232.1}:
 93.186.138.168/30
-Peer: 162.13.232.5
+Peer: 162.13.232.5 (offset=7)
 
 Neighborhood for {162.13.232.5}:
 93.186.138.192/31
-Peer: 93.186.137.212
+Peer: 93.186.137.212 (offset=10)
 
 Neighborhood for {162.13.232.7}:
 79.140.92.168/30
-Peer: 162.13.232.7
+Peer: 162.13.232.7 (offset=6)
 
 Neighborhood for {162.13.232.53}:
 200.123.202.168/30
-Peer: 162.13.232.5
+Peer: 162.13.232.5 (offset=4)
 
 Neighborhood for {162.13.232.235}:
 79.140.84.168/30
-Peer: 162.13.232.5
+Peer: 162.13.232.5 (offset=8)
 
 Neighborhood for {162.13.233.161}:
 200.123.202.192/31
-Peer: 195.22.220.13
+Peer: 195.22.220.13 (offset=11)
 
 Neighborhood for {162.13.233.163}:
 79.140.92.192/31
-Peer: 162.13.232.1
+Peer: 162.13.232.1 (offset=3)
 
 Neighborhood for {162.151.113.246}:
 79.140.84.162/32
@@ -2987,18 +2987,18 @@ Neighborhood for {164.109.3.170}:
 195.22.201.18/31
 195.22.203.18/31
 200.123.203.18/31
-Peer: 195.22.216.201
+Peer: 195.22.216.201 (offset=5)
 
 Neighborhood for {168.95.229.89 | 1}:
 93.186.139.208/31
 195.22.201.208/31
 195.22.203.208/31
 200.123.203.208/31
-Peer: 195.22.206.148
+Peer: 195.22.206.148 (offset=5)
 
 Neighborhood for {168.143.228.87}:
 185.70.200.68/31
-Peer: 195.22.218.197
+Peer: 195.22.218.197 (offset=6)
 
 Neighborhood for {168.154.246.170}:
 5.178.41.24/32
@@ -3012,15 +3012,15 @@ Peers: 168.154.246.170, 211.45.33.82
 
 Neighborhood for {169.50.118.197}:
 93.186.138.124/32
-Peer: 169.50.118.197
+Peer: 169.50.118.197 (offset=3)
 
 Neighborhood for {169.50.118.199}:
 79.140.84.124/31
-Peer: 195.22.218.199
+Peer: 195.22.218.199 (offset=11)
 
 Neighborhood for {169.50.118.207}:
 79.140.92.124/31
-Peer: 93.186.135.148
+Peer: 93.186.135.148 (offset=9)
 
 Neighborhood for {169.53.8.105}:
 93.186.139.156/31
@@ -3033,13 +3033,13 @@ Neighborhood for {169.54.167.216}:
 23.79.247.178/31
 184.50.95.178/31
 200.123.204.178/31
-Peer: 200.123.201.247
+Peer: 200.123.201.247 (offset=6)
 
 Neighborhood for {169.54.179.5}:
 149.3.179.178/31
 195.22.203.114/31
 200.123.203.114/31
-Peer: 200.123.201.247
+Peer: 200.123.201.247 (offset=6)
 
 Neighborhood for {170.194.8.10}:
 5.178.41.86/31
@@ -3050,7 +3050,7 @@ Neighborhood for {170.194.8.10}:
 185.70.201.86/31
 200.123.202.250/31
 200.123.205.86/31
-Peer: 170.194.8.10
+Peer: 170.194.8.10 (offset=1)
 
 Neighborhood for {170.194.152.10}:
 79.140.84.130/31
@@ -3062,7 +3062,7 @@ Peer: 170.194.152.10
 
 Neighborhood for {171.161.224.231}:
 200.123.202.58/31
-Peer: 195.22.220.29
+Peer: 195.22.220.29 (offset=9)
 
 Neighborhood for {171.161.224.231 | 1}:
 23.79.247.16/29
@@ -3071,7 +3071,7 @@ Neighborhood for {171.161.224.231 | 1}:
 149.3.179.16/31
 184.50.95.16/31
 200.123.204.122/31
-Peer: 200.123.201.247
+Peer: 200.123.201.247 (offset=7)
 
 Neighborhood for {171.162.64.231 | 1}:
 23.79.247.0/28
@@ -3104,23 +3104,23 @@ Peer: 4.15.74.50
 
 Neighborhood for {174.133.118.151}:
 200.123.205.204/31
-Peer: 200.123.201.247
+Peer: 200.123.201.247 (offset=7)
 
 Neighborhood for {174.133.118.153}:
 185.70.200.204/31
 185.70.201.204/31
-Peer: 174.133.118.151
+Peer: 174.133.118.151 (offset=1)
 
 Neighborhood for {174.133.118.155}:
 5.178.41.204/31
-Peer: 195.22.192.191
+Peer: 195.22.192.191 (offset=8)
 
 Neighborhood for {180.87.12.254}:
 195.22.203.42/31
 195.22.203.76/31
 200.123.203.76/31
 200.123.203.168/31
-Peer: 79.140.80.165
+Peer: 79.140.80.165 (offset=8)
 
 Neighborhood for {181.215.247.138 | 3}:
 64.137.127.96/30
@@ -3128,27 +3128,27 @@ Peer: 38.32.68.194
 
 Neighborhood for {182.23.148.200}:
 200.123.205.128/29
-Peer: 182.23.148.200
+Peer: 182.23.148.200 (offset=2)
 
 Neighborhood for {184.50.95.118 | 1}:
 184.50.95.118/32
-Peer: 195.22.192.191
+Peer: 195.22.192.191 (offset=8)
 
 Neighborhood for {185.70.200.228 | 1}:
 185.70.200.228/32
-Peer: 195.22.218.199
+Peer: 195.22.218.199 (offset=12)
 
 Neighborhood for {185.70.200.246 | 1}:
 185.70.200.246/32
-Peer: 79.140.80.165
+Peer: 79.140.80.165 (offset=10)
 
 Neighborhood for {185.70.201.228 | 1}:
 185.70.201.228/32
-Peer: 89.221.39.129
+Peer: 89.221.39.129 (offset=9)
 
 Neighborhood for {185.70.201.246 | 1}:
 185.70.201.246/32
-Peer: 213.144.178.204
+Peer: 213.144.178.204 (offset=11)
 
 Neighborhood for {185.70.202.128, 185.70.202.130}:
 185.70.202.132/31 (trail: 185.70.202.128)
@@ -3247,20 +3247,20 @@ Peer: 213.144.183.117
 Neighborhood for {185.134.180.194 | 1}:
 23.79.247.200/31
 149.3.179.200/31
-Peer: 93.186.137.212
+Peer: 93.186.137.212 (offset=8)
 
 Neighborhood for {185.134.180.198}:
 200.123.204.200/31
-Peer: 195.22.220.15
+Peer: 195.22.220.15 (offset=12)
 
 Neighborhood for {186.148.62.34}:
 200.123.204.224/27
-Peer: 200.123.197.129
+Peer: 200.123.197.129 (offset=5)
 
 Neighborhood for {188.95.97.236}:
 104.76.208.84/30
 104.76.209.86/31
-Peer: 188.95.97.236
+Peer: 188.95.97.236 (offset=3)
 
 Neighborhood for {190.94.209.122}:
 168.90.92.16/28
@@ -3272,14 +3272,14 @@ Neighborhood for {192.19.231.250}:
 79.140.92.114/31
 93.186.138.114/31
 200.123.202.114/31
-Peer: 192.19.231.250
+Peer: 192.19.231.250 (offset=1)
 
 Neighborhood for {193.120.250.206}:
 23.79.247.220/30
 149.3.179.220/30
 184.50.95.222/31
 200.123.204.220/30
-Peer: 93.186.135.148
+Peer: 93.186.135.148 (offset=10)
 
 Neighborhood for {193.178.175.8}:
 5.178.41.28/30
@@ -3308,7 +3308,7 @@ Neighborhood for {194.33.53.4}:
 89.221.39.214/31
 89.221.39.216/31
 200.123.201.88/31
-Peer: 93.186.137.212
+Peer: 93.186.137.212 (offset=8)
 
 Neighborhood for {194.150.50.250}:
 5.178.41.136/29
@@ -3613,7 +3613,7 @@ Peer: 93.186.128.145
 
 Neighborhood for {195.22.203.148 | 1}:
 195.22.203.148/31
-Peer: 195.22.211.36
+Peer: 195.22.211.36 (offset=10)
 
 Neighborhood for {195.22.205.13}:
 93.186.128.66/31
@@ -5215,12 +5215,12 @@ Peer: 213.144.183.117
 
 Neighborhood for {195.50.90.170}:
 79.140.84.144/31
-Peer: 195.22.218.199
+Peer: 195.22.218.199 (offset=8)
 
 Neighborhood for {195.110.79.230 | 1}:
 149.3.179.156/30
 184.50.95.159/32
-Peer: 93.186.137.212
+Peer: 93.186.137.212 (offset=5)
 
 Neighborhood for {198.160.6.4}:
 5.178.41.56/30
@@ -5232,7 +5232,7 @@ Peer: 198.160.6.4
 
 Neighborhood for {198.160.62.192}:
 184.50.95.200/31
-Peer: 93.186.135.148
+Peer: 93.186.135.148 (offset=9)
 
 Neighborhood for {199.59.83.84}:
 216.155.34.0/31
@@ -5276,22 +5276,22 @@ Neighborhood for {199.67.229.26}:
 184.50.95.172/30
 200.123.202.196/30
 200.123.204.172/31
-Peer: 199.67.229.26
+Peer: 199.67.229.26 (offset=2)
 
 Neighborhood for {199.238.113.38}:
 23.79.247.198/31
 200.123.204.199/32
-Peer: 185.70.203.65
+Peer: 185.70.203.65 (offset=5)
 
 Neighborhood for {200.77.234.58 | 1}:
 185.70.200.216/30
 185.70.201.216/30
 200.123.205.216/30
-Peer: 201.175.38.133
+Peer: 201.175.38.133 (offset=1)
 
 Neighborhood for {200.123.197.129}:
 200.123.204.197/32
-Peer: 195.22.220.13
+Peer: 195.22.220.13 (offset=2)
 
 Neighborhood for {200.123.201.198}:
 200.123.203.246/31
@@ -5304,24 +5304,24 @@ Peers: 195.22.220.13, 195.22.220.31
 
 Neighborhood for {200.123.205.191 | 2}:
 200.123.205.188/30
-Peer: 185.70.203.65
+Peer: 185.70.203.65 (offset=12)
 
 Neighborhood for {200.123.205.228 | 1}:
 200.123.205.228/32
-Peer: 200.123.197.129
+Peer: 200.123.197.129 (offset=9)
 
 Neighborhood for {200.123.205.246 | 1}:
 200.123.205.246/32
-Peer: 200.123.201.247
+Peer: 200.123.201.247 (offset=10)
 
 Neighborhood for {201.175.38.133}:
 5.178.41.216/30
-Peer: 201.175.38.133
+Peer: 201.175.38.133 (offset=2)
 
 Neighborhood for {202.58.136.1}:
 185.70.200.248/31
 185.70.201.248/31
-Peer: 202.58.136.1
+Peer: 202.58.136.1 (offset=1)
 
 Neighborhood for {202.58.136.1 | 1}:
 185.70.200.234/31
@@ -5333,7 +5333,7 @@ Peers: 195.22.205.13, 195.22.205.39, 200.123.197.129 (offset=9)
 Neighborhood for {202.58.136.65 | 1}:
 5.178.41.234/31
 5.178.41.248/31
-Peer: 195.22.205.13
+Peer: 195.22.205.13 (offset=9)
 
 Neighborhood for {202.96.195.210}:
 79.140.85.68/30
@@ -5348,7 +5348,7 @@ Neighborhood for {202.101.23.230 | 1}:
 185.70.200.247/32
 185.70.201.247/32
 200.123.205.247/32
-Peer: 200.123.201.198
+Peer: 200.123.201.198 (offset=10)
 
 Neighborhood for {202.106.43.66 | 1}:
 104.76.209.240/29
@@ -5362,12 +5362,12 @@ Peer: 219.142.3.70
 
 Neighborhood for {202.127.69.94}:
 200.123.204.52/31
-Peer: 202.127.69.94
+Peer: 202.127.69.94 (offset=3)
 
 Neighborhood for {202.136.171.222}:
 23.79.247.190/32
 185.70.201.242/31
-Peer: 199.65.210.36
+Peer: 199.65.210.36 (offset=1)
 
 Neighborhood for {202.153.96.74}:
 185.70.200.200/30
@@ -5391,35 +5391,35 @@ Neighborhood for {203.66.9.129}:
 185.70.200.206/31
 185.70.201.206/31
 200.123.205.206/31
-Peer: 203.66.9.129
+Peer: 203.66.9.129 (offset=3)
 
 Neighborhood for {203.83.223.17 | 2}:
 23.79.247.116/31
-Peer: 79.140.80.165
+Peer: 79.140.80.165 (offset=12)
 
 Neighborhood for {203.83.223.17 | 3}:
 104.76.209.112/31
-Peer: 195.22.192.191
+Peer: 195.22.192.191 (offset=13)
 
 Neighborhood for {203.83.223.17 | 5}:
 104.76.206.142/32
-Peer: 213.144.183.117
+Peer: 213.144.183.117 (offset=13)
 
 Neighborhood for {203.83.223.21 | 3}:
 104.76.208.112/31
-Peer: 195.22.218.197
+Peer: 195.22.218.197 (offset=14)
 
 Neighborhood for {203.83.223.23 | 3}:
 79.140.84.234/31
-Peer: 79.140.80.142
+Peer: 79.140.80.142 (offset=13)
 
 Neighborhood for {203.83.223.23 | 4}:
 104.76.209.142/32
-Peer: 195.22.192.191
+Peer: 195.22.192.191 (offset=13)
 
 Neighborhood for {203.83.223.23 | 5}:
 200.123.204.116/31
-Peer: 195.22.220.15
+Peer: 195.22.220.15 (offset=11)
 
 Neighborhood for {203.116.7.26}:
 195.22.201.26/31
@@ -5428,7 +5428,7 @@ Peers: 79.140.80.142, 93.186.135.151 (offset=7)
 
 Neighborhood for {203.117.162.250}:
 200.123.203.206/31
-Peer: 203.117.162.250
+Peer: 203.117.162.250 (offset=3)
 
 Neighborhood for {203.166.7.202 | 2}:
 79.140.93.64/31
@@ -5445,11 +5445,11 @@ Neighborhood for {203.227.231.62}:
 89.221.39.142/31
 89.221.39.164/31
 200.123.201.36/31
-Peer: 203.227.231.62
+Peer: 203.227.231.62 (offset=1)
 
 Neighborhood for {203.227.231.62 | 1}:
 79.140.85.12/30
-Peer: 79.140.80.142
+Peer: 79.140.80.142 (offset=10)
 
 Neighborhood for {204.92.98.228}:
 195.22.201.52/31
@@ -5460,29 +5460,29 @@ Peer: 66.48.95.38
 Neighborhood for {205.139.96.74}:
 79.140.84.236/31
 200.123.202.236/31
-Peer: 195.22.218.197
+Peer: 195.22.218.197 (offset=10)
 
 Neighborhood for {205.139.96.78}:
 79.140.92.236/31
-Peer: 93.186.135.148
+Peer: 93.186.135.148 (offset=9)
 
 Neighborhood for {206.16.17.152}:
 5.178.41.144/31
 200.123.205.144/31
-Peer: 206.16.17.152
+Peer: 206.16.17.152 (offset=1)
 
 Neighborhood for {206.16.17.152 | 1}:
 185.70.200.144/29
 185.70.201.144/31
-Peer: 93.186.137.212
+Peer: 93.186.137.212 (offset=8)
 
 Neighborhood for {206.80.194.42}:
 104.76.208.152/31
-Peer: 206.80.194.42
+Peer: 206.80.194.42 (offset=1)
 
 Neighborhood for {206.191.144.86}:
 104.76.209.12/32
-Peer: 195.22.196.213
+Peer: 195.22.196.213 (offset=7)
 
 Neighborhood for {206.253.223.6}:
 93.186.139.14/32
@@ -5491,7 +5491,7 @@ Peers: 93.186.137.212, 200.123.201.247 (offset=7)
 
 Neighborhood for {208.22.57.195}:
 79.140.84.136/31
-Peer: 79.140.80.165
+Peer: 79.140.80.165 (offset=5)
 
 Neighborhood for {208.78.38.2}:
 5.178.41.74/31
@@ -5563,7 +5563,7 @@ Neighborhood for {208.99.164.124}:
 104.77.179.64/28
 149.3.179.170/32
 184.50.95.170/32
-Peer: 185.70.203.61
+Peer: 185.70.203.61 (offset=8)
 
 Neighborhood for {208.109.112.121}:
 104.76.206.236/32
@@ -5577,22 +5577,22 @@ Neighborhood for {208.185.22.10}:
 79.140.93.30/31
 89.221.39.158/31
 200.123.201.30/31
-Peer: 208.185.22.10
+Peer: 208.185.22.10 (offset=1)
 
 Neighborhood for {209.200.169.128}:
 5.178.41.114/31
 185.70.201.114/31
-Peer: 93.186.135.148
+Peer: 93.186.135.148 (offset=6)
 
 Neighborhood for {209.200.169.222}:
 185.70.200.114/31
 200.123.205.114/31
-Peer: 195.22.220.29
+Peer: 195.22.220.29 (offset=7)
 
 Neighborhood for {210.22.83.177}:
 104.76.209.129/32
 104.77.179.154/31
-Peer: 195.22.192.191
+Peer: 195.22.192.191 (offset=11)
 
 Neighborhood for {210.22.83.177 | 1}:
 104.76.206.154/31
@@ -5610,7 +5610,7 @@ Peer: 210.22.153.238
 
 Neighborhood for {210.211.95.122}:
 104.77.179.144/30
-Peer: 211.45.50.178
+Peer: 211.45.50.178 (offset=2)
 
 Neighborhood for {210.220.154.238}:
 79.140.84.54/32
@@ -5621,7 +5621,7 @@ Neighborhood for {210.220.154.238}:
 195.22.203.98/31
 200.123.202.54/32
 200.123.203.98/31
-Peer: 210.220.154.238
+Peer: 210.220.154.238 (offset=1)
 
 Neighborhood for {211.45.33.82}:
 79.140.84.44/30
@@ -5629,34 +5629,34 @@ Peer: 211.45.33.82
 
 Neighborhood for {211.45.48.218}:
 104.76.209.144/30
-Peer: 211.45.50.178
+Peer: 211.45.50.178 (offset=2)
 
 Neighborhood for {211.45.48.222}:
 200.123.202.206/31
-Peer: 211.45.50.178
+Peer: 211.45.50.178 (offset=3)
 
 Neighborhood for {211.45.50.178}:
 79.140.92.206/31
 93.186.138.206/31
 104.76.206.146/31
 104.76.208.144/30
-Peer: 211.45.50.178
+Peer: 211.45.50.178 (offset=2)
 
 Neighborhood for {211.100.43.18 | 3}:
 185.70.201.48/30
-Peer: 195.22.211.104
+Peer: 195.22.211.104 (offset=7)
 
 Neighborhood for {211.100.43.114 | 3}:
 200.123.205.48/30
-Peer: 195.22.216.143
+Peer: 195.22.216.143 (offset=8)
 
 Neighborhood for {211.100.43.162 | 3}:
 185.70.200.48/30
-Peer: 195.22.211.36
+Peer: 195.22.211.36 (offset=7)
 
 Neighborhood for {211.100.43.174 | 3}:
 5.178.41.48/30
-Peer: 195.22.211.104
+Peer: 195.22.211.104 (offset=7)
 
 Neighborhood for {211.122.24.158}:
 93.186.139.8/32
@@ -5670,7 +5670,7 @@ Neighborhood for {211.233.94.222}:
 185.70.200.92/31
 185.70.201.92/31
 200.123.205.92/31
-Peer: 211.233.94.222
+Peer: 211.233.94.222 (offset=4)
 
 Neighborhood for {212.23.152.108}:
 23.79.247.171/32
@@ -5686,18 +5686,18 @@ Peer: 212.64.228.231
 
 Neighborhood for {212.64.228.231 | 1}:
 79.140.84.238/31
-Peer: 212.64.228.231
+Peer: 212.64.228.231 (offset=4)
 
 Neighborhood for {212.162.42.214 | 4}:
 79.140.85.64/30
 185.70.200.74/31
 200.123.201.64/30
 200.123.205.74/31
-Peer: 195.22.211.215
+Peer: 195.22.211.215 (offset=1)
 
 Neighborhood for {212.187.139.242}:
 200.123.204.156/30
-Peer: 200.123.201.247
+Peer: 200.123.201.247 (offset=6)
 
 Neighborhood for {212.235.66.125}:
 79.140.84.100/31
@@ -5707,7 +5707,7 @@ Peers: 195.22.196.213, 195.22.218.199, 213.144.178.204 (offset=10)
 
 Neighborhood for {213.19.193.154}:
 200.123.202.124/30
-Peer: 185.70.203.61
+Peer: 185.70.203.61 (offset=9)
 
 Neighborhood for {213.86.215.82}:
 5.178.41.167/32
@@ -6495,13 +6495,13 @@ Peer: 213.144.183.117
 
 Neighborhood for {213.155.136.99 | 2}:
 200.123.203.44/30
-Peer: 195.22.220.29
+Peer: 195.22.220.29 (offset=7)
 
 Neighborhood for {213.179.140.142}:
 93.186.139.112/28
 195.22.201.112/28
 195.22.203.120/31
-Peer: 213.179.140.142
+Peer: 213.179.140.142 (offset=2)
 
 Neighborhood for {213.200.113.142}:
 89.221.41.196/31
@@ -6509,11 +6509,11 @@ No peers; gate to the discovered topology.
 
 Neighborhood for {213.249.105.250}:
 195.22.203.30/31
-Peer: 195.22.208.79
+Peer: 195.22.208.79 (offset=2)
 
 Neighborhood for {213.249.105.254}:
 195.22.201.30/31
-Peer: 195.22.208.79
+Peer: 195.22.208.79 (offset=2)
 
 Neighborhood for {216.75.211.254}:
 93.186.139.240/31
@@ -6531,18 +6531,18 @@ Peer: 216.75.219.253
 
 Neighborhood for {216.75.219.253}:
 195.22.203.240/30
-Peer: 216.75.219.253
+Peer: 216.75.219.253 (offset=4)
 
 Neighborhood for {216.203.39.142}:
 200.123.204.170/31
-Peer: 200.123.201.247
+Peer: 200.123.201.247 (offset=8)
 
 Neighborhood for {217.71.101.174}:
 23.79.247.188/31
 149.3.179.188/31
 184.50.95.188/31
 200.123.204.188/31
-Peer: 217.71.101.174
+Peer: 217.71.101.174 (offset=1)
 
 Neighborhood for {217.192.208.198}:
 93.186.139.65/32
@@ -6557,7 +6557,7 @@ Peers: 195.22.205.13, 195.22.205.39 (offset=4)
 
 Neighborhood for {218.205.182.66}:
 104.76.206.170/32
-Peer: 218.205.182.66
+Peer: 218.205.182.66 (offset=1)
 
 Neighborhood for {218.205.182.66 | 1}:
 23.79.247.34/31
@@ -6638,15 +6638,15 @@ Peer: 219.142.3.70
 
 Neighborhood for {219.142.3.70 | 1}:
 23.79.247.108/31
-Peer: 79.140.80.165
+Peer: 79.140.80.165 (offset=9)
 
 Neighborhood for {219.142.12.26}:
 104.76.208.222/32
-Peer: 195.22.218.199
+Peer: 195.22.218.199 (offset=11)
 
 Neighborhood for {219.142.12.26 | 1}:
 104.76.208.178/31
-Peer: 195.22.218.199
+Peer: 195.22.218.199 (offset=10)
 
 Neighborhood for {219.158.44.113}:
 200.123.204.78/31
@@ -6654,13 +6654,13 @@ Peer: 61.148.8.22
 
 Neighborhood for {219.158.113.161}:
 5.178.41.212/31
-Peer: 93.186.135.151
+Peer: 93.186.135.151 (offset=9)
 
 Neighborhood for {220.64.0.18}:
 79.140.85.36/31
 79.140.93.14/31
 200.123.201.14/31
-Peer: 203.227.231.62
+Peer: 203.227.231.62 (offset=4)
 
 Neighborhood for {221.179.171.18}:
 104.76.208.200/29

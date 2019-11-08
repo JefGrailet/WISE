@@ -485,7 +485,7 @@ Neighborhood for {Echo, TTL=12, Pre-echoing=185.8.179.27 (offset=1)}:
 37.1.203.116/31
 37.1.204.168/31
 37.1.206.26/31
-Peer: 185.8.179.27
+Peer: 185.8.179.27 (offset=1)
 
 Neighborhood for {Echo, TTL=11, Pre-echoing=185.8.177.33}:
 5.45.64.144/28
@@ -508,7 +508,7 @@ Neighborhood for {Echo, TTL=11, Pre-echoing=185.8.179.39 (offset=2)}:
 5.45.65.61/32
 5.45.69.152/32
 37.49.225.80/28
-Peer: 185.8.179.39
+Peer: 185.8.179.39 (offset=2)
 
 Neighborhood for {Echo, TTL=12, Pre-echoing=185.8.179.19 (offset=1)}:
 5.45.65.4/31
@@ -519,11 +519,11 @@ Neighborhood for {Echo, TTL=12, Pre-echoing=185.8.179.19 (offset=1)}:
 37.1.202.28/31
 37.1.202.180/31
 37.1.205.156/31
-Peer: 185.8.179.19
+Peer: 185.8.179.19 (offset=1)
 
 Neighborhood for {Echo, TTL=12, Pre-echoing=185.8.179.39 (offset=2)}:
 5.45.67.248/31
-Peer: 185.8.179.39
+Peer: 185.8.179.39 (offset=2)
 
 Neighborhood for {Echo, TTL=9, Pre-echoing=178.21.17.2}:
 5.45.76.56/31
@@ -605,7 +605,7 @@ Peer: 185.8.179.19
 Neighborhood for {Echo, TTL=255, Pre-echoing=185.8.179.39 (offset=1)}:
 185.20.184.0/23
 185.20.187.0/24
-Peer: 185.8.179.39
+Peer: 185.8.179.39 (offset=1)
 
 Neighborhood for {Echo, TTL=10, Pre-echoing=185.8.179.39 (offset=1)}:
 185.20.186.0/24
@@ -623,7 +623,7 @@ Neighborhood for {Echo, TTL=10, Pre-echoing=185.8.179.39 (offset=1)}:
 193.169.244.176/30
 193.169.244.192/26
 193.169.245.0/24
-Peer: 185.8.179.39
+Peer: 185.8.179.39 (offset=1)
 
 Neighborhood for {Echo, TTL=11, Pre-echoing=185.8.179.27}:
 185.27.28.182/31
@@ -1251,7 +1251,7 @@ Peers: 93.158.217.150, 178.21.16.70, 185.8.179.19, 185.8.179.27 (offset=1)
 
 Neighborhood for {5.61.51.10}:
 37.1.203.128/31
-Peer: 185.8.179.19
+Peer: 185.8.179.19 (offset=1)
 
 Neighborhood for {5.178.67.6}:
 5.255.76.0/24
@@ -1879,7 +1879,7 @@ Peers: 185.8.177.33, 185.8.177.35
 
 Neighborhood for {37.49.225.73 | 1}:
 37.49.225.64/28
-Peer: 185.8.179.39
+Peer: 185.8.179.39 (offset=2)
 
 Neighborhood for {37.49.228.137}:
 37.49.225.0/28
@@ -2412,12 +2412,12 @@ Peers: 185.187.12.169, 185.187.12.171
 Neighborhood for {91.238.186.49 | 1}:
 93.158.208.52/30
 103.196.241.102/31
-Peer: 185.8.179.27
+Peer: 185.8.179.27 (offset=1)
 
 Neighborhood for {92.47.159.182}:
 46.8.249.192/27
 46.8.249.224/27
-Peer: 92.47.159.182
+Peer: 92.47.159.182 (offset=1)
 
 Neighborhood for {93.158.201.178}:
 185.53.163.176/29
