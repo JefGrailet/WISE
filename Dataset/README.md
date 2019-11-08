@@ -1,6 +1,6 @@
 # Dataset
 
-*By Jean-François Grailet (last updated: September 25, 2019)*
+*By Jean-François Grailet (last updated: November 8, 2019)*
 
 ## About
 
@@ -10,16 +10,20 @@ instance of `WISE` (or an earlier version) on a single PlanetLab node. In order 
 measurements in a more interesting manner, vantage points were rotated during each campaign. The 
 dates of each campaign present in this dataset are provided below.
 
-|  Start date  |  End date  |  # probed ASes  |  Useful notes              |
-| :----------: | :--------- | :-------------- | :------------------------- |
-| 29/11/2018   | 21/12/2018 | 22              | IP dictionaries only       |
-| 28/12/2018   | 24/01/2019 | 22              |                            |
-| 01/02/2019   | 14/02/2019 | 10              | Medium-sized ASes          |
-| 01/02/2019   | 11/02/2019 | 4               | Large/very responsive ASes |
-| 19/02/2019   | 28/02/2019 | 10              | Medium-sized ASes          |
-| 19/02/2019   | 25/02/2019 | 4               | Large/very responsive ASes |
-| 04/09/2019   | 17/09/2019 | 13              |                            |
-| 16/09/2019   | 23/09/2019 | 4               | Large/very responsive ASes |
+|  Start date  |  End date  |  # probed ASes  |  Number  |
+| :----------: | :--------- | :-------------- | :------- |
+| 29/11/2018   | 21/12/2018 | 22              | 1        |
+| 28/12/2018   | 24/01/2019 | 22              | 2        |
+| 01/02/2019   | 14/02/2019 | 10              | 3        |
+| 01/02/2019   | 11/02/2019 | 4               | 4        |
+| 19/02/2019   | 28/02/2019 | 10              | 5        |
+| 19/02/2019   | 25/02/2019 | 4               | 6        |
+| 04/09/2019   | 17/09/2019 | 13              | 7        |
+| 16/09/2019   | 23/09/2019 | 4               | 8        |
+
+The ASes targetted by each campaign as well as the sets of involved PlanetLab nodes can be found 
+in the "CampaignX.md" files at the root of this folder, where X is the number of the campaign as 
+shown in the above table.
 
 A few remarks about this public dataset:
 
