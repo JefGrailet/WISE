@@ -62,8 +62,8 @@ public:
     inline bool sameTTL(unsigned char t) { return (TTL != 0 && TTL == t); }
     bool hasTTL(unsigned char t);
     void recordTTL(unsigned char t);
+    void pickMinimumTTL();
     inline size_t getNbTTLs() { return TTLs.size(); }
-    inline void pickMinimumTTL() { TTL = TTLs.front(); }
     inline static bool compareTTLs(unsigned char t1, unsigned char t2) { return t1 < t2; }
     
     // Comparison methods (for sorting)

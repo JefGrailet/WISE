@@ -48,12 +48,10 @@ public:
     
     /*
      * To call once the aggregate has been fully built, finalize() is responsible for listing all 
-     * potential peers (as IPs) and sorting the list of subnets, using the IP dictionary to check 
-     * a potential peer is indeed used to identify a neighborhood (an IP appearing in a trail does 
-     * not always end up to denote a neighborhood, this is notably the case of contra-pivot IPs).
+     * potential peers (as IPs) and sorting the list of subnets.
      */
     
-    void finalize(IPLookUpTable *dictionary);
+    void finalize();
     
     // Accessers
     inline list<Trail*> *getTrails() { return &trails; }

@@ -1,6 +1,6 @@
 # About WISE v1.1 (wise)
 
-*By Jean-François Grailet (last updated: November 8, 2019)*
+*By Jean-François Grailet (last updated: November 19, 2019)*
 
 ## About the code
 
@@ -68,6 +68,8 @@ In order to simplify the parameters of `WISE` and only allow the editing of the 
 * **October 14, 2019:** update of `WISE` v1.1. In addition to fixing a minor issue that can occur during neighborhood inference (rare occurrences of cycles which can induce bad _peer_ discovery), this update extends the fingerprinting of `WISE` (used for alias resolution) by adding the inferred initial TTL value of the ICMP "_Time exceeded_" replies, as used by Vanaubel et al. in "_Network Fingerprinting: TTL-Based Router Signatures_" (IMC 2013). This TTL value wasn't used in previous tools which the alias resolution module come from due to the impossibility to get this value for all alias candidates. In the context of `WISE`, this restriction no longer exists.
 
 * **November 8, 2019:** update of `WISE` v1.1, now available in a re-hauled version that can be found in the *Tool/* sub-directory (the previous code being available in *Legacy/*) which takes slightly better advantage of features of C++ while removing old, unused classes inherited from other topology discovery tools. This update also fixes minor issues with specific scenarii of subnet inference, such as re-evaluating a pivot interface as a contra-pivot interface (additional checks have been added to prevent an erroneous diagnostic in situations where TTL distances vary considerably).
+
+* **November 19, 2019:** new update of `WISE` v1.1 (both *Legacy/* and *Tool/*) to further refine neighborhood inference. This update fixes a rare but annoying inference issue which we will denote as *self-peering*. In some situations, it is possible the target IP or the IP of its trail re-appears in a partial route towards said target; not correctly identifying these cycles can lead to a neighborhood having its own identifying IP or an alias of it as peer(s), which is a problem for accurate topology inference. In measurements from September 2019, this issue usually occurs with less than 1% of inferred neighborhoods, but can be more widespread with some given vantage points/targets. Since the update, *self-peering* seems to have completely disappeared from the most recent measurements (November 2019).
 
 ## Disclaimer
 

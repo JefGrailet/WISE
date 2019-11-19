@@ -625,9 +625,6 @@ void TargetScanner::finalize()
     }
     delete ahc;
     
-    // Post-processes newly collected hints
-    dict->postProcessHints(env->getARVelocityMaxRollovers(), env->getARVelocityMaxError());
-    
     // Builds the alias set, using the AliasResolver class.
     (*out) << "Resolving... " << std::flush;
     AliasSet *set = new AliasSet(AliasSet::SUBNET_DISCOVERY);

@@ -54,7 +54,6 @@ public:
     
     void reviewScannedIPs(); // Labels IPs as (un)successfully scanned
     void reviewSpecialIPs(unsigned short maxDelta); // Finds warping, echoing and flickering IPs
-    void postProcessHints(unsigned short maxRollovers, double maxError);
     
     // Special method used during peer discovery; tells if the IP has been seen as direct trail
     bool isPotentialPeer(InetAddress needle);

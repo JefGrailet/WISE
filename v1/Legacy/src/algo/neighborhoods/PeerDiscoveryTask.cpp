@@ -149,6 +149,9 @@ void PeerDiscoveryTask::stop()
 
 void PeerDiscoveryTask::run()
 {
+    IPLookUpTable *dictionary = env->getIPDictionary();
+    AliasSet *aliases = env->getLattestAliases(); // Aliases from subnet inference
+    
     list<pair<Subnet*, SubnetInterface*> >::iterator it;
     for(it = targets.begin(); it != targets.end(); ++it)
     {
@@ -162,6 +165,20 @@ void PeerDiscoveryTask::run()
         InetAddress targetTrailIP(0);
         if(targetTrail->getNbAnomalies() == 0)
             targetTrailIP = targetTrail->getLastValidIP();
+        // Very rare, but can occur with close targets + timeouts
+        if(targetTrailIP == InetAddress(0))
+            continue;
+        
+        /*
+         * (November 2019) To prevent potential "self-peering", the code quickly checks if the 
+         * trail of the target corresponds to a flickering IP, and if yes, gets the corresponding 
+         * alias (if any) to ensure we don't select an alias of said trail as a peer.
+         */
+        
+        Alias *assocAlias = NULL;
+        IPTableEntry *trailEntry = dictionary->lookUp(targetTrailIP);
+        if(trailEntry != NULL && trailEntry->isFlickering())
+            assocAlias = aliases->findAlias(targetTrailIP);
         
         InetAddress probeDst = (InetAddress) (*targetIP);
         unsigned char probeTTL = targetIP->getTTL() - 1 - targetTrail->getLengthInTTL();
@@ -182,7 +199,6 @@ void PeerDiscoveryTask::run()
             usedTimeout = initialTimeout;
         
         // Probes the target IP with decreasing TTL until it reachs 0 or until it finds a peer IP
-        IPLookUpTable *dictionary = env->getIPDictionary();
         list<RouteHop> routeHops;
         bool foundPeer = false;
         while(probeTTL > 0)
@@ -229,11 +245,12 @@ void PeerDiscoveryTask::run()
             }
             
             // Did we discover a valid peer ? (+ checks to avoid peer cycling, see PeerScanner.h)
-            if(rplyAddress != InetAddress(0) && !encompassingSubnet->contains(rplyAddress))
-                if(targetTrailIP != InetAddress(0) && rplyAddress != targetTrailIP)
-                    if(dictionary->isPotentialPeer(rplyAddress))
-                        foundPeer = true;
-            routeHops.push_front(RouteHop(record, foundPeer)); // Also detects anonymous hops
+            if(rplyAddress != InetAddress(0) && !encompassingSubnet->contains(rplyAddress)) // Replying IP not from the subnet
+                if(targetTrailIP != InetAddress(0) && rplyAddress != targetTrailIP) // Replying IP isn't another echo
+                    if(assocAlias == NULL || !assocAlias->hasInterface(rplyAddress)) // Replying IP isn't an alias of the trail
+                        if(dictionary->isPotentialPeer(rplyAddress)) // Replying IP is indeed a potential peer
+                            foundPeer = true;
+            routeHops.push_front(RouteHop(record, foundPeer)); // Also correctly labels anonymous hops
             delete record;
             
             // Stops probing here

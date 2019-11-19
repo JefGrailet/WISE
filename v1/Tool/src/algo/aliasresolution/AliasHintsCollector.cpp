@@ -710,6 +710,18 @@ void AliasHintsCollector::collect()
     if(env.isStopping())
         throw StopException();
     
+    // Post-processes the hints (mostly IP-ID data)
+    for(list<IPTableEntry*>::iterator j = IPsToProbe.begin(); j != IPsToProbe.end(); ++j)
+    {
+        IPTableEntry *cur = (*j);
+        AliasHints &lattestHints = cur->getLattestHints();
+        if(!lattestHints.isEmpty())
+        {
+            lattestHints.postProcessIPIDData(env.getARVelocityMaxRollovers(), 
+                                             env.getARVelocityMaxError());
+        }
+    }
+    
     /*
      * No condition on printSteps here because the "Done" is actually bringing closure to the 
      * "Collecting hints..." message printed by calling code and is therefore still relevant.

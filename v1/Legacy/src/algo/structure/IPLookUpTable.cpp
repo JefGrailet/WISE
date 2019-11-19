@@ -356,21 +356,6 @@ void IPLookUpTable::reviewSpecialIPs(unsigned short maxDelta)
     }
 }
 
-void IPLookUpTable::postProcessHints(unsigned short maxRollovers, double maxError)
-{
-    for(unsigned long i = 0; i < SIZE_TABLE; i++)
-    {
-        list<IPTableEntry*> IPList = this->haystack[i];
-        for(list<IPTableEntry*>::iterator j = IPList.begin(); j != IPList.end(); ++j)
-        {
-            IPTableEntry *cur = (*j);
-            AliasHints *lattestHints = cur->getLattestHints();
-            if(lattestHints != NULL)
-                lattestHints->postProcessIPIDData(maxRollovers, maxError);
-        }
-    }
-}
-
 bool IPLookUpTable::isPotentialPeer(InetAddress needle)
 {
     IPTableEntry *found = this->lookUp(needle);

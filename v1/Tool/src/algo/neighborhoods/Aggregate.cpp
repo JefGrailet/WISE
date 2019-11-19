@@ -84,7 +84,7 @@ void Aggregate::addSubnets(list<Subnet*> newSubnets)
     subnets.splice(subnets.end(), newSubnets);
 }
 
-void Aggregate::finalize(IPLookUpTable *dictionary)
+void Aggregate::finalize()
 {
     // 1) Lists subnet interfaces with a (partial) route
     list<SubnetInterface> withPeers;
@@ -115,14 +115,10 @@ void Aggregate::finalize(IPLookUpTable *dictionary)
                 withPeers.erase(i--); // Can't be used anymore
             
             short currentOffset = routeLen - 1 - offset;
-            if(currentOffset >= 0 && route[currentOffset].isValidHop())
+            if(currentOffset >= 0 && route[currentOffset].isPeer())
             {
-                IPTableEntry *assocEntry = dictionary->lookUp(route[currentOffset].ip);
-                if(assocEntry != NULL && assocEntry->denotesNeighborhood())
-                {
-                    peers.push_back(route[currentOffset].ip);
-                    withPeers.erase(i--); // We won't use it anymore
-                }
+                peers.push_back(route[currentOffset].ip);
+                withPeers.erase(i--); // We won't use it anymore
             }
         }
         offset++;

@@ -1,6 +1,6 @@
 # Evaluating neighborhoods collected by WISE v1.1
 
-*By Jean-François Grailet (last updated: November 8, 2019)*
+*By Jean-François Grailet (last updated: November 19, 2019)*
 
 ## About
 

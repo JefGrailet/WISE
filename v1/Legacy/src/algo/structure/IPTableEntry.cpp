@@ -64,6 +64,12 @@ void IPTableEntry::recordTTL(unsigned char t)
     TTLs.sort(compareTTLs);
 }
 
+void IPTableEntry::pickMinimumTTL()
+{
+    if(TTLs.size() > 0)
+        TTL = TTLs.front();
+}
+
 bool IPTableEntry::compare(IPTableEntry *ip1, IPTableEntry *ip2)
 {
     if(ip1->getULongAddress() < ip2->getULongAddress())
@@ -131,10 +137,13 @@ string IPTableEntry::toString()
             }
         }
     }
-    // Only seen in a trail
-    else if(type == SEEN_IN_TRAIL)
+    // Only seen in a trail/with traceroute
+    else if(type == SEEN_IN_TRAIL || type == SEEN_WITH_TRACEROUTE)
     {
-        ss << " - Part of a trail";
+        if(type == SEEN_IN_TRAIL)
+            ss << " - Part of a trail";
+        else
+            ss << " - Part of a route";
         if(TTLs.size() > 1)
         {
             ss << ", also observed at ";

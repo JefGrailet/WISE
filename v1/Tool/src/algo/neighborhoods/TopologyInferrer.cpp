@@ -26,7 +26,6 @@ TopologyInferrer::~TopologyInferrer()
 
 void TopologyInferrer::infer()
 {
-    IPLookUpTable *dict = env.getIPDictionary();
     AliasSet *aliases = env.getLattestAliases();
 
     /*
@@ -256,7 +255,7 @@ void TopologyInferrer::infer()
     // Finalizes the aggregates (early detection of peers)
     neighborhoods.sort(Aggregate::compare);
     for(list<Aggregate*>::iterator i = neighborhoods.begin(); i != neighborhoods.end(); ++i)
-        (*i)->finalize(dict);
+        (*i)->finalize();
     
     // Stops here for now. Next steps (e.g. identifying clusters of aggregates) are for SAGE v2.0.
 }

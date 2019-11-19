@@ -1,6 +1,6 @@
 # WISE (Wide and lInear Subnet inferencE)
 
-*By Jean-François Grailet (last updated: November 8, 2019)*
+*By Jean-François Grailet (last updated: November 19, 2019)*
 
 ## Overview
 

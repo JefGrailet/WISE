@@ -1,6 +1,6 @@
 # Dataset
 
-*By Jean-François Grailet (last updated: November 8, 2019)*
+*By Jean-François Grailet (last updated: November 19, 2019)*
 
 ## About
 
@@ -20,6 +20,7 @@ dates of each campaign present in this dataset are provided below.
 | 19/02/2019   | 25/02/2019 | 4               | 6        |
 | 04/09/2019   | 17/09/2019 | 13              | 7        |
 | 16/09/2019   | 23/09/2019 | 4               | 8        |
+| 12/11/2019   | 17/11/2019 | 5               | 9        |
 
 The ASes targetted by each campaign as well as the sets of involved PlanetLab nodes can be found 
 in the "CampaignX.md" files at the root of this folder, where X is the number of the campaign as 
