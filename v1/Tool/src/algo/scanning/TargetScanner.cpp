@@ -604,7 +604,7 @@ void TargetScanner::finalize()
     AliasResolver ar(env);
     for(list<list<IPTableEntry*> >::iterator i = aliases.begin(); i != aliases.end(); ++i)
     {
-        list<Alias*> newAliases = ar.resolve((*i));
+        list<Alias*> newAliases = ar.resolve((*i), env.usingStrictAliasResolution());
         set->addAliases(newAliases, true); // Only actual aliases (#IPs >= 2) should appear
     }
     env.addAliasSet(set);

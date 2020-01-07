@@ -66,8 +66,7 @@ void AliasHintsCollector::collect()
     unsigned long int nbIPs = (unsigned long int) IPsToProbe.size();
     if(nbIPs == 0)
     {
-        (*out) << "No IP to probe, aggregate only contains the missing hop identifier ";
-        (*out) << "(0.0.0.0)." << endl;
+        (*out) << "No IP to probe." << endl;
         return;
     }
     unsigned short nbThreads = 1;
@@ -731,14 +730,6 @@ void AliasHintsCollector::collect()
     if(debug)
         (*out) << endl; // Additionnal line break in debug mode
 }
-
-/*
-void AliasHintsCollector::collect(Neighborhood *n)
-{
-    this->setIPsToProbe(n->listAllInterfaces());
-    this->collect();
-}
-*/
 
 unsigned long int AliasHintsCollector::getProbeToken()
 {

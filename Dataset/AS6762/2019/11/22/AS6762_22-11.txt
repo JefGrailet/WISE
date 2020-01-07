@@ -1,0 +1,76 @@
+WISE (Wide and lInear Subnet inferencE) v1.1 - Time at start: 22-11-2019 09:45:07
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 179836 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 159 additional responsive IPs.
+--- End of target pre-scanning (22-11-2019 11:09:33) ---
+Elapsed time: 1 hour 24 minutes 26 seconds
+Total amount of probes: 444292
+Total amount of successful probes: 212004 (47.7173%)
+Total amount of discovered responsive IPs: 179995
+
+Filtered target IPs have been saved in an output file AS6762_22-11.ips (temporar).
+
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 257 threads will be scheduled (up to 703 target IPs per thread).
+9739 out of 135639 IPs with an estimated TTL (7.18009%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 93 threads will be scheduled (from 1 to 320 target IPs per thread).
+
+There are flickering IPs that could lead to the discovery of 20 aliases.
+Now starting alias hints collection...
+Collecting hints for 12.89.215.6, 202.153.100.198... Done.
+Collecting hints for 61.148.8.22, 104.76.206.189, 104.76.209.187, 124.65.236.94... Done.
+Collecting hints for 89.221.32.117, 213.144.177.216... Done.
+Collecting hints for 93.186.129.21, 93.186.129.23, 93.186.129.149, 93.186.129.151, 93.186.129.161, 93.186.129.163, 213.144.178.204, 213.144.178.206... Done.
+Collecting hints for 93.186.129.31, 213.144.178.151... Done.
+Collecting hints for 93.186.129.129, 195.22.193.50, 213.144.178.20... Done.
+Collecting hints for 185.70.202.128, 185.70.202.130... Done.
+Collecting hints for 185.70.203.59, 185.70.203.63... Done.
+Collecting hints for 185.70.203.61, 185.70.203.65, 195.22.220.13, 195.22.220.15, 195.22.220.29, 195.22.220.31... Done.
+Collecting hints for 195.22.192.181, 195.22.205.77... Done.
+Collecting hints for 195.22.192.191, 195.22.196.213... Done.
+Collecting hints for 195.22.196.143, 195.22.205.209... Done.
+Collecting hints for 195.22.210.124, 195.22.214.179... Done.
+Collecting hints for 195.22.211.61, 195.22.214.17, 195.22.214.19... Done.
+Collecting hints for 195.22.211.127, 195.22.211.219, 195.22.214.23... Done.
+Collecting hints for 195.22.218.197, 195.22.218.199... Done.
+Collecting hints for 195.22.218.213, 195.22.218.215... Done.
+Collecting hints for 195.22.221.185, 195.22.221.189... Done.
+Collecting hints for 206.51.245.162, 206.51.245.166... Done.
+Collecting hints for 213.144.177.174, 213.144.177.200, 213.144.177.202, 213.144.177.228, 213.144.177.230... Done.
+Resolving... Done.
+--- End of target scanning (22-11-2019 19:21:05) ---
+Elapsed time: 8 hours 11 minutes 32 seconds
+Total amount of probes: 1478914
+Total amount of successful probes: 1002595 (67.7927%)
+
+Updated IP dictionary has been saved in the output file AS6762_22-11.ips.
+
+--- Start of subnet inference ---
+Inferring subnets... Done.
+Post-processing the discovered subnets... Done.
+--- End of subnet inference (22-11-2019 19:22:43) ---
+Elapsed time: 1 minute 37 seconds
+
+Inferred subnets has been saved in the output file AS6762_22-11.subnets.
+Alias hints have been saved in the output file AS6762_22-11.hints.
+Fingerprints have been saved in the output file AS6762_22-11.fingerprints.
+Aliases discovered during subnet discovery have been written in AS6762_22-11.aliases-1.
+
+--- Start of neighborhood inference ---
+Collecting additional data to discover and locate neighborhoods.
+
+4699 IPs will be used as targets for traceroute-like probing, using 256 threads (up to 19 targets per thread).
+Probing the 4699 target IPs... Done.
+--- End of neighborhood inference (22-11-2019 19:30:50) ---
+Elapsed time: 8 minutes 7 seconds
+Total amount of probes: 18127
+Total amount of successful probes: 13739 (75.793%)
+
+Additional traceroute data has been saved in the output file AS6762_22-11.peers.
+Neighborhoods have been saved in the output file AS6762_22-11.neighborhoods.

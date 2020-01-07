@@ -33,9 +33,6 @@ public:
     AliasResolver(Environment &env);
     ~AliasResolver();
     
-    // Starts resolving a Neighborhood
-    // void resolve(Neighborhood *n);
-    
     /*
      * Resolves a list of IPTableEntry objects. AliasHints objects are retrieved via one method 
      * from the IPTableEntry class.
@@ -132,22 +129,7 @@ private:
      */
     
     void discover(list<IPTableEntry*> interfaces, list<Alias*> *results, bool strict = false);
-    
-    /*
-     * Method to post-process the aliases discovered on a group of interfaces which a part of 
-     * belong to subnets. The motivation for this post-processing is that some IPs identified as 
-     * router interfaces in subnets might just be outliers. Therefore, when such interfaces appear 
-     * in the results as aliases consisting of a single IP, they should be removed.
-     *
-     * TODO: this method needs to be completed and un-commented in SAGE v2.0.
-     *
-     * @param list<Alias*>*   results   The list of aliases to post-process
-     * @param list<Subnet*>*  subnets   The list of subnets which should be checked to remove 
-     *                                  single interface aliases
-     */
-    
-    // void postProcess(list<Alias*> *results, list<Subnet*> *subnets);
-    
+
 };
 
 #endif /* ALIASRESOLVER_H_ */

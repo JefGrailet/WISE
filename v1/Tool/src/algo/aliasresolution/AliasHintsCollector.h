@@ -29,7 +29,6 @@ using std::pair;
 #include "../Environment.h"
 #include "../../prober/DirectProber.h"
 #include "../../prober/icmp/DirectICMPProber.h"
-// #include "../graph/components/Neighborhood.h"
 #include "IPIDTuple.h"
 
 class AliasHintsCollector
@@ -45,7 +44,6 @@ public:
     
     // Methods to start the probing (note: this empties the IPsToProbe list)
     void collect();
-    // void collect(Neighborhood *n);
     
     // Method to get a token (used by IPIDUnit objects)
     unsigned long int getProbeToken();

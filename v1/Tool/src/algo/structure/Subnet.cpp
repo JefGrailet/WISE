@@ -661,6 +661,22 @@ string Subnet::getAdjustedCIDR()
     return ss.str();
 }
 
+unsigned short Subnet::getAdjustedPrefixLength()
+{
+    if(adjustedPrefixLength > 0 && adjustedPrefixLength != prefixLength)
+        return adjustedPrefixLength;
+    return prefixLength;
+}
+
+unsigned int Subnet::getTotalCoveredIPs()
+{
+    unsigned short prefixLen = this->getAdjustedPrefixLength();
+    unsigned int size = 1;
+    for(unsigned short i = 0; i < 32 - prefixLen; i++)
+        size *= 2;
+    return size;
+}
+
 string Subnet::toString()
 {
     stringstream ss;

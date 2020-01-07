@@ -19,11 +19,18 @@ IPLookUpTable::IPLookUpTable()
     haystack = new list<IPTableEntry*>[SIZE_TABLE];
 }
 
+/*
+ * General remark: in all methods, when a specific list of the dictionary is selected, typically 
+ * named "IPList", a reference is used because "IPList" otherwise denotes a copy of the list 
+ * rather than the stored list. This prevents the recording of a new entry in the case of the 
+ * create() method, and other cases, an unnecessary copy is made.
+ */
+
 IPLookUpTable::~IPLookUpTable()
 {
     for(unsigned long i = 0; i < SIZE_TABLE; i++)
     {
-        list<IPTableEntry*> IPList = haystack[i];
+        list<IPTableEntry*> &IPList = haystack[i];
         for(list<IPTableEntry*>::iterator j = IPList.begin(); j != IPList.end(); ++j)
             delete (*j);
         haystack[i].clear();
@@ -35,7 +42,7 @@ bool IPLookUpTable::isEmpty()
 {
     for(unsigned long i = 0; i < SIZE_TABLE; i++)
     {
-        list<IPTableEntry*> IPList = haystack[i];
+        list<IPTableEntry*> &IPList = haystack[i];
         if(IPList.size() > 0)
             return true;
     }
@@ -46,7 +53,7 @@ bool IPLookUpTable::hasAliasResolutionData()
 {
     for(unsigned long i = 0; i < SIZE_TABLE; i++)
     {
-        list<IPTableEntry*> IPList = haystack[i];
+        list<IPTableEntry*> &IPList = haystack[i];
         if(IPList.size() > 0)
             for(list<IPTableEntry*>::iterator j = IPList.begin(); j != IPList.end(); ++j)
                 if((*j)->getNbHints() > 0)
@@ -60,7 +67,7 @@ unsigned int IPLookUpTable::getTotalIPs()
     unsigned int total = 0;
     for(unsigned long i = 0; i < SIZE_TABLE; i++)
     {
-        list<IPTableEntry*> IPList = haystack[i];
+        list<IPTableEntry*> &IPList = haystack[i];
         total += IPList.size();
     }
     return total;
@@ -69,22 +76,22 @@ unsigned int IPLookUpTable::getTotalIPs()
 IPTableEntry *IPLookUpTable::create(InetAddress needle)
 {
     unsigned long index = (needle.getULongAddress() >> 12);
-    list<IPTableEntry*> *IPList = &haystack[index];
+    list<IPTableEntry*> &IPList = haystack[index];
     
-    for(list<IPTableEntry*>::iterator i = IPList->begin(); i != IPList->end(); ++i)
+    for(list<IPTableEntry*>::iterator i = IPList.begin(); i != IPList.end(); ++i)
         if((*i)->getULongAddress() == needle.getULongAddress())
             return NULL;
     
     IPTableEntry *newEntry = new IPTableEntry(needle);
-    IPList->push_back(newEntry);
-    IPList->sort(IPTableEntry::compare);
+    IPList.push_back(newEntry);
+    IPList.sort(IPTableEntry::compare);
     return newEntry;
 }
 
 IPTableEntry *IPLookUpTable::lookUp(InetAddress needle)
 {
     unsigned long index = (needle.getULongAddress() >> 12);
-    list<IPTableEntry*> IPList = haystack[index];
+    list<IPTableEntry*> &IPList = haystack[index];
     
     for(list<IPTableEntry*>::iterator i = IPList.begin(); i != IPList.end(); ++i)
         if((*i)->getULongAddress() == needle.getULongAddress())
@@ -98,7 +105,7 @@ list<IPTableEntry*> IPLookUpTable::listTargetEntries()
     list<IPTableEntry*> res;
     for(unsigned long i = 0; i < SIZE_TABLE; i++)
     {
-        list<IPTableEntry*> IPList = haystack[i];
+        list<IPTableEntry*> &IPList = haystack[i];
         for(list<IPTableEntry*>::iterator j = IPList.begin(); j != IPList.end(); ++j)
         {
             IPTableEntry *cur = (*j);
@@ -116,7 +123,7 @@ list<IPTableEntry*> IPLookUpTable::listFlickeringIPs()
     list<IPTableEntry*> res;
     for(unsigned long i = 0; i < SIZE_TABLE; i++)
     {
-        list<IPTableEntry*> IPList = haystack[i];
+        list<IPTableEntry*> &IPList = haystack[i];
         for(list<IPTableEntry*>::iterator j = IPList.begin(); j != IPList.end(); ++j)
         {
             IPTableEntry *cur = (*j);
@@ -132,7 +139,7 @@ list<IPTableEntry*> IPLookUpTable::listScannedIPs()
     list<IPTableEntry*> res;
     for(unsigned long i = 0; i < SIZE_TABLE; i++)
     {
-        list<IPTableEntry*> IPList = haystack[i];
+        list<IPTableEntry*> &IPList = haystack[i];
         for(list<IPTableEntry*>::iterator j = IPList.begin(); j != IPList.end(); ++j)
         {
             IPTableEntry *cur = (*j);
@@ -147,7 +154,7 @@ void IPLookUpTable::reviewScannedIPs()
 {
     for(unsigned long i = 0; i < SIZE_TABLE; i++)
     {
-        list<IPTableEntry*> IPList = haystack[i];
+        list<IPTableEntry*> &IPList = haystack[i];
         for(list<IPTableEntry*>::iterator j = IPList.begin(); j != IPList.end(); ++j)
         {
             IPTableEntry *cur = (*j);
@@ -370,7 +377,7 @@ void IPLookUpTable::outputDictionary(string filename)
     
     for(unsigned long i = 0; i < SIZE_TABLE; i++)
     {
-        list<IPTableEntry*> IPList = haystack[i];
+        list<IPTableEntry*> &IPList = haystack[i];
         for(list<IPTableEntry*>::iterator j = IPList.begin(); j != IPList.end(); ++j)
             output += (*j)->toString() + "\n";
     }
@@ -390,7 +397,7 @@ void IPLookUpTable::outputAliasHints(string filename)
     
     for(unsigned long i = 0; i < SIZE_TABLE; i++)
     {
-        list<IPTableEntry*> IPList = haystack[i];
+        list<IPTableEntry*> &IPList = haystack[i];
         for(list<IPTableEntry*>::iterator j = IPList.begin(); j != IPList.end(); ++j)
             if((*j)->getNbHints() > 0)
                 output += (*j)->hintsToString();
@@ -411,7 +418,7 @@ void IPLookUpTable::outputFingerprints(string filename)
     
     for(unsigned long i = 0; i < SIZE_TABLE; i++)
     {
-        list<IPTableEntry*> IPList = haystack[i];
+        list<IPTableEntry*> &IPList = haystack[i];
         for(list<IPTableEntry*>::iterator j = IPList.begin(); j != IPList.end(); ++j)
             if((*j)->getNbHints() > 0)
                 output += (*j)->toStringSimple() + " - " + (*j)->getLattestHints().fingerprintToString() + "\n";

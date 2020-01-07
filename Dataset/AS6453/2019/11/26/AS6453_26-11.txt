@@ -1,0 +1,80 @@
+WISE (Wide and lInear Subnet inferencE) v1.1 - Time at start: 26-11-2019 18:50:23
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 51453 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 55 additional responsive IPs.
+--- End of target pre-scanning (26-11-2019 23:08:33) ---
+Elapsed time: 4 hours 18 minutes 7 seconds
+Total amount of probes: 1051907
+Total amount of successful probes: 79575 (7.56483%)
+Total amount of discovered responsive IPs: 51508
+
+Filtered target IPs have been saved in an output file AS6453_26-11.ips (temporar).
+
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 257 threads will be scheduled (up to 201 target IPs per thread).
+1895 out of 51435 IPs with an estimated TTL (3.68426%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 34 threads will be scheduled (from 2 to 258 target IPs per thread).
+
+There are flickering IPs that could lead to the discovery of 24 aliases.
+Now starting alias hints collection...
+Collecting hints for 4.14.99.138, 66.198.155.18... Done.
+Collecting hints for 5.23.21.2, 80.231.200.86, 80.231.200.167... Done.
+Collecting hints for 12.86.54.94, 12.247.68.178, 12.247.68.194... Done.
+Collecting hints for 63.243.128.29, 63.243.128.31... Done.
+Collecting hints for 63.243.205.2, 216.6.81.29, 216.6.115.89... Done.
+Collecting hints for 63.243.205.13, 63.243.205.75... Done.
+Collecting hints for 64.86.21.2, 66.198.127.1... Done.
+Collecting hints for 64.86.140.4, 64.254.1.69... Done.
+Collecting hints for 64.86.248.14, 80.231.131.221... Done.
+Collecting hints for 66.110.118.90, 66.110.118.246... Done.
+Collecting hints for 66.198.154.34, 66.198.154.69... Done.
+Collecting hints for 70.34.62.130, 70.34.62.134, 210.10.220.98... Done.
+Collecting hints for 80.231.17.1, 80.231.17.9... Done.
+Collecting hints for 80.231.91.66, 80.231.91.94, 80.231.200.6, 80.231.217.2... Done.
+Collecting hints for 80.231.153.49, 195.219.87.1, 195.219.156.133, 195.219.156.134, 195.219.194.149... Done.
+Collecting hints for 80.231.153.73, 80.231.153.89, 80.231.153.130, 80.231.153.178, 180.87.140.14, 195.219.87.10, 195.219.241.10... Done.
+Collecting hints for 80.231.154.61, 80.231.217.5... Done.
+Collecting hints for 103.16.252.38, 180.87.140.42... Done.
+Collecting hints for 139.159.51.54, 139.159.51.58... Done.
+Collecting hints for 180.87.12.226, 180.87.39.170... Done.
+Collecting hints for 195.219.81.10, 195.219.81.58... Done.
+Collecting hints for 197.214.64.45, 197.214.66.20... Done.
+Collecting hints for 197.221.232.3, 197.221.232.4... Done.
+Collecting hints for 206.82.134.50, 209.58.13.30... Done.
+Resolving... Done.
+--- End of target scanning (27-11-2019 00:29:10) ---
+Elapsed time: 1 hour 20 minutes 36 seconds
+Total amount of probes: 223832
+Total amount of successful probes: 212258 (94.8292%)
+
+Updated IP dictionary has been saved in the output file AS6453_26-11.ips.
+
+--- Start of subnet inference ---
+Inferring subnets... Done.
+Post-processing the discovered subnets... Done.
+--- End of subnet inference (27-11-2019 00:30:20) ---
+Elapsed time: 1 minute 10 seconds
+
+Inferred subnets has been saved in the output file AS6453_26-11.subnets.
+Alias hints have been saved in the output file AS6453_26-11.hints.
+Fingerprints have been saved in the output file AS6453_26-11.fingerprints.
+Aliases discovered during subnet discovery have been written in AS6453_26-11.aliases-1.
+
+--- Start of neighborhood inference ---
+Collecting additional data to discover and locate neighborhoods.
+
+9693 IPs will be used as targets for traceroute-like probing, using 256 threads (up to 38 targets per thread).
+Probing the 9693 target IPs... Done.
+--- End of neighborhood inference (27-11-2019 00:38:12) ---
+Elapsed time: 7 minutes 52 seconds
+Total amount of probes: 15962
+Total amount of successful probes: 14267 (89.381%)
+
+Additional traceroute data has been saved in the output file AS6453_26-11.peers.
+Neighborhoods have been saved in the output file AS6453_26-11.neighborhoods.

@@ -1,0 +1,91 @@
+WISE (Wide and lInear Subnet inferencE) v1.1 - Time at start: 04-12-2019 14:24:26
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 98958 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 269 additional responsive IPs.
+--- End of target pre-scanning (04-12-2019 17:54:21) ---
+Elapsed time: 3 hours 29 minutes 54 seconds
+Total amount of probes: 923506
+Total amount of successful probes: 171649 (18.5867%)
+Total amount of discovered responsive IPs: 99227
+
+Filtered target IPs have been saved in an output file AS6939_04-12.ips (temporar).
+
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 257 threads will be scheduled (up to 387 target IPs per thread).
+5714 out of 98704 IPs with an estimated TTL (5.78903%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 92 threads will be scheduled (from 2 to 410 target IPs per thread).
+
+There are flickering IPs that could lead to the discovery of 35 aliases.
+Now starting alias hints collection...
+Collecting hints for 23.134.144.18, 192.52.250.231... Done.
+Collecting hints for 62.115.119.229, 64.62.130.186, 64.62.158.242, 64.62.205.51, 64.71.133.246, 64.71.138.206, 64.71.148.122, 64.71.162.34, 64.71.163.18, 64.71.169.26, 64.71.178.201, 65.19.154.249, 65.19.176.229, 65.49.38.14, 65.49.108.123, 66.160.181.70, 66.160.181.73, 66.160.181.75, 72.52.92.30, 72.52.92.57, 72.52.92.69, 72.52.92.117, 72.52.92.122, 72.52.92.158, 72.52.92.245, 72.52.106.182, 184.104.192.254, 184.104.193.50, 184.105.64.6, 184.105.64.66, 184.105.64.129, 184.105.64.253, 184.105.65.113, 184.105.65.210, 184.105.81.178, 184.105.81.217, 184.105.134.142, 184.105.140.242, 184.105.213.118, 184.105.213.158, 184.105.213.162, 184.105.222.5, 184.105.222.42, 184.105.222.106, 184.105.223.118, 184.105.223.214, 184.105.223.218, 213.155.130.129, 213.248.67.106, 216.218.144.33, 216.218.144.226, 216.218.145.5, 216.218.145.147, 216.218.145.149, 216.218.145.226, 216.218.145.230, 216.218.152.102, 216.218.156.70, 216.218.198.233, 216.218.226.106, 216.218.241.203... Done.
+Collecting hints for 62.115.133.25, 184.105.65.125, 213.155.141.254... Done.
+Collecting hints for 62.115.172.142, 64.71.166.234... Done.
+Collecting hints for 64.62.153.62, 65.49.68.75, 65.49.126.91, 65.49.126.173, 72.52.87.173, 72.52.87.188, 74.82.60.177, 74.82.60.188... Done.
+Collecting hints for 64.71.128.76, 216.252.162.53... Done.
+Collecting hints for 64.71.137.170, 65.19.191.138, 213.248.67.142, 213.248.70.38... Done.
+Collecting hints for 65.19.156.126, 184.105.226.200... Done.
+Collecting hints for 66.160.146.186, 192.190.255.121... Done.
+Collecting hints for 67.43.55.229, 184.105.253.242... Done.
+Collecting hints for 72.52.92.54, 72.52.92.225, 184.104.192.117, 184.104.193.38, 184.104.193.173, 184.105.18.54, 184.105.64.90, 184.105.65.166, 184.105.80.10, 184.105.81.150, 184.105.213.69, 184.105.213.190, 184.105.213.217, 184.105.213.238, 184.105.223.161, 184.105.223.178, 184.105.253.211, 213.248.101.146, 216.66.24.110, 216.66.76.222... Done.
+Collecting hints for 72.52.92.86, 184.105.64.105, 184.105.65.54... Done.
+Collecting hints for 72.52.92.165, 72.52.92.214, 184.105.64.238... Done.
+Collecting hints for 72.52.92.166, 184.105.81.218... Done.
+Collecting hints for 72.52.92.213, 213.248.93.82... Done.
+Collecting hints for 173.230.159.69, 173.230.159.71... Done.
+Collecting hints for 173.243.80.182, 184.105.122.69, 184.105.122.93, 184.105.122.130... Done.
+Collecting hints for 184.75.240.15, 184.75.240.18, 184.75.240.20, 184.75.240.21... Done.
+Collecting hints for 184.104.192.77, 184.104.192.166... Done.
+Collecting hints for 184.104.192.82, 184.105.65.126... Done.
+Collecting hints for 184.104.192.90, 184.104.192.94, 184.104.200.14... Done.
+Collecting hints for 184.104.193.77, 184.105.58.237... Done.
+Collecting hints for 184.104.193.106, 184.105.64.54... Done.
+Collecting hints for 184.104.193.114, 184.105.65.6... Done.
+Collecting hints for 184.104.193.221, 184.105.80.22... Done.
+Collecting hints for 184.105.1.51, 216.66.41.234... Done.
+Collecting hints for 184.105.39.98, 184.105.39.102, 184.105.39.134... Done.
+Collecting hints for 184.105.41.66, 184.105.88.99... Done.
+Collecting hints for 184.105.64.110, 184.105.64.114... Done.
+Collecting hints for 184.105.65.37, 184.105.81.78... Done.
+Collecting hints for 184.105.222.22, 184.105.222.82... Done.
+Collecting hints for 184.105.222.89, 184.105.247.142... Done.
+Collecting hints for 208.64.62.11, 208.64.62.14... Done.
+Collecting hints for 209.51.163.238, 213.248.67.118... Done.
+Collecting hints for 209.51.191.250, 216.66.76.65... Done.
+Resolving... Done.
+--- End of target scanning (04-12-2019 19:49:38) ---
+Elapsed time: 1 hour 55 minutes 16 seconds
+Total amount of probes: 444814
+Total amount of successful probes: 402919 (90.5815%)
+
+Updated IP dictionary has been saved in the output file AS6939_04-12.ips.
+
+--- Start of subnet inference ---
+Inferring subnets... Done.
+Post-processing the discovered subnets... Done.
+--- End of subnet inference (04-12-2019 19:51:52) ---
+Elapsed time: 2 minutes 14 seconds
+
+Inferred subnets has been saved in the output file AS6939_04-12.subnets.
+Alias hints have been saved in the output file AS6939_04-12.hints.
+Fingerprints have been saved in the output file AS6939_04-12.fingerprints.
+Aliases discovered during subnet discovery have been written in AS6939_04-12.aliases-1.
+
+--- Start of neighborhood inference ---
+Collecting additional data to discover and locate neighborhoods.
+
+19245 IPs will be used as targets for traceroute-like probing, using 256 threads (up to 76 targets per thread).
+Probing the 19245 target IPs... Done.
+--- End of neighborhood inference (04-12-2019 20:40:14) ---
+Elapsed time: 48 minutes 22 seconds
+Total amount of probes: 31651
+Total amount of successful probes: 25203 (79.6278%)
+
+Additional traceroute data has been saved in the output file AS6939_04-12.peers.
+Neighborhoods have been saved in the output file AS6939_04-12.neighborhoods.

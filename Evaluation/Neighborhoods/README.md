@@ -1,6 +1,6 @@
 # Evaluating neighborhoods collected by WISE v1.1
 
-*By Jean-François Grailet (last updated: November 19, 2019)*
+*By Jean-François Grailet (last updated: January 7, 2020)*
 
 ## About
 
@@ -12,7 +12,7 @@ network. It has been already used in the past with `TreeNET` and `SAGE`, which y
 about by checking their dedicated repositories:
 
 https://github.com/JefGrailet/treenet<br/>
-https://github.com/JefGrailet/SAGE
+https://github.com/JefGrailet/SAGE_beta
 
 A _neighborhood_ is formally defined as a network location bordered by a set of subnets which are 
 located at at most one hop from each other. A neighborhood is typically inferred by looking at the 

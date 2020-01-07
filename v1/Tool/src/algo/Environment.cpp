@@ -57,6 +57,7 @@ Environment::Environment(ostream *cOut,
     ARVelocityMaxRollovers = 10;
     ARVelocityBaseTolerance = 0.2;
     ARVelocityMaxError = 0.35;
+    ARStrictMode = false;
     
     maxThreads = 256;
     probingThreadDelay = TimeVal(0, TimeVal::HALF_A_SECOND); // 0,5s

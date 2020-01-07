@@ -1,0 +1,76 @@
+WISE (Wide and lInear Subnet inferencE) v1.1 - Time at start: 02-12-2019 10:00:15
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 181693 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 162 additional responsive IPs.
+--- End of target pre-scanning (02-12-2019 11:24:20) ---
+Elapsed time: 1 hour 24 minutes 4 seconds
+Total amount of probes: 442435
+Total amount of successful probes: 223569 (50.5315%)
+Total amount of discovered responsive IPs: 181855
+
+Filtered target IPs have been saved in an output file AS6762_02-12.ips (temporar).
+
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 257 threads will be scheduled (up to 710 target IPs per thread).
+7908 out of 138599 IPs with an estimated TTL (5.70567%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 71 threads will be scheduled (from 3 to 396 target IPs per thread).
+
+There are flickering IPs that could lead to the discovery of 20 aliases.
+Now starting alias hints collection...
+Collecting hints for 12.89.215.6, 202.153.100.194... Done.
+Collecting hints for 61.148.8.22, 104.76.206.191, 219.142.2.158... Done.
+Collecting hints for 89.221.32.117, 213.144.177.216... Done.
+Collecting hints for 89.221.34.28, 195.22.208.75... Done.
+Collecting hints for 93.186.129.21, 93.186.129.23, 93.186.129.149, 93.186.129.151, 93.186.129.161, 93.186.129.163, 213.144.178.204, 213.144.178.206... Done.
+Collecting hints for 185.70.202.128, 185.70.202.130... Done.
+Collecting hints for 185.70.203.59, 185.70.203.63... Done.
+Collecting hints for 185.70.203.61, 185.70.203.65, 195.22.220.13, 195.22.220.15, 195.22.220.29, 195.22.220.31... Done.
+Collecting hints for 195.22.192.181, 195.22.205.77... Done.
+Collecting hints for 195.22.192.191, 195.22.196.213... Done.
+Collecting hints for 195.22.193.50, 213.144.178.149... Done.
+Collecting hints for 195.22.196.143, 195.22.205.209... Done.
+Collecting hints for 195.22.208.79, 195.22.208.117... Done.
+Collecting hints for 195.22.211.48, 195.22.211.50, 195.22.211.215... Done.
+Collecting hints for 195.22.211.127, 195.22.211.219, 195.22.214.23... Done.
+Collecting hints for 195.22.218.197, 195.22.218.199... Done.
+Collecting hints for 195.22.218.213, 195.22.218.215... Done.
+Collecting hints for 195.22.221.185, 195.22.221.189... Done.
+Collecting hints for 206.51.245.162, 206.51.245.166... Done.
+Collecting hints for 213.144.177.174, 213.144.177.200, 213.144.177.202, 213.144.177.228, 213.144.177.230... Done.
+Resolving... Done.
+--- End of target scanning (02-12-2019 23:16:27) ---
+Elapsed time: 11 hours 52 minutes 6 seconds
+Total amount of probes: 1595347
+Total amount of successful probes: 976760 (61.2256%)
+
+Updated IP dictionary has been saved in the output file AS6762_02-12.ips.
+
+--- Start of subnet inference ---
+Inferring subnets... Done.
+Post-processing the discovered subnets... Done.
+--- End of subnet inference (02-12-2019 23:20:08) ---
+Elapsed time: 3 minutes 41 seconds
+
+Inferred subnets has been saved in the output file AS6762_02-12.subnets.
+Alias hints have been saved in the output file AS6762_02-12.hints.
+Fingerprints have been saved in the output file AS6762_02-12.fingerprints.
+Aliases discovered during subnet discovery have been written in AS6762_02-12.aliases-1.
+
+--- Start of neighborhood inference ---
+Collecting additional data to discover and locate neighborhoods.
+
+5165 IPs will be used as targets for traceroute-like probing, using 256 threads (up to 21 targets per thread).
+Probing the 5165 target IPs... Done.
+--- End of neighborhood inference (02-12-2019 23:39:23) ---
+Elapsed time: 19 minutes 14 seconds
+Total amount of probes: 16895
+Total amount of successful probes: 12756 (75.5016%)
+
+Additional traceroute data has been saved in the output file AS6762_02-12.peers.
+Neighborhoods have been saved in the output file AS6762_02-12.neighborhoods.

@@ -32,11 +32,12 @@ const string ConfigFileParser::PARAM_TIMEVAL[] = {
 "concurrencyThreadDelay"
 };
 
-const unsigned short ConfigFileParser::N_PARAM_BOOL = 3;
+const unsigned short ConfigFileParser::N_PARAM_BOOL = 4;
 const string ConfigFileParser::PARAM_BOOL[] = {
 "probingFixedFlowParis", 
 "prescanningThirdOpinion", 
-"prescanningExpansion"
+"prescanningExpansion", 
+"aliasResolutionStrictMode"
 };
 
 const unsigned short ConfigFileParser::N_PARAM_STRING = 1;
@@ -99,10 +100,8 @@ list<string> ConfigFileParser::explode(string input, char delimiter)
 int ConfigFileParser::inArray(string needle, const string haystack[], unsigned short sizeHaystack)
 {
     for(unsigned short i = 0; i < sizeHaystack; i++)
-    {
         if(needle.compare(haystack[i]) == 0)
             return i;
-    }
     return -1;
 }
 
@@ -239,6 +238,9 @@ void ConfigFileParser::parse(string inputFileName)
                     break;
                 case 2:
                     env.setPrescanExpansion(val);
+                    break;
+                case 3:
+                    env.setARStrictMode(val);
                     break;
                 default:
                     break; // Unlikely

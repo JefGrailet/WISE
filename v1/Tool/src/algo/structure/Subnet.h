@@ -136,6 +136,8 @@ public:
     // Various outputs methods
     string getCIDR(bool verbose = false); // verbose => non-adjusted prefix will be given too
     string getAdjustedCIDR(); // Returns adjusted prefix, or default prefix if not adjusted
+    unsigned short getAdjustedPrefixLength(); // Same spirit, but just returns the prefix length
+    unsigned int getTotalCoveredIPs(); // Gets the amount of IPs covered by this (adjusted) subnet
     string toString();
     
     // Methods to sort and compare subnets

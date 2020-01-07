@@ -1,0 +1,49 @@
+WISE (Wide and lInear Subnet inferencE) v1.1 - Time at start: 26-11-2019 18:55:03
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 2971 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 10 additional responsive IPs.
+--- End of target pre-scanning (26-11-2019 21:06:28) ---
+Elapsed time: 2 hours 11 minutes 24 seconds
+Total amount of probes: 499813
+Total amount of successful probes: 9897 (1.98014%)
+Total amount of discovered responsive IPs: 2981
+
+Filtered target IPs have been saved in an output file AS286_26-11.ips (temporar).
+
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 94 threads will be scheduled (up to 32 target IPs per thread).
+653 out of 2952 IPs with an estimated TTL (22.1206%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 16 threads will be scheduled (from 1 to 88 target IPs per thread).
+--- End of target scanning (26-11-2019 21:33:09) ---
+Elapsed time: 26 minutes 41 seconds
+Total amount of probes: 17391
+Total amount of successful probes: 12348 (71.0022%)
+
+Updated IP dictionary has been saved in the output file AS286_26-11.ips.
+
+--- Start of subnet inference ---
+Inferring subnets... Done.
+Post-processing the discovered subnets... Done.
+--- End of subnet inference (26-11-2019 21:33:10) ---
+Elapsed time: 1 second
+
+Inferred subnets has been saved in the output file AS286_26-11.subnets.
+
+--- Start of neighborhood inference ---
+Collecting additional data to discover and locate neighborhoods.
+
+1381 IPs will be used as targets for traceroute-like probing, using 256 threads (up to 6 targets per thread).
+Probing the 1381 target IPs... Done.
+--- End of neighborhood inference (26-11-2019 21:35:57) ---
+Elapsed time: 2 minutes 47 seconds
+Total amount of probes: 1942
+Total amount of successful probes: 1534 (78.9907%)
+
+Additional traceroute data has been saved in the output file AS286_26-11.peers.
+Neighborhoods have been saved in the output file AS286_26-11.neighborhoods.

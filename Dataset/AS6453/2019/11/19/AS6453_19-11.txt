@@ -1,0 +1,77 @@
+WISE (Wide and lInear Subnet inferencE) v1.1 - Time at start: 19-11-2019 13:04:27
+
+--- Start of target pre-scanning ---
+Pre-scanning with initial timeout... done.
+Found a total of 51452 responsive IPs.
+Second opinion with twice the timeout (5sec : 0micsec)... done.
+Found a total of 84 additional responsive IPs.
+--- End of target pre-scanning (19-11-2019 17:16:03) ---
+Elapsed time: 4 hours 11 minutes 35 seconds
+Total amount of probes: 1051908
+Total amount of successful probes: 80014 (7.60656%)
+Total amount of discovered responsive IPs: 51536
+
+Filtered target IPs have been saved in an output file AS6453_19-11.ips (temporar).
+
+--- Start of target scanning ---
+Starting the estimation of distance of all target IPs (in TTL).
+To do this, 257 threads will be scheduled (up to 201 target IPs per thread).
+1954 out of 51469 IPs with an estimated TTL (3.79646%) need to be re-probed to improve trails.
+Starting re-probing target IPs with incomplete trails.
+Starting re-probing n°1.
+To do this, 33 threads will be scheduled (from 1 to 236 target IPs per thread).
+
+There are flickering IPs that could lead to the discovery of 21 aliases.
+Now starting alias hints collection...
+Collecting hints for 5.23.21.2, 80.231.200.57... Done.
+Collecting hints for 5.23.30.17, 5.23.30.20, 43.241.41.5, 62.115.116.162, 62.115.121.1, 62.115.121.7, 62.115.121.9, 62.115.137.129, 62.115.141.235, 62.115.141.237, 62.115.141.241, 63.243.128.29, 63.243.128.31, 63.243.128.37, 63.243.128.94, 63.243.129.10, 63.243.152.62, 63.243.153.26, 63.243.205.2, 63.243.205.13, 63.243.205.73, 63.243.205.75, 63.243.216.22, 64.86.21.2, 64.86.21.41, 64.86.21.102, 64.86.31.27, 64.86.31.29, 64.86.32.33, 64.86.33.102, 64.86.79.1, 64.86.79.5, 64.86.85.1, 64.86.85.18, 64.86.113.149, 64.86.123.92, 64.86.188.1, 64.86.226.57, 64.86.228.38, 64.86.252.57, 64.86.252.66, 64.86.252.141, 64.86.252.210, 64.86.252.217, 64.86.252.230, 66.110.16.5, 66.110.48.1, 66.110.56.6, 66.110.57.42, 66.110.96.5, 66.198.111.142, 66.198.154.25, 66.198.154.34, 66.198.154.69, 66.198.154.130, 66.198.154.178, 80.231.14.247, 80.231.18.10, 80.231.48.30, 80.231.58.4, 80.231.58.42, 80.231.62.57, 80.231.91.66, 80.231.91.105, 80.231.111.1, 80.231.111.29, 80.231.124.14, 80.231.130.26, 80.231.130.47, 80.231.130.93, 80.231.130.109, 80.231.130.111, 80.231.130.114, 80.231.130.121, 80.231.130.123, 80.231.130.130, 80.231.130.134, 80.231.131.1, 80.231.131.118, 80.231.131.158, 80.231.131.160, 80.231.131.221, 80.231.138.13, 80.231.139.2, 80.231.139.26, 80.231.139.41, 80.231.139.66, 80.231.139.86, 80.231.152.42, 80.231.153.38, 80.231.153.50, 80.231.153.89, 80.231.153.130, 80.231.153.178, 80.231.153.234, 80.231.154.143, 80.231.154.174, 80.231.158.6, 80.231.158.29, 80.231.159.13, 80.231.159.62, 80.231.163.2, 80.231.199.150, 80.231.200.53, 80.231.200.77, 80.231.205.5, 80.231.217.1, 80.231.217.5, 80.231.217.30, 80.231.217.91, 80.231.217.101, 80.231.217.197, 120.29.217.10, 180.87.32.4, 180.87.36.34, 180.87.36.50, 180.87.37.9, 180.87.38.2, 180.87.38.125, 180.87.39.159, 180.87.140.14, 180.87.140.25, 180.87.152.166, 180.87.180.1, 180.87.181.46, 180.87.181.72, 180.87.181.93, 180.231.217.122, 195.219.9.34, 195.219.10.37, 195.219.57.7, 195.219.61.48, 195.219.81.16, 195.219.81.117, 195.219.87.2, 195.219.87.10, 195.219.87.18, 195.219.87.22, 195.219.87.28, 195.219.87.31, 195.219.87.34, 195.219.87.88, 195.219.87.94, 195.219.87.101, 195.219.87.103, 195.219.87.151, 195.219.87.195, 195.219.100.134, 195.219.124.54, 195.219.131.130, 195.219.134.1, 195.219.152.8, 195.219.156.22, 195.219.156.38, 195.219.156.132, 195.219.156.135, 195.219.163.63, 195.219.173.79, 195.219.183.10, 195.219.183.118, 195.219.194.6, 195.219.194.46, 195.219.194.149, 195.219.241.10, 195.219.246.77, 202.183.69.29, 207.45.206.0, 209.58.18.25, 213.248.82.41, 216.6.57.6, 216.6.81.29, 216.6.87.2, 216.6.87.21, 216.6.87.42, 216.6.87.111, 216.6.87.146, 216.6.115.89... Done.
+Collecting hints for 40.132.59.35, 169.130.170.171... Done.
+Collecting hints for 41.220.28.82, 197.221.232.3, 197.221.232.4, 197.221.232.8, 209.88.92.78... Done.
+Collecting hints for 63.243.128.57, 64.86.248.5... Done.
+Collecting hints for 63.243.205.131, 63.243.251.1, 64.86.152.21, 64.86.197.6, 66.110.59.8, 116.0.76.161, 120.29.195.19... Done.
+Collecting hints for 64.86.232.206, 80.231.130.62... Done.
+Collecting hints for 66.198.70.61, 216.6.112.5... Done.
+Collecting hints for 66.198.182.34, 209.58.75.114, 209.58.75.137, 209.58.75.198, 209.58.75.218, 216.6.90.21, 216.6.90.73... Done.
+Collecting hints for 80.231.134.204, 80.231.135.50, 80.231.135.52... Done.
+Collecting hints for 80.231.218.21, 195.219.156.73... Done.
+Collecting hints for 83.231.146.90, 129.250.2.136... Done.
+Collecting hints for 103.16.252.52, 180.87.140.42... Done.
+Collecting hints for 110.175.91.146, 203.220.35.10... Done.
+Collecting hints for 116.0.71.193, 116.0.93.168, 180.87.12.2, 180.87.12.226, 180.87.15.81, 180.87.15.211, 180.87.96.21, 180.87.98.37, 180.87.136.18, 180.87.162.26... Done.
+Collecting hints for 116.0.82.61, 116.0.82.62, 116.0.93.137, 116.0.93.141, 120.29.216.71... Done.
+Collecting hints for 120.29.217.22, 120.29.217.66, 180.87.180.58, 209.58.86.143... Done.
+Collecting hints for 180.87.68.18, 180.87.141.121... Done.
+Collecting hints for 184.95.0.42, 208.91.192.242... Done.
+Collecting hints for 197.214.64.45, 197.214.66.20... Done.
+Collecting hints for 202.151.89.217, 210.57.80.230... Done.
+Resolving... Done.
+--- End of target scanning (19-11-2019 18:28:58) ---
+Elapsed time: 1 hour 12 minutes 55 seconds
+Total amount of probes: 230482
+Total amount of successful probes: 218873 (94.9632%)
+
+Updated IP dictionary has been saved in the output file AS6453_19-11.ips.
+
+--- Start of subnet inference ---
+Inferring subnets... Done.
+Post-processing the discovered subnets... Done.
+--- End of subnet inference (19-11-2019 18:29:49) ---
+Elapsed time: 51 seconds
+
+Inferred subnets has been saved in the output file AS6453_19-11.subnets.
+Alias hints have been saved in the output file AS6453_19-11.hints.
+Fingerprints have been saved in the output file AS6453_19-11.fingerprints.
+Aliases discovered during subnet discovery have been written in AS6453_19-11.aliases-1.
+
+--- Start of neighborhood inference ---
+Collecting additional data to discover and locate neighborhoods.
+
+11013 IPs will be used as targets for traceroute-like probing, using 256 threads (up to 44 targets per thread).
+Probing the 11013 target IPs... Done.
+--- End of neighborhood inference (19-11-2019 18:38:43) ---
+Elapsed time: 8 minutes 54 seconds
+Total amount of probes: 18646
+Total amount of successful probes: 16784 (90.0139%)
+
+Additional traceroute data has been saved in the output file AS6453_19-11.peers.
+Neighborhoods have been saved in the output file AS6453_19-11.neighborhoods.

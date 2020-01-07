@@ -335,14 +335,6 @@ bool AliasResolver::reverseDNS(IPTableEntry *ip1, IPTableEntry *ip2)
     return false;
 }
 
-/*
-void AliasResolver::resolve(Neighborhood *n)
-{
-    this->discover(n->listAllInterfaces(), n->getAliases());
-    this->postProcess(n->getAliases(), n->getSubnets());
-}
-*/
-
 list<Alias*> AliasResolver::resolve(list<IPTableEntry*> IPs, bool strict)
 {
     list<Alias*> result;
@@ -807,67 +799,3 @@ void AliasResolver::discover(list<IPTableEntry*> IPs, list<Alias*> *results, boo
         }
     }
 }
-
-/*
- * Following method needs to be kept and updated in SAGE v2.0 (TODO). Parts of it have been 
- * already prepared.
- */
-
-/*
-void AliasResolver::postProcess(list<Alias*> *results, list<Subnet*> *subnets)
-{
-    // Removes the aliases consisting of a single interface which happens to be a candidate 
-    // contra-pivot of an ODD subnet, except if this is a neighborhood label.
-    //
-    // N.B.: checking the interface appears in the subnet responsive IPs list is enough, as the 
-    // pivots were not listed at all in the potential interfaces.
-     
-    for(list<Alias*>::iterator i = results->begin(); i != results->end(); ++i)
-    {
-        if((*i)->getNbInterfaces() == 1)
-        {
-            InetAddress interface = (InetAddress) *((*i)->getInterfacesList()->front()->ip);
-            
-            bool inOddSubnet = false, neighborhoodLabel = false;
-            for(list<Subnet*>::iterator j = subnets->begin(); j != subnets->end(); ++j)
-            {
-                // TODO
-                Subnet *sn = (*j);
-                if(sn->getStatus() == SubnetSite::ODD_SUBNET && sn->getNode(interface) != NULL)
-                    inOddSubnet = true;
-                if(sn->getNeighborhoodLabelAnomalies() == 0 && sn->getNeighborhoodLabelIP() == interface)
-                    neighborhoodLabel = true;
-            }
-            
-            if(inOddSubnet && !neighborhoodLabel)
-            {
-                delete (*i);
-                results->erase(i--);
-            }
-        }
-    }
-    
-    // Then, the list is sorted and duplicates are removed. Duplicates are a very rare occurrence 
-    // but can happen when the contra-pivot of a subnet and the neighborhood label IP for this 
-    // subnet are the same IP (a consequence of a specific routing policy or a bad measurement).
-    
-    results->sort(Alias::compare);
-    Alias *previousAlias = NULL;
-    for(list<Alias*>::iterator i = results->begin(); i != results->end(); ++i)
-    {
-        Alias *cur = (*i);
-        if(previousAlias != NULL)
-        {
-            if(cur->equals(previousAlias))
-            {
-                delete cur;
-                results->erase(i--);
-            }
-            else
-                previousAlias = cur;
-        }
-        else
-            previousAlias = cur;
-    }
-}
-*/

@@ -107,16 +107,17 @@ public:
     
     inline unsigned short getMaxPeerDiscoveryPivots() { return maxPeerDiscoveryPivots; }
     
-    inline unsigned short getARNbIPIDs() { return this->ARNbIPIDs; }
-    inline unsigned short getARAllyMaxDiff() { return this->ARAllyMaxDiff; }
-    inline unsigned short getARAllyMaxConsecutiveDiff() { return this->ARAllyMaxConsecutiveDiff; }
-    inline unsigned short getARVelocityMaxRollovers() { return this->ARVelocityMaxRollovers; }
-    inline double getARVelocityBaseTolerance() { return this->ARVelocityBaseTolerance; }
-    inline double getARVelocityMaxError() { return this->ARVelocityMaxError; }
+    inline unsigned short getARNbIPIDs() { return ARNbIPIDs; }
+    inline unsigned short getARAllyMaxDiff() { return ARAllyMaxDiff; }
+    inline unsigned short getARAllyMaxConsecutiveDiff() { return ARAllyMaxConsecutiveDiff; }
+    inline unsigned short getARVelocityMaxRollovers() { return ARVelocityMaxRollovers; }
+    inline double getARVelocityBaseTolerance() { return ARVelocityBaseTolerance; }
+    inline double getARVelocityMaxError() { return ARVelocityMaxError; }
+    inline bool usingStrictAliasResolution() { return ARStrictMode; }
     
     // Output stream and external log feature
     ostream *getOutputStream();
-    inline bool usingExternalLogs() { return this->externalLogs; }
+    inline bool usingExternalLogs() { return externalLogs; }
     
     /**********
     * Setters *
@@ -138,6 +139,7 @@ public:
     inline void setUsingFixedFlowID(bool val) { useFixedFlowID = val; }
     inline void setPrescanThirdOpinion(bool val) { prescanThirdOpinion = val; }
     inline void setPrescanExpansion(bool val) { prescanExpand = val; }
+    inline void setARStrictMode(bool val) { ARStrictMode = val; }
     
     // String parameter
     inline void setAttentionMessage(string msg) { probeAttentionMessage = msg; }
@@ -152,14 +154,14 @@ public:
     inline void setScanningMaxFlickeringDelta(unsigned short m) { scanMaxFlickeringDelta = m; }
     inline void setOutliersRatioDivisor(unsigned short d) { outliersRatioDivisor = d; }
     inline void setMaxPeerDiscoveryPivots(unsigned short m) { maxPeerDiscoveryPivots = m; }
-    inline void setARNbIPIDs(unsigned short nb) { this->ARNbIPIDs = nb; }
-    inline void setARAllyMaxDiff(unsigned short diff) { this->ARAllyMaxDiff = diff; }
-    inline void setARAllyMaxConsecutiveDiff(unsigned short diff) { this->ARAllyMaxConsecutiveDiff = diff; }
-    inline void setARVelocityMaxRollovers(unsigned short max) { this->ARVelocityMaxRollovers = max; }
+    inline void setARNbIPIDs(unsigned short nb) { ARNbIPIDs = nb; }
+    inline void setARAllyMaxDiff(unsigned short diff) { ARAllyMaxDiff = diff; }
+    inline void setARAllyMaxConsecutiveDiff(unsigned short diff) { ARAllyMaxConsecutiveDiff = diff; }
+    inline void setARVelocityMaxRollovers(unsigned short max) { ARVelocityMaxRollovers = max; }
     
     // Double parameters
-    inline void setARVelocityBaseTolerance(double base) { this->ARVelocityBaseTolerance = base; }
-    inline void setARVelocityMaxError(double max) { this->ARVelocityMaxError = max; }
+    inline void setARVelocityBaseTolerance(double base) { ARVelocityBaseTolerance = base; }
+    inline void setARVelocityMaxError(double max) { ARVelocityMaxError = max; }
     
     /****************
     * Other methods *
@@ -253,6 +255,7 @@ private:
     unsigned short ARVelocityMaxRollovers;
     double ARVelocityBaseTolerance;
     double ARVelocityMaxError;
+    bool ARStrictMode;
     
     // Concurrency parameters
     unsigned short maxThreads;

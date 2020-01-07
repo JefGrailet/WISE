@@ -1,6 +1,6 @@
 # Validating WISE (and comparing it to other tools)
 
-*By Jean-François Grailet (last updated: September 19, 2019)*
+*By Jean-François Grailet (last updated: January 7, 2020)*
 
 ## About
 
@@ -46,7 +46,7 @@ sudo ./sage Targets.txt -l My_data -j -k > My_data.txt 2>&1 &
 
 You can get `SAGE` (source code, measurements, etc.) at the following URL:
 
-https://github.com/JefGrailet/sage
+https://github.com/JefGrailet/SAGE_beta
 
 Finally, it's worth noting that:
 
