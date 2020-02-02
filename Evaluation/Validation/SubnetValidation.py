@@ -38,7 +38,8 @@ def diffPrefix(subnet1, subnet2):
     return lenPrefix1 - lenPrefix2
 
 def compareSets(groundtruth, measurement):
-    results = []
+    dictionary = dict() # Detailed dictionary "groundtruth prefix" => "matched prefix"
+    results = [] # Results of comparison of the prefixes (index 11 => perfect match)
     for i in range(0, 23):
         results.append(0)
     zeroIndex = 11
@@ -47,30 +48,67 @@ def compareSets(groundtruth, measurement):
     for subnet in groundtruth:
         if subnet in measurement:
             results[zeroIndex] += 1
+            dictionary[subnet] = subnet
         else:
             otherSubnets.append(subnet)
     
+    groundtruthSubnets = dict()
     for i in range(0, len(otherSubnets)):
         subnet1 = otherSubnets[i]
+        dictionary[subnet1] = "None"
+        groundtruthSubnets[subnet1] = 0
         for subnet2 in measurement:
             if encompass(subnet1, subnet2):
-                diff = diffPrefix(subnet1, subnet2)
-                results[zeroIndex - diff] += 1
+                diff = diffPrefix(subnet2, subnet1)
+                
+                # Case of an undergrown subnet; the smallest difference of prefix length is 
+                # recorded ("closest fit").
+                
+                if groundtruthSubnets[subnet1] == 0 or diff < groundtruthSubnets[subnet1]:
+                    groundtruthSubnets[subnet1] = diff
+                    dictionary[subnet1] = subnet2
             elif encompass(subnet2, subnet1):
                 diff = diffPrefix(subnet2, subnet1)
-                results[zeroIndex + diff] += 1
+                
+                # Case of an overgrown subnet; for a ground truth subnet, if an overgrown inferred 
+                # subnet overlaps it, there can be only one (therefore, no additional condition).
+                
+                groundtruthSubnets[subnet1] = diff
+                dictionary[subnet1] = subnet2
     
-    print(results)
+    # Records final results after fully processing the measurement
+    for i in range(0, len(otherSubnets)):
+        diff = groundtruthSubnets[otherSubnets[i]]
+        if diff != 0:
+            results[zeroIndex + diff] += 1
     
-    # Normalizing
+    # Normalizing the results
+    totalRaw = len(groundtruth)
     for i in range(0, 23):
         normalized = (float(results[i]) / float(len(groundtruth))) * 100
         results[i] = normalized
-    #sumArr = 0
-    #for i in range(0, 23):
-    #    sumArr += results[i]
-    #print(sumArr)
-    return results
+    return results, dictionary
+
+# Output utilities
+
+def getInferredPrefixString(prefix, inferred):
+    outputStr = inferred
+    if inferred != "None" and prefix != inferred:
+        if diffPrefix(prefix, inferred) > 0:
+            outputStr += " (O)"
+        else:
+            outputStr += " (U)"
+    return outputStr
+
+def getPadding(pseudoCell):
+    padding = "\t\t"
+    if pseudoCell == "None":
+        padding = "\t\t\t\t\t"
+    elif len(pseudoCell) >= 20:
+        padding = "\t"
+    elif len(pseudoCell) <= 15:
+        padding = "\t\t\t"
+    return padding
 
 if __name__ == "__main__":
 
@@ -96,9 +134,11 @@ if __name__ == "__main__":
     with open(groundtruthPath) as f:
         prefixesRaw = f.read().splitlines()
     groundtruth = set()
+    groundtruthOrdered = []
     for i in range(0, len(prefixesRaw)):
         if prefixesRaw[i] not in groundtruth:
             groundtruth.add(prefixesRaw[i])
+            groundtruthOrdered.append(prefixesRaw[i])
     
     # Checks existence of the .subnets file produced by WISE
     if not os.path.isfile(WISEFilePath):
@@ -161,47 +201,80 @@ if __name__ == "__main__":
                 ExploreNET.add(lineSplit[1])
             else:
                 print("Warning: " + lineSplit[1] + " is a duplicate in ExploreNET dataset.")
-   
-    # Prints perfectly inferred subnets found by TreeNET but not by WISE
-    perfectWISE = set()
-    perfectTreeNET = set()
-    for subnet in groundtruth:
-        if subnet in WISE:
-            perfectWISE.add(subnet)
-        if subnet in TreeNET:
-            perfectTreeNET.add(subnet)
     
-    missed = []
-    for subnet in perfectTreeNET:
-        if subnet not in perfectWISE:
-            missed.append(subnet)
-    missed.sort()
-    print("Missed by WISE:")
-    for i in range(0, len(missed)):
-        print(missed[i])
+    # Detailed output of ground truth prefixes with their matches for each dataset
+    compWISE, dictWISE = compareSets(groundtruth, WISE)
+    compTreeNET, dictTreeNET = compareSets(groundtruth, TreeNET)
+    compExploreNET, dictExploreNET = compareSets(groundtruth, ExploreNET)
     
-    compWISE = compareSets(groundtruth, WISE)
-    compTreeNET = compareSets(groundtruth, TreeNET)
-    compExploreNET = compareSets(groundtruth, ExploreNET)
+    # Important note: padding is designed for tabulations that are equivalent to 4 blank spaces
+    print("Ground truth\t\tWISE\t\t\t\t\tTreeNET\t\t\t\t\tExploreNET")
+    print("------------\t\t----\t\t\t\t\t-------\t\t\t\t\t----------")
+    for i in range(0, len(groundtruthOrdered)):
+        prefix = groundtruthOrdered[i]
+        
+        # Ground truth
+        lineStr = prefix
+        if len(prefix) <= 15:
+            lineStr += "\t\t"
+        else:
+            lineStr += "\t"
+        
+        # WISE
+        WISEStr = getInferredPrefixString(prefix, dictWISE[prefix])
+        lineStr += WISEStr + getPadding(WISEStr)
+        
+        # TreeNET
+        TreeNETStr = getInferredPrefixString(prefix, dictTreeNET[prefix])
+        lineStr += TreeNETStr + getPadding(TreeNETStr)
+        
+        # ExploreNET
+        lineStr += getInferredPrefixString(prefix, dictExploreNET[prefix])
+        
+        # Displays the line
+        print(lineStr)
+     
+    # Computes ratio of ground truth prefixes overlapping any inferred subnet
+    totalMatchedWISE = 0
+    totalMatchedTreeNET = 0
+    totalMatchedExploreNET = 0
+    for prefix in dictWISE:
+        if dictWISE[prefix] != "None":
+            totalMatchedWISE += 1
+    for prefix in dictTreeNET:
+        if dictTreeNET[prefix] != "None":
+            totalMatchedTreeNET += 1
+    for prefix in dictExploreNET:
+        if dictExploreNET[prefix] != "None":
+            totalMatchedExploreNET += 1
     
+    totalPrefixes = len(groundtruth)
+    ratioMatchedWISE = float(totalMatchedWISE) / float(totalPrefixes) * 100
+    ratioMatchedTreeNET = float(totalMatchedTreeNET) / float(totalPrefixes) * 100
+    ratioMatchedExploreNET = float(totalMatchedExploreNET) / float(totalPrefixes) * 100
+    
+    print("")
+    print("Ground truth prefixes matched by WISE: " + str(totalMatchedWISE) + " / " + str(totalPrefixes) + " (" + str('%.3f' % ratioMatchedWISE) + "%)")
+    print("Ground truth prefixes matched by TreeNET: " + str(totalMatchedTreeNET) + " / " + str(totalPrefixes) + " (" + str('%.3f' % ratioMatchedTreeNET) + "%)")
+    print("Ground truth prefixes matched by ExploreNET: " + str(totalMatchedExploreNET) + " / " + str(totalPrefixes) + " (" + str('%.3f' % ratioMatchedExploreNET) + "%)")
+        
     # Plots result
     hfont = {'fontname':'serif',
-             'fontsize':24}
+             'fontsize':30}
    
     hfont2 = {'fontname':'serif',
              'fontsize':22}
-   
-    hfont3 = {'fontname':'serif',
-             'fontsize':18}
 
-    plt.figure(figsize=(13,9))
+    plt.figure(figsize=(17,9))
     
     xAxis = range(0, len(compWISE), 1)
     plt.plot(xAxis, compWISE, color='#000000', linewidth=3, label="WISE")
-    plt.plot(xAxis, compTreeNET, color='#000000', linewidth=3, linestyle='--', label="TreeNET")
+    plt.plot(xAxis, compTreeNET, color='#000000', linewidth=2, linestyle='--', label="TreeNET")
     plt.plot(xAxis, compExploreNET, color='#000000', linewidth=2, linestyle=':', label="ExploreNET")
-    plt.rcParams.update({'font.size': 20})
-    plt.axvline(x=11, linewidth=2)
+    plt.rcParams.update({'font.size': 24})
+    plt.axvline(x=10, linewidth=4, linestyle='--', color='#009900')
+    plt.axvline(x=11, linewidth=4, color='#009900')
+    plt.axvline(x=12, linewidth=4, linestyle='--', color='#009900')
     
     highestPercent = 100
     maxValue = 0
@@ -231,7 +304,7 @@ if __name__ == "__main__":
     differences.append(0)
     for i in range(0, 11):
         differences.append(str(1 + i))
-    plt.xticks(xAxis, differences, **hfont3)
+    plt.xticks(xAxis, differences, **hfont2)
     
     plt.ylabel('Ratio of ground truth prefixes (%)', **hfont)
     plt.xlabel('Difference with ground truth prefixes', **hfont)

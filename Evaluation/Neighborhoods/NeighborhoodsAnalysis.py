@@ -262,7 +262,7 @@ if __name__ == "__main__":
     yticks = yaxis.get_major_ticks()
     yticks[0].label1.set_visible(False)
     
-    plt.ylabel('PDF with weighed neighborhoods', **hfont)
+    plt.ylabel('CDF with weighed neighborhoods', **hfont)
     plt.xlabel('Amount of peers', **hfont)
     plt.grid()
 

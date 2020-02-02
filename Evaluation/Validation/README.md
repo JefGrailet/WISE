@@ -1,6 +1,6 @@
 # Validating WISE (and comparing it to other tools)
 
-*By Jean-François Grailet (last updated: January 7, 2020)*
+*By Jean-François Grailet (last updated: February 2, 2020)*
 
 ## About
 
@@ -13,10 +13,10 @@ This folder provides a script *SubnetValidation.py* which can be used for severa
 The validation takes the form of a figure where the Y axis shows a ratio of subnets of the 
 groundtruth that are matched, while the X axis shows the difference in prefix length between an 
 inferred subnet and the groundtruth subnet. In the best of the worlds, 100% of the inferred 
-subnets should be located at the place where the blue bar is located, in the middle of the figure, 
-as it indicates that all inferred subnets matches perfectly the groundtruth.
+subnets should be located at the place where the green bar is located, in the middle of the 
+figure, as it indicates that all inferred subnets matches perfectly the groundtruth.
 
-Otherwise, the left side of the figure corresponds to overgrown subnets, while the right side 
+Typically, the left side of the figure corresponds to overgrown subnets, while the right side 
 corresponds to undergrown subnets. If the tool doesn't match exactly all prefixes, it is 
 desirable that the curve appears more elevated on the right side of the figure (especially at 
 1 and 2) rather than the left side for two reasons:
@@ -59,6 +59,18 @@ Finally, it's worth noting that:
 before and after being post-processed to be adjusted in size. By default, the validation script 
 compares *raw* prefixes (i.e., before post-processing), but appending the command-line with 
 *--adjusted* will make it use the adjusted prefixes instead.
+
+**Update (February 2, 2020):** the aesthetics of the figure have been modified. The main line in 
+the middle of the figure is now green, with side dashed green lines appearing at the surrounding 
+indexes in order to highlight the subnets which the prefix differs by at most one bit from the 
+groundtruth. The way undergrown subnets are taken into account has also been modified. When a 
+groundtruth prefix is matched with several undergrown subnets, the script will only take account 
+of the largest undergrown subnet of the bunch to generate the figure. This also allows to compute 
+the ratio of groundtruth prefixes that were matched by inferred subnets, which is displayed in 
+the terminal just before generating the figure. The terminal also now displays a detailed list of 
+groundtruth prefixes along with the prefix that were matched in the measurements; note that you 
+might have to modify the amount of tabs to get all elements properly aligned (see the 
+`getPadding()` function in *SubnetValidation.py*).
 
 ## Contact
 
