@@ -1,6 +1,6 @@
 # About WISE v1.1 (wise)
 
-*By Jean-François Grailet (last updated: January 7, 2020)*
+*By Jean-François Grailet (last updated: April 8, 2020)*
 
 ## About the code
 
@@ -30,6 +30,8 @@ make
 ```
 
 ## Deployement on PlanetLab testbed
+
+**Remark: in late May 2020, [PlanetLab will be shut down](https://www.systemsapproach.org/blog/its-been-a-fun-ride). This section is therefore now outdated, but left untouched in case one would want to deploy `WISE` in an environment comparable to PlanetLab.**
 
 If you intent to use `WISE` from the PlanetLab testbed, here is some advice.
 

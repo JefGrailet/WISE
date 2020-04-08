@@ -1,8 +1,10 @@
 # Dataset
 
-*By Jean-François Grailet (last updated: January 7, 2020)*
+*By Jean-François Grailet (last updated: April 8, 2020)*
 
 ## About
+
+**Remark: in late May 2020, [PlanetLab will be shut down](https://www.systemsapproach.org/blog/its-been-a-fun-ride). The vantage points mentioned in our different snapshots will therefore no longer be available.**
 
 The data provided in this repository consists in separate datasets provided for a variety of 
 Autonomous Systems (or ASes) for specific dates. Each dataset was obtained by running a single 
@@ -21,7 +23,7 @@ dates of each campaign present in this dataset are provided below.
 | 04/09/2019   | 17/09/2019 | 13              | 7        |
 | 16/09/2019   | 23/09/2019 | 4               | 8        |
 | 12/11/2019   | 17/11/2019 | 5               | 9        |
-| 19/11/2019   | 06/12/2019 | 12               | 10       |
+| 19/11/2019   | 06/12/2019 | 12              | 10       |
 
 The ASes targetted by each campaign as well as the sets of involved PlanetLab nodes can be found 
 in the "CampaignX.md" files at the root of this folder, where X is the number of the campaign as 

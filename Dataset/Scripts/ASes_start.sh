@@ -40,7 +40,7 @@ do
     command1="cd WISE;"
     command2="sudo -S -b ./wise ${targets[$i]}.txt -l ${targets[$i]}_$date > ${targets[$i]}_$date.txt 2>&1 &"
     commands=$command1" "$command2
-    ssh ulgple_lisp@${nodes[$j]} -i ~/.ssh/id_rsa -t $commands
+    ssh ulgple_lisp@${nodes[$j]} -i ~/.ssh/id_rsa -t $commands # TODO: adapt login
     i=`expr $i + 1`
 done
 

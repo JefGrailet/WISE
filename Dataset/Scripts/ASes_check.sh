@@ -29,7 +29,7 @@ do
     j=$((($i+$rotationNumber)%$n_nodes))
     echo "State of ${nodes[$j]}"
     commands="cd WISE; ls -l;"
-    ssh ulgple_lisp@${nodes[$j]} -i ~/.ssh/id_rsa -T $commands
+    ssh ulgple_lisp@${nodes[$j]} -i ~/.ssh/id_rsa -T $commands # TODO: adapt login
     i=`expr $i + 1`
 done
 

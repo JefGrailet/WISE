@@ -47,6 +47,7 @@ command3="rm Date_ASes;"
 commandsCreate=$command1" "$command2
 commandsErase=$command1" "$command3
 
+# TODO: change dest path of Date_ASes for THIS folder + adapt SSH login
 ssh ulgple_lisp@${nodes[$rotationNumber]} -i ~/.ssh/id_rsa -t $commandsCreate
 scp -r ulgple_lisp@${nodes[$rotationNumber]}:/home/ulgple_lisp/WISE/Date_ASes /home/jefgrailet/PhD/Campaigns/WISE/
 ssh ulgple_lisp@${nodes[$rotationNumber]} -i ~/.ssh/id_rsa -t $commandsErase
@@ -70,25 +71,25 @@ month=${date_split[1]}
 
 # Now actually retrieving measurements
 i=0
-sourceFolder=/home/ulgple_lisp/WISE
+sourceFolder=/home/ulgple_lisp/WISE # TODO: adapt
 while [ $i -lt $n_nodes ]
 do
     j=$((($i+$rotationNumber)%$n_nodes))    
     echo "Getting and processing measurements of ${targets[$i]} from ${nodes[$j]}"
     mkdir -p ./${targets[$i]}/$year/$month/$day
-    destFolder=/home/jefgrailet/PhD/Campaigns/WISE/${targets[$i]}/$year/$month/$day
+    destFolder=/home/jefgrailet/PhD/Campaigns/WISE/${targets[$i]}/$year/$month/$day # TODO: adapt
     
-    # Downloads the output files
+    # Downloads the output files (+ TODO: adapt SSH login)
     scp -r ulgple_lisp@${nodes[$j]}:$sourceFolder/${targets[$i]}_$date.* $destFolder/
     
-    # Writes vantage point (01/03/2016)
+    # Writes vantage point
     echo ${nodes[$j]} > VP.txt
     mv VP.txt $destFolder
     
     # Cleaning remote host
     echo "Cleaning remote PlanetLab node..."
-    commands="cd WISE; rm "${targets[$i]}"_*;" # rm Log_*;"
-    ssh ulgple_lisp@${nodes[$j]} -i ~/.ssh/id_rsa -t $commands
+    commands="cd WISE; rm "${targets[$i]}"_*;"
+    ssh ulgple_lisp@${nodes[$j]} -i ~/.ssh/id_rsa -t $commands # TODO: adapt
     
     i=`expr $i + 1`
 done

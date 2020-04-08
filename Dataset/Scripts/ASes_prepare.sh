@@ -36,13 +36,16 @@ while [ $i -lt $n_nodes ]
 do
     j=$((($i+$rotationNumber)%$n_nodes))
     echo "Preparation of ${nodes[$j]}"
-    homeFolder=/home/jefgrailet/PhD
-    commands="mkdir -p WISE; cd WISE; rm AS*; " # rm Log*; rm Additional.txt; "
+    homeFolder=/home/jefgrailet/PhD # TODO: change this
+    commands="mkdir -p WISE; cd WISE; rm AS*; "
     commandsNext="cd WISE; chmod 755 wise;"
-    ssh ulgple_lisp@${nodes[$j]} -i ~/.ssh/id_rsa -T $commands
+    ssh ulgple_lisp@${nodes[$j]} -i ~/.ssh/id_rsa -T $commands # TODO: adapt login
+    
+    # TODO: change the paths to adapt this script to your file system
     scp -i ~/.ssh/id_rsa $homeFolder/Executables\ PlanetLab/i686/wise ulgple_lisp@${nodes[$j]}:/home/ulgple_lisp/WISE
     scp -i ~/.ssh/id_rsa $homeFolder/Campaigns/WISE/${targets[$i]}/${targets[$i]}.txt ulgple_lisp@${nodes[$j]}:/home/ulgple_lisp/WISE
-    ssh ulgple_lisp@${nodes[$j]} -i ~/.ssh/id_rsa -T $commandsNext
+    
+    ssh ulgple_lisp@${nodes[$j]} -i ~/.ssh/id_rsa -T $commandsNext # TODO: adapt
     i=`expr $i + 1`
 done
 
