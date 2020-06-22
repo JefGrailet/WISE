@@ -92,8 +92,8 @@ files:
 * **.ips file:** lists all IPs that were discovered during pre-scanning along their associated
   data (i.e., IP dictionary). Special IPs (e.g. IPs which appeared at different hop counts) are 
   also annotated with additional details.
-* **.subnets file:** lists, in order, all the subnets that were inferred along their responsive
-  interfaces.
+* **.subnets file:** lists all the subnets that were inferred along with their responsive 
+  interfaces, ordered w.r.t. their prefix IP (i.e. _smaller_ prefix IPs first).
 * **.txt file:** gives the details about how the measurement went, i.e., it gives the detailed 
   amount of probes used by each phase along the time they took for completion.
 * **VP.txt:** gives the PlanetLab node (the **v**antage **p**oint) used to measure the AS on that 
