@@ -1,12 +1,12 @@
 # WISE (Wide and lInear Subnet inferencE)
 
-*By Jean-François Grailet (last updated: April 8, 2020)*
+*By Jean-François Grailet (last updated: June 23, 2020)*
 
 ## Overview
 
-`WISE` is a novel subnet inference tool which purpose is to overcome the limitations of state-of-the-art tools such as `TreeNET` and `ExploreNET`, in both accuracy and performance. In particular, it is able to complete its subnet inference in a time proportional to the amount of responsive IPs found within a target domain, which drastically reduces its execution time on large target networks.
+`WISE` is a new subnet inference tool which purpose is to overcome the limitations of state-of-the-art tools such as `TreeNET` and `ExploreNET`, in terms of both accuracy and performance. In particular, it is able to complete its subnet inference in a time proportional to the amount of responsive IPs found within a target domain, which drastically reduces its execution time on large target networks.
 
-`WISE` is designed such that it first completely analyzes the target network to both detect responsive IPs and collect some data on each (such as their respective distance as a minimal Time To Live value to get a proper reply) before conducting any subnet inference. All preliminary steps are accomplished in a linear time, but in practice, the data collection process uses some heuristics to speed up the whole process. If we except a short preliminary step which conducts alias resolution on a restricted set of IPs, the subnet inference itself is completely offline and is achieved by processing all discovered and analyzed IPs one by one, aggregating them in consecutive subnets (with respect to the address space).
+`WISE` is designed such that it first completely analyzes the target network to both detect responsive IPs and collect some data on each (such as their respective distance as a minimal Time To Live value to get a proper reply) before conducting any subnet inference. All preliminary steps are accomplished in a linear time, but in practice, the data collection process uses some heuristics to speed up the whole process. If we except a short preliminary step which conducts alias resolution on a restricted set of IPs, the subnet inference itself is completely offline and is achieved by processing all discovered and analyzed IP addresses one by one, aggregating them in consecutive subnets (with respect to the address space).
 
 `WISE` is currently only available for IPv4, but its design is arguably much better suited for IPv6 than previous subnet inference tools. It also comes as a 32-bit application (written in C/C++ for Linux distributions) to ensure compatibility with all testbed environments.
 
@@ -14,7 +14,7 @@
 
 **`WISE` has been expanded into a new tool: [`SAGE`](https://github.com/JefGrailet/SAGE). Future updates of `WISE` will therefore mostly consist of minor fixes and adjustements that will also be applied to `SAGE`.**
 
-It's worth noting that `WISE` is coded such that it can run on any machine, and in particular old environments. Indeed, `WISE` has been deployed almost exclusively on the PlanetLab testbed (which will be shut down at the end of May 2020, [as explained here](https://www.systemsapproach.org/blog/its-been-a-fun-ride)), where a lot of machines used to be 32-bit systems running with [Fedora 8](https://en.wikipedia.org/wiki/Fedora_(operating_system)). This is why it is still designed to be a 32-bit application and why it doesn't use features from newer C++ versions.
+It's worth noting that `WISE` is coded such that it can run on any machine, and in particular old environments. Indeed, `WISE` has been deployed almost exclusively on the PlanetLab testbed (which will be shut down during 2020, [as explained here](https://www.systemsapproach.org/blog/its-been-a-fun-ride)), where a lot of machines used to be 32-bit systems running with [Fedora 8](https://en.wikipedia.org/wiki/Fedora_(operating_system)). This is why it is still designed to be a 32-bit application and why it doesn't use features from C++11 and onwards.
 
 ## Publications
 
@@ -32,7 +32,7 @@ It's worth noting that `WISE` is coded such that it can run on any machine, and 
 
 This repository consists of the following content:
 
-* **Dataset/** provides datasets for various Autonomous Systems (or ASes) we measured with `WISE` from the PlanetLab testbed, from Fall 2018 to December 2019. Note that the earliest datasets only consist of IP dictionaries, as we used them to study our target networks and progressively design the final `WISE` v1.0.
+* **Dataset/** provides measurements collected for various Autonomous Systems (or ASes) from the PlanetLab testbed with `WISE`, from Fall 2018 to December 2019. Note that the earliest datasets only consist of IP dictionaries, as we used them to study our target networks and progressively design the final `WISE` v1.0.
 
 * **Evaluation/** provides several sub-folders consisting of Python scripts written to build figures and the figures that were obtained on our public dataset. The purpose of each kind of figure is further described in additional README files. Two sub-folders in particular also briefly review how we validate `WISE` and compare it to `TreeNET` and `ExploreNET` and how we evaluate the _neighborhoods_ discovered with `WISE` v1.1.
 
