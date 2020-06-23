@@ -55,14 +55,14 @@ A few remarks about this public dataset:
 * For the sake of reproducibility, we also provide in a **Scripts/** folder the bash scripts and 
   the typical files we used to schedule and retrieve our measurements.
 
-## Composition of each dataset
+## Composition of this dataset
 
 For each AS sub-folder, you will find one or several *.txt* files listing the IPv4 prefixes 
 retrieved with the BGP toolkit from Hurricane Electric along with sub-folders matching with the 
 year and date of each measurement. Each unique set of files (or _snapshot_) is matched with a 
 sub-path /yyyy/mm/dd/.
 
-### Typical content of a dataset
+### Typical content
 
 A dataset for a given autonomous system consists of several _snapshots_ which are collections of 
 files computed during a single measurement of said AS from a single vantage point (or VP) using a 
@@ -75,7 +75,7 @@ is lower than another address displayed in the same format. In practice, an IP a
 than another when it contains the same first bytes then a lower byte (or when the first byte is 
 lower). `1.2.3.5` is lower than both `1.2.3.6` and `2.2.3.5`.
 
-### Before December 28, 2018 
+### Typical content before December 28, 2018 
 
 Snapshots collected before that date correspond to preliminary measurements used to design and 
 calibrate the subnet inference of `WISE`. Inside, you will find the following files:
@@ -90,7 +90,7 @@ Note that the date of measurement is only the date at which the measurement was 
 most if not all measurements could be completed in less than 24 hours, hence why most measurements 
 could be renewed on a daily basis with a different vantage point each day.
 
-### Between December 28, 2018 and February 28, 2019 (included)
+### Typical content between December 28, 2018 and February 28, 2019 (included)
 
 Snapshots collected after that date are complete, i.e., they were obtained with a full 
 implementation of `WISE` and provides all inferred subnets. Inside, you will find the following 
@@ -121,7 +121,7 @@ with a few exceptions (large and/or very responsive networks), `WISE` is usually
 completing said measurement in less than 24 hours, hence why some ASes could be measured on a 
 daily basis with a different vantage point each day.
 
-### After September 4, 2019 (included)
+### Typical content after September 4, 2019 (included)
 
 Starting from September 4, 2019, we deployed `WISE` v1.1 on PlanetLab for new campaigns. This 
 upgraded version produces the same output files as previously as well as new additional output 
