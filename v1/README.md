@@ -1,14 +1,14 @@
 # About WISE v1.1 (wise)
 
-*By Jean-François Grailet (last updated: April 8, 2020)*
+*By Jean-François Grailet (last updated: June 23, 2020)*
 
 ## About the code
 
-Since it needs to be compatible with old environments (e.g. Fedora 8, see remarks on deployment below), `WISE` is written in an _old-fashioned_ C++, i.e., it doesn't take advantage of the changes brought by C++11 and onwards. As already said elsewhere, it is also designed to be a 32-bit application for the same reason. This said, after its many campaigns run from the PlanetLab testbed towards all kinds of target networks, it is safe to assume `WISE` is unlikely to crash or mismanage memory. It has been, on top of that, been extensively tested with `valgrind` on a local network.
+Since it initially needed to be compatible with old environments (e.g. Fedora 8, see remarks on deployment below), `WISE` is written in an _old-fashioned_ C++, i.e., it doesn't take advantage of the changes brought by C++11 and onwards. As already said elsewhere, it is also designed to be a 32-bit application for the same reason. This said, after several campaigns run from the PlanetLab testbed towards all kinds of target networks without getting a suspicious crash, it is safe to assume `WISE` is unlikely to mismanage memory. On top of that, it has been extensively tested with `valgrind` on a local network.
 
 ## About the sub-folders "Legacy" and "Tool"
 
-In late October 2019, the source code of `WISE` has been thoroughly reviewed before being used as a basis for a future topology discovery tool. There were two motivations for this:
+In late October 2019, the source code of `WISE` has been thoroughly reviewed before being used as a basis for a new topology discovery tool. There were two motivations for this:
 * to remove old classes and other old pieces of code inherited from `ExploreNET` (`ExploreNET` being the basis of `TreeNET` and the first version of `SAGE`), 
 * to reduce the amount of dynamic memory allocations overall.
 
@@ -31,7 +31,7 @@ make
 
 ## Deployement on PlanetLab testbed
 
-**Remark: in late May 2020, [PlanetLab will be shut down](https://www.systemsapproach.org/blog/its-been-a-fun-ride). This section is therefore now outdated, but left untouched in case one would want to deploy `WISE` in an environment comparable to PlanetLab.**
+**Remark: in the course of 2020, [PlanetLab will be shut down](https://www.systemsapproach.org/blog/its-been-a-fun-ride). This section is therefore now outdated, but left untouched in case one would want to deploy `WISE` in an environment comparable to PlanetLab.**
 
 If you intent to use `WISE` from the PlanetLab testbed, here is some advice.
 
