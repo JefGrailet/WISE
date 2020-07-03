@@ -1,6 +1,6 @@
 # WISE (Wide and lInear Subnet inferencE)
 
-*By Jean-François Grailet (last updated: June 23, 2020)*
+*By Jean-François Grailet (last updated: July 3, 2020)*
 
 ## Overview
 
@@ -26,7 +26,7 @@ It's worth noting that `WISE` is coded such that it can run on any machine, and 
 
 * [Virtual Insanity: Linear Subnet Discovery](http://www.run.montefiore.ulg.ac.be/~grailet/docs/publications/WISE_TNSM_2020.pdf)<br />
   Jean-François Grailet, Benoit Donnet<br />
-  [IEEE Transactions on Network and Service Management](https://www.comsoc.org/publications/journals/ieee-tnsm), Volume 17, Issue 2, pp. 1268-1281 (see also on [IEEE Xplore](https://ieeexplore.ieee.org/document/9016121))
+  [IEEE Transactions on Network and Service Management](https://www.comsoc.org/publications/journals/ieee-tnsm), Volume 17, Issue 2, pp. 1268-1281 ([cf. IEEE Xplore](https://ieeexplore.ieee.org/document/9016121))
 
 ## Content of this repository
 

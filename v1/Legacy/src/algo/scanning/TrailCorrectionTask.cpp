@@ -68,7 +68,7 @@ targets(tl)
                                           env->debugMode());
         }
     }
-    catch(SocketException &se)
+    catch(const SocketException &se)
     {
         ostream *out = env->getOutputStream();
         Environment::consoleMessagesMutex.lock();
@@ -117,7 +117,7 @@ ProbeRecord *TrailCorrectionTask::probe(IPTableEntry *target, unsigned char TTL)
         {
             record = prober->singleProbe(localIP, probeDst, TTL, true);
         }
-        catch(SocketException &se)
+        catch(const SocketException &se)
         {
             throw;
         }
@@ -184,7 +184,7 @@ void TrailCorrectionTask::run()
             {
                 rec = this->probe(curTarget, probeTTL);
             }
-            catch(SocketException &se)
+            catch(const SocketException &se)
             {
                 this->stop();
                 return;

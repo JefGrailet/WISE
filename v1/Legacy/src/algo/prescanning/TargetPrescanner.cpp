@@ -121,7 +121,7 @@ void TargetPrescanner::probe()
 
             th[i] = new Thread(task);
         }
-        catch(SocketException &se)
+        catch(const SocketException &se)
         {
             // Cleaning remaining threads (if any is set)
             for(unsigned short k = 0; k < nbThreads; k++)
@@ -134,7 +134,7 @@ void TargetPrescanner::probe()
             
             throw StopException();
         }
-        catch(ThreadException &te)
+        catch(const ThreadException &te)
         {
             ostream *out = env->getOutputStream();
             (*out) << "Unable to create more threads." << endl;

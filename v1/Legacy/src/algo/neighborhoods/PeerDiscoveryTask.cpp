@@ -68,7 +68,7 @@ targets(sis)
                                           env->debugMode());
         }
     }
-    catch(SocketException &se)
+    catch(const SocketException &se)
     {
         ostream *out = env->getOutputStream();
         Environment::consoleMessagesMutex.lock();
@@ -121,7 +121,7 @@ ProbeRecord *PeerDiscoveryTask::probe(const InetAddress &dst, unsigned char TTL)
     {
         record = prober->singleProbe(localIP, dst, TTL, true);
     }
-    catch(SocketException &se)
+    catch(const SocketException &se)
     {
         throw;
     }
@@ -208,7 +208,7 @@ void PeerDiscoveryTask::run()
             {
                 record = this->probe(probeDst, probeTTL);
             }
-            catch(SocketException &se)
+            catch(const SocketException &se)
             {
                 this->stop();
                 return;
@@ -232,7 +232,7 @@ void PeerDiscoveryTask::run()
                 {
                     record = this->probe(probeDst, probeTTL);
                 }
-                catch(SocketException &se)
+                catch(const SocketException &se)
                 {
                     this->stop();
                     return;

@@ -151,7 +151,7 @@ void AliasHintsCollector::collect()
                                     DirectProber::DEFAULT_UPPER_DST_PORT_ICMP_SEQ);
                 th[j] = new Thread(task);
             }
-            catch(SocketException &se)
+            catch(const SocketException &se)
             {
                 // Cleans remaining threads (if any is set)
                 for(unsigned short k = 0; k < nbThreads; k++)
@@ -168,7 +168,7 @@ void AliasHintsCollector::collect()
                 
                 throw StopException();
             }
-            catch(ThreadException &te)
+            catch(const ThreadException &te)
             {
                 (*out) << "\nUnable to create more threads." << endl;
             
@@ -445,7 +445,7 @@ void AliasHintsCollector::collect()
         
             th[i] = new Thread(task);
         }
-        catch(SocketException &se)
+        catch(const SocketException &se)
         {
             (*out) << endl;
         
@@ -464,7 +464,7 @@ void AliasHintsCollector::collect()
             
             throw StopException();
         }
-        catch(ThreadException &te)
+        catch(const ThreadException &te)
         {
             (*out) << "\nUnable to create more threads." << endl;
         
@@ -569,7 +569,7 @@ void AliasHintsCollector::collect()
                                           DirectProber::DEFAULT_UPPER_DST_PORT_ICMP_SEQ);
             th[i] = new Thread(task);
         }
-        catch(SocketException &se)
+        catch(const SocketException &se)
         {
             (*out) << endl;
         
@@ -588,7 +588,7 @@ void AliasHintsCollector::collect()
             
             throw StopException();
         }
-        catch(ThreadException &te)
+        catch(const ThreadException &te)
         {
             (*out) << "\nUnable to create more threads." << endl;
         
@@ -681,7 +681,7 @@ void AliasHintsCollector::collect()
         {
             th[i] = new Thread(new ReverseDNSUnit(env, IPToProbe));
         }
-        catch(ThreadException &te)
+        catch(const ThreadException &te)
         {
             (*out) << "\nUnable to create more threads." << endl;
         

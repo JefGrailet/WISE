@@ -68,7 +68,7 @@ targets(tl)
                                           env->debugMode());
         }
     }
-    catch(SocketException &se)
+    catch(const SocketException &se)
     {
         ostream *out = env->getOutputStream();
         Environment::consoleMessagesMutex.lock();
@@ -117,7 +117,7 @@ ProbeRecord *LocationTask::probe(IPTableEntry *target, unsigned char TTL)
         {
             record = prober->singleProbe(localIP, probeDst, TTL, true);
         }
-        catch(SocketException &se)
+        catch(const SocketException &se)
         {
             throw;
         }
@@ -155,7 +155,7 @@ bool LocationTask::forwardProbing(IPTableEntry *target, unsigned char initTTL)
         {
             rec = this->probe(target, probeTTL);
         }
-        catch(SocketException &se)
+        catch(const SocketException &se)
         {
             throw;
         }
@@ -219,7 +219,7 @@ bool LocationTask::backwardProbing(IPTableEntry *target)
         {
             rec = this->probe(target, (unsigned char) probeTTL);
         }
-        catch(SocketException &se)
+        catch(const SocketException &se)
         {
             throw;
         }
@@ -283,7 +283,7 @@ void LocationTask::setTrail(IPTableEntry *target)
         {
             rec = this->probe(target, probeTTL);
         }
-        catch(SocketException &se)
+        catch(const SocketException &se)
         {
             throw;
         }
@@ -404,7 +404,7 @@ void LocationTask::run()
             // 3) Computes the trail and completes the route in the process if needed
             this->setTrail(curTarget);
         }
-        catch(SocketException &se)
+        catch(const SocketException &se)
         {
             this->stop();
             return;

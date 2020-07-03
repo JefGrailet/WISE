@@ -42,7 +42,7 @@ IPToProbe(IP)
         
         ((DirectICMPProber*) prober)->useTimestampRequests();
     }
-    catch(SocketException &se)
+    catch(const SocketException &se)
     {
         ostream *out = env->getOutputStream();
         Environment::consoleMessagesMutex.lock();
@@ -79,7 +79,7 @@ ProbeRecord *TimestampCheckUnit::probe(const InetAddress &dst, unsigned char TTL
     {
         record = prober->singleProbe(localIP, dst, TTL, false);
     }
-    catch(SocketException e)
+    catch(const SocketException &e)
     {
         throw;
     }
@@ -96,7 +96,7 @@ void TimestampCheckUnit::run()
     {
         newProbe = this->probe(target, PROBE_TTL);
     }
-    catch(SocketException &se)
+    catch(const SocketException &se)
     {
         this->stop();
         return;

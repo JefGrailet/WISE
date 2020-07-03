@@ -1,6 +1,6 @@
 # About WISE v1.1 (wise)
 
-*By Jean-François Grailet (last updated: June 23, 2020)*
+*By Jean-François Grailet (last updated: July 3, 2020)*
 
 ## About the code
 
@@ -31,7 +31,7 @@ make
 
 ## Deployement on PlanetLab testbed
 
-**Remark: in the course of 2020, [PlanetLab will be shut down](https://www.systemsapproach.org/blog/its-been-a-fun-ride). This section is therefore now outdated, but left untouched in case one would want to deploy `WISE` in an environment comparable to PlanetLab.**
+**Remark: in 2020, [PlanetLab will be shut down](https://www.systemsapproach.org/blog/its-been-a-fun-ride). This section is therefore now outdated, but left untouched in case one would want to deploy `WISE` in an environment comparable to PlanetLab.**
 
 If you intent to use `WISE` from the PlanetLab testbed, here is some advice.
 
@@ -74,6 +74,8 @@ In order to simplify the parameters of `WISE` and only allow the editing of the 
 * **November 19, 2019:** new update of `WISE` v1.1 (both *Legacy/* and *Tool/*) to further refine neighborhood inference. This update fixes a rare but annoying inference issue which we will denote as *self-peering*. In some situations, it is possible the target IP or the IP of its trail re-appears in a partial route towards said target; not correctly identifying these cycles can lead to a neighborhood having its own identifying IP or an alias of it as peer(s), which is a problem for accurate topology inference. In measurements from September 2019, this issue usually occurs with less than 1% of inferred neighborhoods, but can be more widespread with some given vantage points/targets. Since the update, *self-peering* seems to have completely disappeared from the most recent measurements (November 2019).
 
 * **January 7, 2020:** minor update of `WISE` v1.1 (only *Tool/*) to remove old comments and to refresh some pieces of code to ease the sharing of code between `WISE` and the new `SAGE`. A new parameter for configuration files as also been added (_aliasResolutionStrictMode_) and can be set to _True_ in order to force `WISE` to only consider aliases discovered with methods inherited from `Ally` and `iffinder` when performing alias resolution (these methods, when possible, are the most reliable).
+
+* **July 3, 2020:** minor update of `WISE` v1.1 (both *Legacy/* and *Tool/*) to prevent a warning tied to exception handling.
 
 ## Disclaimer
 

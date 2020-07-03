@@ -190,7 +190,7 @@ void PeerScanner::scan()
 
             th[i] = new Thread(task);
         }
-        catch(SocketException &se)
+        catch(const SocketException &se)
         {
             // Cleaning remaining threads (if any is set)
             for(unsigned short k = 0; k < sizeThreadArray; k++)
@@ -203,7 +203,7 @@ void PeerScanner::scan()
             
             throw StopException();
         }
-        catch(ThreadException &te)
+        catch(const ThreadException &te)
         {
             ostream *out = env->getOutputStream();
             (*out) << "Unable to create more threads." << endl;

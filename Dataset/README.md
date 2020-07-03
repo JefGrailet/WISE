@@ -1,10 +1,10 @@
 # Dataset
 
-*By Jean-François Grailet (last updated: June 23, 2020)*
+*By Jean-François Grailet (last updated: July 3, 2020)*
 
 ## About
 
-**Remark: in the course of 2020, [PlanetLab will be shut down](https://www.systemsapproach.org/blog/its-been-a-fun-ride). The vantage points mentioned in our different snapshots will therefore no longer be available.**
+**Remark: in 2020, [PlanetLab will be shut down](https://www.systemsapproach.org/blog/its-been-a-fun-ride). The vantage points mentioned in our different snapshots will therefore no longer be available.**
 
 The data provided in this repository consists in separate sets of files collected for a variety of 
 Autonomous Systems (or ASes) at specific dates. Each set of files (or _snapshot_) was obtained by 
@@ -47,10 +47,10 @@ A few remarks about this public dataset:
   loop-back interfaces) into /31 prefixes (typically, point-to-point links) due to an error while 
   translating the experimental subnet inference (initially written in Python) in the C/C++ 
   implementation of `WISE`. As a consequence, most measurements will contain many duplicate /31 
-  subnets. Some other exotic scenarios also produced subnets overlapping the next one in the list. 
+  subnets. Some other exotic scenarii also produced subnets overlapping the next one in the list. 
   Python scripts provided in other parts of this repository are written such that the overlapped 
   subnets are not taken into account for producing statistics and plotting figures. Any build of 
-  `WISE` used after February 19, 2019 produces little to no overlapping subnets.
+  `WISE` used after February 19, 2019 should not infer consecutive subnets overlapping each other.
 
 * For the sake of reproducibility, we also provide in a **Scripts/** folder the bash scripts and 
   the typical files we used to schedule and retrieve our measurements.
