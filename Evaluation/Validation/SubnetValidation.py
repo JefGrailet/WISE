@@ -20,7 +20,7 @@ def getBoundaries(subnet):
     prefixSplit = subnet.split('/')
     prefixLen = int(prefixSplit[1])
     lowerBoundary = toInt(prefixSplit[0])
-    upperBoundary = lowerBoundary + pow(2, 32 - prefixLen)
+    upperBoundary = lowerBoundary + pow(2, 32 - prefixLen) - 1
     return [lowerBoundary, upperBoundary]
 
 def encompass(subnet1, subnet2):
